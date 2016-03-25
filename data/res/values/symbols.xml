@@ -308,8 +308,6 @@
   <java-symbol type="bool" name="config_guestUserEphemeral" />
   <java-symbol type="bool" name="config_localDisplaysMirrorContent" />
   <java-symbol type="string" name="config_defaultPictureInPictureBounds" />
-  <java-symbol type="string" name="config_centeredPictureInPictureBounds" />
-  <java-symbol type="string" name="config_pictureInPictureBoundsInRecents" />
   <java-symbol type="integer" name="config_wifi_framework_5GHz_preference_boost_threshold" />
   <java-symbol type="integer" name="config_wifi_framework_5GHz_preference_boost_factor" />
   <java-symbol type="integer" name="config_wifi_framework_5GHz_preference_penalty_threshold" />
@@ -1513,6 +1511,7 @@
   <java-symbol type="dimen" name="docked_stack_minimize_thickness" />
   <java-symbol type="integer" name="config_dockedStackDividerSnapMode" />
   <java-symbol type="fraction" name="docked_stack_divider_fixed_ratio" />
+  <java-symbol type="fraction" name="thumbnail_fullscreen_scale" />
   <java-symbol type="dimen" name="navigation_bar_height" />
   <java-symbol type="dimen" name="navigation_bar_height_landscape" />
   <java-symbol type="dimen" name="navigation_bar_width" />
@@ -2536,6 +2535,9 @@
 
   <java-symbol type="string" name="usb_mtp_launch_notification_title" />
   <java-symbol type="string" name="usb_mtp_launch_notification_description" />
+
+  <java-symbol type="color" name="notification_action_list" />
+  <java-symbol type="color" name="notification_material_background_color" />
 
   <!-- Resolver target actions -->
   <java-symbol type="array" name="resolver_target_actions_pin" />
