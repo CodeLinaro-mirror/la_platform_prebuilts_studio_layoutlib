@@ -233,8 +233,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"ਨੀਤੀ ਦੁਆਰਾ ਸਮੱਗਰੀ ਲੁਕਾਈ ਗਈ"</string>
     <string name="safeMode" msgid="2788228061547930246">"ਸੁਰੱਖਿਅਤ ਮੋਡ"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Android System"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"ਨਿੱਜੀ"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"ਕੰਮ"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"ਨਿੱਜੀ \'ਤੇ ਸਵਿੱਚ ਕਰੋ"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"ਕੰਮ \'ਤੇ ਸਵਿੱਚ ਕਰੋ"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"ਸੰਪਰਕ"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"ਆਪਣੇ ਸੰਪਰਕਾਂ ਨੂੰ ਐਕਸੈਸ ਕਰੋ"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"ਨਿਰਧਾਰਿਤ ਸਥਾਨ"</string>
@@ -1045,7 +1045,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"ਕੋਈ ਅਨੁਮਤੀਆਂ ਲੁੜੀਂਦੀਆਂ ਨਹੀਂ"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"ਇਸ ਨਾਲ ਤੁਹਾਨੂੰ ਖ਼ਰਚਾ ਪੈ ਸਕਦਾ ਹੈ"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"ਠੀਕ"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"ਚਾਰਜਿੰਗ ਲਈ USB"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"ਇਹ ਡੀਵਾਈਸ USB ਰਾਹੀਂ ਚਾਰਜ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"ਨੱਥੀ ਕੀਤੀ ਡੀਵਾਈਸ ਨੂੰ USB ਰਾਹੀਂ ਪਾਵਰ ਮਿਲ ਰਹੀ ਹੈ"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"ਫ਼ਾਈਲ ਟ੍ਰਾਂਸਫ਼ਰ ਲਈ USB"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"ਫੋਟੋ ਟ੍ਰਾਂਸਫ਼ਰ ਲਈ USB"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"MIDI ਲਈ USB"</string>
@@ -1060,11 +1061,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"ਸਾਂਝੀ ਕਰੋ"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"ਅਸਵੀਕਾਰ ਕਰੋ"</string>
     <string name="select_input_method" msgid="8547250819326693584">"ਕੀਬੋਰਡ ਬਦਲੋ"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"ਹੋਰ ਕੀ-ਬੋਰਡ"</string>
     <string name="show_ime" msgid="2506087537466597099">"ਭੌਤਿਕ ਕੀ-ਬੋਰਡ ਸਰਗਰਮ ਹੋਣ ਦੌਰਾਨ ਇਸ ਨੂੰ ਸਕ੍ਰੀਨ \'ਤੇ ਬਣਾਈ ਰੱਖੋ"</string>
     <string name="hardware" msgid="194658061510127999">"ਵਰਚੁਅਲ ਕੀ-ਬੋਰਡ ਵਿਖਾਓ"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"ਕੀਬੋਰਡ ਲੇਆਊਟ ਚੁਣੋ"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"ਇੱਕ ਕੀਬੋਰਡ ਲੇਆਊਟ ਚੁਣਨ ਲਈ ਛੋਹਵੋ।"</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"ਭੌਤਿਕ ਕੀ-ਬੋਰਡ ਦਾ ਸੰਰੂਪਣ ਕਰੋ"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"ਭਾਸ਼ਾ ਅਤੇ ਖਾਕਾ ਚੁਣਨ ਲਈ ਟੈਪ ਕਰੋ"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"ਉਮੀਦਵਾਰ"</u></string>
@@ -1224,8 +1224,7 @@
     <string name="action_menu_overflow_description" msgid="2295659037509008453">"ਹੋਰ ਚੋਣਾਂ"</string>
     <string name="action_bar_home_description_format" msgid="7965984360903693903">"%1$s, %2$s"</string>
     <string name="action_bar_home_subtitle_description_format" msgid="6985546530471780727">"%1$s, %2$s, %3$s"</string>
-    <!-- no translation found for storage_internal (3570990907910199483) -->
-    <skip />
+    <string name="storage_internal" msgid="3570990907910199483">"ਅੰਦਰੂਨੀ ਸਾਂਝੀ ਕੀਤੀ ਗਈ ਸਟੋਰੇਜ"</string>
     <string name="storage_sd_card" msgid="3282948861378286745">"SD ਕਾਰਡ"</string>
     <string name="storage_sd_card_label" msgid="6347111320774379257">"<xliff:g id="MANUFACTURER">%s</xliff:g> SD ਕਾਰਡ"</string>
     <string name="storage_usb_drive" msgid="6261899683292244209">"USB ਡ੍ਰਾਇਵ"</string>
@@ -1469,8 +1468,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"ਅਨਪਿਨ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ PIN ਮੰਗੋ"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"ਅਨਪਿਨ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਪੈਟਰਨ ਅਨਲੌਕ ਕਰਨ ਲਈ ਪੁੱਛੋ"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"ਅਨਪਿਨ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਪਾਸਵਰਡ ਮੰਗੋ"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਐਪ ਸਪਲਿਟ-ਸਕ੍ਰੀਨ ਨਾਲ ਕੰਮ ਨਾ ਕਰੇ।"</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"ਐਪ ਸਪਲਿਟ-ਸਕ੍ਰੀਨ ਨੂੰ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦੀ।"</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"ਤੁਹਾਡੇ ਪ੍ਰਬੰਧਕ ਵੱਲੋਂ ਇੰਸਟੌਲ ਕੀਤਾ ਗਿਆ"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"ਤੁਹਾਡੇ ਪ੍ਰਸ਼ਾਸਕ ਦੁਆਰਾ ਅਪਡੇਟ ਕੀਤਾ ਗਿਆ"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"ਤੁਹਾਡੇ ਪ੍ਰਬੰਧਕ ਵੱਲੋਂ ਮਿਟਾਇਆ ਗਿਆ"</string>

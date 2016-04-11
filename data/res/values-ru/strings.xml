@@ -237,8 +237,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"Содержимое скрыто в соответствии с заданными правилами"</string>
     <string name="safeMode" msgid="2788228061547930246">"Безопасный режим"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Система Android"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"Личные данные"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"Работа"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"Перейти в личный профиль"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"Перейти в рабочий профиль"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"Контакты"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"доступ к контактам"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"Местоположение"</string>
@@ -1061,7 +1061,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"Не требуется разрешений"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"это может стоить вам денег!"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"ОК"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"Зарядка через USB"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"Зарядка через USB"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"Подача питания на подключенное устройство через USB"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"Передача файлов через USB"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"Передача фото через USB"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"MIDI через USB"</string>
@@ -1076,11 +1077,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"ПРЕДОСТАВИТЬ ДОСТУП"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"ОТКЛОНИТЬ"</string>
     <string name="select_input_method" msgid="8547250819326693584">"Выбор раскладки"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"Другие клавиатуры"</string>
     <string name="show_ime" msgid="2506087537466597099">"Показывать на экране, когда физическая клавиатура включена"</string>
     <string name="hardware" msgid="194658061510127999">"Виртуальная клавиатура"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"Выберите раскладку клавиатуры"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"Нажмите, чтобы выбрать раскладку клавиатуры."</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"Настройка физической клавиатуры"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"Нажмите, чтобы выбрать язык и раскладку"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"варианты"</u></string>
@@ -1242,8 +1242,7 @@
     <string name="action_menu_overflow_description" msgid="2295659037509008453">"Ещё"</string>
     <string name="action_bar_home_description_format" msgid="7965984360903693903">"%1$s, %2$s"</string>
     <string name="action_bar_home_subtitle_description_format" msgid="6985546530471780727">"%1$s, %2$s, %3$s"</string>
-    <!-- no translation found for storage_internal (3570990907910199483) -->
-    <skip />
+    <string name="storage_internal" msgid="3570990907910199483">"Внутренний общий накопитель"</string>
     <string name="storage_sd_card" msgid="3282948861378286745">"SD-карта"</string>
     <string name="storage_sd_card_label" msgid="6347111320774379257">"SD-карта <xliff:g id="MANUFACTURER">%s</xliff:g>"</string>
     <string name="storage_usb_drive" msgid="6261899683292244209">"USB-накопитель"</string>
@@ -1489,8 +1488,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"PIN-код для отключения"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"Запрашивать графический ключ для отключения блокировки"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"Запрашивать пароль для отключения блокировки"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"Приложение не поддерживает разделение экрана."</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"Приложение не поддерживает разделение экрана."</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"Установлено администратором"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Обновлено администратором"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Удалено администратором"</string>

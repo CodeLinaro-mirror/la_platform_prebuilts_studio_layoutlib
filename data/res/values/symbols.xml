@@ -307,6 +307,7 @@
   <java-symbol type="bool" name="config_supportsMultiWindow" />
   <java-symbol type="bool" name="config_guestUserEphemeral" />
   <java-symbol type="bool" name="config_localDisplaysMirrorContent" />
+  <java-symbol type="bool" name="config_enableAppWidgetService" />
   <java-symbol type="string" name="config_defaultPictureInPictureBounds" />
   <java-symbol type="integer" name="config_wifi_framework_5GHz_preference_boost_threshold" />
   <java-symbol type="integer" name="config_wifi_framework_5GHz_preference_boost_factor" />
@@ -612,8 +613,6 @@
   <java-symbol type="string" name="display_manager_overlay_display_name" />
   <java-symbol type="string" name="display_manager_overlay_display_secure_suffix" />
   <java-symbol type="string" name="display_manager_overlay_display_title" />
-  <java-symbol type="string" name="dock_forced_resizable" />
-  <java-symbol type="string" name="dock_non_resizeble_failed_to_dock_text" />
   <java-symbol type="string" name="double_tap_toast" />
   <java-symbol type="string" name="durationDays" />
   <java-symbol type="string" name="durationDayHours" />
@@ -1129,7 +1128,6 @@
   <java-symbol type="plurals" name="pinpuk_attempts" />
 
   <java-symbol type="array" name="carrier_properties" />
-  <java-symbol type="array" name="config_data_usage_network_types" />
   <java-symbol type="array" name="config_sms_enabled_locking_shift_tables" />
   <java-symbol type="array" name="config_sms_enabled_single_shift_tables" />
   <java-symbol type="array" name="config_twoDigitNumberPattern" />
@@ -1266,6 +1264,7 @@
   <java-symbol type="drawable" name="ic_corp_badge" />
   <java-symbol type="drawable" name="ic_corp_badge_off" />
   <java-symbol type="drawable" name="ic_corp_icon_badge" />
+  <java-symbol type="drawable" name="ic_corp_user_badge" />
   <java-symbol type="drawable" name="ic_corp_badge_no_background" />
   <java-symbol type="drawable" name="ic_corp_icon" />
   <java-symbol type="drawable" name="ic_corp_statusbar_icon" />
@@ -1512,6 +1511,9 @@
   <java-symbol type="integer" name="config_dockedStackDividerSnapMode" />
   <java-symbol type="fraction" name="docked_stack_divider_fixed_ratio" />
   <java-symbol type="fraction" name="thumbnail_fullscreen_scale" />
+  <java-symbol type="dimen" name="resize_shadow_size" />
+  <java-symbol type="color" name="resize_shadow_start_color" />
+  <java-symbol type="color" name="resize_shadow_end_color" />
   <java-symbol type="dimen" name="navigation_bar_height" />
   <java-symbol type="dimen" name="navigation_bar_height_landscape" />
   <java-symbol type="dimen" name="navigation_bar_width" />
@@ -1724,7 +1726,7 @@
   <java-symbol type="id" name="replace_app_icon" />
   <java-symbol type="id" name="replace_message" />
   <java-symbol type="fraction" name="config_dimBehindFadeDuration" />
-  <java-symbol type="fraction" name="config_displayFractionForDefaultMinimalSizeOfResizeableTask" />
+  <java-symbol type="dimen" name="default_minimal_size_resizable_task" />
   <java-symbol type="fraction" name="config_screenAutoBrightnessDozeScaleFactor" />
   <java-symbol type="fraction" name="config_autoBrightnessAdjustmentMaxGamma" />
   <java-symbol type="integer" name="config_autoBrightnessAmbientLightHorizon"/>
@@ -1740,6 +1742,7 @@
   <java-symbol type="integer" name="config_defaultNotificationLedOff" />
   <java-symbol type="integer" name="config_defaultNotificationLedOn" />
   <java-symbol type="integer" name="config_deskDockKeepsScreenOn" />
+  <java-symbol type="integer" name="config_externalHardKeyboardBehavior" />
   <java-symbol type="integer" name="config_lightSensorWarmupTime" />
   <java-symbol type="integer" name="config_lowBatteryCloseWarningBump" />
   <java-symbol type="integer" name="config_lowBatteryWarningLevel" />
@@ -1762,6 +1765,7 @@
   <java-symbol type="integer" name="config_shutdownBatteryTemperature" />
   <java-symbol type="integer" name="config_undockedHdmiRotation" />
   <java-symbol type="integer" name="config_virtualKeyQuietTimeMillis" />
+  <java-symbol type="integer" name="config_brightness_ramp_rate_fast" />
   <java-symbol type="layout" name="am_compat_mode_dialog" />
   <java-symbol type="layout" name="launch_warning" />
   <java-symbol type="layout" name="safe_mode" />
@@ -1806,7 +1810,6 @@
   <java-symbol type="string" name="config_wimaxServiceClassname" />
   <java-symbol type="string" name="config_wimaxServiceJarLocation" />
   <java-symbol type="string" name="config_wimaxStateTrackerClassname" />
-  <java-symbol type="string" name="configure_input_methods" />
   <java-symbol type="string" name="data_usage_3g_limit_snoozed_title" />
   <java-symbol type="string" name="data_usage_3g_limit_title" />
   <java-symbol type="string" name="data_usage_4g_limit_snoozed_title" />
@@ -1860,6 +1863,7 @@
   <java-symbol type="string" name="usb_notification_message" />
   <java-symbol type="string" name="usb_ptp_notification_title" />
   <java-symbol type="string" name="usb_midi_notification_title" />
+  <java-symbol type="string" name="usb_supplying_notification_title" />
   <java-symbol type="string" name="vpn_text" />
   <java-symbol type="string" name="vpn_text_long" />
   <java-symbol type="string" name="vpn_title" />
@@ -2414,13 +2418,11 @@
   <java-symbol type="string" name="notification_hidden_text" />
   <java-symbol type="string" name="notification_hidden_by_policy_text" />
   <java-symbol type="id" name="app_name_text" />
-  <java-symbol type="id" name="header_sub_text" />
+  <java-symbol type="id" name="header_text" />
   <java-symbol type="id" name="expand_button" />
   <java-symbol type="id" name="notification_header" />
-  <java-symbol type="id" name="header_content_info" />
   <java-symbol type="id" name="time_divider" />
-  <java-symbol type="id" name="sub_text_divider" />
-  <java-symbol type="id" name="content_info_divider" />
+  <java-symbol type="id" name="header_text_divider" />
   <java-symbol type="id" name="text_line_1" />
   <java-symbol type="drawable" name="ic_expand_notification" />
   <java-symbol type="drawable" name="ic_collapse_notification" />
@@ -2446,24 +2448,6 @@
   <java-symbol type="id" name="aerr_restart" />
   <java-symbol type="id" name="aerr_close" />
   <java-symbol type="id" name="aerr_mute" />
-
-  <!-- Framework-private Material.DayNight styles. -->
-  <java-symbol type="style" name="Theme.Material.DayNight" />
-  <java-symbol type="style" name="Theme.Material.DayNight.DarkActionBar" />
-  <java-symbol type="style" name="Theme.Material.DayNight.Dialog" />
-  <java-symbol type="style" name="Theme.Material.DayNight.Dialog.Alert" />
-  <java-symbol type="style" name="Theme.Material.DayNight.Dialog.MinWidth" />
-  <java-symbol type="style" name="Theme.Material.DayNight.Dialog.NoActionBar" />
-  <java-symbol type="style" name="Theme.Material.DayNight.Dialog.NoActionBar.MinWidth" />
-  <java-symbol type="style" name="Theme.Material.DayNight.Dialog.Presentation" />
-  <java-symbol type="style" name="Theme.Material.DayNight.DialogWhenLarge" />
-  <java-symbol type="style" name="Theme.Material.DayNight.DialogWhenLarge.NoActionBar" />
-  <java-symbol type="style" name="Theme.Material.DayNight.NoActionBar" />
-  <java-symbol type="style" name="Theme.Material.DayNight.NoActionBar.Fullscreen" />
-  <java-symbol type="style" name="Theme.Material.DayNight.NoActionBar.Overscan" />
-  <java-symbol type="style" name="Theme.Material.DayNight.NoActionBar.TranslucentDecor" />
-  <java-symbol type="style" name="Theme.Material.DayNight.Panel" />
-  <java-symbol type="style" name="Theme.Material.DayNight.DialogWhenLarge.DarkActionBar" />
 
   <java-symbol type="string" name="status_bar_rotate" />
   <java-symbol type="string" name="status_bar_headset" />
@@ -2552,4 +2536,9 @@
 
   <!-- WallpaperManager config -->
   <java-symbol type="string" name="config_wallpaperCropperPackage" />
+
+  <java-symbol type="id" name="textSpacerNoTitle" />
+  <java-symbol type="id" name="titleDividerNoCustom" />
+
+  <java-symbol type="bool" name="config_sustainedPerformanceModeSupported" />
 </resources>

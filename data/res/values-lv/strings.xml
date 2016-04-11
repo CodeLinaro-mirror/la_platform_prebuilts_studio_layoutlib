@@ -235,8 +235,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"Saskaņā ar politiku saturs ir paslēpts."</string>
     <string name="safeMode" msgid="2788228061547930246">"Drošais režīms"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Android sistēma"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"Personisks"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"Darba"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"Pārslēgt personīgo profilu"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"Pārslēgt darba profilu"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"Kontaktpersonas"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"piekļūt jūsu kontaktpersonu datiem"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"Atrašanās vieta"</string>
@@ -1053,7 +1053,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"Atļaujas nav nepieciešamas."</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"par to no jums var tikt iekasēta maksa"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"Labi"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"USB savienojums uzlādei"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"USB savienojums tiek izmantots šīs ierīces uzlādei"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"USB savienojums tiek izmantots pievienotās ierīces barošanai"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"USB savienojums failu pārsūtīšanai"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"USB savienojums fotoattēlu pārsūtīšanai"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"USB savienojums MIDI režīmā"</string>
@@ -1068,11 +1069,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"KOPĪGOT"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"NORAIDĪT"</string>
     <string name="select_input_method" msgid="8547250819326693584">"Tastatūras maiņa"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"Citas tastatūras"</string>
     <string name="show_ime" msgid="2506087537466597099">"Paturēt ekrānā, kamēr ir aktīva fiziskā tastatūra"</string>
     <string name="hardware" msgid="194658061510127999">"Virtuālās tastatūras rādīšana"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"Atlasiet tastatūras izkārtojumu"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"Pieskarieties, lai atlasītu tastatūras izkārtojumu."</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"Fiziskās tastatūras konfigurēšana"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"Pieskarieties, lai atlasītu valodu un izkārtojumu"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" AĀBCČDEĒFGĢHIĪJKĶLĻMNŅOPRSŠTUŪVZŽ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789AĀBCČDEĒFGĢHIĪJKĶLĻMNŅOPRSŠTUŪVZŽ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"kandidāti"</u></string>
@@ -1478,8 +1478,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"Prasīt PIN kodu pirms atspraušanas"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"Pirms atspraušanas pieprasīt grafisko atslēgu"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"Pirms atspraušanas pieprasīt paroli"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"Iespējams, lietotnē nedarbosies ekrāna sadalīšana."</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"Lietotnē netiek atbalstīta ekrāna sadalīšana."</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"Instalēja jūsu administrators"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Atjaunināja administrators"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Izdzēsa jūsu administrators"</string>

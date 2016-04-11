@@ -233,8 +233,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"ይዘቶች በመመሪያ ተደብቀዋል"</string>
     <string name="safeMode" msgid="2788228061547930246">"የሚያስተማምን ሁነታ"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Android ስርዓት"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"የግል"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"ስራ"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"ወደ የግል ቀይር"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"ወደ ሥራ ቀይር"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"ዕውቂያዎች"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"የእርስዎ እውቂያዎች ላይ ይድረሱባቸው"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"መገኛ አካባቢ"</string>
@@ -1045,7 +1045,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"ምንም ፍቃዶች አይጠየቁም"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"ይህ ገንዘብ ሊያስወጣዎት ይችላል"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"እሺ"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"ዩኤስቢ ለኃይል መሙላት"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"ዩኤስቢ የዚህን መሣሪያ ኃይል በመሙላት ላይ"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"ዩኤስቢ ለተያያዘው መሣሪያ ኃይል በማቅረብ ላይ"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"ዩኤስቢ ለፋይል ሽግግር"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"ዩኤስቢ ለፎቶ ሽግግር"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"ዩኤስቢ ለMIDI"</string>
@@ -1060,11 +1061,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"አጋራ"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"አትቀበል"</string>
     <string name="select_input_method" msgid="8547250819326693584">"ቁልፍ ሰሌዳ ይቀይሩ"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"ሌሎች ቁልፍ ሰሌዳዎች"</string>
     <string name="show_ime" msgid="2506087537466597099">"አካላዊ የቁልፍ ሰሌዳ ገቢር ሆኖ ሳለ በማያ ገጽ ላይ አቆየው"</string>
     <string name="hardware" msgid="194658061510127999">"ምናባዊ የቁልፍ ሰሌዳን አሳይ"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"የቁልፍ ሰሌዳ አቀማመጥ ምረጥ"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"የቁልፍ ሰሌዳ አቀማመጥ ለመምረጥ ንካ።"</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"አካላዊ ቁልፍ ሰሌዳን ያዋቅሩ"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"ቋንቋ እና አቀማመጥን ለመምረጥ መታ ያድርጉ"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"ዕጩዎች"</u></string>
@@ -1224,8 +1224,7 @@
     <string name="action_menu_overflow_description" msgid="2295659037509008453">"ተጨማሪ አማራጮች"</string>
     <string name="action_bar_home_description_format" msgid="7965984360903693903">"%1$s፣ %2$s"</string>
     <string name="action_bar_home_subtitle_description_format" msgid="6985546530471780727">"%1$s፣ %2$s፣ %3$s"</string>
-    <!-- no translation found for storage_internal (3570990907910199483) -->
-    <skip />
+    <string name="storage_internal" msgid="3570990907910199483">"የውስጥ የተጋራ ማከማቻ"</string>
     <string name="storage_sd_card" msgid="3282948861378286745">"SD ካርድ"</string>
     <string name="storage_sd_card_label" msgid="6347111320774379257">"<xliff:g id="MANUFACTURER">%s</xliff:g> ኤስዲ ካርድ"</string>
     <string name="storage_usb_drive" msgid="6261899683292244209">"የዩኤስቢ አንጻፊ"</string>
@@ -1469,8 +1468,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"ከመንቀል በፊት ፒን ጠይቅ"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"ከመንቀል በፊት የማስከፈቻ ስርዓተ-ጥለት ጠይቅ"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"ከመንቀል በፊት የይለፍ ቃል ጠይቅ"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"መተግበሪያ ከተከፈለ ማያ ገጽ ጋር ላይሠራ ይችላል"</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"መተግበሪያው የተከፈለ ማያ ገጽን አይደግፍም።"</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"በእርስዎ አስተዳዳሪ ተጭኗል"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"በአስተዳዳሪዎ ተዘምኗል"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"በእርስዎ አስተዳዳሪ ተሰርዟል"</string>

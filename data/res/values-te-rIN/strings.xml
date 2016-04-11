@@ -233,8 +233,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"విధానం ద్వారా కంటెంట్‌లు దాచబడ్డాయి"</string>
     <string name="safeMode" msgid="2788228061547930246">"సురక్షిత మోడ్"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Android సిస్టమ్"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"వ్యక్తిగతం"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"కార్యాలయం"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"వ్యక్తిగతానికి మార్చు"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"కార్యాలయానికి మార్చు"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"పరిచయాలు"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"మీ పరిచయాలను ప్రాప్యత చేయడానికి"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"స్థానం"</string>
@@ -1045,7 +1045,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"అనుమతులు అవసరం లేదు"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"దీనికి మీకు డబ్బు ఖర్చు కావచ్చు"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"సరే"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"ఛార్జింగ్ కోసం USB"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"ఈ పరికరం USB మోడ్‌లో ఛార్జ్ అవుతోంది"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"జోడించిన పరికరానికి USB ద్వారా పవర్ సరఫరా అవుతోంది"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"ఫైల్ బదిలీ కోసం USB"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"ఫోటో బదిలీ కోసం USB"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"MIDI కోసం USB"</string>
@@ -1060,11 +1061,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"భాగస్వామ్యం చేయి"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"తిరస్కరిస్తున్నాను"</string>
     <string name="select_input_method" msgid="8547250819326693584">"కీబోర్డ్‌ను మార్చు"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"ఇతర కీబోర్డ్‌లు"</string>
     <string name="show_ime" msgid="2506087537466597099">"దీన్ని భౌతిక కీబోర్డ్ సక్రియంగా ఉన్నప్పుడు స్క్రీన్‌పై ఉంచుతుంది"</string>
     <string name="hardware" msgid="194658061510127999">"వర్చువల్ కీబోర్డ్‌ను చూపు"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"కీబోర్డ్ లేఅవుట్‌ను ఎంచుకోండి"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"కీబోర్డ్ లేఅవుట్‌ను ఎంచుకోవడానికి తాకండి."</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"భౌతిక కీబోర్డుని కాన్ఫిగర్ చేయండి"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"భాష మరియు లేఅవుట్‌ను ఎంచుకోవడానికి నొక్కండి"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"క్యాండిడేట్‌లు"</u></string>
@@ -1468,8 +1468,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"అన్‌పిన్ చేయడానికి ముందు పిన్‌ కోసం అడుగు"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"అన్‌పిన్ చేయడానికి ముందు అన్‌లాక్ నమూనా కోసం అడుగు"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"అన్‌పిన్ చేయడానికి ముందు పాస్‌వర్డ్ కోసం అడుగు"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"స్క్రీన్ విభజనతో అనువర్తనం పని చేయకపోవచ్చు."</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"అనువర్తనంలో స్క్రీన్ విభజనకు మద్దతు లేదు."</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"మీ నిర్వాహకులు ఇన్‌స్టాల్ చేసారు"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"మీ నిర్వాహకుడు నవీకరించారు"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"మీ నిర్వాహకులు తొలగించారు"</string>

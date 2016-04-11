@@ -2846,6 +2846,11 @@ i
             <!-- Pointer icon of a hand sign while grabbing something. -->
             <enum name="grabbing" value="1021" />
         </attr>
+
+        <!-- Whether this view has elements that may overlap when drawn. See
+             {@link android.view.View#forceHasOverlappingRendering(boolean)}. -->
+        <attr name="forceHasOverlappingRendering" format="boolean" />
+
     </declare-styleable>
 
     <!-- Attributes that can be assigned to a tag for a particular View. -->
@@ -3522,6 +3527,13 @@ i
         <!-- When set to true, the list will always show the fast scroll interface.
              This setting implies fastScrollEnabled. -->
         <attr name="fastScrollAlwaysVisible" format="boolean" />
+    </declare-styleable>
+    <!-- @hide -->
+    <declare-styleable name="RecycleListView">
+        <!-- Bottom padding to use when no buttons are present. -->
+        <attr name="paddingBottomNoButtons" format="dimension" />
+        <!-- Top padding to use when no title is present. -->
+        <attr name="paddingTopNoTitle" format="dimension" />
     </declare-styleable>
     <declare-styleable name="AbsSpinner">
         <!-- Reference to an array resource that will populate the Spinner.  For static content,
@@ -4379,8 +4391,7 @@ i
         <attr name="autoLink" />
         <!-- If set to false, keeps the movement method from being set
              to the link movement method even if autoLink causes links
-             to be found or the input text contains a
-             {@link android.text.style.ClickableSpan ClickableSpan}. -->
+             to be found. -->
         <attr name="linksClickable" format="boolean" />
         <!-- If set, specifies that this TextView has a numeric input method.
              The default is false.
@@ -7639,6 +7650,12 @@ i
         <!-- Minimum inset for content views within a bar. Navigation buttons and
              menu views are excepted. Only valid for some themes and configurations. -->
         <attr name="contentInsetRight" format="dimension" />
+        <!-- Minimum inset for content views within a bar when a navigation button
+             is present, such as the Up button. Only valid for some themes and configurations. -->
+        <attr name="contentInsetStartWithNavigation" format="dimension" />
+        <!-- Minimum inset for content views within a bar when actions from a menu
+             are present. Only valid for some themes and configurations. -->
+        <attr name="contentInsetEndWithActions" format="dimension" />
         <!-- Elevation for the action bar itself -->
         <attr name="elevation" />
         <!-- Reference to a theme that should be used to inflate popups
@@ -8006,6 +8023,8 @@ i
         <attr name="contentInsetEnd" />
         <attr name="contentInsetLeft" />
         <attr name="contentInsetRight" />
+        <attr name="contentInsetStartWithNavigation" />
+        <attr name="contentInsetEndWithActions" />
         <attr name="maxButtonHeight" format="dimension" />
         <attr name="navigationButtonStyle" format="reference" />
         <attr name="buttonGravity">

@@ -233,8 +233,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"មាតិកាត្រូវបានលាក់ដោយផ្អែកលើគោលការណ៍"</string>
     <string name="safeMode" msgid="2788228061547930246">"របៀប​​​សុវត្ថិភាព"</string>
     <string name="android_system_label" msgid="6577375335728551336">"ប្រព័ន្ធ​​ Android"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"ផ្ទាល់ខ្លួន"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"កន្លែង​ធ្វើ​ការ"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"ប្តូរទៅផ្ទាល់ខ្លួន"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"ប្តូរទៅការងារ"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"ទំនាក់ទំនង"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"ចូលប្រើទំនាក់ទំនងរបស់អ្នក"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"ទីតាំង"</string>
@@ -1047,7 +1047,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"មិន​ទាមទារ​សិទ្ធិ"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"វា​អាច​កាត់​លុយ​​អ្នក"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"យល់ព្រម"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"USB សម្រាប់បញ្ចូលថ្ម"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"USB កំពុងសាកឧបករណ៍នេះ"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"USB កំពុងផ្គត់ផ្គង់ថាមពលទៅឧបករណ៍ដែលបានភ្ជាប់"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"USB សម្រាប់ការផ្ទេរឯកសារ"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"USB សម្រាប់ការផ្ទេររូបថត"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"USB សម្រាប់ MIDI"</string>
@@ -1062,11 +1063,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"ចែករំលែក"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"បដិសេធ"</string>
     <string name="select_input_method" msgid="8547250819326693584">"ប្ដូរ​ក្ដារចុច"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"ក្តារចុចផ្សេងទៀត"</string>
     <string name="show_ime" msgid="2506087537466597099">"ទុកវានៅលើអេក្រង់ខណៈពេលក្តារចុចពិតប្រាកដកំពុងសកម្ម"</string>
     <string name="hardware" msgid="194658061510127999">"បង្ហាញក្ដារចុចនិម្មិត"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"ជ្រើស​ប្លង់​ក្ដារ​ចុច"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"ប៉ះ ​ដើម្បី​ជ្រើស​ប្លង់​​ក្ដារចុច។"</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"កំណត់រចនាសម្ព័ន្ធក្តារចុចពិតប្រាកដ"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"ប៉ះដើម្បីជ្រើសភាសា និងប្លង់"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"បេក្ខជន"</u></string>
@@ -1226,8 +1226,7 @@
     <string name="action_menu_overflow_description" msgid="2295659037509008453">"ជម្រើស​ច្រើន​ទៀត"</string>
     <string name="action_bar_home_description_format" msgid="7965984360903693903">"%1$s, %2$s"</string>
     <string name="action_bar_home_subtitle_description_format" msgid="6985546530471780727">"%1$s, %2$s, %3$s"</string>
-    <!-- no translation found for storage_internal (3570990907910199483) -->
-    <skip />
+    <string name="storage_internal" msgid="3570990907910199483">"ឧបករណ៍ផ្ទុកដែលចែករំលែកខាងក្នុង"</string>
     <string name="storage_sd_card" msgid="3282948861378286745">"កាត​អេសឌី"</string>
     <string name="storage_sd_card_label" msgid="6347111320774379257">"កាត SD <xliff:g id="MANUFACTURER">%s</xliff:g>"</string>
     <string name="storage_usb_drive" msgid="6261899683292244209">"ឧបករណ៍ផ្ទុក USB"</string>
@@ -1471,8 +1470,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"សួរ​រក​កូដ PIN មុន​ពេល​ផ្ដាច់"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"សួរ​រក​លំនាំ​ដោះ​សោ​មុន​ពេល​ផ្ដាច់"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"សួរ​រក​ពាក្យ​សម្ងាត់​មុន​ពេល​ផ្ដាច់"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"កម្មវិធីអាចនឹងមិនដំណើរការនៅលើអេក្រង់បំបែកទេ"</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"កម្មវិធីមិនគាំទ្រអេក្រង់បំបែកជាពីរទេ"</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"បានដំឡើងដោយអ្នកគ្រប់គ្រងរបស់អ្នក"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"បានធ្វើបច្ចុប្បន្នភាពដោយអ្នកគ្រប់គ្រងរបស់អ្នក"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"បានលុបដោយអ្នកគ្រប់គ្រងរបស់អ្នក"</string>
