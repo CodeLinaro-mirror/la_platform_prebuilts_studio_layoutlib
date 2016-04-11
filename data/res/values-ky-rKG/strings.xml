@@ -233,8 +233,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"Тийиштүү саясат боюнча жашырылган мазмундар"</string>
     <string name="safeMode" msgid="2788228061547930246">"Коопсуз режим"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Android Тутуму"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"Жеке"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"Жумуш"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"Жеке профилге которулуу"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"Жумуш профилине которулуу"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"Байланыштар"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"байланыштарыңызга уруксат"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"Жайгашкан жер"</string>
@@ -900,8 +900,8 @@
     <string name="whichEditApplicationNamed" msgid="1775815530156447790">"%1$s менен түзөтүү"</string>
     <string name="whichSendApplication" msgid="6902512414057341668">"Төмөнкү менен бөлүшүү"</string>
     <string name="whichSendApplicationNamed" msgid="2799370240005424391">"%1$s менен бөлүшүү"</string>
-    <string name="whichSendToApplication" msgid="8272422260066642057">"Колдонуп жөнөтүү"</string>
-    <string name="whichSendToApplicationNamed" msgid="7768387871529295325">"%1$s колдонуп жөнөтүү"</string>
+    <string name="whichSendToApplication" msgid="8272422260066642057">"Колдонмо тандаңыз"</string>
+    <string name="whichSendToApplicationNamed" msgid="7768387871529295325">"%1$s аркылуу жөнөтүү"</string>
     <string name="whichHomeApplication" msgid="4307587691506919691">"Башкы бет колдонмосун тандаңыз"</string>
     <string name="whichHomeApplicationNamed" msgid="4493438593214760979">"Башкы бет колдонмосу катары %1$s пайдалануу"</string>
     <string name="alwaysUse" msgid="4583018368000610438">"Бул аракет үчүн демейки боюнча колдонулсун."</string>
@@ -1046,7 +1046,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"Эч уруксаттын кереги жок"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"бул үчүн акы алынышы мүмкүн"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"Жарайт"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"Кубаттоо үчүн USB"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"Бул түзмөк USB менен кубатталууда"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"Тиркелген түзмөк USB менен кубатталууда"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"Файл өткөрүү үчүн USB"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"Сүрөт өткөрүү үчүн USB"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"MIDI үчүн USB"</string>
@@ -1061,11 +1062,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"БӨЛҮШҮҮ"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"ЧЕТКЕ КАГУУ"</string>
     <string name="select_input_method" msgid="8547250819326693584">"Баскычтопту өзгөртүү"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"Башка баскычтоптор"</string>
     <string name="show_ime" msgid="2506087537466597099">"Баскычтоп иштетилгенде экранда көрүнүп турсун"</string>
     <string name="hardware" msgid="194658061510127999">"Виртуалдык баскычтоп"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"Тергичтин жайгашуусун тандоо"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"Тергичтин жайгашуусун тандаш үчүн басыңыз."</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"Аппараттык баскычтопту конфигурациялоо"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"Тил жана калып тандоо үчүн таптап коюңуз"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"талапкерлер"</u></string>
@@ -1225,8 +1225,7 @@
     <string name="action_menu_overflow_description" msgid="2295659037509008453">"Дагы параметрлер"</string>
     <string name="action_bar_home_description_format" msgid="7965984360903693903">"%1$s, %2$s"</string>
     <string name="action_bar_home_subtitle_description_format" msgid="6985546530471780727">"%1$s, %2$s, %3$s"</string>
-    <!-- no translation found for storage_internal (3570990907910199483) -->
-    <skip />
+    <string name="storage_internal" msgid="3570990907910199483">"Жалпы ички сактагыч"</string>
     <string name="storage_sd_card" msgid="3282948861378286745">"SD-карта"</string>
     <string name="storage_sd_card_label" msgid="6347111320774379257">"<xliff:g id="MANUFACTURER">%s</xliff:g> SD карта"</string>
     <string name="storage_usb_drive" msgid="6261899683292244209">"USB түзмөк"</string>
@@ -1470,8 +1469,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"Бошотуудан мурун PIN суралсын"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"Бошотуудан мурун кулпуну ачкан үлгү суралсын"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"Бошотуудан мурун сырсөз суралсын"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"Колдонмодо экран бөлүнбөшү мүмкүн."</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"Колдонмодо экран бөлүнбөйт."</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"Администраторуңуз тарабынан орнотулган"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Администраторуңуз жаңырткан"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Администраторуңуз тарабынан жок кылынган"</string>

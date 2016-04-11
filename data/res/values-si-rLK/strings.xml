@@ -233,8 +233,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"ප්‍රතිපත්තිය විසින් අන්තර්ගතය සඟවන ලදී"</string>
     <string name="safeMode" msgid="2788228061547930246">"ආරක්‍ෂිත ආකාරය"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Android පද්ධතිය"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"පෞද්ගලික"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"කාර්යාලය"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"පුද්ගලික වෙත මාරු වන්න"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"කාර්යාලය වෙත මාරු වන්න"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"සම්බන්ධතා"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"ඔබේ සම්බන්ධතාවලට පිවිසෙන්න"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"ස්ථානය"</string>
@@ -1047,7 +1047,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"අවසර අවශ්‍ය නොමැත"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"මෙමඟින් ඔබට මුදල් වැය විය හැක"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"හරි"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"ආරෝපණය කිරීම සඳහා USB"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"මෙම උපාංගය USB වෙතින් ආරෝපණය"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"අමුණා ඇති උපාංගයට USB මඟින් බලය සපයමින්"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"ගොනු හුවමාරුව සඳහා USB"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"ඡායාරූප හුවමාරුව සඳහා USB"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"MIDI සඳහා USB"</string>
@@ -1062,11 +1063,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"බෙදා ගන්න"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"ප්‍රතික්ෂේප කරන්න"</string>
     <string name="select_input_method" msgid="8547250819326693584">"යතුරු පුවරු වෙනස් කිරීම"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"වෙනත් යතුරු පුවරු"</string>
     <string name="show_ime" msgid="2506087537466597099">"භෞතික යතුරු පුවරුව සක්‍රිය අතරතුර එය තිරය මත තබා ගන්න"</string>
     <string name="hardware" msgid="194658061510127999">"අතථ්‍ය යතුරු පුවරුව පෙන්වන්න"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"යතුරු පුවරුවට පිරිසැලැස්ම තෝරන්න"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"යතුරු පුවරුවට පිරිසැලැස්මක් තේරීමට ස්පර්ශ කරන්න."</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"භෞතික යතුරු පුවරුව වින්‍යාස කරන්න"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"භාෂාව හා පිරිසැලසුම තේරීමට තට්ටු කරන්න"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"අපේක්ෂකයන්"</u></string>
@@ -1226,8 +1226,7 @@
     <string name="action_menu_overflow_description" msgid="2295659037509008453">"තවත් විකල්ප"</string>
     <string name="action_bar_home_description_format" msgid="7965984360903693903">"%1$s, %2$s"</string>
     <string name="action_bar_home_subtitle_description_format" msgid="6985546530471780727">"%1$s, %2$s, %3$s"</string>
-    <!-- no translation found for storage_internal (3570990907910199483) -->
-    <skip />
+    <string name="storage_internal" msgid="3570990907910199483">"අභ්‍යන්තර බෙදා ගත් ගබඩාව"</string>
     <string name="storage_sd_card" msgid="3282948861378286745">"SD පත"</string>
     <string name="storage_sd_card_label" msgid="6347111320774379257">"<xliff:g id="MANUFACTURER">%s</xliff:g> SD කාඩ්පත"</string>
     <string name="storage_usb_drive" msgid="6261899683292244209">"USB ධාවකය"</string>
@@ -1471,8 +1470,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"ගැලවීමට පෙර PIN විමසන්න"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"ගැලවීමට පෙර අගුළු අරින රටාව සඳහා අසන්න"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"ගැලවීමට පෙර මුරපදය විමසන්න"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"යෙදුම බෙදුම්-තිරය සමග ක්‍රියා නොකළ හැකිය."</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"යෙදුම බෙදුණු-තිරය සඳහා සහාය නොදක්වයි."</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"ඔබගේ පරිපාලක විසින් ස්ථාපනය කරන ලද"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"ඔබගේ පරිපාලක විසින් යාවත්කාලීන කරන ලදී"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"ඔබගේ පරිපාලක විසින් මකන ලද"</string>

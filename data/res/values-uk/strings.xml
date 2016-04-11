@@ -237,8 +237,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"Вміст сховано згідно з правилом"</string>
     <string name="safeMode" msgid="2788228061547930246">"Безп. режим"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Система Android"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"Особисті дані"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"Службовий профіль"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"Перейти в особистий профіль"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"Перейти в робочий профіль"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"Контакти"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"отримувати доступ до контактів"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"Геодані"</string>
@@ -1061,7 +1061,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"Дозвіл не потрібний"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"це платна послуга"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"OK"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"USB для заряджання"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"USB-кабель, через який заряджається цей пристрій"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"USB-кабель, через який живиться під’єднаний пристрій"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"USB для перенесення файлів"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"USB для перенесення фотографій"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"USB для режиму MIDI"</string>
@@ -1076,11 +1077,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"ПОДІЛИТИСЯ"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"ВІДХИЛИТИ"</string>
     <string name="select_input_method" msgid="8547250819326693584">"Змінити клавіатуру"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"Інші клавіатури"</string>
     <string name="show_ime" msgid="2506087537466597099">"Утримуйте на екрані, коли активна фізична клавіатура"</string>
     <string name="hardware" msgid="194658061510127999">"Показати віртуальну клавіатуру"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"Виберіть розкладку клавіатури"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"Торкніться, щоб вибрати розкладку клавіатури."</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"Налаштуйте фізичну клавіатуру"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"Торкніться, щоб вибрати мову та розкладку"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"кандидати"</u></string>
@@ -1488,8 +1488,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"PIN-код для відкріплення"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"Запитувати ключ розблокування перед відкріпленням"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"Запитувати пароль перед відкріпленням"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"Додаток може не працювати в режимі розділеного екрана."</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"Додаток не підтримує розділення екрана."</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"Установив адміністратор"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Оновлено адміністратором"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Видалив адміністратор"</string>

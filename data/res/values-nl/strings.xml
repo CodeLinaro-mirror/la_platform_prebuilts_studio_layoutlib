@@ -233,8 +233,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"Content verborgen op basis van beleid"</string>
     <string name="safeMode" msgid="2788228061547930246">"Veilige modus"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Android-systeem"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"Persoonlijk"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"Werk"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"Overschakelen naar persoonlijk profiel"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"Overschakelen naar werkprofiel"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"Contacten"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"toegang krijgen tot je contacten"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"Locatie"</string>
@@ -1045,7 +1045,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"Geen machtigingen vereist"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"hieraan kunnen kosten zijn verbonden"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"OK"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"USB voor opladen"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"Dit apparaat wordt opgeladen via USB"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"Het aangesloten apparaat wordt via USB van voeding voorzien"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"USB voor bestandsoverdacht"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"USB voor foto-overdracht"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"USB voor MIDI"</string>
@@ -1060,11 +1061,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"DELEN"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"WEIGEREN"</string>
     <string name="select_input_method" msgid="8547250819326693584">"Toetsenbord wijzigen"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"Andere toetsenborden"</string>
     <string name="show_ime" msgid="2506087537466597099">"Dit op het scherm weergeven terwijl het fysieke toetsenbord actief is"</string>
     <string name="hardware" msgid="194658061510127999">"Virtueel toetsenbord tonen"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"Toetsenbordindeling selecteren"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"Tik om een ​​toetsenbordindeling te selecteren."</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"Fysiek toetsenbord configureren"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"Tik om een taal en indeling te selecteren"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"kandidaten"</u></string>
@@ -1468,8 +1468,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"Vraag pin voor losmaken"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"Vraag patroon voor losmaken"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"Vraag wachtwoord voor losmaken"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"App werkt mogelijk niet met gesplitst scherm."</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"App biedt geen ondersteuning voor gesplitst scherm."</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"Geïnstalleerd door je beheerder"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Geüpdatet door je beheerder"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Verwijderd door je beheerder"</string>

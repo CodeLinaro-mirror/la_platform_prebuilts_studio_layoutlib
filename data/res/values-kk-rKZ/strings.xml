@@ -233,8 +233,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"Мазмұн саясатқа сай жасырылған"</string>
     <string name="safeMode" msgid="2788228061547930246">"Қауіпсіз режим"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Android жүйесі"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"Жеке"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"Жұмыс"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"Жекеге ауысу"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"Жұмысқа ауысу"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"Контактілер"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"контактілерге кіру"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"Орын"</string>
@@ -1045,7 +1045,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"Рұқсат қажет емес"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"бұған төлем қажет болуы мүмкін"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"Жарайды"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"Зарядтауға арналған USB"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"USB арқылы зарядтау"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"USB жалғанған құрылғыға қуат беруде"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"Файлды тасымалдауға арналған USB"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"Фотосуретті тасымалдауға арналған USB"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"MIDI режиміне арналған USB"</string>
@@ -1060,11 +1061,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"БӨЛІСУ"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"ҚАБЫЛДАМАУ"</string>
     <string name="select_input_method" msgid="8547250819326693584">"Пернетақтаны өзгерту"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"Басқа пернетақталар"</string>
     <string name="show_ime" msgid="2506087537466597099">"Физикалық пернетақта белсенді кезде оны экранда ұстау"</string>
     <string name="hardware" msgid="194658061510127999">"Виртуалды пернетақтаны көрсету"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"Пернетақта орналасуын таңдау"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"Пернетақта орналасуын таңдау үшін түртіңіз."</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"Физикалық пернетақтаны конфигурациялау"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"Тіл мен пернетақта схемасын таңдау үшін түртіңіз"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"үміткерлер"</u></string>
@@ -1224,8 +1224,7 @@
     <string name="action_menu_overflow_description" msgid="2295659037509008453">"Басқа опциялар"</string>
     <string name="action_bar_home_description_format" msgid="7965984360903693903">"%1$s, %2$s"</string>
     <string name="action_bar_home_subtitle_description_format" msgid="6985546530471780727">"%1$s, %2$s, %3$s"</string>
-    <!-- no translation found for storage_internal (3570990907910199483) -->
-    <skip />
+    <string name="storage_internal" msgid="3570990907910199483">"Ішкі ортақ қойма"</string>
     <string name="storage_sd_card" msgid="3282948861378286745">"SD картасы"</string>
     <string name="storage_sd_card_label" msgid="6347111320774379257">"<xliff:g id="MANUFACTURER">%s</xliff:g> SD картасы"</string>
     <string name="storage_usb_drive" msgid="6261899683292244209">"USB дискі"</string>
@@ -1469,8 +1468,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"Босату алдында PIN кодын сұрау"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"Босату алдында бекітпесін ашу өрнегін сұрау"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"Босату алдында құпия сөзді сұрау"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"Қолданба бөлінген экранда жұмыс істемеуі мүмкін."</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"Қодланба бөлінген экранды қолдамайды."</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"Әкімші орнатқан"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Әкімші жаңартты"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Әкімші жойған"</string>

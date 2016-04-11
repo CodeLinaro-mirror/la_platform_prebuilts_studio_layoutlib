@@ -233,8 +233,8 @@
     <string name="notification_hidden_by_policy_text" msgid="9004631276932584600">"Ocultouse contido por causa da política"</string>
     <string name="safeMode" msgid="2788228061547930246">"Modo seguro"</string>
     <string name="android_system_label" msgid="6577375335728551336">"Sistema Android"</string>
-    <string name="user_owner_label" msgid="2804351898001038951">"Persoal"</string>
-    <string name="managed_profile_label" msgid="6260850669674791528">"Traballo"</string>
+    <string name="user_owner_label" msgid="1119010402169916617">"Cambiar ao perfil persoal"</string>
+    <string name="managed_profile_label" msgid="5289992269827577857">"Cambiar ao perfil de traballo"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"Contactos"</string>
     <string name="permgroupdesc_contacts" msgid="6951499528303668046">"acceder aos teus contactos"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"Localización"</string>
@@ -1045,7 +1045,8 @@
     <string name="no_permissions" msgid="7283357728219338112">"Non é necesario ningún permiso"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"é posible que teñas que pagar"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"Aceptar"</string>
-    <string name="usb_charging_notification_title" msgid="4004114449249406402">"USB para carga"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"O USB está cargando este dispositivo"</string>
+    <string name="usb_supplying_notification_title" msgid="5310642257296510271">"O USB está proporcionando enerxía ao dispositivo conectado"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"USB para transferencia de ficheiros"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"USB para transferencia de fotos"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"USB para MIDI"</string>
@@ -1060,11 +1061,10 @@
     <string name="share_remote_bugreport_action" msgid="6249476773913384948">"COMPARTIR"</string>
     <string name="decline_remote_bugreport_action" msgid="6230987241608770062">"ANULAR"</string>
     <string name="select_input_method" msgid="8547250819326693584">"Cambiar teclado"</string>
-    <string name="configure_input_methods" msgid="5673193194563164021">"Outros teclados"</string>
     <string name="show_ime" msgid="2506087537466597099">"Manteno na pantalla mentres o teclado físico estea activo"</string>
     <string name="hardware" msgid="194658061510127999">"Mostrar teclado virtual"</string>
-    <string name="select_keyboard_layout_notification_title" msgid="1407367017263030773">"Seleccionar deseño de teclado"</string>
-    <string name="select_keyboard_layout_notification_message" msgid="4465907700449257063">"Toca para seleccionar un deseño de teclado."</string>
+    <string name="select_keyboard_layout_notification_title" msgid="597189518763083494">"Configura o teclado físico"</string>
+    <string name="select_keyboard_layout_notification_message" msgid="8084622969903004900">"Toca para seleccionar o idioma e o deseño"</string>
     <string name="fast_scroll_alphabet" msgid="5433275485499039199">" ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"</string>
     <string name="fast_scroll_numeric_alphabet" msgid="4030170524595123610">" 0123456789ABCDEFGHIJKLMNÑOPQRSTUVWXYZ"</string>
     <string name="candidates_style" msgid="4333913089637062257"><u>"candidatos"</u></string>
@@ -1224,8 +1224,7 @@
     <string name="action_menu_overflow_description" msgid="2295659037509008453">"Máis opcións"</string>
     <string name="action_bar_home_description_format" msgid="7965984360903693903">"%1$s, %2$s"</string>
     <string name="action_bar_home_subtitle_description_format" msgid="6985546530471780727">"%1$s, %2$s, %3$s"</string>
-    <!-- no translation found for storage_internal (3570990907910199483) -->
-    <skip />
+    <string name="storage_internal" msgid="3570990907910199483">"Almacenamento compartido interno"</string>
     <string name="storage_sd_card" msgid="3282948861378286745">"Tarxeta SD"</string>
     <string name="storage_sd_card_label" msgid="6347111320774379257">"Tarxeta SD de <xliff:g id="MANUFACTURER">%s</xliff:g>"</string>
     <string name="storage_usb_drive" msgid="6261899683292244209">"Unidade USB"</string>
@@ -1469,8 +1468,6 @@
     <string name="lock_to_app_unlock_pin" msgid="2552556656504331634">"Solicitar un PIN antes de soltar a pantalla"</string>
     <string name="lock_to_app_unlock_pattern" msgid="4182192144797225137">"Solicitar un padrón de desbloqueo antes de soltar a pantalla"</string>
     <string name="lock_to_app_unlock_password" msgid="6380979775916974414">"Solicitar un contrasinal antes de soltar a pantalla"</string>
-    <string name="dock_forced_resizable" msgid="5914261505436217520">"Pode que a aplicación non funcione coa pantalla dividida."</string>
-    <string name="dock_non_resizeble_failed_to_dock_text" msgid="3871617304250207291">"A aplicación non é compatible coa función de pantalla dividida."</string>
     <string name="package_installed_device_owner" msgid="8420696545959087545">"Instalado polo administrador"</string>
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Actualizado polo administrador"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Eliminado polo administrador"</string>

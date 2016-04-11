@@ -563,11 +563,11 @@
     <!-- Label for the Android system components when they are shown to the user. -->
     <string name="android_system_label">Android System</string>
 
-    <!-- Label for the user owner in the intent forwarding app. [CHAR LIMIT=15] -->
-    <string name="user_owner_label">Personal</string>
+    <!-- Label for the user owner in the intent forwarding app. -->
+    <string name="user_owner_label">Switch to Personal</string>
 
-    <!-- Label for a corporate profile in the intent forwarding app. [CHAR LIMIT=15] -->
-    <string name="managed_profile_label">Work</string>
+    <!-- Label for a corporate profile in the intent forwarding app. -->
+    <string name="managed_profile_label">Switch to Work</string>
 
     <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permgrouplab_contacts">Contacts</string>
@@ -2904,7 +2904,9 @@
     <string name="dlg_ok">OK</string>
 
     <!-- USB_PREFERENCES: Notification for when the user connected to the charger only.  This is the title -->
-    <string name="usb_charging_notification_title">USB for charging</string>
+    <string name="usb_charging_notification_title">USB charging this device</string>
+    <!-- USB_PREFERENCES: Notification for when the user connects the phone to supply power to attached device.  This is the title -->
+    <string name="usb_supplying_notification_title">USB supplying power to attached device</string>
     <!-- USB_PREFERENCES: Notification for when the user connects the phone to a computer via USB in MTP mode.  This is the title -->
     <string name="usb_mtp_notification_title">USB for file transfer</string>
     <!-- USB_PREFERENCES: Notification for when the user connects the phone to a computer via USB in PTP mode.  This is the title -->
@@ -2943,18 +2945,17 @@
 
     <!-- Title of the pop-up dialog in which the user switches keyboard, also known as input method. -->
     <string name="select_input_method">Change keyboard</string>
-    <!-- Title of a button to open the settings to enable or disable other soft keyboards (also known as input methods) [CHAR LIMIT=30] -->
-    <string name="configure_input_methods">Other keyboards</string>
     <!-- Summary text of a toggle switch to enable/disable use of the IME while a physical
          keyboard is connected -->
     <string name="show_ime">Keep it on screen while physical keyboard is active</string>
     <!-- Title of the physical keyboard category in the input method selector [CHAR LIMIT=30] -->
     <string name="hardware">Show virtual keyboard</string>
 
-    <!-- Title of the notification to prompt the user to select a keyboard layout. -->
-    <string name="select_keyboard_layout_notification_title">Select keyboard layout</string>
-    <!-- Message of the notification to prompt the user to select a keyboard layout. -->
-    <string name="select_keyboard_layout_notification_message">Touch to select a keyboard layout.</string>
+    <!-- Title of the notification to prompt the user to configure physical keyboard settings. -->
+    <string name="select_keyboard_layout_notification_title">Configure physical keyboard</string>
+    <!-- Message of the notification to prompt the user to configure physical keyboard settings
+         where the user can associate language with physical keyboard layout. -->
+    <string name="select_keyboard_layout_notification_message">Tap to select language and layout</string>
 
     <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
     <string name="fast_scroll_numeric_alphabet">\u00200123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
@@ -4016,12 +4017,6 @@
     <string name="lock_to_app_unlock_pattern">Ask for unlock pattern before unpinning</string>
     <!-- Lock-to-app unlock password string -->
     <string name="lock_to_app_unlock_password">Ask for password before unpinning</string>
-
-    <!-- Multi-Window strings -->
-    <!-- Warning message when an app that got forced to be resizable gets shown in split-screen -->
-    <string name="dock_forced_resizable">App may not work with split-screen.</string>
-    <!-- Warning message when we try to dock a non-resizeble tasks and launch it in fullscreen instead. -->
-    <string name="dock_non_resizeble_failed_to_dock_text">App does not support split-screen.</string>
 
     <!-- Notification shown when device owner silently installs a package [CHAR LIMIT=NONE] -->
     <string name="package_installed_device_owner">Installed by your administrator</string>
