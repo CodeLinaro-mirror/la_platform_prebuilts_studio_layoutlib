@@ -1095,7 +1095,6 @@
   <java-symbol type="string" name="ssl_ca_cert_noti_by_unknown" />
   <java-symbol type="string" name="ssl_ca_cert_noti_by_administrator" />
   <java-symbol type="string" name="ssl_ca_cert_noti_managed" />
-  <java-symbol type="string" name="ssl_ca_cert_warning" />
   <java-symbol type="string" name="work_profile_deleted" />
   <java-symbol type="string" name="work_profile_deleted_description" />
   <java-symbol type="string" name="work_profile_deleted_details" />
@@ -1115,6 +1114,7 @@
   <java-symbol type="plurals" name="matches_found" />
   <java-symbol type="plurals" name="restr_pin_countdown" />
   <java-symbol type="plurals" name="pinpuk_attempts" />
+  <java-symbol type="plurals" name="ssl_ca_cert_warning" />
 
   <java-symbol type="array" name="carrier_properties" />
   <java-symbol type="array" name="config_sms_enabled_locking_shift_tables" />
@@ -1386,7 +1386,6 @@
 
   <java-symbol type="xml" name="password_kbd_qwerty" />
   <java-symbol type="xml" name="autotext" />
-  <java-symbol type="xml" name="eri" />
   <java-symbol type="xml" name="password_kbd_numeric" />
   <java-symbol type="xml" name="password_kbd_qwerty_shifted" />
   <java-symbol type="xml" name="password_kbd_symbols" />
@@ -2199,14 +2198,22 @@
   <java-symbol type="attr" name="touchscreenBlocksFocus" />
   <java-symbol type="layout" name="resolver_list_with_default" />
   <java-symbol type="string" name="whichApplicationNamed" />
+  <java-symbol type="string" name="whichApplicationLabel" />
   <java-symbol type="string" name="whichViewApplication" />
   <java-symbol type="string" name="whichViewApplicationNamed" />
+  <java-symbol type="string" name="whichViewApplicationLabel" />
   <java-symbol type="string" name="whichEditApplication" />
   <java-symbol type="string" name="whichEditApplicationNamed" />
+  <java-symbol type="string" name="whichEditApplicationLabel" />
   <java-symbol type="string" name="whichSendApplication" />
   <java-symbol type="string" name="whichSendApplicationNamed" />
+  <java-symbol type="string" name="whichSendApplicationLabel" />
   <java-symbol type="string" name="whichSendToApplication" />
   <java-symbol type="string" name="whichSendToApplicationNamed" />
+  <java-symbol type="string" name="whichSendToApplicationLabel" />
+  <java-symbol type="string" name="whichImageCaptureApplication" />
+  <java-symbol type="string" name="whichImageCaptureApplicationNamed" />
+  <java-symbol type="string" name="whichImageCaptureApplicationLabel" />
   <java-symbol type="attr" name="lightY" />
   <java-symbol type="attr" name="lightZ" />
   <java-symbol type="attr" name="lightRadius" />
@@ -2236,6 +2243,7 @@
   <java-symbol type="array" name="networks_not_clear_data" />
   <java-symbol type="bool" name="config_switch_phone_on_voice_reg_state_change" />
   <java-symbol type="string" name="whichHomeApplicationNamed" />
+  <java-symbol type="string" name="whichHomeApplicationLabel" />
   <java-symbol type="bool" name="config_sms_force_7bit_encoding" />
   <java-symbol type="bool" name="config_defaultWindowFeatureOptionsPanel" />
   <java-symbol type="bool" name="config_defaultWindowFeatureContextMenu" />
