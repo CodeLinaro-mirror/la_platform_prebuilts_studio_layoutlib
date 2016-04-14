@@ -90,6 +90,7 @@ NotoSansSinhala-Regular.ttf
 NotoSansSundanese-Regular.ttf
 NotoSansSylotiNagri-Regular.ttf
 NotoSansSymbols-Regular-Subsetted.ttf
+NotoSansSymbols-Regular-Subsetted2.ttf
 NotoSansSyriacEstrangela-Regular.ttf
 NotoSansTagbanwa-Regular.ttf
 NotoSansTaiLe-Regular.ttf
@@ -109,6 +110,7 @@ NotoSansThai-Bold.ttf
 NotoSansThai-Regular.ttf
 NotoSansThaiUI-Bold.ttf
 NotoSansThaiUI-Regular.ttf
+NotoSansTibetan-Bold.ttf
 NotoSansTibetan-Regular.ttf
 NotoSansTifinagh-Regular.ttf
 NotoSansVai-Regular.ttf

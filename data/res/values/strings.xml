@@ -245,16 +245,19 @@
 
     <!-- Displayed when WFC registration fails -->
     <string name="wfcRegErrorTitle">Wi-Fi Calling</string>
-    <!-- WFC Operator Error Codes -->
-    <string-array name="wfcOperatorErrorCodes" translatable="false" />
     <!-- WFC Operator Error Messages showed as alerts -->
-    <string-array name="wfcOperatorErrorAlertMessages" />
+    <string-array name="wfcOperatorErrorAlertMessages">
+        <item>To make calls and send messages over Wi-Fi, first ask your carrier to set up this service. Then turn on Wi-Fi calling again from Settings.</item>
+    </string-array>
     <!-- WFC Operator Error Messages showed as notifications -->
-    <string-array name="wfcOperatorErrorNotificationMessages" />
+    <string-array name="wfcOperatorErrorNotificationMessages">
+        <item>Register with your carrier</item>
+    </string-array>
     <!-- Template for showing cellular network operator name while WFC is active -->
-    <string name="wfcSpnFormat">%s</string>
-    <!-- Template for showing operator name for data connection while WFC is active -->
-    <string name="wfcDataSpnFormat">%s</string>
+    <string-array name="wfcSpnFormats">
+        <item>%s</item>
+        <item>%s Wi-Fi Calling</item>
+    </string-array>
     <!-- WFC, summary for Disabled -->
     <string name="wifi_calling_off_summary">Off</string>
     <!-- WFC, summary for Wi-Fi Preferred -->
@@ -4047,6 +4050,9 @@
 
     <!-- [CHAR_LIMIT=NONE] Battery saver: Feature description -->
     <string name="battery_saver_description">To help improve battery life, battery saver reduces your device’s performance and limits vibration, location services, and most background data. Email, messaging, and other apps that rely on syncing may not update unless you open them.\n\nBattery saver turns off automatically when your device is charging.</string>
+
+    <!-- [CHAR_LIMIT=NONE] Data saver: Feature description -->
+    <string name="data_saver_description">To help reduce data usage, Data Saver prevents some apps from sending or receiving data in the background. An app you’re currently using can access data, but may do so less frequently. This may mean, for example, that images don’t display until you tap them.</string>
 
     <!-- Zen mode condition - summary: time duration in minutes. [CHAR LIMIT=NONE] -->
     <plurals name="zen_mode_duration_minutes_summary">

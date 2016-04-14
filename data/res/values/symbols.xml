@@ -771,11 +771,9 @@
   <java-symbol type="string" name="phoneTypeWorkMobile" />
   <java-symbol type="string" name="phoneTypeWorkPager" />
   <java-symbol type="string" name="wfcRegErrorTitle" />
-  <java-symbol type="array" name="wfcOperatorErrorCodes" />
   <java-symbol type="array" name="wfcOperatorErrorAlertMessages" />
   <java-symbol type="array" name="wfcOperatorErrorNotificationMessages" />
-  <java-symbol type="string" name="wfcSpnFormat" />
-  <java-symbol type="string" name="wfcDataSpnFormat" />
+  <java-symbol type="array" name="wfcSpnFormats" />
   <java-symbol type="string" name="wifi_calling_off_summary" />
   <java-symbol type="string" name="wfc_mode_wifi_preferred_summary" />
   <java-symbol type="string" name="wfc_mode_cellular_preferred_summary" />
@@ -2102,6 +2100,7 @@
   <java-symbol type="dimen" name="timepicker_text_size_normal" />
   <java-symbol type="dimen" name="timepicker_text_size_inner" />
   <java-symbol type="string" name="battery_saver_description" />
+  <java-symbol type="string" name="data_saver_description" />
   <java-symbol type="string" name="zen_mode_forever" />
   <java-symbol type="string" name="zen_mode_forever_dnd" />
   <java-symbol type="string" name="zen_mode_rule_name_combination" />
