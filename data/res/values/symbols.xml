@@ -2102,6 +2102,8 @@
   <java-symbol type="dimen" name="timepicker_text_size_inner" />
   <java-symbol type="string" name="battery_saver_description" />
   <java-symbol type="string" name="data_saver_description" />
+  <java-symbol type="string" name="data_saver_enable_title" />
+  <java-symbol type="string" name="data_saver_enable_button" />
   <java-symbol type="string" name="zen_mode_forever" />
   <java-symbol type="string" name="zen_mode_forever_dnd" />
   <java-symbol type="string" name="zen_mode_rule_name_combination" />
@@ -2254,7 +2256,8 @@
   <java-symbol type="string" name="prohibit_manual_network_selection_in_gobal_mode" />
   <java-symbol type="id" name="profile_button" />
 
-  <java-symbol type="bool" name="config_enableCascadingSubmenus" />
+  <!-- Cascading submenus -->
+  <java-symbol type="dimen" name="cascading_menus_min_smallest_width" />
 
   <!-- From SignalStrength -->
   <java-symbol type="integer" name="config_LTE_RSRP_threshold_type" />
@@ -2508,6 +2511,17 @@
 
   <java-symbol type="id" name="notification_content_container" />
 
+  <java-symbol type="plurals" name="duration_minutes_shortest" />
+  <java-symbol type="plurals" name="duration_hours_shortest" />
+  <java-symbol type="plurals" name="duration_days_shortest" />
+  <java-symbol type="plurals" name="duration_years_shortest" />
+  <java-symbol type="plurals" name="duration_minutes_shortest_future" />
+  <java-symbol type="plurals" name="duration_hours_shortest_future" />
+  <java-symbol type="plurals" name="duration_days_shortest_future" />
+  <java-symbol type="plurals" name="duration_years_shortest_future" />
+
+  <java-symbol type="string" name="now_string_shortest" />
+
   <!-- Encryption notification while accounts are locked by credential encryption -->
   <java-symbol type="string" name="user_encrypted_title" />
   <java-symbol type="string" name="user_encrypted_message" />
@@ -2515,6 +2529,9 @@
   <java-symbol type="string" name="profile_encrypted_detail" />
   <java-symbol type="string" name="profile_encrypted_message" />
   <java-symbol type="drawable" name="ic_user_secure" />
+
+  <java-symbol type="string" name="android_upgrading_notification_title" />
+  <java-symbol type="string" name="android_upgrading_notification_body" />
 
   <java-symbol type="string" name="usb_mtp_launch_notification_title" />
   <java-symbol type="string" name="usb_mtp_launch_notification_description" />
@@ -2534,6 +2551,9 @@
   <java-symbol type="string" name="negative_duration" />
 
   <java-symbol type="dimen" name="notification_messaging_spacing" />
+
+  <java-symbol type="dimen" name="notification_text_margin_top" />
+  <java-symbol type="dimen" name="notification_inbox_item_top_padding" />
 
   <!-- WallpaperManager config -->
   <java-symbol type="string" name="config_wallpaperCropperPackage" />
@@ -2563,4 +2583,11 @@
 
   <java-symbol type="dimen" name="input_extract_action_button_width" />
   <java-symbol type="dimen" name="input_extract_action_button_height" />
+
+  <java-symbol type="dimen" name="notification_action_list_height" />
+
+  <!-- TV Remote Service package -->
+  <java-symbol type="string" name="config_tvRemoteServicePackage" />
+
+  <java-symbol type="bool" name="config_supportPreRebootSecurityLogs" />
 </resources>

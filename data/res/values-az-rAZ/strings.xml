@@ -124,11 +124,15 @@
     <string name="roamingTextSearching" msgid="8360141885972279963">"Xidmət axtarılır"</string>
     <string name="wfcRegErrorTitle" msgid="2301376280632110664">"Wi-Fi zəngi"</string>
   <string-array name="wfcOperatorErrorAlertMessages">
+    <item msgid="2254967670088539682">"Wi-Fi üzərindən zəng etmək və mesaj göndərmək üçün ilk öncə operatordan bu xidməti ayarlamağı tələb edin. Sonra Ayarlardan Wi-Fi çağrısını aktivləşdirin."</item>
   </string-array>
   <string-array name="wfcOperatorErrorNotificationMessages">
+    <item msgid="6177300162212449033">"Operatorla qeydiyyatdan keçin"</item>
   </string-array>
-    <string name="wfcSpnFormat" msgid="8211621332478306568">"%s"</string>
-    <string name="wfcDataSpnFormat" msgid="1118052028767666883">"%s"</string>
+  <string-array name="wfcSpnFormats">
+    <item msgid="6830082633573257149">"%s"</item>
+    <item msgid="4397097370387921767">"%s Wi-Fi Zəngi"</item>
+  </string-array>
     <string name="wifi_calling_off_summary" msgid="8720659586041656098">"Deaktiv"</string>
     <string name="wfc_mode_wifi_preferred_summary" msgid="1994113411286935263">"Wi-Fi tərcih edilir"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="5920549484600758786">"Mobil şəbəkə tərcih edilir"</string>
@@ -164,7 +168,10 @@
     <string name="low_memory" product="watch" msgid="4415914910770005166">"Yaddaş dolub. Boşaltmaq üçün bəzi faylları silin."</string>
     <string name="low_memory" product="tv" msgid="516619861191025923">"TV-nin yaddaşı doludur. Yer boşaltmaq üçün bəzi faylları silin."</string>
     <string name="low_memory" product="default" msgid="3475999286680000541">"Telefonun yaddaşı doludur. Boş yer üçün bəzi faylları silin."</string>
-    <!-- no translation found for ssl_ca_cert_warning (5106721205300213569) -->
+    <plurals name="ssl_ca_cert_warning" formatted="false" msgid="5106721205300213569">
+      <item quantity="other">Sertifikat səlahiyyətləri quraşdırıldı</item>
+      <item quantity="one">Sertifikat səlahiyyəti quraşdırıldı</item>
+    </plurals>
     <string name="ssl_ca_cert_noti_by_unknown" msgid="4475437862189850602">"Bilinməyən üçüncü tərəfdən"</string>
     <string name="ssl_ca_cert_noti_by_administrator" msgid="550758088185764312">"İş profili administratorunuz tərəfindən"</string>
     <string name="ssl_ca_cert_noti_managed" msgid="4030263497686867141">"<xliff:g id="MANAGING_DOMAIN">%s</xliff:g> tərəfindən"</string>
@@ -211,9 +218,9 @@
     <string name="bugreport_title" msgid="2667494803742548533">"Baqı xəbər verin"</string>
     <string name="bugreport_message" msgid="398447048750350456">"Bu, sizin hazırkı cihaz durumu haqqında məlumat toplayacaq ki, elektron məktub şəklində göndərsin. Baq raportuna başlamaq üçün bir az vaxt lazım ola bilər, bir az səbr edin."</string>
     <string name="bugreport_option_interactive_title" msgid="8635056131768862479">"İnteraktiv hesabat"</string>
-    <string name="bugreport_option_interactive_summary" msgid="8180152634022797629">"Bir çox hallarda bundan istifadə edin. Bu hesabatın gedişatını izləməyə və problem haqqında daha ətraflı məlumat daxil etməyə imkan verir. Bu, çox vaxt tələb edən bəzi az istifadə olunan bölmələri ixtisar edə bilər."</string>
+    <string name="bugreport_option_interactive_summary" msgid="229299488536107968">"Bir çox hallarda bundan istifadə edin. Bu hesabatın gedişatını izləməyə, problem haqqında daha ətraflı məlumat daxil etməyə və skrinşot etməyə imkan verir. Bu, çox vaxt tələb edən bəzi az istifadə olunan bölmələri ixtisar edə bilər."</string>
     <string name="bugreport_option_full_title" msgid="6354382025840076439">"Tam hesabat"</string>
-    <string name="bugreport_option_full_summary" msgid="6687306111256813257">"Cihazınız cavab verməyəndə və ya zəif işləyəndə və ya bütün hesabat bölmələri lazım olanda minimum sistem müdaxiləsi üçün bu seçimdən istifadə edin. Ani şəkil çəkmir və ya ətraflı məlumat daxil etməyə imkan vermir."</string>
+    <string name="bugreport_option_full_summary" msgid="7210859858969115745">"Cihazınız cavab verməyəndə və ya zəif işləyəndə və ya bütün hesabat bölmələri lazım olanda minimum sistem müdaxiləsi üçün bu seçimdən istifadə edin. Ətraflı məlumat daxil etməyə imkan vermir və ya əlavə skrinşot çəkmir."</string>
     <plurals name="bugreport_countdown" formatted="false" msgid="6878900193900090368">
       <item quantity="other">Baq hesabatı üçün <xliff:g id="NUMBER_1">%d</xliff:g> saniyədə sktinşot çəkilir.</item>
       <item quantity="one">Baq hesabatı üçün <xliff:g id="NUMBER_0">%d</xliff:g> saniyədə skrinşot çəkilir.</item>
@@ -256,7 +263,7 @@
     <string name="capability_title_canRetrieveWindowContent" msgid="3901717936930170320">"Pəncərənin məzmununu əldə edin"</string>
     <string name="capability_desc_canRetrieveWindowContent" msgid="3772225008605310672">"Əlaqədə olduğunuz pəncərənin məzmununu nəzərdən keçirin."</string>
     <string name="capability_title_canRequestTouchExploration" msgid="3108723364676667320">"Toxunaraq Kəşf et funksiyasını yandırın"</string>
-    <string name="capability_desc_canRequestTouchExploration" msgid="5800552516779249356">"Toxunulan hissələr səsləndiriləcək və ekran jestlərlə idarə oluna biləcək."</string>
+    <string name="capability_desc_canRequestTouchExploration" msgid="7543249041581408313">"Tıklanan hissələr səsləndiriləcək və ekran jestlərlə idarə oluna biləcək."</string>
     <string name="capability_title_canRequestEnhancedWebAccessibility" msgid="1739881766522594073">"İnkişaf etmiş veb əlçatımlılığı yandırın"</string>
     <string name="capability_desc_canRequestEnhancedWebAccessibility" msgid="7881063961507511765">"Skriptlər tətbiq məzmununun daha əlçatımlı olması üçün quraşdırıla bilər."</string>
     <string name="capability_title_canRequestFilterKeyEvents" msgid="2103440391902412174">"Yazdığınız mətni izləyin"</string>
@@ -655,7 +662,7 @@
     <string name="keyguard_password_enter_puk_code" msgid="4800725266925845333">"PUK və yeni PİN kod daxil edin"</string>
     <string name="keyguard_password_enter_puk_prompt" msgid="1341112146710087048">"PUK kod"</string>
     <string name="keyguard_password_enter_pin_prompt" msgid="8027680321614196258">"Yeni PIN kodu"</string>
-    <string name="keyguard_password_entry_touch_hint" msgid="7858547464982981384"><font size="17">"Şifrə daxil etmək üçün toxunun"</font></string>
+    <string name="keyguard_password_entry_touch_hint" msgid="2644215452200037944"><font size="17">"Şifrə daxil etmək üçün tıklayın"</font></string>
     <string name="keyguard_password_enter_password_code" msgid="1054721668279049780">"Kilidi açmaq üçün parol yazın"</string>
     <string name="keyguard_password_enter_pin_password_code" msgid="6391755146112503443">"Kilidi açmaq üçün PIN daxil edin"</string>
     <string name="keyguard_password_wrong_pin_code" msgid="2422225591006134936">"Yanlış PIN kodu."</string>
@@ -851,6 +858,39 @@
       <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> saat</item>
       <item quantity="one">1 saat</item>
     </plurals>
+    <string name="now_string_shortest" msgid="8912796667087856402">"indi"</string>
+    <plurals name="duration_minutes_shortest" formatted="false" msgid="3957499975064245495">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>dəq</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>dəq</item>
+    </plurals>
+    <plurals name="duration_hours_shortest" formatted="false" msgid="3552182110578602356">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>saat</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>saat</item>
+    </plurals>
+    <plurals name="duration_days_shortest" formatted="false" msgid="5213655532597081640">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>gün</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>gün</item>
+    </plurals>
+    <plurals name="duration_years_shortest" formatted="false" msgid="7848711145196397042">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>il</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>il</item>
+    </plurals>
+    <plurals name="duration_minutes_shortest_future" formatted="false" msgid="3277614521231489951">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>dəqiqədə</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>dəqiqədə</item>
+    </plurals>
+    <plurals name="duration_hours_shortest_future" formatted="false" msgid="2152452368397489370">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>saata</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>saata</item>
+    </plurals>
+    <plurals name="duration_days_shortest_future" formatted="false" msgid="8088331502820295701">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>gündə</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>gündə</item>
+    </plurals>
+    <plurals name="duration_years_shortest_future" formatted="false" msgid="2317006667145250301">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>ildə</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>ildə</item>
+    </plurals>
     <string name="VideoView_error_title" msgid="3534509135438353077">"Video problemi"</string>
     <string name="VideoView_error_text_invalid_progressive_playback" msgid="3186670335938670444">"Bu video bu cihaza strim olunmaq üçün uyğun deyil."</string>
     <string name="VideoView_error_text_unknown" msgid="3450439155187810085">"Bu video oxumur"</string>
@@ -882,7 +922,7 @@
     <string name="low_internal_storage_view_text" msgid="6640505817617414371">"Bəzi sistem funksiyaları işləməyə bilər"</string>
     <string name="low_internal_storage_view_text_no_boot" msgid="6935190099204693424">"Sistem üçün yetərincə yaddaş ehtiyatı yoxdur. 250 MB yaddaş ehtiyatının olmasına əmin olun və yenidən başladın."</string>
     <string name="app_running_notification_title" msgid="8718335121060787914">"<xliff:g id="APP_NAME">%1$s</xliff:g> işlənir"</string>
-    <string name="app_running_notification_text" msgid="4653586947747330058">"Daha çox məlumat üçün və ya tətbiqi dayandırmaq üçün toxunun."</string>
+    <string name="app_running_notification_text" msgid="1197581823314971177">"Daha çox məlumat üçün və ya tətbiqi dayandırmaq üçün tıklayın."</string>
     <string name="ok" msgid="5970060430562524910">"OK"</string>
     <string name="cancel" msgid="6442560571259935130">"Ləğv et"</string>
     <string name="yes" msgid="5362982303337969312">"OK"</string>
@@ -949,12 +989,14 @@
     <string name="android_upgrading_title" msgid="1584192285441405746">"Android təkmilləşdirilir..."</string>
     <string name="android_start_title" msgid="8418054686415318207">"Android işə başlayır..."</string>
     <string name="android_upgrading_fstrim" msgid="8036718871534640010">"Yaddaş optimallaşdırılır."</string>
+    <string name="android_upgrading_notification_title" msgid="1619393112444671028">"Android təkmilləşdirilir"</string>
+    <string name="android_upgrading_notification_body" msgid="5761201379457064286">"Güncəllənmə tamamlanana kimi bəzi tətbiqlər düzgün işləməyə bilər"</string>
     <string name="android_upgrading_apk" msgid="7904042682111526169">"<xliff:g id="NUMBER_1">%2$d</xliff:g> əddədən <xliff:g id="NUMBER_0">%1$d</xliff:g> tətbiq optimallaşır."</string>
     <string name="android_preparing_apk" msgid="8162599310274079154">"<xliff:g id="APPNAME">%1$s</xliff:g> proqramının hazırlanması."</string>
     <string name="android_upgrading_starting_apps" msgid="451464516346926713">"Tətbiqlər başladılır."</string>
     <string name="android_upgrading_complete" msgid="1405954754112999229">"Yükləmə başa çatır."</string>
     <string name="heavy_weight_notification" msgid="9087063985776626166">"<xliff:g id="APP">%1$s</xliff:g> çalışır"</string>
-    <string name="heavy_weight_notification_detail" msgid="1721681741617898865">"Tətbiqə keçmək üçün toxunun"</string>
+    <string name="heavy_weight_notification_detail" msgid="867643381388543170">"Tətbiqə keçmək üçün tıklayın"</string>
     <string name="heavy_weight_switcher_title" msgid="7153167085403298169">"Tətbiqlərə keçilsin?"</string>
     <string name="heavy_weight_switcher_text" msgid="7022631924534406403">"Bir tətbiq artıq işləyir. Digərini başlatmaq üçün onu dayandırmalısınız."</string>
     <string name="old_app_action" msgid="493129172238566282">"<xliff:g id="OLD_APP">%1$s</xliff:g> bölməsinə qayıdın"</string>
@@ -962,7 +1004,7 @@
     <string name="new_app_action" msgid="5472756926945440706">"<xliff:g id="OLD_APP">%1$s</xliff:g> tətbiqini başladın"</string>
     <string name="new_app_description" msgid="1932143598371537340">"Köhnə tətbiqi yadda saxlamadan dayandırın."</string>
     <string name="dump_heap_notification" msgid="2618183274836056542">"<xliff:g id="PROC">%1$s</xliff:g> yaddaş limitini keçdi"</string>
-    <string name="dump_heap_notification_detail" msgid="2075673362317481664">"Yığın toplanıb; paylaşmaq üçün toxunun"</string>
+    <string name="dump_heap_notification_detail" msgid="6901391084243999274">"Yığın toplanıb; paylaşmaq üçün tıklayın"</string>
     <string name="dump_heap_title" msgid="5864292264307651673">"Yığın paylaşılsın?"</string>
     <string name="dump_heap_text" msgid="4809417337240334941">"<xliff:g id="PROC">%1$s</xliff:g> prosesi <xliff:g id="SIZE">%2$s</xliff:g> ölçüsünün yaddaş limitini prosesini keçib. Yığın tərtibatçısı ilə paylaşmaq üçün sizə istifadəsi mümkündür. Ehtiyatlı olun: bu yığında proqramın giriş icazəsi olduğu şəxsi məlumatlarınız ola bilər."</string>
     <string name="sendText" msgid="5209874571959469142">"Mətn üçün əməliyyat seçin"</string>
@@ -998,7 +1040,7 @@
     <!-- no translation found for network_available_sign_in_detailed (8000081941447976118) -->
     <skip />
     <string name="wifi_no_internet" msgid="8451173622563841546">"Wi-Fi-ın İnternetə girişi yoxdur"</string>
-    <string name="wifi_no_internet_detailed" msgid="7593858887662270131">"Seçənəkləri görmək üçün toxunun"</string>
+    <string name="wifi_no_internet_detailed" msgid="8083079241212301741">"Seçimlər üçün tıklayın"</string>
     <string name="wifi_watchdog_network_disabled" msgid="7904214231651546347">"Wi-Fi\'a qoşulmaq alınmadı"</string>
     <string name="wifi_watchdog_network_disabled_detailed" msgid="5548780776418332675">" internet bağlantısı keyfiyyətsizdir."</string>
     <string name="wifi_connect_alert_title" msgid="8455846016001810172">"Bağlantıya icazə verilsin?"</string>
@@ -1008,7 +1050,7 @@
     <string name="wifi_p2p_turnon_message" msgid="2909250942299627244">"Wi-Fi Direct əməliyyatını başlat. Bu Wi-Fi müştəri/hotspotu bağlayacaq."</string>
     <string name="wifi_p2p_failed_message" msgid="3763669677935623084">"Wi-Fi Direct başladıla bilmədi."</string>
     <string name="wifi_p2p_enabled_notification_title" msgid="2068321881673734886">"Wi-Fi Direct aktivdir"</string>
-    <string name="wifi_p2p_enabled_notification_message" msgid="1638949953993894335">"Ayarlar üçün toxunun"</string>
+    <string name="wifi_p2p_enabled_notification_message" msgid="8064677407830620023">"Ayarlar üçün tıklayın"</string>
     <string name="accept" msgid="1645267259272829559">"Qəbul edin"</string>
     <string name="decline" msgid="2112225451706137894">"İmtina edin"</string>
     <string name="wifi_p2p_invitation_sent_title" msgid="1318975185112070734">"Dəvətnamə göndərildi"</string>
@@ -1060,9 +1102,9 @@
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"Foto transfer üçün USB"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"MIDI üçün USB"</string>
     <string name="usb_accessory_notification_title" msgid="7848236974087653666">"USB aksesuara qoşuldu"</string>
-    <string name="usb_notification_message" msgid="7347368030849048437">"Əlavə seçimlər üçün toxunun."</string>
+    <string name="usb_notification_message" msgid="3370903770828407960">"Əlavə seçimlər üçün tıklayın."</string>
     <string name="adb_active_notification_title" msgid="6729044778949189918">"USB sazlama qoşuludur"</string>
-    <string name="adb_active_notification_message" msgid="1016654627626476142">"USB debaqı deaktivasiya etmək üçün toxunun."</string>
+    <string name="adb_active_notification_message" msgid="4948470599328424059">"USB debaqı deaktivasiya etmək üçün tıklayın."</string>
     <string name="taking_remote_bugreport_notification_title" msgid="6742483073875060934">"Baq hesabatı verilir..."</string>
     <string name="share_remote_bugreport_notification_title" msgid="4987095013583691873">"Baq hesabatı paylaşılsın?"</string>
     <string name="sharing_remote_bugreport_notification_title" msgid="7572089031496651372">"Baq hesabatı paylaşılır..."</string>
@@ -1082,9 +1124,9 @@
     <string name="ext_media_new_notification_message" msgid="7589986898808506239">"Yeni <xliff:g id="NAME">%s</xliff:g> aşkarlandı"</string>
     <string name="ext_media_ready_notification_message" msgid="4083398150380114462">"Fotoların və medianın köçürülməsi üçün"</string>
     <string name="ext_media_unmountable_notification_title" msgid="8295123366236989588">"Zədələnmiş <xliff:g id="NAME">%s</xliff:g>"</string>
-    <string name="ext_media_unmountable_notification_message" msgid="1586311304430052169">"<xliff:g id="NAME">%s</xliff:g> zədələnib. Düzəltmək üçün toxunun."</string>
+    <string name="ext_media_unmountable_notification_message" msgid="2343202057122495773">"<xliff:g id="NAME">%s</xliff:g> zədələnib. Düzəltmək üçün tıklayın."</string>
     <string name="ext_media_unsupported_notification_title" msgid="3797642322958803257">"Dəstəklənməyən <xliff:g id="NAME">%s</xliff:g>"</string>
-    <string name="ext_media_unsupported_notification_message" msgid="8789610369456474891">"<xliff:g id="NAME">%s</xliff:g> bu cihaz tərəfindən dəstəklənmir. Dəstəklənən formatda ayarlamaq üçün toxunun."</string>
+    <string name="ext_media_unsupported_notification_message" msgid="6121601473787888589">"<xliff:g id="NAME">%s</xliff:g> bu cihaz tərəfindən dəstəklənmir. Dəstəklənən formatda ayarlamaq üçün tıklayın."</string>
     <string name="ext_media_badremoval_notification_title" msgid="3206248947375505416">"<xliff:g id="NAME">%s</xliff:g> gözlənilmədən çıxarıldı"</string>
     <string name="ext_media_badremoval_notification_message" msgid="380176703346946313">"Data itkisinin qarşısını almaq üçün <xliff:g id="NAME">%s</xliff:g> kartını çıxarın"</string>
     <string name="ext_media_nomedia_notification_title" msgid="1704840188641749091">"<xliff:g id="NAME">%s</xliff:g> çıxarıldı"</string>
@@ -1120,7 +1162,7 @@
     <string name="permdesc_readInstallSessions" msgid="2049771699626019849">"Tətbiqə quraşdırma sessiyalarını oxumağa yardım edir. Bu da aktiv paket quraşdırmaları haqqında məlumatları görməyə imkan verir."</string>
     <string name="permlab_requestInstallPackages" msgid="5782013576218172577">"paketləri quraşdırma sorğusu"</string>
     <string name="permdesc_requestInstallPackages" msgid="5740101072486783082">"Tətbiqə paketləri quraşdırma sorğusu göndərməyə icazə verir."</string>
-    <string name="tutorial_double_tap_to_zoom_message_short" msgid="4070433208160063538">"Zoom nəzarəti üçün iki dəfə toxunun"</string>
+    <string name="tutorial_double_tap_to_zoom_message_short" msgid="1311810005957319690">"Zoom kontrolu üçün iki dəfə toxunun"</string>
     <string name="gadget_host_error_inflating" msgid="4882004314906466162">"Widget əlavə edilə bilmədi."</string>
     <string name="ime_action_go" msgid="8320845651737369027">"Get"</string>
     <string name="ime_action_search" msgid="658110271822807811">"Axtar"</string>
@@ -1151,20 +1193,20 @@
     <string name="notification_ranker_binding_label" msgid="774540592299064747">"Bildiriş qiymətləndirici xidmət"</string>
     <string name="vpn_title" msgid="19615213552042827">"VPN aktivləşdirildi"</string>
     <string name="vpn_title_long" msgid="6400714798049252294">"VPN <xliff:g id="APP">%s</xliff:g> tərəfindən aktivləşdirilib"</string>
-    <string name="vpn_text" msgid="3011306607126450322">"Şəbəkəni idarə etmək üçün toxunun."</string>
-    <string name="vpn_text_long" msgid="6407351006249174473">"<xliff:g id="SESSION">%s</xliff:g> sessiyaya qoşuludur. Şəbəkəni idarə etmək üçün toxunun."</string>
+    <string name="vpn_text" msgid="1610714069627824309">"Şəbəkəni idarə etmək üçün tıklayın."</string>
+    <string name="vpn_text_long" msgid="4907843483284977618">"<xliff:g id="SESSION">%s</xliff:g> sessiyaya qoşulun. Şəbəkəni idarə etmək üçün tıklayın."</string>
     <string name="vpn_lockdown_connecting" msgid="6443438964440960745">"Həmişə aktiv VPN bağlanır..."</string>
     <string name="vpn_lockdown_connected" msgid="8202679674819213931">"VPN bağlantısı həmişə aktiv"</string>
     <string name="vpn_lockdown_error" msgid="6009249814034708175">"Həmişə aktiv VPN xətası"</string>
-    <string name="vpn_lockdown_config" msgid="6415899150671537970">"Konfiqurə etmək üçün toxun"</string>
+    <string name="vpn_lockdown_config" msgid="4655589351146766608">"Konfiqurasiya üçün tıklayın"</string>
     <string name="upload_file" msgid="2897957172366730416">"Fayl seçin"</string>
     <string name="no_file_chosen" msgid="6363648562170759465">"Heç bir fayl seçilməyib"</string>
     <string name="reset" msgid="2448168080964209908">"Sıfırlayın"</string>
     <string name="submit" msgid="1602335572089911941">"Göndər"</string>
     <string name="car_mode_disable_notification_title" msgid="3164768212003864316">"Avtomobil rejimi aktivdir"</string>
-    <string name="car_mode_disable_notification_message" msgid="8035230537563503262">"Avtomobil rejimindən çıxmaq üçün toxunun."</string>
+    <string name="car_mode_disable_notification_message" msgid="6301524980144350051">"Avtomobil rejimindən çıxmaq üçün tıklayın."</string>
     <string name="tethered_notification_title" msgid="3146694234398202601">"Tezerinq və ya hotspot aktivdir"</string>
-    <string name="tethered_notification_message" msgid="6857031760103062982">"Quraşdırmaq üçün toxunun."</string>
+    <string name="tethered_notification_message" msgid="2113628520792055377">"Quraşdırmaq üçün tıklayın."</string>
     <string name="back_button_label" msgid="2300470004503343439">"Geri"</string>
     <string name="next_button_label" msgid="1080555104677992408">"Növbəti"</string>
     <string name="skip_button_label" msgid="1275362299471631819">"Keç"</string>
@@ -1197,7 +1239,7 @@
     <string name="add_account_button_label" msgid="3611982894853435874">"Hesab əlavə edin"</string>
     <string name="number_picker_increment_button" msgid="2412072272832284313">"Artır"</string>
     <string name="number_picker_decrement_button" msgid="476050778386779067">"Azaldın"</string>
-    <string name="number_picker_increment_scroll_mode" msgid="3073101067441638428">"<xliff:g id="VALUE">%s</xliff:g> toxunun və basaraq saxlayın."</string>
+    <string name="number_picker_increment_scroll_mode" msgid="5259126567490114216">"<xliff:g id="VALUE">%s</xliff:g> basıb saxlayın."</string>
     <string name="number_picker_increment_scroll_action" msgid="9101473045891835490">"Artırmaq üçün yuxarı, azaltmaq üçün aşağı sürüşdürün."</string>
     <string name="time_picker_increment_minute_button" msgid="8865885114028614321">"Dəqiqə artırın"</string>
     <string name="time_picker_decrement_minute_button" msgid="6246834937080684791">"Dəqiqəni azalt"</string>
@@ -1241,7 +1283,7 @@
     <string name="storage_usb" msgid="3017954059538517278">"USB yaddaş"</string>
     <string name="extract_edit_menu_button" msgid="8940478730496610137">"Düzəliş edin"</string>
     <string name="data_usage_warning_title" msgid="1955638862122232342">"Data istifadə xəbərdarlığı"</string>
-    <string name="data_usage_warning_body" msgid="2814673551471969954">"İstifadə və ayarları görmək üçün toxunun"</string>
+    <string name="data_usage_warning_body" msgid="6660692274311972007">"İstifadə və ayarları görmək üçün tıklayın."</string>
     <string name="data_usage_3g_limit_title" msgid="4361523876818447683">"2G-3G data limitinə çatdı"</string>
     <string name="data_usage_4g_limit_title" msgid="4609566827219442376">"4G data limitinə çatdı"</string>
     <string name="data_usage_mobile_limit_title" msgid="557158376602636112">"Şəbəkə data limitinə çatdı"</string>
@@ -1253,7 +1295,7 @@
     <string name="data_usage_wifi_limit_snoozed_title" msgid="8743856006384825974">"Wi-Fi data limiti keçildi"</string>
     <string name="data_usage_limit_snoozed_body" msgid="7035490278298441767">"<xliff:g id="SIZE">%s</xliff:g> müəyyən edilmiş limit aşır."</string>
     <string name="data_usage_restricted_title" msgid="5965157361036321914">"Arxaplan datası məhdudlaşdırıldı"</string>
-    <string name="data_usage_restricted_body" msgid="6741521330997452990">"Məhdudiyyəti aradan qaldırmaq üçün toxunun"</string>
+    <string name="data_usage_restricted_body" msgid="469866376337242726">"Məhdudiyyəti aradan qaldırmaq üçün tıklayın."</string>
     <string name="ssl_certificate" msgid="6510040486049237639">"Təhlükəsizlik sertifikatı"</string>
     <string name="ssl_certificate_is_valid" msgid="6825263250774569373">"Bu sertifikat etibarlıdır."</string>
     <string name="issued_to" msgid="454239480274921032">"Verilib:"</string>
@@ -1469,8 +1511,8 @@
     <string name="select_year" msgid="7952052866994196170">"İl seçin"</string>
     <string name="deleted_key" msgid="7659477886625566590">"<xliff:g id="KEY">%1$s</xliff:g> silindi"</string>
     <string name="managed_profile_label_badge" msgid="2355652472854327647">"İş <xliff:g id="LABEL">%1$s</xliff:g>"</string>
-    <string name="lock_to_app_toast" msgid="7570091317001980053">"Sancağı götürmək üçün Geri və İcmal düymələrinə eyni zamanda toxunun və saxlayın."</string>
-    <string name="lock_to_app_toast_accessible" msgid="8239120109365070664">"Sancağı götürmək üçün İcmala toxunun və saxlayın."</string>
+    <string name="lock_to_app_toast" msgid="1420543809500606964">"Sancağı götürmək üçün Geri düyməsinə toxunun və saxlayın."</string>
+    <string name="lock_to_app_toast_accessible" msgid="2302154926850846096">"Sancağı götürmək üçün İcmala toxunun və saxlayın."</string>
     <string name="lock_to_app_toast_locked" msgid="9125176335701699164">"Tətbiq sancılıb: Açmağa bu cihazda icazə verilmir."</string>
     <string name="lock_to_app_start" msgid="6643342070839862795">"Screen pinned"</string>
     <string name="lock_to_app_exit" msgid="8598219838213787430">"Screen unpinned"</string>
@@ -1481,8 +1523,9 @@
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Sizin administrator tərəfindən yeniləndi"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Administratorunuz tərəfindən silinib"</string>
     <string name="battery_saver_description" msgid="1960431123816253034">"Batareyanın istismar müddətini təkmilləşdirmək üçün batareya qənaəti cihazınızın məhsuldarlığını azaldır və titrətmə, məkan xidmətləri və ən son fon məlumatlarını məhdudlaşdırır. Sinxronlaşmaya arxayın olan e-poçt, mesajlaşma və digər proqramlar siz onları açmayana kimi yenilənməyə bilər.\n\nCihazınız doldurulan zaman batareya qənaəti avtomatik olaraq sönür."</string>
-    <!-- no translation found for data_saver_description (6015391409098303235) -->
-    <skip />
+    <string name="data_saver_description" msgid="6015391409098303235">"Data istifadəsini azalatmaq üçün, Data Qanaəti bəzi tətbiqlərin arxafonda data göndərməsini və qəbulunun qarşısını alır. Hazırda istifadə etdiyiniz tətbiq dataya daxil ola bilər, lakin çox az hissəsini tez-tez edə bilər. Bu o deməkdir ki, məsələn, üzərinə tıklamadıqca o şəkillər göstərilməyəcək."</string>
+    <string name="data_saver_enable_title" msgid="4674073932722787417">"Data Qənaəti aktiv edilsin?"</string>
+    <string name="data_saver_enable_button" msgid="7147735965247211818">"Aktivləşdirin"</string>
     <plurals name="zen_mode_duration_minutes_summary" formatted="false" msgid="4367877408072000848">
       <item quantity="other"> %1$d dəqiqəlik (saat <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> radəsinə qədər)</item>
       <item quantity="one">Bir dəqiqəlik (saat <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g> radəsinə qədər)</item>

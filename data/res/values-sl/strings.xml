@@ -126,11 +126,15 @@
     <string name="roamingTextSearching" msgid="8360141885972279963">"Iskanje storitve"</string>
     <string name="wfcRegErrorTitle" msgid="2301376280632110664">"Klicanje prek Wi-Fi-ja"</string>
   <string-array name="wfcOperatorErrorAlertMessages">
+    <item msgid="2254967670088539682">"Če želite klicati ali pošiljati sporočila prek omrežja Wi-Fi, se najprej obrnite na operaterja, da nastavi to storitev. Nato v nastavitvah znova vklopite klicanje prek omrežja Wi-Fi."</item>
   </string-array>
   <string-array name="wfcOperatorErrorNotificationMessages">
+    <item msgid="6177300162212449033">"Registracija pri operaterju"</item>
   </string-array>
-    <string name="wfcSpnFormat" msgid="8211621332478306568">"%s"</string>
-    <string name="wfcDataSpnFormat" msgid="1118052028767666883">"%s"</string>
+  <string-array name="wfcSpnFormats">
+    <item msgid="6830082633573257149">"%s"</item>
+    <item msgid="4397097370387921767">"Klicanje prek Wi-Fi-ja (%s)"</item>
+  </string-array>
     <string name="wifi_calling_off_summary" msgid="8720659586041656098">"Izklopljeno"</string>
     <string name="wfc_mode_wifi_preferred_summary" msgid="1994113411286935263">"Prednostno – Wi-Fi"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="5920549484600758786">"Prednostno – mobilno omrežje"</string>
@@ -166,7 +170,12 @@
     <string name="low_memory" product="watch" msgid="4415914910770005166">"Shramba ure je polna. Izbrišite nekaj datotek, da sprostite prostor."</string>
     <string name="low_memory" product="tv" msgid="516619861191025923">"Shramba televizorja je polna. Izbrišite nekaj datotek, da sprostite prostor."</string>
     <string name="low_memory" product="default" msgid="3475999286680000541">"Pomnilnik telefona je poln. Izbrišite nekaj datotek, da sprostite prostor."</string>
-    <!-- no translation found for ssl_ca_cert_warning (5106721205300213569) -->
+    <plurals name="ssl_ca_cert_warning" formatted="false" msgid="5106721205300213569">
+      <item quantity="one">Nameščeni so overitelji potrdil</item>
+      <item quantity="two">Nameščeni so overitelji potrdil</item>
+      <item quantity="few">Nameščeni so overitelji potrdil</item>
+      <item quantity="other">Nameščeni so overitelji potrdil</item>
+    </plurals>
     <string name="ssl_ca_cert_noti_by_unknown" msgid="4475437862189850602">"Neznana tretja oseba"</string>
     <string name="ssl_ca_cert_noti_by_administrator" msgid="550758088185764312">"Skrbnik delovnega profila"</string>
     <string name="ssl_ca_cert_noti_managed" msgid="4030263497686867141">"Nadzira: <xliff:g id="MANAGING_DOMAIN">%s</xliff:g>"</string>
@@ -213,9 +222,9 @@
     <string name="bugreport_title" msgid="2667494803742548533">"Ustvari poročilo o napakah"</string>
     <string name="bugreport_message" msgid="398447048750350456">"S tem bodo zbrani podatki o trenutnem stanju naprave, ki bodo poslani v e-poštnem sporočilu. Izvedba poročila o napakah in priprava trajata nekaj časa, zato bodite potrpežljivi."</string>
     <string name="bugreport_option_interactive_title" msgid="8635056131768862479">"Interaktivno poročilo"</string>
-    <string name="bugreport_option_interactive_summary" msgid="8180152634022797629">"To možnost uporabite v večini primerov. Omogoča sledenje napredka poročila in vnos več podrobnosti o težavi. Morda bodo izpuščeni nekateri redkeje uporabljani razdelki, za katere je poročanje dolgotrajno."</string>
+    <string name="bugreport_option_interactive_summary" msgid="229299488536107968">"To možnost uporabite v večini primerov. Omogoča spremljanje poteka poročila, vnos več podrobnosti o težavi in snemanje posnetkov zaslona. Morda bodo izpuščeni nekateri redkeje uporabljani razdelki, za katere je poročanje dolgotrajno."</string>
     <string name="bugreport_option_full_title" msgid="6354382025840076439">"Celotno poročilo"</string>
-    <string name="bugreport_option_full_summary" msgid="6687306111256813257">"To možnost uporabite za najmanj motenj sistema, če je naprava neodzivna ali prepočasna oziroma ko potrebujete vse razdelke poročila. Ne naredi posnetka zaslona in ne omogoča vnosa več podrobnosti."</string>
+    <string name="bugreport_option_full_summary" msgid="7210859858969115745">"To možnost uporabite za najmanj motenj sistema, če je naprava neodzivna ali prepočasna oziroma ko potrebujete vse razdelke poročila. Ne omogoča vnosa več podrobnosti ali snemanja dodatnih posnetkov zaslona."</string>
     <plurals name="bugreport_countdown" formatted="false" msgid="6878900193900090368">
       <item quantity="one">Posnetek zaslona za poročilo o napakah bo narejen čez <xliff:g id="NUMBER_1">%d</xliff:g> s.</item>
       <item quantity="two">Posnetek zaslona za poročilo o napakah bo narejen čez <xliff:g id="NUMBER_1">%d</xliff:g> s.</item>
@@ -260,7 +269,7 @@
     <string name="capability_title_canRetrieveWindowContent" msgid="3901717936930170320">"Pridobiti vsebino okna"</string>
     <string name="capability_desc_canRetrieveWindowContent" msgid="3772225008605310672">"Preverjanje vsebine okna, ki ga uporabljate."</string>
     <string name="capability_title_canRequestTouchExploration" msgid="3108723364676667320">"Vklopiti raziskovanje z dotikom"</string>
-    <string name="capability_desc_canRequestTouchExploration" msgid="5800552516779249356">"Elementi, ki se jih dotaknete, bodo izrečeni naglas, zaslon pa lahko raziskujete s potezami."</string>
+    <string name="capability_desc_canRequestTouchExploration" msgid="7543249041581408313">"Elementi, ki se jih dotaknete, bodo izrečeni na glas, zaslon pa lahko raziskujete s potezami."</string>
     <string name="capability_title_canRequestEnhancedWebAccessibility" msgid="1739881766522594073">"Vklopiti izboljšano dostopnost spleta za ljudi s posebnimi potrebami"</string>
     <string name="capability_desc_canRequestEnhancedWebAccessibility" msgid="7881063961507511765">"Za boljšo dostopnost vsebine aplikacije je mogoče namestiti skripte."</string>
     <string name="capability_title_canRequestFilterKeyEvents" msgid="2103440391902412174">"Opazovati besedilo, ki ga natipkate"</string>
@@ -659,7 +668,7 @@
     <string name="keyguard_password_enter_puk_code" msgid="4800725266925845333">"Vnesite kodo PUK in novo kodo PIN"</string>
     <string name="keyguard_password_enter_puk_prompt" msgid="1341112146710087048">"Koda PUK"</string>
     <string name="keyguard_password_enter_pin_prompt" msgid="8027680321614196258">"Nova koda PIN"</string>
-    <string name="keyguard_password_entry_touch_hint" msgid="7858547464982981384"><font size="17">"Dotaknite se za vnos gesla"</font></string>
+    <string name="keyguard_password_entry_touch_hint" msgid="2644215452200037944"><font size="17">"Dotaknite se za vnos gesla"</font></string>
     <string name="keyguard_password_enter_password_code" msgid="1054721668279049780">"Vnesite geslo za odklepanje"</string>
     <string name="keyguard_password_enter_pin_password_code" msgid="6391755146112503443">"Vnesite PIN za odklepanje"</string>
     <string name="keyguard_password_wrong_pin_code" msgid="2422225591006134936">"Napačna koda PIN."</string>
@@ -863,6 +872,55 @@
       <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> ure</item>
       <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> ur</item>
     </plurals>
+    <string name="now_string_shortest" msgid="8912796667087856402">"zdaj"</string>
+    <plurals name="duration_minutes_shortest" formatted="false" msgid="3957499975064245495">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
+    </plurals>
+    <plurals name="duration_hours_shortest" formatted="false" msgid="3552182110578602356">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> h</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> h</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> h</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> h</item>
+    </plurals>
+    <plurals name="duration_days_shortest" formatted="false" msgid="5213655532597081640">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> d</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> d</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> d</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> d</item>
+    </plurals>
+    <plurals name="duration_years_shortest" formatted="false" msgid="7848711145196397042">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> l</item>
+      <item quantity="two"><xliff:g id="COUNT_1">%d</xliff:g> l</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> l</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> l</item>
+    </plurals>
+    <plurals name="duration_minutes_shortest_future" formatted="false" msgid="3277614521231489951">
+      <item quantity="one">čez <xliff:g id="COUNT_1">%d</xliff:g> min</item>
+      <item quantity="two">čez <xliff:g id="COUNT_1">%d</xliff:g> min</item>
+      <item quantity="few">čez <xliff:g id="COUNT_1">%d</xliff:g> min</item>
+      <item quantity="other">čez <xliff:g id="COUNT_1">%d</xliff:g> min</item>
+    </plurals>
+    <plurals name="duration_hours_shortest_future" formatted="false" msgid="2152452368397489370">
+      <item quantity="one">čez <xliff:g id="COUNT_1">%d</xliff:g> h</item>
+      <item quantity="two">čez <xliff:g id="COUNT_1">%d</xliff:g> h</item>
+      <item quantity="few">čez <xliff:g id="COUNT_1">%d</xliff:g> h</item>
+      <item quantity="other">čez <xliff:g id="COUNT_1">%d</xliff:g> h</item>
+    </plurals>
+    <plurals name="duration_days_shortest_future" formatted="false" msgid="8088331502820295701">
+      <item quantity="one">čez <xliff:g id="COUNT_1">%d</xliff:g> d</item>
+      <item quantity="two">čez <xliff:g id="COUNT_1">%d</xliff:g> d</item>
+      <item quantity="few">čez <xliff:g id="COUNT_1">%d</xliff:g> d</item>
+      <item quantity="other">čez <xliff:g id="COUNT_1">%d</xliff:g> d</item>
+    </plurals>
+    <plurals name="duration_years_shortest_future" formatted="false" msgid="2317006667145250301">
+      <item quantity="one">čez <xliff:g id="COUNT_1">%d</xliff:g> l</item>
+      <item quantity="two">čez <xliff:g id="COUNT_1">%d</xliff:g> l</item>
+      <item quantity="few">čez <xliff:g id="COUNT_1">%d</xliff:g> l</item>
+      <item quantity="other">čez <xliff:g id="COUNT_1">%d</xliff:g> l</item>
+    </plurals>
     <string name="VideoView_error_title" msgid="3534509135438353077">"Težava z videoposnetkom"</string>
     <string name="VideoView_error_text_invalid_progressive_playback" msgid="3186670335938670444">"Ta videoposnetek ni veljaven za pretakanje v to napravo."</string>
     <string name="VideoView_error_text_unknown" msgid="3450439155187810085">"Tega videoposnetka ni mogoče predvajati."</string>
@@ -894,7 +952,7 @@
     <string name="low_internal_storage_view_text" msgid="6640505817617414371">"Nekatere sistemske funkcije morda ne delujejo"</string>
     <string name="low_internal_storage_view_text_no_boot" msgid="6935190099204693424">"V shrambi ni dovolj prostora za sistem. Sprostite 250 MB prostora in znova zaženite napravo."</string>
     <string name="app_running_notification_title" msgid="8718335121060787914">"<xliff:g id="APP_NAME">%1$s</xliff:g> se izvaja"</string>
-    <string name="app_running_notification_text" msgid="4653586947747330058">"Dotaknite se, če želite izvedeti več ali ustaviti aplikacijo."</string>
+    <string name="app_running_notification_text" msgid="1197581823314971177">"Dotaknite se, če želite izvedeti več ali ustaviti aplikacijo."</string>
     <string name="ok" msgid="5970060430562524910">"V redu"</string>
     <string name="cancel" msgid="6442560571259935130">"Prekliči"</string>
     <string name="yes" msgid="5362982303337969312">"V redu"</string>
@@ -961,12 +1019,14 @@
     <string name="android_upgrading_title" msgid="1584192285441405746">"Poteka nadgradnja Androida ..."</string>
     <string name="android_start_title" msgid="8418054686415318207">"Android se zaganja …"</string>
     <string name="android_upgrading_fstrim" msgid="8036718871534640010">"Optimiziranje shrambe."</string>
+    <string name="android_upgrading_notification_title" msgid="1619393112444671028">"Poteka nadgradnja Androida."</string>
+    <string name="android_upgrading_notification_body" msgid="5761201379457064286">"Nekatere aplikacije morda ne bodo delovale pravilno, dokler ne bo dokončana nadgradnja."</string>
     <string name="android_upgrading_apk" msgid="7904042682111526169">"Optimiranje aplikacije <xliff:g id="NUMBER_0">%1$d</xliff:g> od <xliff:g id="NUMBER_1">%2$d</xliff:g>."</string>
     <string name="android_preparing_apk" msgid="8162599310274079154">"Pripravljanje aplikacije <xliff:g id="APPNAME">%1$s</xliff:g>."</string>
     <string name="android_upgrading_starting_apps" msgid="451464516346926713">"Zagon aplikacij."</string>
     <string name="android_upgrading_complete" msgid="1405954754112999229">"Dokončevanje zagona."</string>
     <string name="heavy_weight_notification" msgid="9087063985776626166">"<xliff:g id="APP">%1$s</xliff:g> se izvaja"</string>
-    <string name="heavy_weight_notification_detail" msgid="1721681741617898865">"Dotaknite se, da preklopite na aplikacijo"</string>
+    <string name="heavy_weight_notification_detail" msgid="867643381388543170">"Dotaknite se, če želite preklopiti na aplikacijo"</string>
     <string name="heavy_weight_switcher_title" msgid="7153167085403298169">"Želite preklopiti aplikacije?"</string>
     <string name="heavy_weight_switcher_text" msgid="7022631924534406403">"Preden zaženete novo aplikacijo, ustavite izvajano."</string>
     <string name="old_app_action" msgid="493129172238566282">"Vrni se na <xliff:g id="OLD_APP">%1$s</xliff:g>"</string>
@@ -974,7 +1034,7 @@
     <string name="new_app_action" msgid="5472756926945440706">"Začni <xliff:g id="OLD_APP">%1$s</xliff:g>"</string>
     <string name="new_app_description" msgid="1932143598371537340">"Ustavi prejšnjo aplikacijo brez shranjevanja."</string>
     <string name="dump_heap_notification" msgid="2618183274836056542">"Proces <xliff:g id="PROC">%1$s</xliff:g> je presegel omejitev pomnilnika"</string>
-    <string name="dump_heap_notification_detail" msgid="2075673362317481664">"Izvoz kopice je zbran; dotaknite se za deljenje z drugimi"</string>
+    <string name="dump_heap_notification_detail" msgid="6901391084243999274">"Izvoz kopice je zbran; dotaknite se za deljenje z drugimi"</string>
     <string name="dump_heap_title" msgid="5864292264307651673">"Deljenje izvoza kopice z drugimi?"</string>
     <string name="dump_heap_text" msgid="4809417337240334941">"Proces <xliff:g id="PROC">%1$s</xliff:g> je presegel <xliff:g id="SIZE">%2$s</xliff:g> omejitve pomnilnika za proces. Izvoz kopice je na voljo, da ga delite z razvijalcem. Previdno: izvoz kopice lahko vsebuje vaše osebne podatke, do katerih ima aplikacija dostop."</string>
     <string name="sendText" msgid="5209874571959469142">"Izberite dejanje za besedilo"</string>
@@ -1014,7 +1074,7 @@
     <!-- no translation found for network_available_sign_in_detailed (8000081941447976118) -->
     <skip />
     <string name="wifi_no_internet" msgid="8451173622563841546">"Omrežje Wi-Fi nima dostopa do interneta"</string>
-    <string name="wifi_no_internet_detailed" msgid="7593858887662270131">"Dotaknite se za prikaz možnosti"</string>
+    <string name="wifi_no_internet_detailed" msgid="8083079241212301741">"Dotaknite se za možnosti"</string>
     <string name="wifi_watchdog_network_disabled" msgid="7904214231651546347">"Z omrežjem Wi-Fi se ni mogoče povezati"</string>
     <string name="wifi_watchdog_network_disabled_detailed" msgid="5548780776418332675">" ima slabo internetno povezavo."</string>
     <string name="wifi_connect_alert_title" msgid="8455846016001810172">"Ali dovolite vzpostavitev povezave?"</string>
@@ -1024,7 +1084,7 @@
     <string name="wifi_p2p_turnon_message" msgid="2909250942299627244">"Zaženite Wi-Fi Direct. S tem boste izklopili odjemalca/dostopno točko Wi-Fi."</string>
     <string name="wifi_p2p_failed_message" msgid="3763669677935623084">"Wi-Fi Direct ni bilo mogoče zagnati."</string>
     <string name="wifi_p2p_enabled_notification_title" msgid="2068321881673734886">"Wi-Fi Direct je vklopljen"</string>
-    <string name="wifi_p2p_enabled_notification_message" msgid="1638949953993894335">"Dotaknite se za nastavitve"</string>
+    <string name="wifi_p2p_enabled_notification_message" msgid="8064677407830620023">"Dotaknite se za nastavitve"</string>
     <string name="accept" msgid="1645267259272829559">"Sprejmem"</string>
     <string name="decline" msgid="2112225451706137894">"Zavrni"</string>
     <string name="wifi_p2p_invitation_sent_title" msgid="1318975185112070734">"Povabilo je poslano"</string>
@@ -1076,9 +1136,9 @@
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"USB za prenos fotografij"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"USB za MIDI"</string>
     <string name="usb_accessory_notification_title" msgid="7848236974087653666">"Priključen na dodatek USB"</string>
-    <string name="usb_notification_message" msgid="7347368030849048437">"Za več možnosti se dotaknite."</string>
+    <string name="usb_notification_message" msgid="3370903770828407960">"Dotaknite se za več možnosti."</string>
     <string name="adb_active_notification_title" msgid="6729044778949189918">"Iskanje in odpravljanje napak USB je povezano"</string>
-    <string name="adb_active_notification_message" msgid="1016654627626476142">"Dotaknite se, če želite onemogočiti iskanje in odpravljanje napak prek vrat USB."</string>
+    <string name="adb_active_notification_message" msgid="4948470599328424059">"Dotaknite se, če želite onemogočiti odpravljanje napak prek vrat USB."</string>
     <string name="taking_remote_bugreport_notification_title" msgid="6742483073875060934">"Zajemanje poročila o napakah …"</string>
     <string name="share_remote_bugreport_notification_title" msgid="4987095013583691873">"Želite poslati poročilo o napakah?"</string>
     <string name="sharing_remote_bugreport_notification_title" msgid="7572089031496651372">"Pošiljanje poročila o napakah …"</string>
@@ -1098,9 +1158,9 @@
     <string name="ext_media_new_notification_message" msgid="7589986898808506239">"Zaznana je bila nova shramba <xliff:g id="NAME">%s</xliff:g>"</string>
     <string name="ext_media_ready_notification_message" msgid="4083398150380114462">"Za prenos fotografij in predstavnosti"</string>
     <string name="ext_media_unmountable_notification_title" msgid="8295123366236989588">"Naprava za sh. <xliff:g id="NAME">%s</xliff:g> je poškodovana"</string>
-    <string name="ext_media_unmountable_notification_message" msgid="1586311304430052169">"Naprava za shranjevanje <xliff:g id="NAME">%s</xliff:g> je poškodovana. Dotaknite se za popravilo."</string>
+    <string name="ext_media_unmountable_notification_message" msgid="2343202057122495773">"Nosilec <xliff:g id="NAME">%s</xliff:g> je poškodovan. Dotaknite se, če želite odpraviti napako."</string>
     <string name="ext_media_unsupported_notification_title" msgid="3797642322958803257">"Nepodprta naprava za shran. <xliff:g id="NAME">%s</xliff:g>"</string>
-    <string name="ext_media_unsupported_notification_message" msgid="8789610369456474891">"Ta naprava ne podpira naprave za shranjevanje <xliff:g id="NAME">%s</xliff:g>. Dotaknite se za nastavitev v podprti obliki."</string>
+    <string name="ext_media_unsupported_notification_message" msgid="6121601473787888589">"Ta naprava ne podpira tega nosilca <xliff:g id="NAME">%s</xliff:g>. Dotaknite se, če želite nastaviti v podprti obliki."</string>
     <string name="ext_media_badremoval_notification_title" msgid="3206248947375505416">"Shramba <xliff:g id="NAME">%s</xliff:g> nepričak. odstranjena"</string>
     <string name="ext_media_badremoval_notification_message" msgid="380176703346946313">"Izpnite shrambo <xliff:g id="NAME">%s</xliff:g>, preden jo odstranite, da se izognete izgubi podatkov."</string>
     <string name="ext_media_nomedia_notification_title" msgid="1704840188641749091">"Shramba <xliff:g id="NAME">%s</xliff:g> je bila odstranjena"</string>
@@ -1136,7 +1196,7 @@
     <string name="permdesc_readInstallSessions" msgid="2049771699626019849">"Aplikaciji omogoča branje sej namestitev. Tako lahko bere podrobnosti o aktivnih namestitvah paketov."</string>
     <string name="permlab_requestInstallPackages" msgid="5782013576218172577">"zahtevanje paketov za namestitev"</string>
     <string name="permdesc_requestInstallPackages" msgid="5740101072486783082">"Aplikaciji omogoča zahtevanje namestitve paketov."</string>
-    <string name="tutorial_double_tap_to_zoom_message_short" msgid="4070433208160063538">"Dvakrat se dotaknite za nadzor povečave/pomanjšave"</string>
+    <string name="tutorial_double_tap_to_zoom_message_short" msgid="1311810005957319690">"Tapnite dvakrat za nadzor povečave/pomanjšave"</string>
     <string name="gadget_host_error_inflating" msgid="4882004314906466162">"Pripomočka ni bilo mogoče dodati."</string>
     <string name="ime_action_go" msgid="8320845651737369027">"Pojdi"</string>
     <string name="ime_action_search" msgid="658110271822807811">"Iskanje"</string>
@@ -1167,20 +1227,20 @@
     <string name="notification_ranker_binding_label" msgid="774540592299064747">"Storitev za določanje stopenj pomembnosti obvestil"</string>
     <string name="vpn_title" msgid="19615213552042827">"VPN aktiviran"</string>
     <string name="vpn_title_long" msgid="6400714798049252294">"VPN je aktivirala aplikacija <xliff:g id="APP">%s</xliff:g>"</string>
-    <string name="vpn_text" msgid="3011306607126450322">"Dotaknite se, če želite upravljati omrežje."</string>
-    <string name="vpn_text_long" msgid="6407351006249174473">"Vzpostavljena povezava s sejo <xliff:g id="SESSION">%s</xliff:g>. Dotaknite se, če želite upravljati omrežje."</string>
+    <string name="vpn_text" msgid="1610714069627824309">"Tapnite za upravljanje omrežja."</string>
+    <string name="vpn_text_long" msgid="4907843483284977618">"Povezan z mestom <xliff:g id="SESSION">%s</xliff:g>. Tapnite za upravljanje omrežja."</string>
     <string name="vpn_lockdown_connecting" msgid="6443438964440960745">"Povezovanje v stalno vklopljeno navidezno zasebno omrežje ..."</string>
     <string name="vpn_lockdown_connected" msgid="8202679674819213931">"Vzpostavljena povezava v stalno vklopljeno navidezno zasebno omrežje"</string>
     <string name="vpn_lockdown_error" msgid="6009249814034708175">"Napaka stalno vklopljenega navideznega zasebnega omrežja"</string>
-    <string name="vpn_lockdown_config" msgid="6415899150671537970">"Dotaknite se, če želite konfigurirati"</string>
+    <string name="vpn_lockdown_config" msgid="4655589351146766608">"Dotanite se, če želite konfigurirati"</string>
     <string name="upload_file" msgid="2897957172366730416">"Izberi datoteko"</string>
     <string name="no_file_chosen" msgid="6363648562170759465">"Nobena datoteka ni izbrana"</string>
     <string name="reset" msgid="2448168080964209908">"Ponastavi"</string>
     <string name="submit" msgid="1602335572089911941">"Pošlji"</string>
     <string name="car_mode_disable_notification_title" msgid="3164768212003864316">"Način delovanja za avtomobil je omogočen"</string>
-    <string name="car_mode_disable_notification_message" msgid="8035230537563503262">"Dotaknite se, če želite zapreti avtomobilski način."</string>
+    <string name="car_mode_disable_notification_message" msgid="6301524980144350051">"Dotaknite se, če želite zapreti avtomobilski način."</string>
     <string name="tethered_notification_title" msgid="3146694234398202601">"Aktivna povezava z internetom ali dostopna točka sta aktivni"</string>
-    <string name="tethered_notification_message" msgid="6857031760103062982">"Dotaknite se, da nastavite."</string>
+    <string name="tethered_notification_message" msgid="2113628520792055377">"Dotaknite se, če želite nastaviti."</string>
     <string name="back_button_label" msgid="2300470004503343439">"Nazaj"</string>
     <string name="next_button_label" msgid="1080555104677992408">"Naprej"</string>
     <string name="skip_button_label" msgid="1275362299471631819">"Preskoči"</string>
@@ -1215,7 +1275,7 @@
     <string name="add_account_button_label" msgid="3611982894853435874">"Dodaj račun"</string>
     <string name="number_picker_increment_button" msgid="2412072272832284313">"Več"</string>
     <string name="number_picker_decrement_button" msgid="476050778386779067">"Manj"</string>
-    <string name="number_picker_increment_scroll_mode" msgid="3073101067441638428">"Dotaknite se vrednosti <xliff:g id="VALUE">%s</xliff:g> in jo pridržite."</string>
+    <string name="number_picker_increment_scroll_mode" msgid="5259126567490114216">"Dotaknite se vrednosti <xliff:g id="VALUE">%s</xliff:g> in jo pridržite."</string>
     <string name="number_picker_increment_scroll_action" msgid="9101473045891835490">"Povlecite navzgor za povečanje in navzdol za zmanjšanje."</string>
     <string name="time_picker_increment_minute_button" msgid="8865885114028614321">"Povečanje vrednosti za minuto"</string>
     <string name="time_picker_decrement_minute_button" msgid="6246834937080684791">"Zmanjšanje vrednosti za minuto"</string>
@@ -1259,7 +1319,7 @@
     <string name="storage_usb" msgid="3017954059538517278">"Pomnilnik USB"</string>
     <string name="extract_edit_menu_button" msgid="8940478730496610137">"Uredi"</string>
     <string name="data_usage_warning_title" msgid="1955638862122232342">"Opozorilo o uporabi podatkov"</string>
-    <string name="data_usage_warning_body" msgid="2814673551471969954">"Dotaknite se za uporabo in nast."</string>
+    <string name="data_usage_warning_body" msgid="6660692274311972007">"Dot. se za ogled upor. in nast."</string>
     <string name="data_usage_3g_limit_title" msgid="4361523876818447683">"Dosežena pod. omejitev za 2G/3G"</string>
     <string name="data_usage_4g_limit_title" msgid="4609566827219442376">"Dosežena pod. omejitev za 4G"</string>
     <string name="data_usage_mobile_limit_title" msgid="557158376602636112">"Dosežena mobilna pod. omejitev"</string>
@@ -1271,7 +1331,7 @@
     <string name="data_usage_wifi_limit_snoozed_title" msgid="8743856006384825974">"Presež. omej. za podatke Wi-Fi"</string>
     <string name="data_usage_limit_snoozed_body" msgid="7035490278298441767">"Velikost <xliff:g id="SIZE">%s</xliff:g> presega omejitev"</string>
     <string name="data_usage_restricted_title" msgid="5965157361036321914">"Podatki v ozadju so omejeni"</string>
-    <string name="data_usage_restricted_body" msgid="6741521330997452990">"Dotaknite se, da odst. omejitev."</string>
+    <string name="data_usage_restricted_body" msgid="469866376337242726">"Dotaknite se za odstr. omejitve."</string>
     <string name="ssl_certificate" msgid="6510040486049237639">"Varnostno potrdilo"</string>
     <string name="ssl_certificate_is_valid" msgid="6825263250774569373">"To potrdilo je veljavno."</string>
     <string name="issued_to" msgid="454239480274921032">"Izdano za:"</string>
@@ -1489,8 +1549,8 @@
     <string name="select_year" msgid="7952052866994196170">"Izberite leto"</string>
     <string name="deleted_key" msgid="7659477886625566590">"Številka <xliff:g id="KEY">%1$s</xliff:g> je izbrisana"</string>
     <string name="managed_profile_label_badge" msgid="2355652472854327647">"<xliff:g id="LABEL">%1$s</xliff:g> za delo"</string>
-    <string name="lock_to_app_toast" msgid="7570091317001980053">"Če želite odpeti ta zaslon, se hkrati dotaknite tipk Nazaj in Pregled ter ju pridržite."</string>
-    <string name="lock_to_app_toast_accessible" msgid="8239120109365070664">"Če želite odpeti ta zaslon, se dotaknite tipke Pregled in jo pridržite."</string>
+    <string name="lock_to_app_toast" msgid="1420543809500606964">"Če želite odpeti ta zaslon, se dotaknite tipke za nazaj in jo pridržite."</string>
+    <string name="lock_to_app_toast_accessible" msgid="2302154926850846096">"Če želite odpeti ta zaslon, se dotaknite tipke za pregled in jo pridržite."</string>
     <string name="lock_to_app_toast_locked" msgid="9125176335701699164">"Aplikacija je pripeta: v tej napravi odpenjanje ni dovoljeno."</string>
     <string name="lock_to_app_start" msgid="6643342070839862795">"Zaslon je pripet"</string>
     <string name="lock_to_app_exit" msgid="8598219838213787430">"Zaslon je odpet"</string>
@@ -1501,8 +1561,9 @@
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Posodobil skrbnik"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Izbrisal skrbnik"</string>
     <string name="battery_saver_description" msgid="1960431123816253034">"Varčevanje z energijo akumulatorja podaljša čas njegovega delovanja tako, da zmanjša zmogljivost delovanja naprave in omeji vibriranje, lokacijske storitve ter prenos večine podatkov v ozadju. Aplikacije za e-pošto, sporočanje in drugo, ki uporabljajo sinhroniziranje, se morda ne posodabljajo, razen če jih odprete.\n\nVarčevanje z energijo akumulatorja se samodejno izklopi med polnjenjem akumulatorja naprave."</string>
-    <!-- no translation found for data_saver_description (6015391409098303235) -->
-    <skip />
+    <string name="data_saver_description" msgid="6015391409098303235">"Zaradi zmanjševanja prenesene količine podatkov varčevanje s podatki nekaterim aplikacijam preprečuje, da bi v ozadju pošiljale ali prejemale podatke. Aplikacija, ki jo trenutno uporabljate, lahko dostopa do podatkov, vendar to morda lahko počne manj pogosto. To na primer morda pomeni, da se slike ne prikažejo, dokler se jih ne dotaknete."</string>
+    <string name="data_saver_enable_title" msgid="4674073932722787417">"Vklop varčevanja s podatki?"</string>
+    <string name="data_saver_enable_button" msgid="7147735965247211818">"Vklop"</string>
     <plurals name="zen_mode_duration_minutes_summary" formatted="false" msgid="4367877408072000848">
       <item quantity="one">%d minuto (do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
       <item quantity="two">%d minuti (do <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>

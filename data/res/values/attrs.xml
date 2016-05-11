@@ -3499,7 +3499,7 @@ i
              property is set to true by default but should be set to false if your adapter
              will display items of varying heights. When this property is set to true and
              your adapter displays items of varying heights, the scrollbar thumb will
-             change size as the user scrolls through the list. When set to fale, the list
+             change size as the user scrolls through the list. When set to false, the list
              will use only the number of items in the adapter and the number of items visible
              on screen to determine the scrollbar's properties. -->
         <attr name="smoothScrollbar" format="boolean" />
@@ -8083,11 +8083,11 @@ i
         <attr name="settingsActivity" />
         <!-- Attribute whether the TV input service can record programs. This value can be changed
              at runtime by calling
-             {@link android.media.tv.TvInputService#updateTvInputInfo(android.content.Context, android.media.tv.TvInputInfo)}. -->
+             {@link android.media.tv.TvInputManager#updateTvInputInfo(android.media.tv.TvInputInfo)}. -->
         <attr name="canRecord" format="boolean" />
         <!-- The number of tuners that the TV input service is associated with. This value can be
              changed at runtime by calling
-             {@link android.media.tv.TvInputService#updateTvInputInfo(android.content.Context, android.media.tv.TvInputInfo)}. -->
+             {@link android.media.tv.TvInputManager#updateTvInputInfo(android.media.tv.TvInputInfo)}. -->
         <attr name="tunerCount" format="integer" />
     </declare-styleable>
 
@@ -8132,6 +8132,10 @@ i
     <declare-styleable name="MessagingLinearLayout">
         <attr name="maxHeight" />
         <attr name="spacing" />
+    </declare-styleable>
+
+    <declare-styleable name="DateTimeView">
+        <attr name="showRelative" format="boolean" />
     </declare-styleable>
 
     <declare-styleable name="ResolverDrawerLayout_LayoutParams">

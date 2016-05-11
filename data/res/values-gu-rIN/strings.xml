@@ -124,11 +124,15 @@
     <string name="roamingTextSearching" msgid="8360141885972279963">"સેવા શોધી રહ્યું છે"</string>
     <string name="wfcRegErrorTitle" msgid="2301376280632110664">"Wi-Fi કૉલિંગ"</string>
   <string-array name="wfcOperatorErrorAlertMessages">
+    <item msgid="2254967670088539682">"Wi-Fi પર કૉલ્સ કરવા અને સંદેશા મોકલવા માટે, પહેલા તમારા કેરીઅરને આ સેવા સેટ કરવા માટે કહો. પછી સેટિંગ્સમાંથી Wi-Fi કૉલિંગ ચાલુ કરો."</item>
   </string-array>
   <string-array name="wfcOperatorErrorNotificationMessages">
+    <item msgid="6177300162212449033">"તમારા કેરીઅર સાથે નોંધણી કરો"</item>
   </string-array>
-    <string name="wfcSpnFormat" msgid="8211621332478306568">"%s"</string>
-    <string name="wfcDataSpnFormat" msgid="1118052028767666883">"%s"</string>
+  <string-array name="wfcSpnFormats">
+    <item msgid="6830082633573257149">"%s"</item>
+    <item msgid="4397097370387921767">"%s Wi-Fi કૉલિંગ"</item>
+  </string-array>
     <string name="wifi_calling_off_summary" msgid="8720659586041656098">"બંધ"</string>
     <string name="wfc_mode_wifi_preferred_summary" msgid="1994113411286935263">"Wi-Fi પસંદ કર્યું"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="5920549484600758786">"સેલ્યુલર પસંદ કર્યું"</string>
@@ -164,7 +168,10 @@
     <string name="low_memory" product="watch" msgid="4415914910770005166">"ઘડિયાળ સ્ટોરેજ પૂર્ણ ભરેલું છે. સ્થાન ખાલી કરવા માટે કેટલીક ફાઇલો કાઢી નાખો."</string>
     <string name="low_memory" product="tv" msgid="516619861191025923">"TV સ્ટોરેજ પૂર્ણ ભરેલું છે. સ્થાન ખાલી કરવા માટે કેટલીક ફાઇલો કાઢી નાખો."</string>
     <string name="low_memory" product="default" msgid="3475999286680000541">"ફોન સ્ટોરેજ પૂર્ણ ભરેલું છે. સ્થાન ખાલી કરવા માટે કેટલીક ફાઇલો કાઢી નાખો."</string>
-    <!-- no translation found for ssl_ca_cert_warning (5106721205300213569) -->
+    <plurals name="ssl_ca_cert_warning" formatted="false" msgid="5106721205300213569">
+      <item quantity="one">પ્રમાણપત્ર સત્તાધિકારી ઇન્સ્ટૉલ કર્યા</item>
+      <item quantity="other">પ્રમાણપત્ર સત્તાધિકારી ઇન્સ્ટૉલ કર્યા</item>
+    </plurals>
     <string name="ssl_ca_cert_noti_by_unknown" msgid="4475437862189850602">"અજાણ તૃતીય પક્ષ દ્વારા"</string>
     <string name="ssl_ca_cert_noti_by_administrator" msgid="550758088185764312">"તમારા કાર્ય પ્રોફાઇલ વ્યવસ્થાપક દ્વારા"</string>
     <string name="ssl_ca_cert_noti_managed" msgid="4030263497686867141">"<xliff:g id="MANAGING_DOMAIN">%s</xliff:g> દ્વારા"</string>
@@ -211,9 +218,9 @@
     <string name="bugreport_title" msgid="2667494803742548533">"બગ રિપોર્ટ લો"</string>
     <string name="bugreport_message" msgid="398447048750350456">"આ, એક ઇ-મેઇલ સંદેશ તરીકે મોકલવા માટે, તમારા વર્તમાન ઉપકરણ સ્થિતિ વિશેની માહિતી એકત્રિત કરશે. એક બગ રિપોર્ટ પ્રારંભ કરીને તે મોકલવા માટે તૈયાર ન થઈ જાય ત્યાં સુધી તેમાં થોડો સમય લાગશે; કૃપા કરીને ધીરજ રાખો."</string>
     <string name="bugreport_option_interactive_title" msgid="8635056131768862479">"ક્રિયાપ્રતિક્રિયાત્મક રિપોર્ટ"</string>
-    <string name="bugreport_option_interactive_summary" msgid="8180152634022797629">"મોટાભાગના સંજોગોમાં આનો ઉપયોગ કરો. તે રિપોર્ટની પ્રગતિને ટ્રૅક કરવા અમે સમસ્યા વિશે વધુ વિગતો દાખલ કરવાની મંજૂરી આપે છે. તે કેટલાંક ઓછા ઉપયોગમાં આવતા વિભાગો કે જે જાણ કરવામાં વધુ સમય લેતા હોય તેને છોડી દઈ શકે છે."</string>
+    <string name="bugreport_option_interactive_summary" msgid="229299488536107968">"મોટાભાગના સંજોગોમાં આનો ઉપયોગ કરો. તે રિપોર્ટની પ્રગતિને ટ્રૅક કરવા, સમસ્યા વિશે વધુ વિગતો દાખલ કરવાની અને સ્ક્રીનશૉટ્સ લેવાની મંજૂરી આપે છે. તે કેટલાક ઓછા ઉપયોગમાં આવતાં વિભાગો કે જે જાણ કરવામાં વધુ સમય લેતાં હોય તેને છોડી દઈ શકે છે."</string>
     <string name="bugreport_option_full_title" msgid="6354382025840076439">"પૂર્ણ રિપોર્ટ"</string>
-    <string name="bugreport_option_full_summary" msgid="6687306111256813257">"જ્યારે તમારું ઉપકરણ પ્રતિભાવવિહીન અથવા ખૂબ ધીમું હોય અથવા જ્યારે તમને બધા રિપોર્ટ વિભાગોની જરૂર પડે ત્યારે ન્યૂનતમ સિસ્ટમ હસ્તક્ષેપ માટે આ વિકલ્પનો ઉપયોગ કરો. સ્ક્રીનશોટ લેવાની અથવા વધુ વિગતો દાખલ કરવાની તમને મંજૂરી આપતું નથી."</string>
+    <string name="bugreport_option_full_summary" msgid="7210859858969115745">"જ્યારે તમારું ઉપકરણ પ્રતિભાવવિહીન અથવા ખૂબ ધીમું હોય અથવા જ્યારે તમને બધા રિપોર્ટ વિભાગોની જરૂર પડે ત્યારે ન્યૂનતમ સિસ્ટમ હસ્તક્ષેપ માટે આ વિકલ્પનો ઉપયોગ કરો. વધુ વિગતો દાખલ કરવાની અથવા વધારાના સ્ક્રીનશૉટ્સ લેવાની તમને મંજૂરી આપતું નથી."</string>
     <plurals name="bugreport_countdown" formatted="false" msgid="6878900193900090368">
       <item quantity="one">બગ રિપોર્ટ માટે <xliff:g id="NUMBER_1">%d</xliff:g> સેકન્ડમાં સ્ક્રીનશોટ લઈ રહ્યાં છે.</item>
       <item quantity="other">બગ રિપોર્ટ માટે <xliff:g id="NUMBER_1">%d</xliff:g> સેકન્ડમાં સ્ક્રીનશોટ લઈ રહ્યાં છે.</item>
@@ -256,7 +263,7 @@
     <string name="capability_title_canRetrieveWindowContent" msgid="3901717936930170320">"વિંડો સામગ્રી પુનર્પ્રાપ્ત કરો"</string>
     <string name="capability_desc_canRetrieveWindowContent" msgid="3772225008605310672">"તમે જેની સાથે ક્રિયાપ્રતિક્રિયા કરી રહ્યાં છો તે વિંડોની સામગ્રીની તપાસ કરો."</string>
     <string name="capability_title_canRequestTouchExploration" msgid="3108723364676667320">"ટચ કરીને અન્વેષણ કરો સક્ષમ કરો"</string>
-    <string name="capability_desc_canRequestTouchExploration" msgid="5800552516779249356">"ટચ કરેલ આઇટમ્સ મોટેથી બોલવામાં આવશે અને હાવભાવની મદદથી સ્ક્રીનનું અન્વેષણ કરી શકાય છે."</string>
+    <string name="capability_desc_canRequestTouchExploration" msgid="7543249041581408313">"ટૅપ કરેલ આઇટમ્સ મોટેથી બોલવામાં આવશે અને હાવભાવની મદદથી સ્ક્રીનનું અન્વેષણ કરી શકાય છે."</string>
     <string name="capability_title_canRequestEnhancedWebAccessibility" msgid="1739881766522594073">"વિસ્તૃત વેબ ઍક્સેસિબિલિટી ચાલુ કરો"</string>
     <string name="capability_desc_canRequestEnhancedWebAccessibility" msgid="7881063961507511765">"એપ્લિકેશન સામગ્રીને વધુ ઍક્સેસિબલ બનાવવા માટે સ્ક્રિપ્ટ્સ ઇન્સ્ટોલ કરી શકાય છે."</string>
     <string name="capability_title_canRequestFilterKeyEvents" msgid="2103440391902412174">"તમે લખો તે ટેક્સ્ટનું અવલોકન કરો"</string>
@@ -655,7 +662,7 @@
     <string name="keyguard_password_enter_puk_code" msgid="4800725266925845333">"PUK અને નવો PIN કોડ લખો"</string>
     <string name="keyguard_password_enter_puk_prompt" msgid="1341112146710087048">"PUK કોડ"</string>
     <string name="keyguard_password_enter_pin_prompt" msgid="8027680321614196258">"નવો PIN કોડ"</string>
-    <string name="keyguard_password_entry_touch_hint" msgid="7858547464982981384"><font size="17">"પાસવર્ડ લખવા માટે ટચ કરો"</font></string>
+    <string name="keyguard_password_entry_touch_hint" msgid="2644215452200037944"><font size="17">"પાસવર્ડ ટાઇપ કરવા માટે ટૅપ કરો"</font></string>
     <string name="keyguard_password_enter_password_code" msgid="1054721668279049780">"અનલૉક કરવા માટે પાસવર્ડ લખો"</string>
     <string name="keyguard_password_enter_pin_password_code" msgid="6391755146112503443">"અનલૉક કરવા માટે PIN લખો"</string>
     <string name="keyguard_password_wrong_pin_code" msgid="2422225591006134936">"ખોટો PIN કોડ."</string>
@@ -851,6 +858,39 @@
       <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> કલાક</item>
       <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> કલાક</item>
     </plurals>
+    <string name="now_string_shortest" msgid="8912796667087856402">"હમણાં"</string>
+    <plurals name="duration_minutes_shortest" formatted="false" msgid="3957499975064245495">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g>મિ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>મિ</item>
+    </plurals>
+    <plurals name="duration_hours_shortest" formatted="false" msgid="3552182110578602356">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g>ક</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>ક</item>
+    </plurals>
+    <plurals name="duration_days_shortest" formatted="false" msgid="5213655532597081640">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g>દિ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>દિ</item>
+    </plurals>
+    <plurals name="duration_years_shortest" formatted="false" msgid="7848711145196397042">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g>વ</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>વ</item>
+    </plurals>
+    <plurals name="duration_minutes_shortest_future" formatted="false" msgid="3277614521231489951">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g>મિ. માં</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>મિ. માં</item>
+    </plurals>
+    <plurals name="duration_hours_shortest_future" formatted="false" msgid="2152452368397489370">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g>ક. માં</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>ક. માં</item>
+    </plurals>
+    <plurals name="duration_days_shortest_future" formatted="false" msgid="8088331502820295701">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g>દિ. માં</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>દિ. માં</item>
+    </plurals>
+    <plurals name="duration_years_shortest_future" formatted="false" msgid="2317006667145250301">
+      <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g>વ. માં</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>વ. માં</item>
+    </plurals>
     <string name="VideoView_error_title" msgid="3534509135438353077">"વિડિઓમાં સમસ્યા"</string>
     <string name="VideoView_error_text_invalid_progressive_playback" msgid="3186670335938670444">"આ ઉપકરણ પર સ્ટ્રીમ કરવા માટે આ વિડિઓ માન્ય નથી."</string>
     <string name="VideoView_error_text_unknown" msgid="3450439155187810085">"આ વિડિઓ ચલાવી શકતાં નથી."</string>
@@ -882,7 +922,7 @@
     <string name="low_internal_storage_view_text" msgid="6640505817617414371">"કેટલાક સિસ્ટમ કાર્યો કામ કરી શકશે નહીં"</string>
     <string name="low_internal_storage_view_text_no_boot" msgid="6935190099204693424">"સિસ્ટમ માટે પર્યાપ્ત સ્ટોરેજ નથી. ખાતરી કરો કે તમારી પાસે 250MB ખાલી સ્થાન છે અને ફરીથી પ્રારંભ કરો."</string>
     <string name="app_running_notification_title" msgid="8718335121060787914">"<xliff:g id="APP_NAME">%1$s</xliff:g> ચાલી રહી છે"</string>
-    <string name="app_running_notification_text" msgid="4653586947747330058">"વધુ માહિતી માટે અથવા એપ્લિકેશન રોકવા માટે ટચ કરો."</string>
+    <string name="app_running_notification_text" msgid="1197581823314971177">"વધુ માહિતી માટે અથવા એપ્લિકેશન રોકવા માટે ટૅપ કરો."</string>
     <string name="ok" msgid="5970060430562524910">"ઑકે"</string>
     <string name="cancel" msgid="6442560571259935130">"રદ કરો"</string>
     <string name="yes" msgid="5362982303337969312">"ઑકે"</string>
@@ -949,12 +989,14 @@
     <string name="android_upgrading_title" msgid="1584192285441405746">"Android અપગ્રેડ થઈ રહ્યું છે..."</string>
     <string name="android_start_title" msgid="8418054686415318207">"Android પ્રારંભ થઈ રહ્યું છે…"</string>
     <string name="android_upgrading_fstrim" msgid="8036718871534640010">"સંગ્રહ ઓપ્ટિમાઇઝ કરી રહ્યું છે."</string>
+    <string name="android_upgrading_notification_title" msgid="1619393112444671028">"Android અપગ્રેડ થઈ રહ્યું છે"</string>
+    <string name="android_upgrading_notification_body" msgid="5761201379457064286">"અપગ્રેડ સમાપ્ત ન થાય ત્યાં સુધી કેટલીક ઍપ્લિકેશનો કદાચ યોગ્ય રીતે કામ ન કરે"</string>
     <string name="android_upgrading_apk" msgid="7904042682111526169">"<xliff:g id="NUMBER_1">%2$d</xliff:g> માંથી <xliff:g id="NUMBER_0">%1$d</xliff:g> એપ્લિકેશન ઓપ્ટિમાઇઝ કરી રહ્યું છે."</string>
     <string name="android_preparing_apk" msgid="8162599310274079154">"<xliff:g id="APPNAME">%1$s</xliff:g> તૈયાર કરી રહ્યું છે."</string>
     <string name="android_upgrading_starting_apps" msgid="451464516346926713">"એપ્લિકેશનો શરૂ કરી રહ્યાં છે."</string>
     <string name="android_upgrading_complete" msgid="1405954754112999229">"બૂટ સમાપ્ત કરી રહ્યાં છે."</string>
     <string name="heavy_weight_notification" msgid="9087063985776626166">"<xliff:g id="APP">%1$s</xliff:g> ચાલુ છે"</string>
-    <string name="heavy_weight_notification_detail" msgid="1721681741617898865">"એપ્લિકેશન પર સ્વિચ કરવા માટે ટચ કરો"</string>
+    <string name="heavy_weight_notification_detail" msgid="867643381388543170">"ઍપ્લિકેશન પર સ્વિચ કરવા માટે ટૅપ કરો"</string>
     <string name="heavy_weight_switcher_title" msgid="7153167085403298169">"એપ્લિકેશન્સને સ્વિચ કરીએ?"</string>
     <string name="heavy_weight_switcher_text" msgid="7022631924534406403">"પહેલાંથી ચાલી રહેલ બીજી એપ્લિકેશનને તમે નવી પ્રારંભ કરો તે પહેલાં બંધ કરવી આવશ્યક છે."</string>
     <string name="old_app_action" msgid="493129172238566282">"<xliff:g id="OLD_APP">%1$s</xliff:g> પર પાછા ફરો"</string>
@@ -962,7 +1004,7 @@
     <string name="new_app_action" msgid="5472756926945440706">"<xliff:g id="OLD_APP">%1$s</xliff:g> ને પ્રારંભ કરો"</string>
     <string name="new_app_description" msgid="1932143598371537340">"જૂની એપ્લિકેશનને સાચવ્યાં વગર રોકો."</string>
     <string name="dump_heap_notification" msgid="2618183274836056542">"<xliff:g id="PROC">%1$s</xliff:g> એ મેમરી સીમા વટાવી"</string>
-    <string name="dump_heap_notification_detail" msgid="2075673362317481664">"હીપ ડમ્પ ભેગો કરવામાં આવ્યો છે; શેર કરવા માટે ટચ કરો"</string>
+    <string name="dump_heap_notification_detail" msgid="6901391084243999274">"હીપ ડમ્પ ભેગો કરવામાં આવ્યો છે; શેર કરવા માટે ટૅપ કરો"</string>
     <string name="dump_heap_title" msgid="5864292264307651673">"હીપ ડમ્પ શેર કરીએ?"</string>
     <string name="dump_heap_text" msgid="4809417337240334941">"પ્રક્રિયા <xliff:g id="PROC">%1$s</xliff:g> એ તેની <xliff:g id="SIZE">%2$s</xliff:g> ની પ્રક્રિયા મેમરી મર્યાદા ઓળંગી. તેના વિકાસકર્તા સાથે શેર કરવા તમારી માટે એક હીપ ડમ્પ ઉપલબ્ધ છે. સાવચેત રહો: આ હીપ ડમ્પમાં તમારી વ્યક્તિગત માહિતી શામેલ હોઈ શકે છે કે જેની એપ્લિકેશનને ઍક્સેસ છે."</string>
     <string name="sendText" msgid="5209874571959469142">"ટેક્સ્ટ માટે ક્રિયા પસંદ કરો"</string>
@@ -998,7 +1040,7 @@
     <!-- no translation found for network_available_sign_in_detailed (8000081941447976118) -->
     <skip />
     <string name="wifi_no_internet" msgid="8451173622563841546">"Wi-Fi ને કોઈ ઇન્ટરનેટ ઍક્સેસ નથી"</string>
-    <string name="wifi_no_internet_detailed" msgid="7593858887662270131">"વિકલ્પો માટે ટચ કરો"</string>
+    <string name="wifi_no_internet_detailed" msgid="8083079241212301741">"વિકલ્પો માટે ટૅપ કરો"</string>
     <string name="wifi_watchdog_network_disabled" msgid="7904214231651546347">"Wi-Fi સાથે કનેક્ટ કરી શકાયું નથી"</string>
     <string name="wifi_watchdog_network_disabled_detailed" msgid="5548780776418332675">" નબળું ઇન્ટરનેટ કનેક્શન ધરાવે છે."</string>
     <string name="wifi_connect_alert_title" msgid="8455846016001810172">"કનેક્શનની મંજૂરી આપીએ?"</string>
@@ -1008,7 +1050,7 @@
     <string name="wifi_p2p_turnon_message" msgid="2909250942299627244">"Wi-Fi Direct પ્રારંભ કરો. આ Wi-Fi ક્લાઇન્ટ/હોટસ્પોટને બંધ કરશે."</string>
     <string name="wifi_p2p_failed_message" msgid="3763669677935623084">"Wi-Fi Direct પ્રારંભ કરી શકાયું નથી."</string>
     <string name="wifi_p2p_enabled_notification_title" msgid="2068321881673734886">"Wi-Fi Direct ચાલુ છે"</string>
-    <string name="wifi_p2p_enabled_notification_message" msgid="1638949953993894335">"સેટિંગ્સ માટે ટચ કરો"</string>
+    <string name="wifi_p2p_enabled_notification_message" msgid="8064677407830620023">"સેટિંગ્સ માટે ટૅપ કરો"</string>
     <string name="accept" msgid="1645267259272829559">"સ્વીકારો"</string>
     <string name="decline" msgid="2112225451706137894">"નકારો"</string>
     <string name="wifi_p2p_invitation_sent_title" msgid="1318975185112070734">"આમંત્રણ મોકલ્યું"</string>
@@ -1060,9 +1102,9 @@
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"ફોટા ટ્રાન્સફર માટે USB"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"MIDI માટે USB"</string>
     <string name="usb_accessory_notification_title" msgid="7848236974087653666">"USB ઍક્સેસરીથી કનેક્ટ થયાં"</string>
-    <string name="usb_notification_message" msgid="7347368030849048437">"વધુ વિકલ્પો માટે ટચ કરો."</string>
+    <string name="usb_notification_message" msgid="3370903770828407960">"વધુ વિકલ્પો માટે ટચ કરો."</string>
     <string name="adb_active_notification_title" msgid="6729044778949189918">"USB ડીબગિંગ કનેક્ટ થયું."</string>
-    <string name="adb_active_notification_message" msgid="1016654627626476142">"USB ડીબગિંગ અક્ષમ કરવા માટે ટચ કરો."</string>
+    <string name="adb_active_notification_message" msgid="4948470599328424059">"USB ડીબગિંગ અક્ષમ કરવા માટે ટૅપ કરો."</string>
     <string name="taking_remote_bugreport_notification_title" msgid="6742483073875060934">"બગ રિપોર્ટ લઈ રહ્યાં છે…"</string>
     <string name="share_remote_bugreport_notification_title" msgid="4987095013583691873">"બગ રિપોર્ટ શેર કરીએ?"</string>
     <string name="sharing_remote_bugreport_notification_title" msgid="7572089031496651372">"બગ રિપોર્ટ શેર કરી રહ્યાં છે…"</string>
@@ -1082,9 +1124,9 @@
     <string name="ext_media_new_notification_message" msgid="7589986898808506239">"નવું <xliff:g id="NAME">%s</xliff:g> મળ્યું"</string>
     <string name="ext_media_ready_notification_message" msgid="4083398150380114462">"ફોટા અને મીડિયા સ્થાનાંતરિત કરવા માટે"</string>
     <string name="ext_media_unmountable_notification_title" msgid="8295123366236989588">"દૂષિત <xliff:g id="NAME">%s</xliff:g>"</string>
-    <string name="ext_media_unmountable_notification_message" msgid="1586311304430052169">"<xliff:g id="NAME">%s</xliff:g> દૂષિત છે. ફિક્સ કરવા માટે ટચ કરો."</string>
+    <string name="ext_media_unmountable_notification_message" msgid="2343202057122495773">"<xliff:g id="NAME">%s</xliff:g> દૂષિત છે. ઠીક કરવા માટે ટૅપ કરો."</string>
     <string name="ext_media_unsupported_notification_title" msgid="3797642322958803257">"અસમર્થિત <xliff:g id="NAME">%s</xliff:g>"</string>
-    <string name="ext_media_unsupported_notification_message" msgid="8789610369456474891">"આ ઉપકરણ આ <xliff:g id="NAME">%s</xliff:g> નું સમર્થન કરતું નથી. સમર્થિત ફોર્મેટમાં સેટ કરવા માટે ટચ કરો."</string>
+    <string name="ext_media_unsupported_notification_message" msgid="6121601473787888589">"આ ઉપકરણ આ <xliff:g id="NAME">%s</xliff:g> નું સમર્થન કરતું નથી. સમર્થિત ફોર્મેટમાં સેટ કરવા માટે ટૅપ કરો."</string>
     <string name="ext_media_badremoval_notification_title" msgid="3206248947375505416">"<xliff:g id="NAME">%s</xliff:g> અનપેક્ષિત રીતે દૂર કર્યું"</string>
     <string name="ext_media_badremoval_notification_message" msgid="380176703346946313">"ડેટા નુકસાનને ટાળવા માટે <xliff:g id="NAME">%s</xliff:g> ને દૂર કરતાં પહેલાં અનમાઉન્ટ કરો."</string>
     <string name="ext_media_nomedia_notification_title" msgid="1704840188641749091">"<xliff:g id="NAME">%s</xliff:g> દૂર કર્યું"</string>
@@ -1120,7 +1162,8 @@
     <string name="permdesc_readInstallSessions" msgid="2049771699626019849">"એપ્લિકેશનને ઇન્સ્ટોલ સત્રોને વાંચવાની મંજૂરી આપે છે. આ તેને સક્રિય પૅકેજ ઇન્સ્ટોલેશન્સ વિશે વિગતો જોવાની મંજૂરી આપે છે."</string>
     <string name="permlab_requestInstallPackages" msgid="5782013576218172577">"પૅકેજેસ ઇન્સ્ટૉલ કરવાની વિનંતી કરો"</string>
     <string name="permdesc_requestInstallPackages" msgid="5740101072486783082">"એપ્લિકેશનને પૅકેજેસના ઇન્સ્ટોલેશનની વિનંતી કરવાની મંજૂરી આપો."</string>
-    <string name="tutorial_double_tap_to_zoom_message_short" msgid="4070433208160063538">"ઝૂમ નિયંત્રણ માટે બેવાર ટચ કરો"</string>
+    <!-- no translation found for tutorial_double_tap_to_zoom_message_short (1311810005957319690) -->
+    <skip />
     <string name="gadget_host_error_inflating" msgid="4882004314906466162">"વિજેટ ઉમેરી શકાયું નથી."</string>
     <string name="ime_action_go" msgid="8320845651737369027">"જાઓ"</string>
     <string name="ime_action_search" msgid="658110271822807811">"શોધો"</string>
@@ -1151,20 +1194,22 @@
     <string name="notification_ranker_binding_label" msgid="774540592299064747">"સૂચના રેંકર સેવા"</string>
     <string name="vpn_title" msgid="19615213552042827">"VPN સક્રિય કર્યું"</string>
     <string name="vpn_title_long" msgid="6400714798049252294">"<xliff:g id="APP">%s</xliff:g> દ્વારા VPN સક્રિય થયું"</string>
-    <string name="vpn_text" msgid="3011306607126450322">"નેટવર્કને સંચાલિત કરવા માટે ટચ કરો."</string>
-    <string name="vpn_text_long" msgid="6407351006249174473">"<xliff:g id="SESSION">%s</xliff:g> થી કનેક્ટ થયાં. નેટવર્ક સંચાલિત કરવા માટે ટચ કરો."</string>
+    <!-- no translation found for vpn_text (1610714069627824309) -->
+    <skip />
+    <!-- no translation found for vpn_text_long (4907843483284977618) -->
+    <skip />
     <string name="vpn_lockdown_connecting" msgid="6443438964440960745">"હંમેશા-ચાલુ VPN કનેક્ટ થઈ રહ્યું છે…"</string>
     <string name="vpn_lockdown_connected" msgid="8202679674819213931">"હંમેશા-ચાલુ VPN કનેક્ટ થયું"</string>
     <string name="vpn_lockdown_error" msgid="6009249814034708175">"હંમેશાં ચાલુ VPN ભૂલ"</string>
-    <string name="vpn_lockdown_config" msgid="6415899150671537970">"ગોઠવવા માટે ટચ કરો"</string>
+    <string name="vpn_lockdown_config" msgid="4655589351146766608">"ગોઠવવા માટે ટૅપ કરો"</string>
     <string name="upload_file" msgid="2897957172366730416">"ફાઇલ પસંદ કરો"</string>
     <string name="no_file_chosen" msgid="6363648562170759465">"કોઈ ફાઇલ પસંદ કરેલી નથી"</string>
     <string name="reset" msgid="2448168080964209908">"ફરીથી સેટ કરો"</string>
     <string name="submit" msgid="1602335572089911941">"સબમિટ કરો"</string>
     <string name="car_mode_disable_notification_title" msgid="3164768212003864316">"કાર મોડ સક્ષમ છે"</string>
-    <string name="car_mode_disable_notification_message" msgid="8035230537563503262">"કાર મોડથી બહાર નીકળવા માટે ટચ કરો."</string>
+    <string name="car_mode_disable_notification_message" msgid="6301524980144350051">"કાર મોડથી બહાર નીકળવા માટે ટૅપ કરો."</string>
     <string name="tethered_notification_title" msgid="3146694234398202601">"ટિથરિંગ અથવા હોટસ્પોટ સક્રિય"</string>
-    <string name="tethered_notification_message" msgid="6857031760103062982">"સેટ કરવા માટે ટચ કરો."</string>
+    <string name="tethered_notification_message" msgid="2113628520792055377">"સેટ કરવા માટે ટૅપ કરો."</string>
     <string name="back_button_label" msgid="2300470004503343439">"પાછળ"</string>
     <string name="next_button_label" msgid="1080555104677992408">"આગલું"</string>
     <string name="skip_button_label" msgid="1275362299471631819">"છોડો"</string>
@@ -1197,7 +1242,7 @@
     <string name="add_account_button_label" msgid="3611982894853435874">"એકાઉન્ટ ઉમેરો"</string>
     <string name="number_picker_increment_button" msgid="2412072272832284313">"વધારો"</string>
     <string name="number_picker_decrement_button" msgid="476050778386779067">"ઘટાડો"</string>
-    <string name="number_picker_increment_scroll_mode" msgid="3073101067441638428">"<xliff:g id="VALUE">%s</xliff:g> ટચ કરો અને પકડી રાખો."</string>
+    <string name="number_picker_increment_scroll_mode" msgid="5259126567490114216">"<xliff:g id="VALUE">%s</xliff:g> ટચ કરો અને પકડી રાખો."</string>
     <string name="number_picker_increment_scroll_action" msgid="9101473045891835490">"વધારવા માટે ઉપર અને ઘટાડવા માટે નીચે સ્લાઇડ કરો."</string>
     <string name="time_picker_increment_minute_button" msgid="8865885114028614321">"મિનિટ વધારો"</string>
     <string name="time_picker_decrement_minute_button" msgid="6246834937080684791">"મિનિટ ઘટાડો"</string>
@@ -1241,7 +1286,7 @@
     <string name="storage_usb" msgid="3017954059538517278">"USB સંગ્રહ"</string>
     <string name="extract_edit_menu_button" msgid="8940478730496610137">"સંપાદિત કરો"</string>
     <string name="data_usage_warning_title" msgid="1955638862122232342">"ડેટા વપરાશ ચેતવણી"</string>
-    <string name="data_usage_warning_body" msgid="2814673551471969954">"વપરાશ અને સેટિંગ્સ જોવા માટે ટચ કરો."</string>
+    <string name="data_usage_warning_body" msgid="6660692274311972007">"વપરાશ અને સેટિંગ્સ જોવા ટૅપ કરો."</string>
     <string name="data_usage_3g_limit_title" msgid="4361523876818447683">"2G-3G ડેટા મર્યાદા પર પહોંચ્યાં"</string>
     <string name="data_usage_4g_limit_title" msgid="4609566827219442376">"4G ડેટા મર્યાદા સુધી પહોંચ્યાં"</string>
     <string name="data_usage_mobile_limit_title" msgid="557158376602636112">"સેલ્યુલર ડેટા મર્યાદા સુધી પહોંચ્યાં"</string>
@@ -1253,7 +1298,7 @@
     <string name="data_usage_wifi_limit_snoozed_title" msgid="8743856006384825974">"Wi-Fi ડેટા મર્યાદા ઓળંગાઈ"</string>
     <string name="data_usage_limit_snoozed_body" msgid="7035490278298441767">"ઉલ્લેખિત મર્યાદાથી <xliff:g id="SIZE">%s</xliff:g> વધુ."</string>
     <string name="data_usage_restricted_title" msgid="5965157361036321914">"પૃષ્ઠભૂમિ ડેટા પ્રતિબંધિત"</string>
-    <string name="data_usage_restricted_body" msgid="6741521330997452990">"પ્રતિબંધ દૂર કરવા માટે ટચ કરો."</string>
+    <string name="data_usage_restricted_body" msgid="469866376337242726">"પ્રતિબંધ દૂર કરવા માટે ટૅપ કરો."</string>
     <string name="ssl_certificate" msgid="6510040486049237639">"સુરક્ષા પ્રમાણપત્ર"</string>
     <string name="ssl_certificate_is_valid" msgid="6825263250774569373">"આ પ્રમાણપત્ર માન્ય છે."</string>
     <string name="issued_to" msgid="454239480274921032">"આને રજૂ:"</string>
@@ -1469,8 +1514,8 @@
     <string name="select_year" msgid="7952052866994196170">"વર્ષ પસંદ કરો"</string>
     <string name="deleted_key" msgid="7659477886625566590">"<xliff:g id="KEY">%1$s</xliff:g> કાઢી નાખી"</string>
     <string name="managed_profile_label_badge" msgid="2355652472854327647">"કાર્યાલય <xliff:g id="LABEL">%1$s</xliff:g>"</string>
-    <string name="lock_to_app_toast" msgid="7570091317001980053">"આ સ્ક્રીનને અનપિન કરવા માટે, બેકને ટચ કરો અને પકડો અને તે જ સમયે વિહંગાવલોકન કરો."</string>
-    <string name="lock_to_app_toast_accessible" msgid="8239120109365070664">"આ સ્ક્રીનને અનપિન કરવા માટે, વિહંગાવલોકનને ટચ કરો અને પકડો."</string>
+    <string name="lock_to_app_toast" msgid="1420543809500606964">"આ સ્ક્રીનને અનપિન કરવા માટે, પાછળને ટચ કરીને પકડી રાખો."</string>
+    <string name="lock_to_app_toast_accessible" msgid="2302154926850846096">"આ સ્ક્રીનને અનપિન કરવા માટે, વિહંગાવલોકન કરોને ટચ કરો અને પકડો."</string>
     <string name="lock_to_app_toast_locked" msgid="9125176335701699164">"એપ્લિકેશન પિન કરેલ છે. આ ઉપકરણ પર અનપિન કરવાની મંજૂરી નથી."</string>
     <string name="lock_to_app_start" msgid="6643342070839862795">"સ્ક્રીન પિન કરી"</string>
     <string name="lock_to_app_exit" msgid="8598219838213787430">"સ્ક્રીન અનપિન કરી"</string>
@@ -1481,8 +1526,9 @@
     <string name="package_updated_device_owner" msgid="8856631322440187071">"તમારા વ્યવસ્થાપક દ્વારા અપડેટ થયેલ"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"તમારા વ્યવસ્થાપક દ્વારા કાઢી નાખેલ"</string>
     <string name="battery_saver_description" msgid="1960431123816253034">"બૅટરી આવરદા વધુ સારી કરવામાં સહાય માટે, બૅટરી સેવર તમારા ઉપકરણના પ્રદર્શનને ઘટાડે છે અને વાઇબ્રેશન, સ્થાન સેવાઓ અને મોટાભાગના પૃષ્ઠભૂમિ ડેટાને સીમિત કરે છે. ઇમેઇલ, મેસેજિંગ અને અન્ય એપ્લિકેશનો જે સમન્વયન પર આધાર રાખે છે તે તમે તેમને ખોલશો નહીં ત્યાં સુધી અપડેટ થઈ શકતી નથી.\n\nજ્યારે તમારું ઉપકરણ ચાર્જ થઈ રહ્યું હોય ત્યારે બૅટરી સેવર આપમેળે બંધ થઈ જાય છે."</string>
-    <!-- no translation found for data_saver_description (6015391409098303235) -->
-    <skip />
+    <string name="data_saver_description" msgid="6015391409098303235">"ડેટા વપરાશને ઘટાડવામાં સહાય માટે, ડેટા સેવર કેટલીક ઍપ્લિકેશનોને પૃષ્ઠભૂમિમાં ડેટા મોકલવા અથવા પ્રાપ્ત કરવાથી અટકાવે છે. તમે હાલમાં ઉપયોગ કરી રહ્યાં છો તે ઍપ્લિકેશન ડેટાને ઍક્સેસ કરી શકે છે, પરંતુ તે આ ક્યારેક જ કરી શકે છે. આનો અર્થ એ હોઈ શકે છે, ઉદાહરણ તરીકે, જે છબીઓ ત્યાં સુધી પ્રદર્શિત થશે નહીં જ્યાં સુધી તમે તેને ટૅપ નહીં કરો."</string>
+    <string name="data_saver_enable_title" msgid="4674073932722787417">"ડેટા સેવર ચાલુ કરીએ?"</string>
+    <string name="data_saver_enable_button" msgid="7147735965247211818">"ચાલુ કરો"</string>
     <plurals name="zen_mode_duration_minutes_summary" formatted="false" msgid="4367877408072000848">
       <item quantity="one">%1$d મિનિટ માટે (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> સુધી)</item>
       <item quantity="other">%1$d મિનિટ માટે (<xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g> સુધી)</item>

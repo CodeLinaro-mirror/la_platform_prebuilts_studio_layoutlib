@@ -124,11 +124,15 @@
     <string name="roamingTextSearching" msgid="8360141885972279963">"Searching for Service"</string>
     <string name="wfcRegErrorTitle" msgid="2301376280632110664">"Wi-Fi Calling"</string>
   <string-array name="wfcOperatorErrorAlertMessages">
+    <item msgid="2254967670088539682">"To make calls and send messages over Wi-Fi, first ask your carrier to set up this service. Then turn on Wi-Fi calling again from Settings."</item>
   </string-array>
   <string-array name="wfcOperatorErrorNotificationMessages">
+    <item msgid="6177300162212449033">"Register with your operator"</item>
   </string-array>
-    <string name="wfcSpnFormat" msgid="8211621332478306568">"%s"</string>
-    <string name="wfcDataSpnFormat" msgid="1118052028767666883">"%s"</string>
+  <string-array name="wfcSpnFormats">
+    <item msgid="6830082633573257149">"%s"</item>
+    <item msgid="4397097370387921767">"%s Wi-Fi Calling"</item>
+  </string-array>
     <string name="wifi_calling_off_summary" msgid="8720659586041656098">"Off"</string>
     <string name="wfc_mode_wifi_preferred_summary" msgid="1994113411286935263">"Wi-Fi preferred"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="5920549484600758786">"Mobile preferred"</string>
@@ -164,7 +168,10 @@
     <string name="low_memory" product="watch" msgid="4415914910770005166">"Watch storage is full. Delete some files to free up space."</string>
     <string name="low_memory" product="tv" msgid="516619861191025923">"TV storage is full. Delete some files to free space."</string>
     <string name="low_memory" product="default" msgid="3475999286680000541">"Phone storage is full. Delete some files to free space."</string>
-    <!-- no translation found for ssl_ca_cert_warning (5106721205300213569) -->
+    <plurals name="ssl_ca_cert_warning" formatted="false" msgid="5106721205300213569">
+      <item quantity="other">Certificate authorities installed</item>
+      <item quantity="one">Certificate authority installed</item>
+    </plurals>
     <string name="ssl_ca_cert_noti_by_unknown" msgid="4475437862189850602">"By an unknown third party"</string>
     <string name="ssl_ca_cert_noti_by_administrator" msgid="550758088185764312">"By your work profile administrator"</string>
     <string name="ssl_ca_cert_noti_managed" msgid="4030263497686867141">"By <xliff:g id="MANAGING_DOMAIN">%s</xliff:g>"</string>
@@ -211,9 +218,9 @@
     <string name="bugreport_title" msgid="2667494803742548533">"Take bug report"</string>
     <string name="bugreport_message" msgid="398447048750350456">"This will collect information about your current device state, to send as an email message. It will take a little time from starting the bug report until it is ready to be sent. Please be patient."</string>
     <string name="bugreport_option_interactive_title" msgid="8635056131768862479">"Interactive report"</string>
-    <string name="bugreport_option_interactive_summary" msgid="8180152634022797629">"Use this under most circumstances. It allows you to track progress of the report and enter more details about the problem. It might omit some less-used sections that take a long time to report."</string>
+    <string name="bugreport_option_interactive_summary" msgid="229299488536107968">"Use this under most circumstances. It allows you to track progress of the report, enter more details about the problem and take screenshots. It might omit some less-used sections that take a long time to report."</string>
     <string name="bugreport_option_full_title" msgid="6354382025840076439">"Full report"</string>
-    <string name="bugreport_option_full_summary" msgid="6687306111256813257">"Use this option for minimal system interference when your device is unresponsive or too slow or when you need all report sections. Does not take a screenshot or allow you to enter more details."</string>
+    <string name="bugreport_option_full_summary" msgid="7210859858969115745">"Use this option for minimal system interference when your device is unresponsive or too slow, or when you need all report sections. Does not allow you to enter more details or take additional screenshots."</string>
     <plurals name="bugreport_countdown" formatted="false" msgid="6878900193900090368">
       <item quantity="other">Taking screenshot for bug report in <xliff:g id="NUMBER_1">%d</xliff:g> seconds.</item>
       <item quantity="one">Taking screenshot for bug report in <xliff:g id="NUMBER_0">%d</xliff:g> second.</item>
@@ -256,7 +263,7 @@
     <string name="capability_title_canRetrieveWindowContent" msgid="3901717936930170320">"Retrieve window content"</string>
     <string name="capability_desc_canRetrieveWindowContent" msgid="3772225008605310672">"Inspect the content of a window that you\'re interacting with."</string>
     <string name="capability_title_canRequestTouchExploration" msgid="3108723364676667320">"Turn on Explore by Touch"</string>
-    <string name="capability_desc_canRequestTouchExploration" msgid="5800552516779249356">"Touched items will be spoken aloud and the screen can be explored using gestures."</string>
+    <string name="capability_desc_canRequestTouchExploration" msgid="7543249041581408313">"Tapped items will be spoken aloud and the screen can be explored using gestures."</string>
     <string name="capability_title_canRequestEnhancedWebAccessibility" msgid="1739881766522594073">"Turn on enhanced web accessibility"</string>
     <string name="capability_desc_canRequestEnhancedWebAccessibility" msgid="7881063961507511765">"Scripts may be installed to make app content more accessible."</string>
     <string name="capability_title_canRequestFilterKeyEvents" msgid="2103440391902412174">"Observe text that you type"</string>
@@ -655,7 +662,7 @@
     <string name="keyguard_password_enter_puk_code" msgid="4800725266925845333">"Type PUK and new PIN code"</string>
     <string name="keyguard_password_enter_puk_prompt" msgid="1341112146710087048">"PUK code"</string>
     <string name="keyguard_password_enter_pin_prompt" msgid="8027680321614196258">"New PIN Code"</string>
-    <string name="keyguard_password_entry_touch_hint" msgid="7858547464982981384"><font size="17">"Touch to type password"</font></string>
+    <string name="keyguard_password_entry_touch_hint" msgid="2644215452200037944"><font size="17">"Tap to type password"</font></string>
     <string name="keyguard_password_enter_password_code" msgid="1054721668279049780">"Type password to unlock"</string>
     <string name="keyguard_password_enter_pin_password_code" msgid="6391755146112503443">"Type PIN to unlock"</string>
     <string name="keyguard_password_wrong_pin_code" msgid="2422225591006134936">"Incorrect PIN code."</string>
@@ -851,6 +858,39 @@
       <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> hours</item>
       <item quantity="one">1 hour</item>
     </plurals>
+    <string name="now_string_shortest" msgid="8912796667087856402">"now"</string>
+    <plurals name="duration_minutes_shortest" formatted="false" msgid="3957499975064245495">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>m</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>m</item>
+    </plurals>
+    <plurals name="duration_hours_shortest" formatted="false" msgid="3552182110578602356">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>h</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>h</item>
+    </plurals>
+    <plurals name="duration_days_shortest" formatted="false" msgid="5213655532597081640">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>d</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>d</item>
+    </plurals>
+    <plurals name="duration_years_shortest" formatted="false" msgid="7848711145196397042">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>y</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>y</item>
+    </plurals>
+    <plurals name="duration_minutes_shortest_future" formatted="false" msgid="3277614521231489951">
+      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g>m</item>
+      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g>m</item>
+    </plurals>
+    <plurals name="duration_hours_shortest_future" formatted="false" msgid="2152452368397489370">
+      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g>h</item>
+      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g>h</item>
+    </plurals>
+    <plurals name="duration_days_shortest_future" formatted="false" msgid="8088331502820295701">
+      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g>d</item>
+      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g>d</item>
+    </plurals>
+    <plurals name="duration_years_shortest_future" formatted="false" msgid="2317006667145250301">
+      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g>y</item>
+      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g>y</item>
+    </plurals>
     <string name="VideoView_error_title" msgid="3534509135438353077">"Video problem"</string>
     <string name="VideoView_error_text_invalid_progressive_playback" msgid="3186670335938670444">"This video isn\'t valid for streaming to this device."</string>
     <string name="VideoView_error_text_unknown" msgid="3450439155187810085">"Can\'t play this video."</string>
@@ -882,7 +922,7 @@
     <string name="low_internal_storage_view_text" msgid="6640505817617414371">"Some system functions may not work"</string>
     <string name="low_internal_storage_view_text_no_boot" msgid="6935190099204693424">"Not enough storage for the system. Make sure that you have 250 MB of free space and restart."</string>
     <string name="app_running_notification_title" msgid="8718335121060787914">"<xliff:g id="APP_NAME">%1$s</xliff:g> is running"</string>
-    <string name="app_running_notification_text" msgid="4653586947747330058">"Touch for more information or to stop the app."</string>
+    <string name="app_running_notification_text" msgid="1197581823314971177">"Tap for more information or to stop the app."</string>
     <string name="ok" msgid="5970060430562524910">"OK"</string>
     <string name="cancel" msgid="6442560571259935130">"Cancel"</string>
     <string name="yes" msgid="5362982303337969312">"OK"</string>
@@ -949,12 +989,14 @@
     <string name="android_upgrading_title" msgid="1584192285441405746">"Android is upgrading…"</string>
     <string name="android_start_title" msgid="8418054686415318207">"Android is starting…"</string>
     <string name="android_upgrading_fstrim" msgid="8036718871534640010">"Optimising storage."</string>
+    <string name="android_upgrading_notification_title" msgid="1619393112444671028">"Android is upgrading"</string>
+    <string name="android_upgrading_notification_body" msgid="5761201379457064286">"Some apps may not work properly until the upgrade finishes"</string>
     <string name="android_upgrading_apk" msgid="7904042682111526169">"Optimising app <xliff:g id="NUMBER_0">%1$d</xliff:g> of <xliff:g id="NUMBER_1">%2$d</xliff:g>."</string>
     <string name="android_preparing_apk" msgid="8162599310274079154">"Preparing <xliff:g id="APPNAME">%1$s</xliff:g>."</string>
     <string name="android_upgrading_starting_apps" msgid="451464516346926713">"Starting apps."</string>
     <string name="android_upgrading_complete" msgid="1405954754112999229">"Finishing boot."</string>
     <string name="heavy_weight_notification" msgid="9087063985776626166">"<xliff:g id="APP">%1$s</xliff:g> running"</string>
-    <string name="heavy_weight_notification_detail" msgid="1721681741617898865">"Touch to switch to app"</string>
+    <string name="heavy_weight_notification_detail" msgid="867643381388543170">"Tap to switch to app"</string>
     <string name="heavy_weight_switcher_title" msgid="7153167085403298169">"Switch apps?"</string>
     <string name="heavy_weight_switcher_text" msgid="7022631924534406403">"Another app is already running that must be stopped before you can start a new one."</string>
     <string name="old_app_action" msgid="493129172238566282">"Return to <xliff:g id="OLD_APP">%1$s</xliff:g>"</string>
@@ -962,7 +1004,7 @@
     <string name="new_app_action" msgid="5472756926945440706">"Start <xliff:g id="OLD_APP">%1$s</xliff:g>"</string>
     <string name="new_app_description" msgid="1932143598371537340">"Stop the old app without saving."</string>
     <string name="dump_heap_notification" msgid="2618183274836056542">"<xliff:g id="PROC">%1$s</xliff:g> exceeded memory limit"</string>
-    <string name="dump_heap_notification_detail" msgid="2075673362317481664">"Heap dump has been collected; touch to share"</string>
+    <string name="dump_heap_notification_detail" msgid="6901391084243999274">"Heap dump has been collected; tap to share"</string>
     <string name="dump_heap_title" msgid="5864292264307651673">"Share heap dump?"</string>
     <string name="dump_heap_text" msgid="4809417337240334941">"The process <xliff:g id="PROC">%1$s</xliff:g> has exceeded its process memory limit of <xliff:g id="SIZE">%2$s</xliff:g>. A heap dump is available for you to share with its developer. Be careful: this heap dump can contain any of your personal information that the application has access to."</string>
     <string name="sendText" msgid="5209874571959469142">"Choose an action for text"</string>
@@ -998,7 +1040,7 @@
     <!-- no translation found for network_available_sign_in_detailed (8000081941447976118) -->
     <skip />
     <string name="wifi_no_internet" msgid="8451173622563841546">"Wi-Fi has no Internet access"</string>
-    <string name="wifi_no_internet_detailed" msgid="7593858887662270131">"Touch for options"</string>
+    <string name="wifi_no_internet_detailed" msgid="8083079241212301741">"Tap for options"</string>
     <string name="wifi_watchdog_network_disabled" msgid="7904214231651546347">"Couldn\'t connect to Wi-Fi"</string>
     <string name="wifi_watchdog_network_disabled_detailed" msgid="5548780776418332675">" has a poor Internet connection."</string>
     <string name="wifi_connect_alert_title" msgid="8455846016001810172">"Allow connection?"</string>
@@ -1008,7 +1050,7 @@
     <string name="wifi_p2p_turnon_message" msgid="2909250942299627244">"Start Wi-Fi Direct. This will turn off Wi-Fi client/hotspot."</string>
     <string name="wifi_p2p_failed_message" msgid="3763669677935623084">"Couldn\'t start Wi-Fi Direct."</string>
     <string name="wifi_p2p_enabled_notification_title" msgid="2068321881673734886">"Wi-Fi Direct is on"</string>
-    <string name="wifi_p2p_enabled_notification_message" msgid="1638949953993894335">"Touch for settings"</string>
+    <string name="wifi_p2p_enabled_notification_message" msgid="8064677407830620023">"Tap for settings"</string>
     <string name="accept" msgid="1645267259272829559">"Accept"</string>
     <string name="decline" msgid="2112225451706137894">"Decline"</string>
     <string name="wifi_p2p_invitation_sent_title" msgid="1318975185112070734">"Invitation sent"</string>
@@ -1060,9 +1102,9 @@
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"USB for photo transfer"</string>
     <string name="usb_midi_notification_title" msgid="4850904915889144654">"USB for MIDI"</string>
     <string name="usb_accessory_notification_title" msgid="7848236974087653666">"Connected to a USB accessory"</string>
-    <string name="usb_notification_message" msgid="7347368030849048437">"Touch for more options."</string>
+    <string name="usb_notification_message" msgid="3370903770828407960">"Tap for more options."</string>
     <string name="adb_active_notification_title" msgid="6729044778949189918">"USB debugging connected"</string>
-    <string name="adb_active_notification_message" msgid="1016654627626476142">"Touch to disable USB debugging."</string>
+    <string name="adb_active_notification_message" msgid="4948470599328424059">"Tap to disable USB debugging."</string>
     <string name="taking_remote_bugreport_notification_title" msgid="6742483073875060934">"Taking bug report…"</string>
     <string name="share_remote_bugreport_notification_title" msgid="4987095013583691873">"Share bug report?"</string>
     <string name="sharing_remote_bugreport_notification_title" msgid="7572089031496651372">"Sharing bug report…"</string>
@@ -1082,9 +1124,9 @@
     <string name="ext_media_new_notification_message" msgid="7589986898808506239">"New <xliff:g id="NAME">%s</xliff:g> detected"</string>
     <string name="ext_media_ready_notification_message" msgid="4083398150380114462">"For transferring photos and media"</string>
     <string name="ext_media_unmountable_notification_title" msgid="8295123366236989588">"Corrupted <xliff:g id="NAME">%s</xliff:g>"</string>
-    <string name="ext_media_unmountable_notification_message" msgid="1586311304430052169">"<xliff:g id="NAME">%s</xliff:g> is corrupt. Touch to fix."</string>
+    <string name="ext_media_unmountable_notification_message" msgid="2343202057122495773">"<xliff:g id="NAME">%s</xliff:g> is corrupt. Tap to fix."</string>
     <string name="ext_media_unsupported_notification_title" msgid="3797642322958803257">"Unsupported <xliff:g id="NAME">%s</xliff:g>"</string>
-    <string name="ext_media_unsupported_notification_message" msgid="8789610369456474891">"This device doesn’t support this <xliff:g id="NAME">%s</xliff:g>. Touch to set up in a supported format."</string>
+    <string name="ext_media_unsupported_notification_message" msgid="6121601473787888589">"This device doesn’t support this <xliff:g id="NAME">%s</xliff:g>. Tap to set up in a supported format."</string>
     <string name="ext_media_badremoval_notification_title" msgid="3206248947375505416">"<xliff:g id="NAME">%s</xliff:g> unexpectedly removed"</string>
     <string name="ext_media_badremoval_notification_message" msgid="380176703346946313">"Unmount <xliff:g id="NAME">%s</xliff:g> before removing to avoid data loss"</string>
     <string name="ext_media_nomedia_notification_title" msgid="1704840188641749091">"Removed <xliff:g id="NAME">%s</xliff:g>"</string>
@@ -1120,7 +1162,7 @@
     <string name="permdesc_readInstallSessions" msgid="2049771699626019849">"Allows an application to read install sessions. This allows it to see details about active package installations."</string>
     <string name="permlab_requestInstallPackages" msgid="5782013576218172577">"request install packages"</string>
     <string name="permdesc_requestInstallPackages" msgid="5740101072486783082">"Allows an application to request installation of packages."</string>
-    <string name="tutorial_double_tap_to_zoom_message_short" msgid="4070433208160063538">"Touch twice for zoom control"</string>
+    <string name="tutorial_double_tap_to_zoom_message_short" msgid="1311810005957319690">"Tap twice for zoom control"</string>
     <string name="gadget_host_error_inflating" msgid="4882004314906466162">"Couldn\'t add widget."</string>
     <string name="ime_action_go" msgid="8320845651737369027">"Go"</string>
     <string name="ime_action_search" msgid="658110271822807811">"Search"</string>
@@ -1151,20 +1193,20 @@
     <string name="notification_ranker_binding_label" msgid="774540592299064747">"Notification ranker service"</string>
     <string name="vpn_title" msgid="19615213552042827">"VPN activated"</string>
     <string name="vpn_title_long" msgid="6400714798049252294">"VPN is activated by <xliff:g id="APP">%s</xliff:g>"</string>
-    <string name="vpn_text" msgid="3011306607126450322">"Touch to manage the network."</string>
-    <string name="vpn_text_long" msgid="6407351006249174473">"Connected to <xliff:g id="SESSION">%s</xliff:g>. Touch to manage the network."</string>
+    <string name="vpn_text" msgid="1610714069627824309">"Tap to manage the network."</string>
+    <string name="vpn_text_long" msgid="4907843483284977618">"Connected to <xliff:g id="SESSION">%s</xliff:g>. Tap to manage the network."</string>
     <string name="vpn_lockdown_connecting" msgid="6443438964440960745">"Always-on VPN connecting…"</string>
     <string name="vpn_lockdown_connected" msgid="8202679674819213931">"Always-on VPN connected"</string>
     <string name="vpn_lockdown_error" msgid="6009249814034708175">"Always-on VPN error"</string>
-    <string name="vpn_lockdown_config" msgid="6415899150671537970">"Touch to configure"</string>
+    <string name="vpn_lockdown_config" msgid="4655589351146766608">"Tap to configure"</string>
     <string name="upload_file" msgid="2897957172366730416">"Choose file"</string>
     <string name="no_file_chosen" msgid="6363648562170759465">"No file chosen"</string>
     <string name="reset" msgid="2448168080964209908">"Reset"</string>
     <string name="submit" msgid="1602335572089911941">"Submit"</string>
     <string name="car_mode_disable_notification_title" msgid="3164768212003864316">"Car mode enabled"</string>
-    <string name="car_mode_disable_notification_message" msgid="8035230537563503262">"Touch to exit car mode."</string>
+    <string name="car_mode_disable_notification_message" msgid="6301524980144350051">"Tap to exit car mode."</string>
     <string name="tethered_notification_title" msgid="3146694234398202601">"Tethering or hotspot active"</string>
-    <string name="tethered_notification_message" msgid="6857031760103062982">"Touch to set up."</string>
+    <string name="tethered_notification_message" msgid="2113628520792055377">"Tap to set up."</string>
     <string name="back_button_label" msgid="2300470004503343439">"Back"</string>
     <string name="next_button_label" msgid="1080555104677992408">"Next"</string>
     <string name="skip_button_label" msgid="1275362299471631819">"Skip"</string>
@@ -1197,7 +1239,7 @@
     <string name="add_account_button_label" msgid="3611982894853435874">"Add account"</string>
     <string name="number_picker_increment_button" msgid="2412072272832284313">"Increase"</string>
     <string name="number_picker_decrement_button" msgid="476050778386779067">"Decrease"</string>
-    <string name="number_picker_increment_scroll_mode" msgid="3073101067441638428">"<xliff:g id="VALUE">%s</xliff:g> touch and hold."</string>
+    <string name="number_picker_increment_scroll_mode" msgid="5259126567490114216">"<xliff:g id="VALUE">%s</xliff:g> touch &amp; hold."</string>
     <string name="number_picker_increment_scroll_action" msgid="9101473045891835490">"Slide up to increase and down to decrease."</string>
     <string name="time_picker_increment_minute_button" msgid="8865885114028614321">"Increase minute"</string>
     <string name="time_picker_decrement_minute_button" msgid="6246834937080684791">"Decrease minute"</string>
@@ -1241,7 +1283,7 @@
     <string name="storage_usb" msgid="3017954059538517278">"USB storage"</string>
     <string name="extract_edit_menu_button" msgid="8940478730496610137">"Edit"</string>
     <string name="data_usage_warning_title" msgid="1955638862122232342">"Data usage warning"</string>
-    <string name="data_usage_warning_body" msgid="2814673551471969954">"Touch to view usage and settings."</string>
+    <string name="data_usage_warning_body" msgid="6660692274311972007">"Tap to view usage and settings."</string>
     <string name="data_usage_3g_limit_title" msgid="4361523876818447683">"2G-3G data limit reached"</string>
     <string name="data_usage_4g_limit_title" msgid="4609566827219442376">"4G data limit reached"</string>
     <string name="data_usage_mobile_limit_title" msgid="557158376602636112">"Mobile data limit reached"</string>
@@ -1253,7 +1295,7 @@
     <string name="data_usage_wifi_limit_snoozed_title" msgid="8743856006384825974">"Wi-Fi data limit exceeded"</string>
     <string name="data_usage_limit_snoozed_body" msgid="7035490278298441767">"<xliff:g id="SIZE">%s</xliff:g> over specified limit."</string>
     <string name="data_usage_restricted_title" msgid="5965157361036321914">"Background data restricted"</string>
-    <string name="data_usage_restricted_body" msgid="6741521330997452990">"Touch to remove restriction."</string>
+    <string name="data_usage_restricted_body" msgid="469866376337242726">"Tap to remove restriction."</string>
     <string name="ssl_certificate" msgid="6510040486049237639">"Security certificate"</string>
     <string name="ssl_certificate_is_valid" msgid="6825263250774569373">"This certificate is valid."</string>
     <string name="issued_to" msgid="454239480274921032">"Issued to:"</string>
@@ -1469,8 +1511,8 @@
     <string name="select_year" msgid="7952052866994196170">"Select year"</string>
     <string name="deleted_key" msgid="7659477886625566590">"<xliff:g id="KEY">%1$s</xliff:g> deleted"</string>
     <string name="managed_profile_label_badge" msgid="2355652472854327647">"Work <xliff:g id="LABEL">%1$s</xliff:g>"</string>
-    <string name="lock_to_app_toast" msgid="7570091317001980053">"To unpin this screen, touch and hold Back and Overview at the same time."</string>
-    <string name="lock_to_app_toast_accessible" msgid="8239120109365070664">"To unpin this screen, touch and hold Overview."</string>
+    <string name="lock_to_app_toast" msgid="1420543809500606964">"To unpin this screen, touch &amp; hold Back."</string>
+    <string name="lock_to_app_toast_accessible" msgid="2302154926850846096">"To unpin this screen, touch &amp; hold Overview."</string>
     <string name="lock_to_app_toast_locked" msgid="9125176335701699164">"App is pinned: unpinning isn\'t allowed on this device."</string>
     <string name="lock_to_app_start" msgid="6643342070839862795">"Screen pinned"</string>
     <string name="lock_to_app_exit" msgid="8598219838213787430">"Screen unpinned"</string>
@@ -1481,8 +1523,9 @@
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Updated by your administrator"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Deleted by your administrator"</string>
     <string name="battery_saver_description" msgid="1960431123816253034">"To help improve battery life, battery saver reduces your device’s performance and limits vibration, location services and most background data. Email, messaging, and other apps that rely on syncing may not update unless you open them.\n\nBattery saver turns off automatically when your device is charging."</string>
-    <!-- no translation found for data_saver_description (6015391409098303235) -->
-    <skip />
+    <string name="data_saver_description" msgid="6015391409098303235">"To help reduce data usage, Data Saver prevents some apps from sending or receiving data in the background. An app that you’re currently using can access data, but may do so less frequently. This may mean, for example, that images don’t display until you tap them."</string>
+    <string name="data_saver_enable_title" msgid="4674073932722787417">"Turn on Data Saver?"</string>
+    <string name="data_saver_enable_button" msgid="7147735965247211818">"Turn on"</string>
     <plurals name="zen_mode_duration_minutes_summary" formatted="false" msgid="4367877408072000848">
       <item quantity="other">For %1$d minutes (until <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
       <item quantity="one">For one minute (until <xliff:g id="FORMATTEDTIME_0">%2$s</xliff:g>)</item>
