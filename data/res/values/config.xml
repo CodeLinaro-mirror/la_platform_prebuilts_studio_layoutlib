@@ -1127,6 +1127,9 @@
          specified -->
     <string name="default_wallpaper_component" translatable="false">@null</string>
 
+    <!-- By default a product has no distinct default lock wallpaper -->
+    <item name="default_lock_wallpaper" type="drawable">@null</item>
+
     <!-- Component name of the built in wallpaper used to display bitmap wallpapers. This must not be null. -->
     <string name="image_wallpaper_component" translatable="false">com.android.systemui/com.android.systemui.ImageWallpaper</string>
 
@@ -2476,4 +2479,9 @@
 
     <!-- True if the device supports persisting security logs across reboots. -->
     <bool name="config_supportPreRebootSecurityLogs">false</bool>
+
+    <!-- Default files to pin via Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+    </string-array>
+
 </resources>

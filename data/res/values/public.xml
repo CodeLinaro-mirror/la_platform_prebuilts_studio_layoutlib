@@ -2664,6 +2664,7 @@
     <public type="attr" name="subMenuArrow" />
     <public type="attr" name="defaultWidth" />
     <public type="attr" name="defaultHeight" />
+    <!-- @removed -->
     <public type="attr" name="minimalWidth" />
     <public type="attr" name="resizeableActivity" />
     <public type="attr" name="supportsPictureInPicture" />
@@ -2684,7 +2685,7 @@
     <public type="attr" name="preferenceFragmentStyle" />
     <public type="attr" name="canControlMagnification" />
     <public type="attr" name="languageTag" />
-    <public type="attr" name="pointerShape" />
+    <public type="attr" name="pointerIcon" />
     <public type="attr" name="tickMark" />
     <public type="attr" name="tickMarkTint" />
     <public type="attr" name="tickMarkTintMode" />
@@ -2709,6 +2710,7 @@
     <public type="attr" name="fillType" />
     <public type="attr" name="popupEnterTransition" />
     <public type="attr" name="popupExitTransition" />
+    <!-- @removed -->
     <public type="attr" name="minimalHeight" />
     <public type="attr" name="forceHasOverlappingRendering" />
     <public type="attr" name="contentInsetStartWithNavigation" />
@@ -2716,6 +2718,7 @@
     <public type="attr" name="numberPickerStyle" />
     <public type="attr" name="enableVrMode" />
     <public type="attr" name="hash" />
+    <public type="attr" name="networkSecurityConfig" />
 
     <public type="style" name="Theme.Material.Light.DialogWhenLarge.DarkActionBar" />
     <public type="style" name="Widget.Material.SeekBar.Discrete" />
@@ -2723,6 +2726,8 @@
     <public type="style" name="Widget.Material.Light.CompoundButton.Switch" />
     <public type="style" name="Widget.Material.NumberPicker" />
     <public type="style" name="Widget.Material.Light.NumberPicker" />
+    <public type="style" name="TextAppearance.Material.Widget.Button.Colored" />
+    <public type="style" name="TextAppearance.Material.Widget.Button.Borderless.Colored" />
 
     <public type="id" name="accessibilityActionSetProgress" />
     <public type="id" name="icon_frame" />

@@ -1140,6 +1140,7 @@
   <java-symbol type="array" name="config_colorTransforms" />
 
   <java-symbol type="drawable" name="default_wallpaper" />
+  <java-symbol type="drawable" name="default_lock_wallpaper" />
   <java-symbol type="drawable" name="indicator_input_error" />
   <java-symbol type="drawable" name="popup_bottom_dark" />
   <java-symbol type="drawable" name="popup_bottom_bright" />
@@ -1232,9 +1233,6 @@
   <java-symbol type="drawable" name="tab_bottom_right" />
   <java-symbol type="drawable" name="tab_bottom_right_v4" />
   <java-symbol type="drawable" name="tab_indicator_v4" />
-  <java-symbol type="drawable" name="text_select_handle_left" />
-  <java-symbol type="drawable" name="text_select_handle_middle" />
-  <java-symbol type="drawable" name="text_select_handle_right" />
   <java-symbol type="drawable" name="unknown_image" />
   <java-symbol type="drawable" name="unlock_default" />
   <java-symbol type="drawable" name="unlock_halo" />
@@ -1498,6 +1496,7 @@
   <java-symbol type="integer" name="config_dockedStackDividerSnapMode" />
   <java-symbol type="fraction" name="docked_stack_divider_fixed_ratio" />
   <java-symbol type="fraction" name="thumbnail_fullscreen_scale" />
+  <java-symbol type="integer" name="thumbnail_width_tv" />
   <java-symbol type="dimen" name="resize_shadow_size" />
   <java-symbol type="color" name="resize_shadow_start_color" />
   <java-symbol type="color" name="resize_shadow_end_color" />
@@ -2325,6 +2324,8 @@
   <java-symbol type="layout" name="floating_popup_overflow_list_item" />
   <java-symbol type="layout" name="floating_popup_overflow_image_list_item" />
   <java-symbol type="layout" name="floating_popup_overflow_button" />
+  <java-symbol type="string" name="floating_toolbar_open_overflow_description" />
+  <java-symbol type="string" name="floating_toolbar_close_overflow_description" />
   <java-symbol type="dimen" name="floating_toolbar_height" />
   <java-symbol type="dimen" name="floating_toolbar_menu_button_side_padding" />
   <java-symbol type="dimen" name="floating_toolbar_overflow_side_padding" />
@@ -2435,6 +2436,7 @@
   <java-symbol type="dimen" name="notification_content_picture_margin" />
   <java-symbol type="dimen" name="notification_content_margin_top" />
   <java-symbol type="dimen" name="notification_content_margin_bottom" />
+  <java-symbol type="dimen" name="notification_header_background_height" />
   <java-symbol type="string" name="importance_from_user" />
   <java-symbol type="string" name="importance_from_person" />
 
@@ -2590,4 +2592,9 @@
   <java-symbol type="string" name="config_tvRemoteServicePackage" />
 
   <java-symbol type="bool" name="config_supportPreRebootSecurityLogs" />
+
+  <!-- Pinner Service -->
+  <java-symbol type="array" name="config_defaultPinnerServiceFiles" />
+
+  <java-symbol type="string" name="suspended_widget_accessibility" />
 </resources>
