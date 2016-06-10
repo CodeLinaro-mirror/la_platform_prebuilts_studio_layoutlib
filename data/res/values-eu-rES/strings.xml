@@ -595,7 +595,7 @@
     <string name="phoneTypeFaxHome" msgid="2067265972322971467">"Etxeko faxa"</string>
     <string name="phoneTypePager" msgid="7582359955394921732">"Bilagailua"</string>
     <string name="phoneTypeOther" msgid="1544425847868765990">"Bestelakoa"</string>
-    <string name="phoneTypeCallback" msgid="2712175203065678206">"Dei bidezko erantzuna"</string>
+    <string name="phoneTypeCallback" msgid="2712175203065678206">"Dei-erantzuna"</string>
     <string name="phoneTypeCar" msgid="8738360689616716982">"Autoa"</string>
     <string name="phoneTypeCompanyMain" msgid="540434356461478916">"Laneko nagusia"</string>
     <string name="phoneTypeIsdn" msgid="8022453193171370337">"ISDN"</string>
@@ -860,36 +860,68 @@
     </plurals>
     <string name="now_string_shortest" msgid="8912796667087856402">"orain"</string>
     <plurals name="duration_minutes_shortest" formatted="false" msgid="3957499975064245495">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> min</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> m</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> m</item>
     </plurals>
     <plurals name="duration_hours_shortest" formatted="false" msgid="3552182110578602356">
       <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> h</item>
       <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> h</item>
     </plurals>
     <plurals name="duration_days_shortest" formatted="false" msgid="5213655532597081640">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> egun</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> egun</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> e</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> e</item>
     </plurals>
     <plurals name="duration_years_shortest" formatted="false" msgid="7848711145196397042">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> urte</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> urte</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> u</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> u</item>
     </plurals>
     <plurals name="duration_minutes_shortest_future" formatted="false" msgid="3277614521231489951">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> min barru</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> min barru</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> m barru</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> m barru</item>
     </plurals>
     <plurals name="duration_hours_shortest_future" formatted="false" msgid="2152452368397489370">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g>h barru</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g>h barru</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> h barru</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> h barru</item>
     </plurals>
     <plurals name="duration_days_shortest_future" formatted="false" msgid="8088331502820295701">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> egun barru</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> egun barru</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> e barru</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> e barru</item>
     </plurals>
     <plurals name="duration_years_shortest_future" formatted="false" msgid="2317006667145250301">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> u barru</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> u barru</item>
+    </plurals>
+    <plurals name="duration_minutes_relative" formatted="false" msgid="3178131706192980192">
+      <item quantity="other">Duela <xliff:g id="COUNT_1">%d</xliff:g> minutu</item>
+      <item quantity="one">Duela minutu <xliff:g id="COUNT_0">%d</xliff:g></item>
+    </plurals>
+    <plurals name="duration_hours_relative" formatted="false" msgid="676894109982008411">
+      <item quantity="other">Duela <xliff:g id="COUNT_1">%d</xliff:g> ordu</item>
+      <item quantity="one">Duela ordu <xliff:g id="COUNT_0">%d</xliff:g></item>
+    </plurals>
+    <plurals name="duration_days_relative" formatted="false" msgid="2203515825765397130">
+      <item quantity="other">Duela <xliff:g id="COUNT_1">%d</xliff:g> egun</item>
+      <item quantity="one">Duela egun <xliff:g id="COUNT_0">%d</xliff:g></item>
+    </plurals>
+    <plurals name="duration_years_relative" formatted="false" msgid="4820062134188885734">
+      <item quantity="other">Duela <xliff:g id="COUNT_1">%d</xliff:g> urte</item>
+      <item quantity="one">Duela urte <xliff:g id="COUNT_0">%d</xliff:g></item>
+    </plurals>
+    <plurals name="duration_minutes_relative_future" formatted="false" msgid="4655043589817680966">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> minutu barru</item>
+      <item quantity="one">Minutu <xliff:g id="COUNT_0">%d</xliff:g> barru</item>
+    </plurals>
+    <plurals name="duration_hours_relative_future" formatted="false" msgid="8084579714205223891">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ordu barru</item>
+      <item quantity="one">Ordu <xliff:g id="COUNT_0">%d</xliff:g> barru</item>
+    </plurals>
+    <plurals name="duration_days_relative_future" formatted="false" msgid="333215369363433992">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> egun barru</item>
+      <item quantity="one">Egun <xliff:g id="COUNT_0">%d</xliff:g> barru</item>
+    </plurals>
+    <plurals name="duration_years_relative_future" formatted="false" msgid="8644862986413104011">
       <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> urte barru</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> urte barru</item>
+      <item quantity="one">Urte <xliff:g id="COUNT_0">%d</xliff:g> barru</item>
     </plurals>
     <string name="VideoView_error_title" msgid="3534509135438353077">"Bideoak arazoren bat du"</string>
     <string name="VideoView_error_text_invalid_progressive_playback" msgid="3186670335938670444">"Bideo hau ezin da gailuan zuzenean erreproduzitu."</string>
@@ -962,8 +994,7 @@
     <string name="aerr_process" msgid="6201597323218674729">"Gelditu egin da <xliff:g id="PROCESS">%1$s</xliff:g>"</string>
     <string name="aerr_application_repeated" msgid="3146328699537439573">"Behin eta berriz gelditzen ari da <xliff:g id="APPLICATION">%1$s</xliff:g>"</string>
     <string name="aerr_process_repeated" msgid="6235302956890402259">"Behin eta berriz gelditzen ari da <xliff:g id="PROCESS">%1$s</xliff:g>"</string>
-    <string name="aerr_restart" msgid="9001379185665886595">"Berrabiarazi aplikazioa"</string>
-    <string name="aerr_reset" msgid="7645427603514220451">"Berrezarri eta berrabiarazi aplikazioa"</string>
+    <string name="aerr_restart" msgid="7581308074153624475">"Ireki aplikazioa berriro"</string>
     <string name="aerr_report" msgid="5371800241488400617">"Bidali iritzia"</string>
     <string name="aerr_close" msgid="2991640326563991340">"Itxi"</string>
     <string name="aerr_mute" msgid="1974781923723235953">"Ezkutatu gailua berrabiarazi arte"</string>
@@ -1394,7 +1425,7 @@
     <string name="user_switched" msgid="3768006783166984410">"Uneko erabiltzailea: <xliff:g id="NAME">%1$s</xliff:g>."</string>
     <string name="user_switching_message" msgid="2871009331809089783">"<xliff:g id="NAME">%1$s</xliff:g> erabiltzailera aldatzen…"</string>
     <string name="user_logging_out_message" msgid="8939524935808875155">"<xliff:g id="NAME">%1$s</xliff:g> erabiltzailearen saioa amaitzen…"</string>
-    <string name="owner_name" msgid="2716755460376028154">"Jabea"</string>
+    <string name="owner_name" msgid="2716755460376028154">"jabea"</string>
     <string name="error_message_title" msgid="4510373083082500195">"Errorea"</string>
     <string name="error_message_change_not_allowed" msgid="1347282344200417578">"Zure administratzaileak ez du aldaketa egiteko baimena eman"</string>
     <string name="app_not_found" msgid="3429141853498927379">"Ez da ekintza gauza dezakeen aplikaziorik aurkitu"</string>
@@ -1515,7 +1546,6 @@
     <string name="deleted_key" msgid="7659477886625566590">"<xliff:g id="KEY">%1$s</xliff:g> ezabatu da"</string>
     <string name="managed_profile_label_badge" msgid="2355652472854327647">"Laneko <xliff:g id="LABEL">%1$s</xliff:g>"</string>
     <string name="lock_to_app_toast" msgid="1420543809500606964">"Pantailari aingura kentzeko, eduki sakatuta Atzera botoia."</string>
-    <string name="lock_to_app_toast_accessible" msgid="2302154926850846096">"Pantailari aingura kentzeko, eduki sakatuta Ikuspegi orokorra botoia."</string>
     <string name="lock_to_app_toast_locked" msgid="9125176335701699164">"Aplikazioa ainguratuta dago. Gailu honetan ezin da aingura kendu."</string>
     <string name="lock_to_app_start" msgid="6643342070839862795">"Pantaila ainguratu da"</string>
     <string name="lock_to_app_exit" msgid="8598219838213787430">"Aingura kendu zaio pantailari"</string>
@@ -1526,7 +1556,7 @@
     <string name="package_updated_device_owner" msgid="8856631322440187071">"Administratzaileak eguneratu du"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"Administratzaileak ezabatu du"</string>
     <string name="battery_saver_description" msgid="1960431123816253034">"Bateriak gehiago iraun dezan, bateria-aurrezleak gailuaren funtzionamendua, dardara,  kokapen-zerbitzuak eta atzeko planoko datuen erabilera gehiena mugatzen ditu. Posta elektronikoa, mezuak eta sinkronizatzen diren gainerako zerbitzuak ez dira eguneratuko ireki ezean.\n\nGailua kargatzen ezarri orduko desaktibatzen da bateria-aurrezlea."</string>
-    <string name="data_saver_description" msgid="6015391409098303235">"Datuen erabilera murrizteko, atzeko planoan datuak bidaltzea eta jasotzea galarazten die datu-aurrezleak aplikazio batzuei. Unean erabiltzen ari zaren aplikazioak atzi ditzake datuak, baina baliteke maiztasun txikiagoarekin atzitzea. Horrela, adibidez, baliteke irudiak ez erakustea haiek sakatu arte."</string>
+    <string name="data_saver_description" msgid="6015391409098303235">"Datu-erabilera murrizteko, atzeko planoan datuak bidaltzea eta jasotzea galarazten die datu-aurrezleak aplikazio batzuei. Unean erabiltzen ari zaren aplikazioak atzi ditzake datuak, baina baliteke maiztasun txikiagoarekin atzitzea. Horrela, adibidez, baliteke irudiak ez erakustea haiek sakatu arte."</string>
     <string name="data_saver_enable_title" msgid="4674073932722787417">"Datu-aurrezlea aktibatu?"</string>
     <string name="data_saver_enable_button" msgid="7147735965247211818">"Aktibatu"</string>
     <plurals name="zen_mode_duration_minutes_summary" formatted="false" msgid="4367877408072000848">
@@ -1582,6 +1612,8 @@
     <string name="stk_cc_ss_to_ussd" msgid="3951862188105305589">"SS eskaera USSD eskaerara aldatu da."</string>
     <string name="stk_cc_ss_to_ss" msgid="5470768854991452695">"SS eskaera SS eskaera berrira aldatu da."</string>
     <string name="notification_work_profile_content_description" msgid="4600554564103770764">"Work profila"</string>
+    <string name="expand_button_content_description" msgid="5855955413376384681">"Zabaltzeko botoia"</string>
+    <string name="expand_action_accessibility" msgid="5307730695723718254">"zabaldu edo tolestu"</string>
     <string name="usb_midi_peripheral_name" msgid="7221113987741003817">"Android USB ataka periferikoa"</string>
     <string name="usb_midi_peripheral_manufacturer_name" msgid="7176526170008970168">"Android"</string>
     <string name="usb_midi_peripheral_product_name" msgid="4971827859165280403">"USB ataka periferikoa"</string>
@@ -1589,6 +1621,7 @@
     <string name="floating_toolbar_close_overflow_description" msgid="559796923090723804">"Itxi gainfluxua"</string>
     <string name="maximize_button_text" msgid="7543285286182446254">"Maximizatu"</string>
     <string name="close_button_text" msgid="3937902162644062866">"Itxi"</string>
+    <string name="notification_messaging_title_template" msgid="3452480118762691020">"<xliff:g id="CONVERSATION_TITLE">%1$s</xliff:g>: <xliff:g id="SENDER_NAME">%2$s</xliff:g>"</string>
     <plurals name="selected_count" formatted="false" msgid="7187339492915744615">
       <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> hautatuta</item>
       <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> hautatuta</item>
@@ -1621,4 +1654,5 @@
     <string name="negative_duration" msgid="5688706061127375131">"−<xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="audit_safemode_notification" msgid="6416076898350685856">"Berrezarri jatorrizko ezarpenak gailua murriztapenik gabe erabili ahal izateko"</string>
     <string name="audit_safemode_notification_details" msgid="1860601176690176413">"Sakatu informazio gehiago lortzeko."</string>
+    <string name="suspended_widget_accessibility" msgid="6712143096475264190">"<xliff:g id="LABEL">%1$s</xliff:g> desgaituta dago"</string>
 </resources>

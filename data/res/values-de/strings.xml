@@ -243,23 +243,23 @@
     <string name="user_owner_label" msgid="1119010402169916617">"Zu \"Privat\" wechseln"</string>
     <string name="managed_profile_label" msgid="5289992269827577857">"Zu \"Arbeit\" wechseln"</string>
     <string name="permgrouplab_contacts" msgid="3657758145679177612">"Kontakte"</string>
-    <string name="permgroupdesc_contacts" msgid="6951499528303668046">"auf Kontakte zuzugreifen"</string>
+    <string name="permgroupdesc_contacts" msgid="6951499528303668046">"auf deine Kontakte zugreifen"</string>
     <string name="permgrouplab_location" msgid="7275582855722310164">"Standort"</string>
-    <string name="permgroupdesc_location" msgid="1346617465127855033">"auf den Standort deines Geräts zuzugreifen"</string>
+    <string name="permgroupdesc_location" msgid="1346617465127855033">"auf den Standort deines Geräts zugreifen"</string>
     <string name="permgrouplab_calendar" msgid="5863508437783683902">"Kalender"</string>
-    <string name="permgroupdesc_calendar" msgid="3889615280211184106">"auf Kalender zuzugreifen"</string>
+    <string name="permgroupdesc_calendar" msgid="3889615280211184106">"auf deinen Kalender zugreifen"</string>
     <string name="permgrouplab_sms" msgid="228308803364967808">"SMS"</string>
-    <string name="permgroupdesc_sms" msgid="4656988620100940350">"SMS zu senden und abzurufen"</string>
+    <string name="permgroupdesc_sms" msgid="4656988620100940350">"SMS senden und abrufen"</string>
     <string name="permgrouplab_storage" msgid="1971118770546336966">"Speicher"</string>
-    <string name="permgroupdesc_storage" msgid="637758554581589203">"auf Fotos, Medien und Dateien auf deinem Gerät zuzugreifen"</string>
+    <string name="permgroupdesc_storage" msgid="637758554581589203">"auf Fotos, Medien und Dateien auf deinem Gerät zugreifen"</string>
     <string name="permgrouplab_microphone" msgid="171539900250043464">"Mikrofon"</string>
-    <string name="permgroupdesc_microphone" msgid="4988812113943554584">"Audio aufzunehmen"</string>
+    <string name="permgroupdesc_microphone" msgid="4988812113943554584">"Audio aufnehmen"</string>
     <string name="permgrouplab_camera" msgid="4820372495894586615">"Kamera"</string>
-    <string name="permgroupdesc_camera" msgid="3250611594678347720">"Bilder und Videos aufzunehmen"</string>
+    <string name="permgroupdesc_camera" msgid="3250611594678347720">"Bilder und Videos aufnehmen"</string>
     <string name="permgrouplab_phone" msgid="5229115638567440675">"Telefon"</string>
-    <string name="permgroupdesc_phone" msgid="6234224354060641055">"Telefonanrufe zu tätigen und zu verwalten"</string>
+    <string name="permgroupdesc_phone" msgid="6234224354060641055">"Telefonanrufe tätigen und verwalten"</string>
     <string name="permgrouplab_sensors" msgid="416037179223226722">"Körpersensoren"</string>
-    <string name="permgroupdesc_sensors" msgid="7147968539346634043">"auf Sensordaten zu deinen Vitaldaten zuzugreifen"</string>
+    <string name="permgroupdesc_sensors" msgid="7147968539346634043">"auf Sensordaten zu deinen Vitaldaten zugreifen"</string>
     <string name="capability_title_canRetrieveWindowContent" msgid="3901717936930170320">"Fensterinhalte abrufen"</string>
     <string name="capability_desc_canRetrieveWindowContent" msgid="3772225008605310672">"Die Inhalte eines Fensters, mit dem du interagierst, werden abgerufen."</string>
     <string name="capability_title_canRequestTouchExploration" msgid="3108723364676667320">"\"Tippen &amp; Entdecken\" aktivieren"</string>
@@ -639,13 +639,13 @@
     <string name="orgTypeOther" msgid="3951781131570124082">"Sonstige"</string>
     <string name="orgTypeCustom" msgid="225523415372088322">"Benutzerdefiniert"</string>
     <string name="relationTypeCustom" msgid="3542403679827297300">"Benutzerdefiniert"</string>
-    <string name="relationTypeAssistant" msgid="6274334825195379076">"Assistent"</string>
+    <string name="relationTypeAssistant" msgid="6274334825195379076">"Kollege"</string>
     <string name="relationTypeBrother" msgid="8757913506784067713">"Bruder"</string>
     <string name="relationTypeChild" msgid="1890746277276881626">"Kind"</string>
     <string name="relationTypeDomesticPartner" msgid="6904807112121122133">"Lebenspartner"</string>
     <string name="relationTypeFather" msgid="5228034687082050725">"Vater"</string>
     <string name="relationTypeFriend" msgid="7313106762483391262">"Freund"</string>
-    <string name="relationTypeManager" msgid="6365677861610137895">"Vorgesetzter"</string>
+    <string name="relationTypeManager" msgid="6365677861610137895">"Chef"</string>
     <string name="relationTypeMother" msgid="4578571352962758304">"Mutter"</string>
     <string name="relationTypeParent" msgid="4755635567562925226">"Elternteil"</string>
     <string name="relationTypePartner" msgid="7266490285120262781">"Partner"</string>
@@ -860,20 +860,20 @@
     </plurals>
     <string name="now_string_shortest" msgid="8912796667087856402">"jetzt"</string>
     <plurals name="duration_minutes_shortest" formatted="false" msgid="3957499975064245495">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> min</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> min</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> min</item>
     </plurals>
     <plurals name="duration_hours_shortest" formatted="false" msgid="3552182110578602356">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> h</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> h</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> h</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> h</item>
     </plurals>
     <plurals name="duration_days_shortest" formatted="false" msgid="5213655532597081640">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> d</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> d</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> T.</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> T.</item>
     </plurals>
     <plurals name="duration_years_shortest" formatted="false" msgid="7848711145196397042">
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> a</item>
-      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> a</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> J.</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> J.</item>
     </plurals>
     <plurals name="duration_minutes_shortest_future" formatted="false" msgid="3277614521231489951">
       <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g> min</item>
@@ -884,12 +884,44 @@
       <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g> h</item>
     </plurals>
     <plurals name="duration_days_shortest_future" formatted="false" msgid="8088331502820295701">
-      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g> d</item>
-      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g> d</item>
+      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g> T.</item>
+      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g> T.</item>
     </plurals>
     <plurals name="duration_years_shortest_future" formatted="false" msgid="2317006667145250301">
-      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g> a</item>
-      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g> a</item>
+      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g> J.</item>
+      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g> J.</item>
+    </plurals>
+    <plurals name="duration_minutes_relative" formatted="false" msgid="3178131706192980192">
+      <item quantity="other">vor <xliff:g id="COUNT_1">%d</xliff:g> Minuten</item>
+      <item quantity="one">vor <xliff:g id="COUNT_0">%d</xliff:g> Minute</item>
+    </plurals>
+    <plurals name="duration_hours_relative" formatted="false" msgid="676894109982008411">
+      <item quantity="other">vor <xliff:g id="COUNT_1">%d</xliff:g> Stunden</item>
+      <item quantity="one">vor <xliff:g id="COUNT_0">%d</xliff:g> Stunde</item>
+    </plurals>
+    <plurals name="duration_days_relative" formatted="false" msgid="2203515825765397130">
+      <item quantity="other">vor <xliff:g id="COUNT_1">%d</xliff:g> Tagen</item>
+      <item quantity="one">vor <xliff:g id="COUNT_0">%d</xliff:g> Tag</item>
+    </plurals>
+    <plurals name="duration_years_relative" formatted="false" msgid="4820062134188885734">
+      <item quantity="other">vor <xliff:g id="COUNT_1">%d</xliff:g> Jahren</item>
+      <item quantity="one">vor <xliff:g id="COUNT_0">%d</xliff:g> Jahr</item>
+    </plurals>
+    <plurals name="duration_minutes_relative_future" formatted="false" msgid="4655043589817680966">
+      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g> Minuten</item>
+      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g> Minute</item>
+    </plurals>
+    <plurals name="duration_hours_relative_future" formatted="false" msgid="8084579714205223891">
+      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g> Stunden</item>
+      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g> Stunde</item>
+    </plurals>
+    <plurals name="duration_days_relative_future" formatted="false" msgid="333215369363433992">
+      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g> Tagen</item>
+      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g> Tag</item>
+    </plurals>
+    <plurals name="duration_years_relative_future" formatted="false" msgid="8644862986413104011">
+      <item quantity="other">in <xliff:g id="COUNT_1">%d</xliff:g> Jahren</item>
+      <item quantity="one">in <xliff:g id="COUNT_0">%d</xliff:g> Jahr</item>
     </plurals>
     <string name="VideoView_error_title" msgid="3534509135438353077">"Videoprobleme"</string>
     <string name="VideoView_error_text_invalid_progressive_playback" msgid="3186670335938670444">"Dieses Video ist nicht für Streaming auf diesem Gerät gültig."</string>
@@ -962,8 +994,7 @@
     <string name="aerr_process" msgid="6201597323218674729">"<xliff:g id="PROCESS">%1$s</xliff:g> wurde beendet"</string>
     <string name="aerr_application_repeated" msgid="3146328699537439573">"<xliff:g id="APPLICATION">%1$s</xliff:g> wird wiederholt beendet"</string>
     <string name="aerr_process_repeated" msgid="6235302956890402259">"<xliff:g id="PROCESS">%1$s</xliff:g> wird wiederholt beendet"</string>
-    <string name="aerr_restart" msgid="9001379185665886595">"App neu starten"</string>
-    <string name="aerr_reset" msgid="7645427603514220451">"App zurücksetzen und neu starten"</string>
+    <string name="aerr_restart" msgid="7581308074153624475">"App wieder öffnen"</string>
     <string name="aerr_report" msgid="5371800241488400617">"Feedback geben"</string>
     <string name="aerr_close" msgid="2991640326563991340">"Schließen"</string>
     <string name="aerr_mute" msgid="1974781923723235953">"Bis zum Neustart des Geräts ausblenden"</string>
@@ -1512,7 +1543,6 @@
     <string name="deleted_key" msgid="7659477886625566590">"<xliff:g id="KEY">%1$s</xliff:g> gelöscht"</string>
     <string name="managed_profile_label_badge" msgid="2355652472854327647">"<xliff:g id="LABEL">%1$s</xliff:g> (geschäftlich)"</string>
     <string name="lock_to_app_toast" msgid="1420543809500606964">"Um die Fixierung dieses Bildschirms aufzuheben, \"Zurück\" berühren und halten."</string>
-    <string name="lock_to_app_toast_accessible" msgid="2302154926850846096">"Um die Fixierung dieses Bildschirms aufzuheben, \"Übersicht\" berühren und halten."</string>
     <string name="lock_to_app_toast_locked" msgid="9125176335701699164">"Die App ist fixiert. Das Aufheben der Fixierung ist auf diesem Gerät nicht zulässig."</string>
     <string name="lock_to_app_start" msgid="6643342070839862795">"Bildschirm fixiert"</string>
     <string name="lock_to_app_exit" msgid="8598219838213787430">"Bildschirm gelöst"</string>
@@ -1579,6 +1609,8 @@
     <string name="stk_cc_ss_to_ussd" msgid="3951862188105305589">"SS-Anfrage wird in USSD-Anfrage geändert."</string>
     <string name="stk_cc_ss_to_ss" msgid="5470768854991452695">"SS-Anfrage wird in neue SS-Anfrage geändert."</string>
     <string name="notification_work_profile_content_description" msgid="4600554564103770764">"Arbeitsprofil"</string>
+    <string name="expand_button_content_description" msgid="5855955413376384681">"Schaltfläche \"Maximieren\""</string>
+    <string name="expand_action_accessibility" msgid="5307730695723718254">"Maximierung ein-/auschalten"</string>
     <string name="usb_midi_peripheral_name" msgid="7221113987741003817">"USB-Port für Android-Peripheriegeräte"</string>
     <string name="usb_midi_peripheral_manufacturer_name" msgid="7176526170008970168">"Android"</string>
     <string name="usb_midi_peripheral_product_name" msgid="4971827859165280403">"USB-Port für Peripheriegeräte"</string>
@@ -1586,6 +1618,7 @@
     <string name="floating_toolbar_close_overflow_description" msgid="559796923090723804">"Überlauf schließen"</string>
     <string name="maximize_button_text" msgid="7543285286182446254">"Maximieren"</string>
     <string name="close_button_text" msgid="3937902162644062866">"Schließen"</string>
+    <string name="notification_messaging_title_template" msgid="3452480118762691020">"<xliff:g id="CONVERSATION_TITLE">%1$s</xliff:g>: <xliff:g id="SENDER_NAME">%2$s</xliff:g>"</string>
     <plurals name="selected_count" formatted="false" msgid="7187339492915744615">
       <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ausgewählt</item>
       <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> ausgewählt</item>
@@ -1618,4 +1651,5 @@
     <string name="negative_duration" msgid="5688706061127375131">"−<xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="audit_safemode_notification" msgid="6416076898350685856">"Gerät auf Werkseinstellungen zurücksetzen, um es ohne Einschränkungen zu nutzen"</string>
     <string name="audit_safemode_notification_details" msgid="1860601176690176413">"Für weitere Informationen tippen."</string>
+    <string name="suspended_widget_accessibility" msgid="6712143096475264190">"<xliff:g id="LABEL">%1$s</xliff:g> deaktiviert"</string>
 </resources>

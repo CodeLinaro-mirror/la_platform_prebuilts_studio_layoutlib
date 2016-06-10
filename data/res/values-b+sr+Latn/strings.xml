@@ -607,7 +607,7 @@
     <string name="phoneTypeRadio" msgid="4093738079908667513">"Radio"</string>
     <string name="phoneTypeTelex" msgid="3367879952476250512">"Teleks"</string>
     <string name="phoneTypeTtyTdd" msgid="8606514378585000044">"TTY TDD"</string>
-    <string name="phoneTypeWorkMobile" msgid="1311426989184065709">"Broj poslovnog mobilnog telefona"</string>
+    <string name="phoneTypeWorkMobile" msgid="1311426989184065709">"Poslovni mobilni"</string>
     <string name="phoneTypeWorkPager" msgid="649938731231157056">"Poslovni pejdžer"</string>
     <string name="phoneTypeAssistant" msgid="5596772636128562884">"Pomoćnik"</string>
     <string name="phoneTypeMms" msgid="7254492275502768992">"MMS"</string>
@@ -878,8 +878,8 @@
     </plurals>
     <plurals name="duration_days_shortest" formatted="false" msgid="5213655532597081640">
       <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> dan</item>
-      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> dana</item>
-      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> dana</item>
+      <item quantity="few"><xliff:g id="COUNT_1">%d</xliff:g> dan</item>
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> dan</item>
     </plurals>
     <plurals name="duration_years_shortest" formatted="false" msgid="7848711145196397042">
       <item quantity="one"><xliff:g id="COUNT_1">%d</xliff:g> god</item>
@@ -898,13 +898,53 @@
     </plurals>
     <plurals name="duration_days_shortest_future" formatted="false" msgid="8088331502820295701">
       <item quantity="one">za <xliff:g id="COUNT_1">%d</xliff:g> dan</item>
-      <item quantity="few">za <xliff:g id="COUNT_1">%d</xliff:g> dana</item>
-      <item quantity="other">za <xliff:g id="COUNT_1">%d</xliff:g> dana</item>
+      <item quantity="few">za <xliff:g id="COUNT_1">%d</xliff:g> dan</item>
+      <item quantity="other">za <xliff:g id="COUNT_1">%d</xliff:g> dan</item>
     </plurals>
     <plurals name="duration_years_shortest_future" formatted="false" msgid="2317006667145250301">
       <item quantity="one">za <xliff:g id="COUNT_1">%d</xliff:g> god</item>
       <item quantity="few">za <xliff:g id="COUNT_1">%d</xliff:g> god</item>
       <item quantity="other">za <xliff:g id="COUNT_1">%d</xliff:g> god</item>
+    </plurals>
+    <plurals name="duration_minutes_relative" formatted="false" msgid="3178131706192980192">
+      <item quantity="one">pre <xliff:g id="COUNT_1">%d</xliff:g> minuta</item>
+      <item quantity="few">pre <xliff:g id="COUNT_1">%d</xliff:g> minuta</item>
+      <item quantity="other">pre <xliff:g id="COUNT_1">%d</xliff:g> minuta</item>
+    </plurals>
+    <plurals name="duration_hours_relative" formatted="false" msgid="676894109982008411">
+      <item quantity="one">pre <xliff:g id="COUNT_1">%d</xliff:g> sata</item>
+      <item quantity="few">pre <xliff:g id="COUNT_1">%d</xliff:g> sata</item>
+      <item quantity="other">pre <xliff:g id="COUNT_1">%d</xliff:g> sati</item>
+    </plurals>
+    <plurals name="duration_days_relative" formatted="false" msgid="2203515825765397130">
+      <item quantity="one">Pre <xliff:g id="COUNT_1">%d</xliff:g> dana</item>
+      <item quantity="few">Pre <xliff:g id="COUNT_1">%d</xliff:g> dana</item>
+      <item quantity="other">Pre <xliff:g id="COUNT_1">%d</xliff:g> dana</item>
+    </plurals>
+    <plurals name="duration_years_relative" formatted="false" msgid="4820062134188885734">
+      <item quantity="one">pre <xliff:g id="COUNT_1">%d</xliff:g> godine</item>
+      <item quantity="few">pre <xliff:g id="COUNT_1">%d</xliff:g> godine</item>
+      <item quantity="other">pre <xliff:g id="COUNT_1">%d</xliff:g> godina</item>
+    </plurals>
+    <plurals name="duration_minutes_relative_future" formatted="false" msgid="4655043589817680966">
+      <item quantity="one">za <xliff:g id="COUNT_1">%d</xliff:g> minut</item>
+      <item quantity="few">za <xliff:g id="COUNT_1">%d</xliff:g> minuta</item>
+      <item quantity="other">za <xliff:g id="COUNT_1">%d</xliff:g> minuta</item>
+    </plurals>
+    <plurals name="duration_hours_relative_future" formatted="false" msgid="8084579714205223891">
+      <item quantity="one">za <xliff:g id="COUNT_1">%d</xliff:g> sat</item>
+      <item quantity="few">za <xliff:g id="COUNT_1">%d</xliff:g> sata</item>
+      <item quantity="other">za <xliff:g id="COUNT_1">%d</xliff:g> sati</item>
+    </plurals>
+    <plurals name="duration_days_relative_future" formatted="false" msgid="333215369363433992">
+      <item quantity="one">za <xliff:g id="COUNT_1">%d</xliff:g> dan</item>
+      <item quantity="few">za <xliff:g id="COUNT_1">%d</xliff:g> dana</item>
+      <item quantity="other">za <xliff:g id="COUNT_1">%d</xliff:g> dana</item>
+    </plurals>
+    <plurals name="duration_years_relative_future" formatted="false" msgid="8644862986413104011">
+      <item quantity="one">za <xliff:g id="COUNT_1">%d</xliff:g> godinu</item>
+      <item quantity="few">za <xliff:g id="COUNT_1">%d</xliff:g> godine</item>
+      <item quantity="other">za <xliff:g id="COUNT_1">%d</xliff:g> godina</item>
     </plurals>
     <string name="VideoView_error_title" msgid="3534509135438353077">"Problem sa video snimkom"</string>
     <string name="VideoView_error_text_invalid_progressive_playback" msgid="3186670335938670444">"Ovaj video ne može da se strimuje na ovom uređaju."</string>
@@ -977,8 +1017,7 @@
     <string name="aerr_process" msgid="6201597323218674729">"Proces <xliff:g id="PROCESS">%1$s</xliff:g> je zaustavljen"</string>
     <string name="aerr_application_repeated" msgid="3146328699537439573">"<xliff:g id="APPLICATION">%1$s</xliff:g> se stalno zaustavlja"</string>
     <string name="aerr_process_repeated" msgid="6235302956890402259">"Proces <xliff:g id="PROCESS">%1$s</xliff:g> se stalno zaustavlja"</string>
-    <string name="aerr_restart" msgid="9001379185665886595">"Ponovo pokreni aplikaciju"</string>
-    <string name="aerr_reset" msgid="7645427603514220451">"Resetuj i ponovo pokreni aplikaciju"</string>
+    <string name="aerr_restart" msgid="7581308074153624475">"Ponovo otvori aplikaciju"</string>
     <string name="aerr_report" msgid="5371800241488400617">"Pošaljite povratne informacije"</string>
     <string name="aerr_close" msgid="2991640326563991340">"Zatvori"</string>
     <string name="aerr_mute" msgid="1974781923723235953">"Ignoriši dok se uređaj ne pokrene ponovo"</string>
@@ -1531,7 +1570,6 @@
     <string name="deleted_key" msgid="7659477886625566590">"Izbrisali ste <xliff:g id="KEY">%1$s</xliff:g>"</string>
     <string name="managed_profile_label_badge" msgid="2355652472854327647">"<xliff:g id="LABEL">%1$s</xliff:g> na poslu"</string>
     <string name="lock_to_app_toast" msgid="1420543809500606964">"Da biste otkačili ovaj ekran, dodirnite i zadržite Nazad."</string>
-    <string name="lock_to_app_toast_accessible" msgid="2302154926850846096">"Da biste otkačili ovaj ekran, dodirnite i zadržite Pregled."</string>
     <string name="lock_to_app_toast_locked" msgid="9125176335701699164">"Aplikacija je zakačena: otkačinjanje nije dozvoljeno na ovom uređaju."</string>
     <string name="lock_to_app_start" msgid="6643342070839862795">"Ekran je zakačen"</string>
     <string name="lock_to_app_exit" msgid="8598219838213787430">"Ekran je otkačen"</string>
@@ -1606,6 +1644,8 @@
     <string name="stk_cc_ss_to_ussd" msgid="3951862188105305589">"SS zahtev je promenjen u USSD zahtev."</string>
     <string name="stk_cc_ss_to_ss" msgid="5470768854991452695">"SS zahtev je promenjen u novi SS zahtev."</string>
     <string name="notification_work_profile_content_description" msgid="4600554564103770764">"Profil za Work"</string>
+    <string name="expand_button_content_description" msgid="5855955413376384681">"Dugme Proširi"</string>
+    <string name="expand_action_accessibility" msgid="5307730695723718254">"uključite/isključite proširenje"</string>
     <string name="usb_midi_peripheral_name" msgid="7221113987741003817">"Android USB port za periferijske uređaje"</string>
     <string name="usb_midi_peripheral_manufacturer_name" msgid="7176526170008970168">"Android"</string>
     <string name="usb_midi_peripheral_product_name" msgid="4971827859165280403">"USB port za periferijske uređaje"</string>
@@ -1613,6 +1653,7 @@
     <string name="floating_toolbar_close_overflow_description" msgid="559796923090723804">"Zatvori preklopni meni"</string>
     <string name="maximize_button_text" msgid="7543285286182446254">"Uvećaj"</string>
     <string name="close_button_text" msgid="3937902162644062866">"Zatvori"</string>
+    <string name="notification_messaging_title_template" msgid="3452480118762691020">"<xliff:g id="CONVERSATION_TITLE">%1$s</xliff:g>: <xliff:g id="SENDER_NAME">%2$s</xliff:g>"</string>
     <plurals name="selected_count" formatted="false" msgid="7187339492915744615">
       <item quantity="one">Izabrana je <xliff:g id="COUNT_1">%1$d</xliff:g> stavka</item>
       <item quantity="few">Izabrane su <xliff:g id="COUNT_1">%1$d</xliff:g> stavke</item>
@@ -1646,4 +1687,5 @@
     <string name="negative_duration" msgid="5688706061127375131">"−<xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="audit_safemode_notification" msgid="6416076898350685856">"Resetujte uređaj na fabrička podešavanja da biste ga koristili bez ograničenja"</string>
     <string name="audit_safemode_notification_details" msgid="1860601176690176413">"Dodirnite da biste saznali više."</string>
+    <string name="suspended_widget_accessibility" msgid="6712143096475264190">"Vidžet <xliff:g id="LABEL">%1$s</xliff:g> je onemogućen"</string>
 </resources>

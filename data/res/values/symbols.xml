@@ -698,7 +698,6 @@
   <java-symbol type="string" name="last_month" />
   <java-symbol type="string" name="launchBrowserDefault" />
   <java-symbol type="string" name="lock_to_app_toast" />
-  <java-symbol type="string" name="lock_to_app_toast_accessible" />
   <java-symbol type="string" name="lock_to_app_toast_locked" />
   <java-symbol type="string" name="lock_to_app_start" />
   <java-symbol type="string" name="lock_to_app_exit" />
@@ -2446,7 +2445,6 @@
   <java-symbol type="id" name="work_widget_badge_icon" />
 
   <java-symbol type="id" name="aerr_report" />
-  <java-symbol type="id" name="aerr_reset" />
   <java-symbol type="id" name="aerr_restart" />
   <java-symbol type="id" name="aerr_close" />
   <java-symbol type="id" name="aerr_mute" />
@@ -2522,6 +2520,15 @@
   <java-symbol type="plurals" name="duration_days_shortest_future" />
   <java-symbol type="plurals" name="duration_years_shortest_future" />
 
+  <java-symbol type="plurals" name="duration_minutes_relative" />
+  <java-symbol type="plurals" name="duration_hours_relative" />
+  <java-symbol type="plurals" name="duration_days_relative" />
+  <java-symbol type="plurals" name="duration_years_relative" />
+  <java-symbol type="plurals" name="duration_minutes_relative_future" />
+  <java-symbol type="plurals" name="duration_hours_relative_future" />
+  <java-symbol type="plurals" name="duration_days_relative_future" />
+  <java-symbol type="plurals" name="duration_years_relative_future" />
+
   <java-symbol type="string" name="now_string_shortest" />
 
   <!-- Encryption notification while accounts are locked by credential encryption -->
@@ -2559,6 +2566,7 @@
 
   <!-- WallpaperManager config -->
   <java-symbol type="string" name="config_wallpaperCropperPackage" />
+  <java-symbol type="string" name="expand_action_accessibility" />
 
   <java-symbol type="id" name="textSpacerNoTitle" />
   <java-symbol type="id" name="titleDividerNoCustom" />
@@ -2590,6 +2598,7 @@
 
   <!-- TV Remote Service package -->
   <java-symbol type="string" name="config_tvRemoteServicePackage" />
+  <java-symbol type="string" name="notification_messaging_title_template" />
 
   <java-symbol type="bool" name="config_supportPreRebootSecurityLogs" />
 

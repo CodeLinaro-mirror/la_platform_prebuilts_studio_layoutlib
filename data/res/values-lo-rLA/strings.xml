@@ -606,7 +606,7 @@
     <string name="phoneTypeTtyTdd" msgid="8606514378585000044">"TTY TDD"</string>
     <string name="phoneTypeWorkMobile" msgid="1311426989184065709">"ໂທລະສັບມືຖືບ່ອນເຮັດວຽກ"</string>
     <string name="phoneTypeWorkPager" msgid="649938731231157056">"ເພກເຈີບ່ອນເຮັດວຽກ"</string>
-    <string name="phoneTypeAssistant" msgid="5596772636128562884">"ຜູ່ຊ່ວຍ"</string>
+    <string name="phoneTypeAssistant" msgid="5596772636128562884">"ຜູ້ຊ່ວຍ"</string>
     <string name="phoneTypeMms" msgid="7254492275502768992">"MMS"</string>
     <string name="eventTypeCustom" msgid="7837586198458073404">"ກຳນົດເອງ"</string>
     <string name="eventTypeBirthday" msgid="2813379844211390740">"ວັນເດືອນປີເກີດ"</string>
@@ -639,7 +639,7 @@
     <string name="orgTypeOther" msgid="3951781131570124082">"ອື່ນໆ"</string>
     <string name="orgTypeCustom" msgid="225523415372088322">"ກຳນົດເອງ"</string>
     <string name="relationTypeCustom" msgid="3542403679827297300">"ກຳນົດເອງ"</string>
-    <string name="relationTypeAssistant" msgid="6274334825195379076">"ຜູ່ຊ່ວຍ"</string>
+    <string name="relationTypeAssistant" msgid="6274334825195379076">"ຜູ້ຊ່ວຍ"</string>
     <string name="relationTypeBrother" msgid="8757913506784067713">"ອ້າຍ-ນ້ອງ"</string>
     <string name="relationTypeChild" msgid="1890746277276881626">"ລູກ"</string>
     <string name="relationTypeDomesticPartner" msgid="6904807112121122133">"ຮຸ້ນສ່ວນພາຍໃນ"</string>
@@ -891,6 +891,38 @@
       <item quantity="other">ໃນ <xliff:g id="COUNT_1">%d</xliff:g>ປ</item>
       <item quantity="one">ໃນ <xliff:g id="COUNT_0">%d</xliff:g>ປ</item>
     </plurals>
+    <plurals name="duration_minutes_relative" formatted="false" msgid="3178131706192980192">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ນາທີກ່ອນ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ນາທີກ່ອນ</item>
+    </plurals>
+    <plurals name="duration_hours_relative" formatted="false" msgid="676894109982008411">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ຊົ່ວໂມງກ່ອນ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ຊົ່ວໂມງກ່ອນ</item>
+    </plurals>
+    <plurals name="duration_days_relative" formatted="false" msgid="2203515825765397130">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ມື້ກ່ອນ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ມື້ກ່ອນ</item>
+    </plurals>
+    <plurals name="duration_years_relative" formatted="false" msgid="4820062134188885734">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ປີກ່ອນ</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ປີກ່ອນ</item>
+    </plurals>
+    <plurals name="duration_minutes_relative_future" formatted="false" msgid="4655043589817680966">
+      <item quantity="other">ໃນ <xliff:g id="COUNT_1">%d</xliff:g> ນາທີ</item>
+      <item quantity="one">ໃນ <xliff:g id="COUNT_0">%d</xliff:g> ນາທີ</item>
+    </plurals>
+    <plurals name="duration_hours_relative_future" formatted="false" msgid="8084579714205223891">
+      <item quantity="other">ໃນ <xliff:g id="COUNT_1">%d</xliff:g> ຊົ່ວໂມງ</item>
+      <item quantity="one">ໃນ <xliff:g id="COUNT_0">%d</xliff:g> ຊົ່ວໂມງ</item>
+    </plurals>
+    <plurals name="duration_days_relative_future" formatted="false" msgid="333215369363433992">
+      <item quantity="other">ໃນ <xliff:g id="COUNT_1">%d</xliff:g> ມື້</item>
+      <item quantity="one">ໃນ <xliff:g id="COUNT_0">%d</xliff:g> ມື້</item>
+    </plurals>
+    <plurals name="duration_years_relative_future" formatted="false" msgid="8644862986413104011">
+      <item quantity="other">ໃນ <xliff:g id="COUNT_1">%d</xliff:g> ປີ</item>
+      <item quantity="one">ໃນ <xliff:g id="COUNT_0">%d</xliff:g> ປີ</item>
+    </plurals>
     <string name="VideoView_error_title" msgid="3534509135438353077">"ບັນຫາວິດີໂອ"</string>
     <string name="VideoView_error_text_invalid_progressive_playback" msgid="3186670335938670444">"ວິດີໂອນີ້ບໍ່ຖືກຕ້ອງສຳລັບການສະແດງໃນອຸປະກອນນີ້."</string>
     <string name="VideoView_error_text_unknown" msgid="3450439155187810085">"ບໍ່ສາມາດຫຼິ້ນວິດີໂອນີ້ໄດ້."</string>
@@ -962,8 +994,7 @@
     <string name="aerr_process" msgid="6201597323218674729">"<xliff:g id="PROCESS">%1$s</xliff:g> ໄດ້ຢຸດແລ້ວ"</string>
     <string name="aerr_application_repeated" msgid="3146328699537439573">"<xliff:g id="APPLICATION">%1$s</xliff:g> ຢຸດເລື້ອຍໆ"</string>
     <string name="aerr_process_repeated" msgid="6235302956890402259">"<xliff:g id="PROCESS">%1$s</xliff:g> ຢຸດເລື້ອຍໆ"</string>
-    <string name="aerr_restart" msgid="9001379185665886595">"ເລີ່ມແອັບໃໝ່"</string>
-    <string name="aerr_reset" msgid="7645427603514220451">"ຣີເຊັດ ແລະ ເລີ່ມແອັບໃໝ່"</string>
+    <string name="aerr_restart" msgid="7581308074153624475">"ເປີດແອັບອີກຄັ້ງ"</string>
     <string name="aerr_report" msgid="5371800241488400617">"ສົ່ງຄຳຕິຊົມ"</string>
     <string name="aerr_close" msgid="2991640326563991340">"ປິດ"</string>
     <string name="aerr_mute" msgid="1974781923723235953">"ປິດສຽງຈົນກວ່າວ່າອຸປະກອນເລີ່ມໃໝ່"</string>
@@ -1512,7 +1543,6 @@
     <string name="deleted_key" msgid="7659477886625566590">"<xliff:g id="KEY">%1$s</xliff:g> ຖືກລຶບແລ້ວ"</string>
     <string name="managed_profile_label_badge" msgid="2355652472854327647">"​ບ່ອນ​ເຮັດ​ວຽກ <xliff:g id="LABEL">%1$s</xliff:g>"</string>
     <string name="lock_to_app_toast" msgid="1420543809500606964">"ກົດປຸ່ມກັບຄືນຄ້າງໄວ້ເພື່ອເຊົາປັກໝຸດໜ້າຈໍນີ້."</string>
-    <string name="lock_to_app_toast_accessible" msgid="2302154926850846096">"ກົດປຸ່ມພາບຮວມຄ້າງໄວ້ເພື່ອເຊົາປັກໝຸດໜ້າຈໍນີ້."</string>
     <string name="lock_to_app_toast_locked" msgid="9125176335701699164">"ແອັບ​ຖືກ​ປັກ​ໝຸດ​ແລ້ວ: ບໍ່​ອະ​ນຸ​ຍາດ​ໃຫ້​ຖອນ​ປັກ​ໝຸດ​ຢູ່​ເທິງ​ອຸ​ປະ​ກອນ​ນີ້."</string>
     <string name="lock_to_app_start" msgid="6643342070839862795">"​ປັກ​ໝຸດ​ໜ້າ​ຈໍ​ແລ້ວ"</string>
     <string name="lock_to_app_exit" msgid="8598219838213787430">"ຍົກ​ເລີກ​ການ​ປັກ​ໝຸນ​​ຫນ້າ​ຈໍ​ແລ້ວ"</string>
@@ -1579,6 +1609,8 @@
     <string name="stk_cc_ss_to_ussd" msgid="3951862188105305589">"ການ​ຂໍ SS ຖືກ​ດັດ​ແປງ​ເປັນ​ການ​ຂໍ USSD ແລ້ວ."</string>
     <string name="stk_cc_ss_to_ss" msgid="5470768854991452695">"ການ​ຂໍ SS ຖືກ​ດັດ​ແປງ​ເປັນ​ການ​ຂໍ SS ໃໝ່​ແລ້ວ."</string>
     <string name="notification_work_profile_content_description" msgid="4600554564103770764">"​ໂປຣ​ໄຟລ໌​ບ່ອນ​ເຮັດ​ວຽກ"</string>
+    <string name="expand_button_content_description" msgid="5855955413376384681">"ປຸ່ມຂະຫຍາຍ"</string>
+    <string name="expand_action_accessibility" msgid="5307730695723718254">"ປິດ/ເປີດ ການຂະຫຍາຍ"</string>
     <string name="usb_midi_peripheral_name" msgid="7221113987741003817">"ຜອດ​ຮອບນອກ Android USB"</string>
     <string name="usb_midi_peripheral_manufacturer_name" msgid="7176526170008970168">"Android"</string>
     <string name="usb_midi_peripheral_product_name" msgid="4971827859165280403">"ຜອດ​ຮອບນອກ USB"</string>
@@ -1586,6 +1618,7 @@
     <string name="floating_toolbar_close_overflow_description" msgid="559796923090723804">"ປິດ​ການ​ໄຫຼ​ລົ້ນ​ອອກ​ມາ"</string>
     <string name="maximize_button_text" msgid="7543285286182446254">"ຂະຫຍາຍອອກ"</string>
     <string name="close_button_text" msgid="3937902162644062866">"ປິດ"</string>
+    <string name="notification_messaging_title_template" msgid="3452480118762691020">"<xliff:g id="CONVERSATION_TITLE">%1$s</xliff:g>: <xliff:g id="SENDER_NAME">%2$s</xliff:g>"</string>
     <plurals name="selected_count" formatted="false" msgid="7187339492915744615">
       <item quantity="other"><xliff:g id="COUNT_1">%1$d</xliff:g> ຖືກເລືອກ​ແລ້ວ</item>
       <item quantity="one"><xliff:g id="COUNT_0">%1$d</xliff:g> ຖືກເລືອກ​ແລ້ວ</item>
@@ -1618,4 +1651,5 @@
     <string name="negative_duration" msgid="5688706061127375131">"−<xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="audit_safemode_notification" msgid="6416076898350685856">"ຣີເຊັດໃຫ້ເປັນຄ່າໂຮງງານເພື່ອໃຊ້ອຸປະກອນນີ້ໂດຍບໍ່ມີຂໍ້ຈຳກັດ"</string>
     <string name="audit_safemode_notification_details" msgid="1860601176690176413">"ແຕະເພື່ອສຶກສາເພີ່ມເຕີມ."</string>
+    <string name="suspended_widget_accessibility" msgid="6712143096475264190">"ປິດການນຳໃຊ້ <xliff:g id="LABEL">%1$s</xliff:g> ແລ້ວ"</string>
 </resources>

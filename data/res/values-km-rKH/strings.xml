@@ -891,6 +891,38 @@
       <item quantity="other">ក្នុងពេល <xliff:g id="COUNT_1">%d</xliff:g>ឆ</item>
       <item quantity="one">ក្នុងពេល <xliff:g id="COUNT_0">%d</xliff:g>ឆ</item>
     </plurals>
+    <plurals name="duration_minutes_relative" formatted="false" msgid="3178131706192980192">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> នាទីមុន</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> នាទីមុន</item>
+    </plurals>
+    <plurals name="duration_hours_relative" formatted="false" msgid="676894109982008411">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ម៉ោងមុន</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ម៉ោងមុន</item>
+    </plurals>
+    <plurals name="duration_days_relative" formatted="false" msgid="2203515825765397130">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ថ្ងៃមុន</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ថ្ងៃមុន</item>
+    </plurals>
+    <plurals name="duration_years_relative" formatted="false" msgid="4820062134188885734">
+      <item quantity="other"><xliff:g id="COUNT_1">%d</xliff:g> ឆ្នាំមុន</item>
+      <item quantity="one"><xliff:g id="COUNT_0">%d</xliff:g> ឆ្នាំមុន</item>
+    </plurals>
+    <plurals name="duration_minutes_relative_future" formatted="false" msgid="4655043589817680966">
+      <item quantity="other">ក្នុងរយៈពេល <xliff:g id="COUNT_1">%d</xliff:g> នាទីទៀត</item>
+      <item quantity="one">ក្នុងរយៈពេល <xliff:g id="COUNT_0">%d</xliff:g> នាទីទៀត</item>
+    </plurals>
+    <plurals name="duration_hours_relative_future" formatted="false" msgid="8084579714205223891">
+      <item quantity="other">ក្នុងរយៈពេល <xliff:g id="COUNT_1">%d</xliff:g> ម៉ោងទៀត</item>
+      <item quantity="one">ក្នុងរយៈពេល <xliff:g id="COUNT_0">%d</xliff:g> ម៉ោងទៀត</item>
+    </plurals>
+    <plurals name="duration_days_relative_future" formatted="false" msgid="333215369363433992">
+      <item quantity="other">ក្នុងរយៈពេល <xliff:g id="COUNT_1">%d</xliff:g> ថ្ងៃទៀត</item>
+      <item quantity="one">ក្នុងរយៈពេល <xliff:g id="COUNT_0">%d</xliff:g> ថ្ងៃទៀត</item>
+    </plurals>
+    <plurals name="duration_years_relative_future" formatted="false" msgid="8644862986413104011">
+      <item quantity="other">ក្នុងរយៈពេល <xliff:g id="COUNT_1">%d</xliff:g> ឆ្នាំទៀត</item>
+      <item quantity="one">ក្នុងរយៈពេល <xliff:g id="COUNT_0">%d</xliff:g> ឆ្នាំទៀត</item>
+    </plurals>
     <string name="VideoView_error_title" msgid="3534509135438353077">"បញ្ហា​វីដេអូ"</string>
     <string name="VideoView_error_text_invalid_progressive_playback" msgid="3186670335938670444">"វីដេអូ​នេះ​មិន​ត្រឹមត្រូវ​សម្រាប់​​ចរន្ត​ចូល​ឧបករណ៍​នេះ។"</string>
     <string name="VideoView_error_text_unknown" msgid="3450439155187810085">"មិន​អាច​ចាក់​វីដេអូ​នេះ។"</string>
@@ -964,8 +996,7 @@
     <string name="aerr_process" msgid="6201597323218674729">"<xliff:g id="PROCESS">%1$s</xliff:g> បានឈប់"</string>
     <string name="aerr_application_repeated" msgid="3146328699537439573">"<xliff:g id="APPLICATION">%1$s</xliff:g> ឈប់ដំណើរការម្តងហើយម្តងទៀត"</string>
     <string name="aerr_process_repeated" msgid="6235302956890402259">"<xliff:g id="PROCESS">%1$s</xliff:g> ឈប់ដំណើរការម្តងហើយម្តងទៀត"</string>
-    <string name="aerr_restart" msgid="9001379185665886595">"ចាប់ផ្តើមកម្មវិធីឡើងវិញ"</string>
-    <string name="aerr_reset" msgid="7645427603514220451">"កំណត់ និងចាប់ផ្តើមកម្មវិធីឡើងវិញ"</string>
+    <string name="aerr_restart" msgid="7581308074153624475">"បើកកម្មវិធីម្តងទៀត"</string>
     <string name="aerr_report" msgid="5371800241488400617">"ផ្ញើមតិ"</string>
     <string name="aerr_close" msgid="2991640326563991340">"បិទ"</string>
     <string name="aerr_mute" msgid="1974781923723235953">"បិទរហូតដល់ឧបករណ៍ចាប់ផ្តើមឡើងវិញ"</string>
@@ -1514,7 +1545,6 @@
     <string name="deleted_key" msgid="7659477886625566590">"បាន​លុប <xliff:g id="KEY">%1$s</xliff:g>"</string>
     <string name="managed_profile_label_badge" msgid="2355652472854327647">"កន្លែង​ធ្វើការ <xliff:g id="LABEL">%1$s</xliff:g>"</string>
     <string name="lock_to_app_toast" msgid="1420543809500606964">"ដើម្បីផ្តាច់អេក្រង់នេះ សូមប៉ះ និងសង្កត់ប៊ូតុងថយក្រោយឲ្យជាប់។"</string>
-    <string name="lock_to_app_toast_accessible" msgid="2302154926850846096">"ដើម្បីផ្តាច់អេក្រង់នេះ សូមប៉ះ និងសង្កត់ប៊ូតុងទិដ្ឋភាពឲ្យជាប់។"</string>
     <string name="lock_to_app_toast_locked" msgid="9125176335701699164">"កម្មវិធីនេះត្រូវបានខ្ទាស់។ មិនអនុញ្ញាតឲ្យដោះការខ្ទាស់នៅលើឧបករណ៍នេះទេ។"</string>
     <string name="lock_to_app_start" msgid="6643342070839862795">"បាន​ភ្ជាប់​អេក្រង់"</string>
     <string name="lock_to_app_exit" msgid="8598219838213787430">"មិន​បាន​ភ្ជាប់​អេក្រង់"</string>
@@ -1525,7 +1555,7 @@
     <string name="package_updated_device_owner" msgid="8856631322440187071">"បានធ្វើបច្ចុប្បន្នភាពដោយអ្នកគ្រប់គ្រងរបស់អ្នក"</string>
     <string name="package_deleted_device_owner" msgid="7650577387493101353">"បានលុបដោយអ្នកគ្រប់គ្រងរបស់អ្នក"</string>
     <string name="battery_saver_description" msgid="1960431123816253034">"ដើម្បីជួយឲ្យថាមពលថ្មប្រសើរឡើង កម្មវិធីសន្សំសំចៃថាមពលថ្មកាត់បន្ថយប្រតិបត្តិការឧបករណ៍របស់អ្នក និងកម្រិតភាពញ័រ សេវាកម្មទីតាំង និងទិន្នន័យផ្ទៃខាងក្រោយស្ទើរតែទាំងអស់។ ការផ្ញើសារអ៊ីម៉ែល និងកម្មវិធីផ្សេងទៀតដែលពឹងផ្អែកលើការធ្វើសមកាលកម្មអាចនឹងមិនធ្វើបច្ចុប្បន្នភាពទេ លុះត្រាតែអ្នកបើកពួកវា។\n\nកម្មវិធីសន្សំសំចៃបិទដោយស្វ័យប្រវត្តិ នៅពេលដែលឧបករណ៍របស់អ្នកកំពុងសាកថ្ម។"</string>
-    <string name="data_saver_description" msgid="6015391409098303235">"ដើម្បីជួយកាត់បន្ថយការប្រើប្រាស់ទិន្នន័យ កម្មវិធីសន្សំសំចៃទិន្នន័យរារាំងកម្មវិធីមួយចំនួនមិនឲ្យផ្ញើ ឬទទួលទិន្នន័យនៅផ្ទៃខាងក្រោយ។ កម្មវិធីដែលអ្នកកំពុងប្រើនាពេលបច្ចុប្បន្នអាចចូលដំណើរការទិន្នន័យបាន ប៉ុន្តែវាអាចនឹងមិនធ្វើដូចនេះញឹកញាប់ទេ។ នេះមានន័យថា ជាឧទាហរណ៍ រូបភាពមិនបង្ហាញនោះទេ រហូតទាល់តែអ្នកប៉ះពួកវា។"</string>
+    <string name="data_saver_description" msgid="6015391409098303235">"ដើម្បីជួយកាត់បន្ថយការប្រើប្រាស់ទិន្នន័យ កម្មវិធីសន្សំសំចៃទិន្នន័យរារាំងកម្មវិធីមួយចំនួនមិនឲ្យបញ្ជូន ឬទទួលទិន្នន័យនៅផ្ទៃខាងក្រោយទេ។ កម្មវិធីដែលអ្នកកំពុងប្រើនាពេលបច្ចុប្បន្នអាចចូលប្រើប្រាស់​ទិន្នន័យបាន ប៉ុន្តែអាចនឹងមិនញឹកញាប់ដូចមុនទេ។ ឧទាហរណ៍ រូបភាពមិនបង្ហាញទេ លុះត្រាតែអ្នកប៉ះរូបភាពទាំងនោះ។"</string>
     <string name="data_saver_enable_title" msgid="4674073932722787417">"បើកកម្មវិធីសន្សំសំចៃទិន្នន័យឬ?"</string>
     <string name="data_saver_enable_button" msgid="7147735965247211818">"បើក"</string>
     <plurals name="zen_mode_duration_minutes_summary" formatted="false" msgid="4367877408072000848">
@@ -1581,6 +1611,8 @@
     <string name="stk_cc_ss_to_ussd" msgid="3951862188105305589">"សំណើរ SS ត្រូវបានកែសម្រួលទៅតាមសំណើរ USSD។"</string>
     <string name="stk_cc_ss_to_ss" msgid="5470768854991452695">"សំណើរ SS ត្រូវបានកែសម្រួលទៅតាមសំណើរ SS ថ្មី។"</string>
     <string name="notification_work_profile_content_description" msgid="4600554564103770764">"ប្រវត្តិរូបការងារ"</string>
+    <string name="expand_button_content_description" msgid="5855955413376384681">"ប៊ូតុងពង្រីក"</string>
+    <string name="expand_action_accessibility" msgid="5307730695723718254">"បិទ/បើកការពង្រីក"</string>
     <string name="usb_midi_peripheral_name" msgid="7221113987741003817">"ឧបករណ៍រន្ធ USB Android បន្ថែម"</string>
     <string name="usb_midi_peripheral_manufacturer_name" msgid="7176526170008970168">"Android"</string>
     <string name="usb_midi_peripheral_product_name" msgid="4971827859165280403">"ឧបករណ៍រន្ធ USB បន្ថែម"</string>
@@ -1588,6 +1620,7 @@
     <string name="floating_toolbar_close_overflow_description" msgid="559796923090723804">"បិទលើសចំណុះ"</string>
     <string name="maximize_button_text" msgid="7543285286182446254">"ពង្រីក"</string>
     <string name="close_button_text" msgid="3937902162644062866">"បិទ"</string>
+    <string name="notification_messaging_title_template" msgid="3452480118762691020">"<xliff:g id="CONVERSATION_TITLE">%1$s</xliff:g>៖ <xliff:g id="SENDER_NAME">%2$s</xliff:g>"</string>
     <plurals name="selected_count" formatted="false" msgid="7187339492915744615">
       <item quantity="other">បានជ្រើស <xliff:g id="COUNT_1">%1$d</xliff:g></item>
       <item quantity="one">បានជ្រើស <xliff:g id="COUNT_0">%1$d</xliff:g></item>
@@ -1620,4 +1653,5 @@
     <string name="negative_duration" msgid="5688706061127375131">"−<xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="audit_safemode_notification" msgid="6416076898350685856">"កំណត់ដូចចេញពីរោងចក្រឡើងវិញដើម្បីប្រើឧបករណ៍នេះដោយគ្មានការរឹតបន្តឹង"</string>
     <string name="audit_safemode_notification_details" msgid="1860601176690176413">"ប៉ះ​ ដើម្បី​​ស្វែងយល់​បន្ថែម។"</string>
+    <string name="suspended_widget_accessibility" msgid="6712143096475264190">"<xliff:g id="LABEL">%1$s</xliff:g> ដែលបានបិទដំណើរការ"</string>
 </resources>
