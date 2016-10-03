@@ -228,9 +228,9 @@
     <string name="global_action_toggle_silent_mode" msgid="8219525344246810925">"Անձայն ռեժիմ"</string>
     <string name="global_action_silent_mode_on_status" msgid="3289841937003758806">"Ձայնը անջատված է"</string>
     <string name="global_action_silent_mode_off_status" msgid="1506046579177066419">"Ձայնը միացված է"</string>
-    <string name="global_actions_toggle_airplane_mode" msgid="5884330306926307456">"Ինքնաթիռային ռեժիմ"</string>
-    <string name="global_actions_airplane_mode_on_status" msgid="2719557982608919750">"Ինքնաթիռային ռեժիմը միացված է"</string>
-    <string name="global_actions_airplane_mode_off_status" msgid="5075070442854490296">"Ինքնաթիռային ռեժիմը անջատված է"</string>
+    <string name="global_actions_toggle_airplane_mode" msgid="5884330306926307456">"Ինքնաթիռի ռեժիմ"</string>
+    <string name="global_actions_airplane_mode_on_status" msgid="2719557982608919750">"Ինքնաթիռի ռեժիմը միացված է"</string>
+    <string name="global_actions_airplane_mode_off_status" msgid="5075070442854490296">"Ինքնաթիռի ռեժիմը անջատված է"</string>
     <string name="global_action_settings" msgid="1756531602592545966">"Կարգավորումներ"</string>
     <string name="global_action_assist" msgid="3892832961594295030">"Օգնական"</string>
     <string name="global_action_voice_assist" msgid="7751191495200504480">"Ձայնային օգնութ"</string>
@@ -967,7 +967,7 @@
     <string name="whichApplicationNamed" msgid="8260158865936942783">"Եզրափակել գործողությունը՝ օգտագործելով %1$s"</string>
     <string name="whichApplicationLabel" msgid="7425855495383818784">"Ավարտել գործողությունը"</string>
     <string name="whichViewApplication" msgid="3272778576700572102">"Բացել հետևյալ ծրագրով՝"</string>
-    <string name="whichViewApplicationNamed" msgid="2286418824011249620">"Բացել հետևյալով՝ %1$s"</string>
+    <string name="whichViewApplicationNamed" msgid="2286418824011249620">"Բացել ծրագրով՝ %1$s"</string>
     <string name="whichViewApplicationLabel" msgid="2666774233008808473">"Բացել"</string>
     <string name="whichEditApplication" msgid="144727838241402655">"Խմբագրել հետևյալ ծրագրով՝"</string>
     <string name="whichEditApplicationNamed" msgid="1775815530156447790">"Խմբագրել հետևյալով՝ %1$s"</string>
@@ -1015,6 +1015,8 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"Աստիճանակարգել"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"Միշտ ցույց տալ"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"Կրկին ակտիվացնել սա Համակարգի կարգավորումներում &amp;gt Ծրագրեր &gt; Ներբեռնումներ:"</string>
+    <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> հավելվածը չի աջակցում Էկրանի չափի ընթացիկ կարգավորումները, ինչի պատճառով կարող են խնդիրներ առաջանալ:"</string>
+    <string name="unsupported_display_size_show" msgid="7969129195360353041">"Միշտ ցուցադրել"</string>
     <string name="smv_application" msgid="3307209192155442829">"<xliff:g id="APPLICATION">%1$s</xliff:g> ծրագիրը (գործընթաց <xliff:g id="PROCESS">%2$s</xliff:g>) խախտել է իր ինքնահարկադրված Խիստ ռեժիմ  քաղաքականությունը:"</string>
     <string name="smv_process" msgid="5120397012047462446">"<xliff:g id="PROCESS">%1$s</xliff:g> գործընթացը խախտել է իր ինքնահարկադրված Խիստ ռեժիմ քաղաքականությունը:"</string>
     <string name="android_upgrading_title" msgid="1584192285441405746">"Android-ը նորացվում է..."</string>
@@ -1634,7 +1636,7 @@
     <string name="language_picker_section_all" msgid="3097279199511617537">"Բոլոր լեզուները"</string>
     <string name="locale_search_menu" msgid="2560710726687249178">"Որոնում"</string>
     <string name="work_mode_off_title" msgid="8954725060677558855">"Աշխատանքային ռեժիմն ԱՆՋԱՏՎԱԾ Է"</string>
-    <string name="work_mode_off_message" msgid="3286169091278094476">"Թույլատրել աշխատանքային պրոֆիլի (այդ թվում նաև հավելվածների, ֆոնային համաժամացման և առնչվող գործառական հնարավորությունների) աշխատանքը:"</string>
+    <string name="work_mode_off_message" msgid="3286169091278094476">"Միացնել աշխատանքային պրոֆիլը՝ հավելվածները, ֆոնային համաժամեցումը և առնչվող գործառույթները"</string>
     <string name="work_mode_turn_on" msgid="2062544985670564875">"Միացնել"</string>
     <string name="new_sms_notification_title" msgid="8442817549127555977">"Դուք ունեք նոր հաղորդագրություններ"</string>
     <string name="new_sms_notification_content" msgid="7002938807812083463">"Դիտելու համար բացել SMS հավելվածը"</string>

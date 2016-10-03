@@ -800,8 +800,8 @@
     <string name="permdesc_setAlarm" msgid="316392039157473848">"Tillader, at appen kan indstille en alarm i en installeret alarmapp. Nogle alarmapps har muligvis ikke denne funktion."</string>
     <string name="permlab_addVoicemail" msgid="5525660026090959044">"tilføje telefonsvarer"</string>
     <string name="permdesc_addVoicemail" msgid="6604508651428252437">"Tillader, at appen kan tilføje beskeder på din telefonsvarer."</string>
-    <string name="permlab_writeGeolocationPermissions" msgid="5962224158955273932">"skifte tilladelser til geografisk placering i Browser"</string>
-    <string name="permdesc_writeGeolocationPermissions" msgid="1083743234522638747">"Tillader, at appen kan ændre browserens tilladelser angående geografisk placering. Ondsindede apps kan benytte dette til at sende oplysninger om placering til vilkårlige websites."</string>
+    <string name="permlab_writeGeolocationPermissions" msgid="5962224158955273932">"skifte tilladelser til geoplacering i Browser"</string>
+    <string name="permdesc_writeGeolocationPermissions" msgid="1083743234522638747">"Tillader, at appen kan ændre browserens tilladelser angående geoplacering. Ondsindede apps kan benytte dette til at sende oplysninger om sted til vilkårlige websites."</string>
     <string name="save_password_message" msgid="767344687139195790">"Ønsker du, at browseren skal huske denne adgangskode?"</string>
     <string name="save_password_notnow" msgid="6389675316706699758">"Ikke nu"</string>
     <string name="save_password_remember" msgid="6491879678996749466">"Husk"</string>
@@ -1015,6 +1015,8 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"Skaler"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"Vis altid"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"Aktivér dette igen i Systemindstillinger &gt; Apps &gt; Downloadet."</string>
+    <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> understøtter ikke den aktuelle indstilling for visningsstørrelse og vil muligvis ikke fungere som forventet."</string>
+    <string name="unsupported_display_size_show" msgid="7969129195360353041">"Vis altid"</string>
     <string name="smv_application" msgid="3307209192155442829">"Appen <xliff:g id="APPLICATION">%1$s</xliff:g> (proces <xliff:g id="PROCESS">%2$s</xliff:g>) har overtrådt sin egen StrictMode-politik."</string>
     <string name="smv_process" msgid="5120397012047462446">"Processen <xliff:g id="PROCESS">%1$s</xliff:g> har overtrådt sin egen StrictMode-politik."</string>
     <string name="android_upgrading_title" msgid="1584192285441405746">"Android opgraderes..."</string>
