@@ -390,9 +390,9 @@
     <string name="permdesc_transmitIr" product="tv" msgid="3926790828514867101">"Dozvoljava aplikaciji korištenje infracrvenog predajnika na TV-u."</string>
     <string name="permdesc_transmitIr" product="default" msgid="7957763745020300725">"Omogućava aplikaciji korištenje infracrvenog odašiljača telefona."</string>
     <string name="permlab_setWallpaper" msgid="6627192333373465143">"postavljanje pozadinske slike"</string>
-    <string name="permdesc_setWallpaper" msgid="7373447920977624745">"Dozvoljava aplikaciji postavljanje sistemske pozadinske slike."</string>
-    <string name="permlab_setWallpaperHints" msgid="3278608165977736538">"prilagođavanje veličine pozadinske slike"</string>
-    <string name="permdesc_setWallpaperHints" msgid="8235784384223730091">"Dozvoljava aplikaciji određivanje veličine sistemske pozadinske slike."</string>
+    <string name="permdesc_setWallpaper" msgid="7373447920977624745">"Dozvoljava aplikaciji postavljanje sistemske pozadine ekrana."</string>
+    <string name="permlab_setWallpaperHints" msgid="3278608165977736538">"prilagođavanje veličine pozadine"</string>
+    <string name="permdesc_setWallpaperHints" msgid="8235784384223730091">"Dozvoljava aplikaciji određivanje veličine sistemske pozadine ekrana."</string>
     <string name="permlab_setTimeZone" msgid="2945079801013077340">"postavljanje vremenske zone"</string>
     <string name="permdesc_setTimeZone" product="tablet" msgid="1676983712315827645">"Dozvoljava aplikaciji promjenu vremenske zone tableta."</string>
     <string name="permdesc_setTimeZone" product="tv" msgid="888864653946175955">"Dozvoljava aplikaciji promjenu vremenske zone na TV-u."</string>
@@ -1040,8 +1040,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"Razmjer"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"Uvijek prikaži"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"Ponovo omogućite ovu opciju u meniju Postavke sistema &gt; Aplikacije &gt; Preuzete aplikacije."</string>
-    <string name="unsupported_display_size_message" msgid="6545327290756295232">"Aplikacija <xliff:g id="APP_NAME">%1$s</xliff:g> ne podržava trenutnu postavku veličine ekrana i može se ponašati neočekivano."</string>
-    <string name="unsupported_display_size_show" msgid="7969129195360353041">"Uvijek prikaži"</string>
     <string name="smv_application" msgid="3307209192155442829">"Aplikacija <xliff:g id="APPLICATION">%1$s</xliff:g> (proces <xliff:g id="PROCESS">%2$s</xliff:g>) prekršila je vlastita StrictMode pravila."</string>
     <string name="smv_process" msgid="5120397012047462446">"Proces <xliff:g id="PROCESS">%1$s</xliff:g> prekršio je vlastita StrictMode pravila."</string>
     <string name="android_upgrading_title" msgid="1584192285441405746">"Nadogradnja sistema Android u toku..."</string>
@@ -1222,7 +1220,8 @@
     <string name="permdesc_readInstallSessions" msgid="2049771699626019849">"Dozvoljava aplikaciji da čita sesije instalacija. Ovim se aplikaciji omogućava da vidi detalje o aktivnim instalacijama paketa."</string>
     <string name="permlab_requestInstallPackages" msgid="5782013576218172577">"zahtijevanje paketa za instaliranje"</string>
     <string name="permdesc_requestInstallPackages" msgid="5740101072486783082">"Omogućava aplikaciji da zahtijeva instalaciju paket ā."</string>
-    <string name="tutorial_double_tap_to_zoom_message_short" msgid="1311810005957319690">"Dodirnite dvaput za kontrolu uvećanja"</string>
+    <!-- no translation found for tutorial_double_tap_to_zoom_message_short (1311810005957319690) -->
+    <skip />
     <string name="gadget_host_error_inflating" msgid="4882004314906466162">"Dodavanje vidžeta nije uspjelo."</string>
     <string name="ime_action_go" msgid="8320845651737369027">"Počni"</string>
     <string name="ime_action_search" msgid="658110271822807811">"Traži"</string>
@@ -1253,8 +1252,10 @@
     <string name="notification_ranker_binding_label" msgid="774540592299064747">"Usluga rangiranja obavještenja"</string>
     <string name="vpn_title" msgid="19615213552042827">"VPN aktiviran"</string>
     <string name="vpn_title_long" msgid="6400714798049252294">"Aplikacija <xliff:g id="APP">%s</xliff:g> je aktivirala VPN"</string>
-    <string name="vpn_text" msgid="1610714069627824309">"Dodirnite da upravljate mrežom."</string>
-    <string name="vpn_text_long" msgid="4907843483284977618">"Povezano sa sesijom <xliff:g id="SESSION">%s</xliff:g>. Dodirnite da upravljate mrežom."</string>
+    <!-- no translation found for vpn_text (1610714069627824309) -->
+    <skip />
+    <!-- no translation found for vpn_text_long (4907843483284977618) -->
+    <skip />
     <string name="vpn_lockdown_connecting" msgid="6443438964440960745">"Povezivanje na uvijek aktivni VPN…"</string>
     <string name="vpn_lockdown_connected" msgid="8202679674819213931">"Povezan na uvijek aktivni VPN"</string>
     <string name="vpn_lockdown_error" msgid="6009249814034708175">"Greška u povezivanju na uvijek aktivni VPN"</string>

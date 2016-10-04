@@ -1015,8 +1015,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"Skala"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"Vis alltid"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"Reaktiver dette i systeminnstillingene  &gt; Apper &gt; Nedlastet."</string>
-    <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> støtter ikke den nåværende innstillingen for skjermstørrelse og fungerer kanskje ikke som den skal."</string>
-    <string name="unsupported_display_size_show" msgid="7969129195360353041">"Vis alltid"</string>
     <string name="smv_application" msgid="3307209192155442829">"Appen <xliff:g id="APPLICATION">%1$s</xliff:g> (prosessen <xliff:g id="PROCESS">%2$s</xliff:g>) har brutt de selvpålagte StrictMode-retningslinjene."</string>
     <string name="smv_process" msgid="5120397012047462446">"Prosessen<xliff:g id="PROCESS">%1$s</xliff:g> har brutt de selvpålagte StrictMode-retningslinjene."</string>
     <string name="android_upgrading_title" msgid="1584192285441405746">"Android oppgraderes …"</string>
@@ -1201,7 +1199,7 @@
     <string name="ime_action_search" msgid="658110271822807811">"Søk"</string>
     <string name="ime_action_send" msgid="2316166556349314424">"Send"</string>
     <string name="ime_action_next" msgid="3138843904009813834">"Neste"</string>
-    <string name="ime_action_done" msgid="8971516117910934605">"Ferdig"</string>
+    <string name="ime_action_done" msgid="8971516117910934605">"Utført"</string>
     <string name="ime_action_previous" msgid="1443550039250105948">"Forrige"</string>
     <string name="ime_action_default" msgid="2840921885558045721">"Utfør"</string>
     <string name="dial_number_using" msgid="5789176425167573586">"Ring nummeret\n<xliff:g id="NUMBER">%s</xliff:g>"</string>

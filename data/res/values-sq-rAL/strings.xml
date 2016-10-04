@@ -1015,8 +1015,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"Shkalla"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"Shfaq gjithnjë"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"Aktivizoje sërish këtë te \"Cilësimet e sistemit\" &gt; \"Aplikacionet\" &gt; \"Të shkarkuara\"."</string>
-    <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> nuk mbështet cilësimin aktual të madhësisë së ekranit dhe mund të shfaqë sjellje të papritura."</string>
-    <string name="unsupported_display_size_show" msgid="7969129195360353041">"Shfaq gjithmonë"</string>
     <string name="smv_application" msgid="3307209192155442829">"Aplikacioni <xliff:g id="APPLICATION">%1$s</xliff:g> (procesi <xliff:g id="PROCESS">%2$s</xliff:g>) ka shkelur politikën e tij të vetë-imponuar \"Modaliteti i ashpër\" (StrictMode)."</string>
     <string name="smv_process" msgid="5120397012047462446">"Procesi <xliff:g id="PROCESS">%1$s</xliff:g> ka shkelur politikën e tij të vetë-imponuar \"Modaliteti i rreptë\" (StrictMode)"</string>
     <string name="android_upgrading_title" msgid="1584192285441405746">"\"Androidi\" po përditësohet…"</string>
@@ -1195,7 +1193,8 @@
     <string name="permdesc_readInstallSessions" msgid="2049771699626019849">"Lejon një aplikacion të lexojë sesionet e instalimit. Kjo e lejon atë të shohë detaje rreth instalimeve të paketave aktive."</string>
     <string name="permlab_requestInstallPackages" msgid="5782013576218172577">"kërko paketat e instalimit"</string>
     <string name="permdesc_requestInstallPackages" msgid="5740101072486783082">"Lejon që një aplikacion të kërkojë instalimin e paketave."</string>
-    <string name="tutorial_double_tap_to_zoom_message_short" msgid="1311810005957319690">"Trokit dy herë për të kontrolluar zmadhimin"</string>
+    <!-- no translation found for tutorial_double_tap_to_zoom_message_short (1311810005957319690) -->
+    <skip />
     <string name="gadget_host_error_inflating" msgid="4882004314906466162">"Nuk mundi të shtonte miniaplikacion."</string>
     <string name="ime_action_go" msgid="8320845651737369027">"Shko"</string>
     <string name="ime_action_search" msgid="658110271822807811">"Kërko"</string>
@@ -1226,8 +1225,10 @@
     <string name="notification_ranker_binding_label" msgid="774540592299064747">"Shërbimi i klasifikimit të njoftimeve"</string>
     <string name="vpn_title" msgid="19615213552042827">"VPN-ja u aktivizua"</string>
     <string name="vpn_title_long" msgid="6400714798049252294">"VPN-ja është aktivizuar nga <xliff:g id="APP">%s</xliff:g>"</string>
-    <string name="vpn_text" msgid="1610714069627824309">"Trokit për të menaxhuar rrjetin."</string>
-    <string name="vpn_text_long" msgid="4907843483284977618">"Lidhur me <xliff:g id="SESSION">%s</xliff:g>. Trokit për të menaxhuar rrjetin."</string>
+    <!-- no translation found for vpn_text (1610714069627824309) -->
+    <skip />
+    <!-- no translation found for vpn_text_long (4907843483284977618) -->
+    <skip />
     <string name="vpn_lockdown_connecting" msgid="6443438964440960745">"Po lidh VPN-në për aktivizim të përhershëm…"</string>
     <string name="vpn_lockdown_connected" msgid="8202679674819213931">"VPN e lidhur në mënyrë të përhershme"</string>
     <string name="vpn_lockdown_error" msgid="6009249814034708175">"Gabimi VPN-je për aktivizimin e përhershëm"</string>

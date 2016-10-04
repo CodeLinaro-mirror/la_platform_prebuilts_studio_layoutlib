@@ -1015,8 +1015,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"ಮಾಪಕ"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"ಯಾವಾಗಲೂ ತೋರಿಸಿ"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"ಸಿಸ್ಟಂ ಸೆಟ್ಟಿಂಗ್‌ಗಳು &gt; ಅಪ್ಲಿಕೇಶನ್‌ಗಳು &gt; ಡೌನ್‌ಲೋಡ್‌ ಆಗಿರುವುದರಲ್ಲಿ ಇದನ್ನು ಮರು ಸಕ್ರಿಯಗೊಳಿಸಿ."</string>
-    <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> ಪ್ರಸ್ತುತ ಪ್ರದರ್ಶನ ಗಾತ್ರದ ಸೆಟ್ಟಿಂಗ್‌ ಅನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ ಮತ್ತು ಅನಿರೀಕ್ಷಿತವಾಗಿ ವರ್ತಿಸಬಹುದು."</string>
-    <string name="unsupported_display_size_show" msgid="7969129195360353041">"ಯಾವಾಗಲೂ ತೋರಿಸು"</string>
     <string name="smv_application" msgid="3307209192155442829">"ಅಪ್ಲಿಕೇಶನ್‌‌ <xliff:g id="APPLICATION">%1$s</xliff:g> (ಪ್ರಕ್ರಿಯೆಯು <xliff:g id="PROCESS">%2$s</xliff:g>) ತನ್ನ ಸ್ವಯಂ-ಜಾರಿ ಕಠಿಣ ಮೋಡ್ ನೀತಿಯನ್ನು ಉಲ್ಲಂಘನೆ ಮಾಡಿದೆ."</string>
     <string name="smv_process" msgid="5120397012047462446">"<xliff:g id="PROCESS">%1$s</xliff:g> ಪ್ರಕ್ರಿಯೆಯು ತನ್ನ ಸ್ವಯಂ-ಜಾರಿ ಕಠಿಣ ಮೋಡ್ ನೀತಿಯನ್ನು ಉಲ್ಲಂಘನೆ ಮಾಡಿದೆ."</string>
     <string name="android_upgrading_title" msgid="1584192285441405746">"Android ಅಪ್‌ಗ್ರೇಡ್‌ ಮಾಡಲಾಗುತ್ತಿದೆ…"</string>
@@ -1195,7 +1193,8 @@
     <string name="permdesc_readInstallSessions" msgid="2049771699626019849">"ಸ್ಥಾಪಿತ ಸೆಷನ್‌ಗಳನ್ನು ಓದಲು ಅಪ್ಲಿಕೇಶನ್‌ ಅನ್ನು ಅನುಮತಿಸುತ್ತದೆ. ಸಕ್ರಿಯ ಪ್ಯಾಕೇಜ್‌ ಸ್ಥಾಪನೆಗಳ ಕುರಿತು ವಿವರಣೆಗಳನ್ನು ವೀಕ್ಷಿಸಲು ಇದು ಅನುಮತಿಸುತ್ತದೆ."</string>
     <string name="permlab_requestInstallPackages" msgid="5782013576218172577">"ಸ್ಥಾಪನೆ ಪ್ಯಾಕೇಜ್‌ಗಳನ್ನು ವಿನಂತಿಸಿ"</string>
     <string name="permdesc_requestInstallPackages" msgid="5740101072486783082">"ಪ್ಯಾಕೇಜ್‌ಗಳ ಸ್ಥಾಪನೆಯನ್ನು ವಿನಂತಿಸಲು ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಅನುಮತಿಸುತ್ತದೆ."</string>
-    <string name="tutorial_double_tap_to_zoom_message_short" msgid="1311810005957319690">"ಝೂಮ್‌ ನಿಯಂತ್ರಿಸಲು ಎರಡು ಬಾರಿ ಟ್ಯಾಪ್ ಮಾಡಿ"</string>
+    <!-- no translation found for tutorial_double_tap_to_zoom_message_short (1311810005957319690) -->
+    <skip />
     <string name="gadget_host_error_inflating" msgid="4882004314906466162">"ವಿಜೆಟ್ ಸೇರಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ."</string>
     <string name="ime_action_go" msgid="8320845651737369027">"ಹೋಗು"</string>
     <string name="ime_action_search" msgid="658110271822807811">"ಹುಡುಕು"</string>
@@ -1226,8 +1225,10 @@
     <string name="notification_ranker_binding_label" msgid="774540592299064747">"ಅಧಿಸೂಚನೆ ಶ್ರೇಣಿಯ ಸೇವೆ"</string>
     <string name="vpn_title" msgid="19615213552042827">"VPN ಸಕ್ರಿಯಗೊಂಡಿದೆ"</string>
     <string name="vpn_title_long" msgid="6400714798049252294">"<xliff:g id="APP">%s</xliff:g> ಮೂಲಕ VPN ಸಕ್ರಿಯಗೊಂಡಿದೆ"</string>
-    <string name="vpn_text" msgid="1610714069627824309">"ನೆಟ್‍ವರ್ಕ್ ನಿರ್ವಹಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ."</string>
-    <string name="vpn_text_long" msgid="4907843483284977618">"<xliff:g id="SESSION">%s</xliff:g> ಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ. ನೆಟ್‍ವರ್ಕ್ ನಿರ್ವಹಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ."</string>
+    <!-- no translation found for vpn_text (1610714069627824309) -->
+    <skip />
+    <!-- no translation found for vpn_text_long (4907843483284977618) -->
+    <skip />
     <string name="vpn_lockdown_connecting" msgid="6443438964440960745">"ಯಾವಾಗಲೂ-ಆನ್ VPN ಸಂಪರ್ಕಗೊಳ್ಳುತ್ತಿದೆ…"</string>
     <string name="vpn_lockdown_connected" msgid="8202679674819213931">"ಯಾವಾಗಲೂ-ಆನ್ VPN ಸಂಪರ್ಕಗೊಂಡಿದೆ"</string>
     <string name="vpn_lockdown_error" msgid="6009249814034708175">"ಯಾವಾಗಲೂ-ಆನ್ VPN ದೋಷ"</string>

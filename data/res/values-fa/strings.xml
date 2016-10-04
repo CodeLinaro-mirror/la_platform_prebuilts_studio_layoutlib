@@ -937,7 +937,7 @@
     <string name="selectAll" msgid="6876518925844129331">"انتخاب همه"</string>
     <string name="cut" msgid="3092569408438626261">"برش"</string>
     <string name="copy" msgid="2681946229533511987">"کپی"</string>
-    <string name="paste" msgid="5629880836805036433">"جای‌گذاری"</string>
+    <string name="paste" msgid="5629880836805036433">"جای گذاری"</string>
     <string name="paste_as_plain_text" msgid="5427792741908010675">"جای‌گذاری به عنوان متن ساده"</string>
     <string name="replace" msgid="5781686059063148930">"جایگزین شود..."</string>
     <string name="delete" msgid="6098684844021697789">"حذف"</string>
@@ -1015,8 +1015,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"مقیاس"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"همیشه نشان داده شود"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"‏در تنظیمات سیستم &gt;برنامه‎ها &gt; مورد بارگیری شده آن را دوباره فعال کنید."</string>
-    <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> از تنظیم فعلی اندازه نمایشگر پشتیبانی نمی‌کند و ممکن است رفتار غیرمنتظره‌ای داشته باشد."</string>
-    <string name="unsupported_display_size_show" msgid="7969129195360353041">"همیشه نشان داده شود"</string>
     <string name="smv_application" msgid="3307209192155442829">"‏برنامه <xliff:g id="APPLICATION">%1$s</xliff:g> (پردازش <xliff:g id="PROCESS">%2$s</xliff:g>) خط‌مشی StrictMode اجرایی خود را نقض کرده است."</string>
     <string name="smv_process" msgid="5120397012047462446">"‏فرآیند <xliff:g id="PROCESS">%1$s</xliff:g> خط‌مشی StrictMode اجرای خودکار خود را نقض کرده است."</string>
     <string name="android_upgrading_title" msgid="1584192285441405746">"‏Android در حال ارتقا است..."</string>
@@ -1356,7 +1354,7 @@
     <string name="default_audio_route_name" product="tv" msgid="9158088547603019321">"تلویزیون"</string>
     <string name="default_audio_route_name" product="default" msgid="4239291273420140123">"تلفن"</string>
     <string name="default_audio_route_name_headphones" msgid="8119971843803439110">"هدفون‌ها"</string>
-    <string name="default_audio_route_name_dock_speakers" msgid="6240602982276591864">"بلندگوهای جایگاه"</string>
+    <string name="default_audio_route_name_dock_speakers" msgid="6240602982276591864">"بلندگوهای جایگاه اتصال"</string>
     <string name="default_media_route_name_hdmi" msgid="2450970399023478055">"HDMI"</string>
     <string name="default_audio_route_category_name" msgid="3722811174003886946">"سیستم"</string>
     <string name="bluetooth_a2dp_audio_route_name" msgid="8575624030406771015">"بلوتوث‌های صوتی"</string>
