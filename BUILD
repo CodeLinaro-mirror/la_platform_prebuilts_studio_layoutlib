@@ -12,3 +12,13 @@ filegroup(
     name = "data/res",
     srcs = glob(["data/res/**"]),
 )
+
+filegroup(
+    name = "data/fonts",
+    srcs = glob(["data/fonts/**"]),
+)
+
+filegroup(
+    name = "buildprop",
+    srcs = ["build.prop"],
+)
