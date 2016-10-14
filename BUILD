@@ -4,8 +4,8 @@ package(default_visibility = ["//visibility:public"])
 java_import(
     name = "data/layoutlib",
     jars = ["data/layoutlib.jar"],
-    visibility = ["//visibility:public"],
     tags = ["managed"],
+    visibility = ["//visibility:public"],
 )
 
 filegroup(
