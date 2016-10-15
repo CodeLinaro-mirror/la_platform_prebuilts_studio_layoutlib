@@ -1,4 +1,3 @@
-# This file has been automatically generated, please do not modify directly.
 package(default_visibility = ["//visibility:public"])
 
 java_import(
