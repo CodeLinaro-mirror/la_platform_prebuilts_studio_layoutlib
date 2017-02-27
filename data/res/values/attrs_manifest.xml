@@ -62,20 +62,6 @@
          a reference to a Drawable resource containing the image definition. -->
     <attr name="icon" format="reference" />
 
-    <!-- A Drawable resource providing a graphical representation of its
-         associated item.  Use with the
-         application tag (to supply a default round icon for all application
-         components), or with the activity, receiver, service, or instrumentation
-         tag (to supply a specific round icon for that component).  It may also be
-         used with the intent-filter tag to supply a round icon to show to the
-         user when an activity is being selected based on a particular Intent.
-
-         <p>The given round icon will be used to display to the user a graphical
-         representation of its associated component; for example, as the round icon
-         for main activity that is displayed in the launcher.  This must be
-         a reference to a Drawable resource containing the image definition. -->
-    <attr name="roundIcon" format="reference" />
-
     <!-- A Drawable resource providing an extended graphical banner for its
          associated item. Use with the application tag (to supply a default
          banner for all application activities), or with the activity, tag to
@@ -242,9 +228,6 @@
         <!-- Additional flag from base permission type: this permission can be automatically
             granted to the setup wizard app -->
         <flag name="setup" value="0x800" />
-        <!-- Additional flag from base permission type: this permission can be granted to ephemeral
-             apps -->
-        <flag name="ephemeral" value="0x1000" />
     </attr>
 
     <!-- Flags indicating more context for a permission group. -->
@@ -578,20 +561,6 @@
          transtion from one VR activity to another. -->
     <attr name="enableVrMode" format="string" />
 
-    <!-- Flag allowing the activity to specify which screen rotation animation
-         it desires.  Valid values are "rotate", "crossfade", and "jumpcut"
-         as described in {@link android.view.WindowManager.LayoutParams#rotationAnimation}.
-         Specifying your Rotation animation in the WindowManager.LayoutParams
-         may be racy with app startup and updattransitions occuring during application startup and thusly
-         the manifest attribute is preferred.
-    -->
-    <attr name="rotationAnimation">
-      <flag name="rotate" value= "0" />
-      <flag name="crossfade" value = "1" />
-      <flag name="jumpcut" value = "2" />
-      <flag name="seamless" value = "3" />
-    </attr>
-
     <!-- Specify the order in which content providers hosted by a process
          are instantiated when that process is created.  Not needed unless
          you have providers with dependencies between each other, to make
@@ -776,21 +745,6 @@
         <enum name="locked" value="14" />
     </attr>
 
-    <!-- Specify the configuration changes that trigger the system to restart the
-         current activity if any of these configuration changes happen in the system.
-         The valid configuration changes include mcc and mnc which are the same with
-         those in configChanges. By default from Android O, we don't restart the activity
-         even the app doesn't specify mcc or mnc in configChanges. If the app wants to
-         restart, specify them in restartOnConfigChanges. -->
-    <attr name="restartOnConfigChanges">
-        <!-- The IMSI MCC has changed, that is a SIM has been detected and
-             updated the Mobile Country Code. -->
-        <flag name="mcc" value="0x0001" />
-        <!-- The IMSI MNC has changed, that is a SIM has been detected and
-             updated the Mobile Network Code. -->
-        <flag name="mnc" value="0x0002" />
-    </attr>
-
     <!-- Specify one or more configuration changes that the activity will
          handle itself.  If not specified, the activity will be restarted
          if any of these configuration changes happen in the system.  Otherwise,
@@ -808,16 +762,10 @@
          include/utils/ResourceTypes.h. -->
     <attr name="configChanges">
         <!-- The IMSI MCC has changed, that is a SIM has been detected and
-             updated the Mobile Country Code. By default from Android O, we
-             don't restart the activity even the app doesn't specify mcc in
-             configChanges. If the app wants to restart, specify mcc in
-             restartOnConfigChanges. -->
+             updated the Mobile Country Code. -->
         <flag name="mcc" value="0x0001" />
         <!-- The IMSI MNC has changed, that is a SIM has been detected and
-             updated the Mobile Network Code. By default from Android O, we
-             don't restart the activity even the app doesn't specify mnc in
-             configChanges. If the app wants to restart, specify mnc in
-             restartOnConfigChanges. -->
+             updated the Mobile Network Code. -->
         <flag name="mnc" value="0x0002" />
         <!-- The locale has changed, that is the user has selected a new
              language that text should be displayed in. -->
@@ -864,8 +812,6 @@
         <flag name="density" value="0x1000" />
         <!-- The layout direction has changed. For example going from LTR to RTL. -->
         <flag name="layoutDirection" value="0x2000" />
-        <!-- The color mode of the screen has changed (color gamut or dynamic range). -->
-        <flag name="colorMode" value="0x4000" />
         <!-- The font scaling factor has changed, that is the user has
              selected a new global font size. -->
         <flag name="fontScale" value="0x40000000" />
@@ -884,12 +830,6 @@
     <!-- The name of the application package that an Instrumentation object
          will run against. -->
     <attr name="targetPackage" format="string" />
-
-    <!-- The name of an application's processes that an Instrumentation object
-         will run against.  If not specified, only runs in the main process of the targetPackage.
-         Can either be a comma-separated list of process names or '*' for any process that
-         launches to run targetPackage code. -->
-    <attr name="targetProcess" format="string" />
 
     <!-- Flag indicating that an Instrumentation class wants to take care
          of starting/stopping profiling itself, rather than relying on
@@ -1006,13 +946,6 @@
              is unavailable or too full. -->
         <enum name="preferExternal" value="2" />
     </attr>
-
-    <!-- If set to <code>true</code>, indicates to the platform that any split APKs
-         installed for this application should be loaded into their own Context
-         objects and not appear in the base application's Context.
-
-         <p>The default value of this attribute is <code>false</code>. -->
-    <attr name="isolatedSplits" format="boolean" />
 
     <!-- Extra options for an activity's UI. Applies to either the {@code <activity>} or
          {@code <application>} tag. If specified on the {@code <application>}
@@ -1171,15 +1104,18 @@
          resizeable activities when in multi-window mode. -->
     <attr name="resizeableActivity" format="boolean" />
 
-    <!-- Indicates that the activity specifically supports the picture-in-picture form of
-         multi-window. If true, this activity will support entering picture-in-picture, but will
-         only support split-screen and other forms of multi-window if
-         {@link android.R.attr#resizeableActivity} is also set to true.
+    <!-- Indicates that the activity supports the picture-in-picture (PiP) form of multi-window.
+         While it makes sense to be able to resize most activities types in multi-window mode when
+         {@link android.R.attr#resizeableActivity} is set. It only makes sense to put specific types
+         of activities in PiP mode of multi-window. For example, activities that play video. When
+         set the activity will be allowed to enter PiP mode when the system deems it appropriate on
+         devices that support PiP.
 
-         Note that your activity may still be resized even if this attribute is true and
-         {@link android.R.attr#resizeableActivity} is false.
+         <p>The default value is <code>false</code> for applications with
+         <code>targetSdkVersion</code> lesser than {@link android.os.Build.VERSION_CODES#N} and
+         <code>true</code> otherwise.
 
-         <p>The default value is <code>false</code>.  -->
+         <p>NOTE: Attribute is only used if {@link android.R.attr#resizeableActivity} is true. -->
     <attr name="supportsPictureInPicture" format="boolean" />
 
     <!-- This value indicates how tasks rooted at this activity will behave in lockTask mode.
@@ -1242,22 +1178,8 @@
          -->
     <attr name="autoVerify" format="boolean" />
 
-    <!-- Specify whether a component should be visible to instant apps.
-         -->
-    <attr name="visibleToInstantApps" format="boolean" />
-
     <!-- An XML resource with the application's Network Security Config. -->
     <attr name="networkSecurityConfig" format="reference" />
-
-    <!-- When an application is partitioned into splits, this is the name of the
-         split that contains the defined component. -->
-    <attr name="splitName" format="string" />
-
-    <!-- Specifies the target sandbox this app wants to use. Higher sanbox versions
-         will have increasing levels of security.
-
-         <p>The default value of this attribute is <code>1</code>. -->
-    <attr name="targetSandboxVersion" format="integer" />
 
     <!-- The <code>manifest</code> tag is the root of an
          <code>AndroidManifest.xml</code> file,
@@ -1285,8 +1207,6 @@
         <attr name="sharedUserId" />
         <attr name="sharedUserLabel" />
         <attr name="installLocation" />
-        <attr name="isolatedSplits" />
-        <attr name="targetSandboxVersion" />
     </declare-styleable>
 
     <!-- The <code>application</code> tag describes application-level components
@@ -1316,7 +1236,6 @@
         <attr name="theme" />
         <attr name="label" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
         <attr name="description" />
@@ -1371,7 +1290,7 @@
         <attr name="cantSaveState" format="boolean" />
         <attr name="uiOptions" />
         <!-- Declare that your application will be able to deal with RTL (right to left) layouts.
-             The default value is false. -->
+             If set to  false (default value), your application will not care about RTL layouts. -->
         <attr name="supportsRtl" format="boolean" />
         <!-- Declare that this application requires access to restricted accounts of a certain
              type. The default value is null and restricted accounts won\'t be visible to this
@@ -1383,7 +1302,6 @@
              any accounts. The type should correspond to the account authenticator type, such as
              "com.google". -->
         <attr name="requiredAccountType" format="string"/>
-        <!-- @deprecated replaced by setting appCategory attribute to "game" -->
         <attr name="isGame" />
         <!-- Declare that this application may use cleartext traffic, such as HTTP rather than
              HTTPS; WebSockets rather than WebSockets Secure; XMPP, IMAP, STMP without STARTTLS or
@@ -1399,29 +1317,6 @@
         <attr name="directBootAware" />
         <attr name="resizeableActivity" />
         <attr name="networkSecurityConfig" />
-        <!-- Declare the category of this app. Categories are used to cluster multiple apps
-             together into meaningful groups, such as when summarizing battery, network, or
-             disk usage. Apps should only define this value when they fit well into one of
-             the specific categories. -->
-        <attr name="appCategory">
-            <!-- Apps which are primarily games. -->
-            <enum name="game" value="0" />
-            <!-- Apps which primarily work with audio or music, such as music players. -->
-            <enum name="audio" value="1" />
-            <!-- Apps which primarily work with video or movies, such as streaming video apps. -->
-            <enum name="video" value="2" />
-            <!-- Apps which primarily work with images or photos, such as camera or gallery apps. -->
-            <enum name="image" value="3" />
-            <!-- Apps which are primarily social apps, such as messaging, communication, or social network apps. -->
-            <enum name="social" value="4" />
-            <!-- Apps which are primarily news apps, such as newspapers, magazines, or sports apps. -->
-            <enum name="news" value="5" />
-            <!-- Apps which are primarily maps apps, such as navigation apps. -->
-            <enum name="maps" value="6" />
-            <!-- Apps which are primarily productivity apps, such as cloud storage or workplace apps. -->
-            <enum name="productivity" value="7" />
-        </attr>
-
     </declare-styleable>
     <!-- The <code>permission</code> tag declares a security permission that can be
          used to control access from other packages to specific components or
@@ -1440,7 +1335,6 @@
         <attr name="name" />
         <attr name="label" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
         <attr name="permissionGroup" />
@@ -1468,7 +1362,6 @@
         <attr name="name" />
         <attr name="label" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
         <attr name="description" />
@@ -1502,7 +1395,6 @@
         <attr name="name" />
         <attr name="label" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
     </declare-styleable>
@@ -1642,27 +1534,6 @@
         <attr name="name" />
     </declare-styleable>
 
-
-    <!-- The <code>static-library</code> tag declares that this apk is providing itself
-       as a static shared library for other applications to use. Any app can declare such
-       a library and there can be only one static shared library per package. These libraries
-       are updatable, multiple versions can be installed at the same time, and an app links
-       against a specific version simulating static linking while allowing code sharing.
-       Other apks can link to it with the {@link #AndroidManifestUsesLibrary uses-static-library}
-       tag.
-
-     <p>This appears as a child tag of the
-     {@link #AndroidManifestApplication application} tag. -->
-    <declare-styleable name="AndroidManifestStaticLibrary" parent="AndroidManifestApplication">
-        <!-- Required public name of the library, which other components and
-        packages will use when referring to this library.  This is a string using
-        Java-style scoping to ensure it is unique.  The name should typically
-        be the same as the apk's package name. -->
-        <attr name="name" />
-        <!-- Required specific library version. -->
-        <attr name="version" />
-    </declare-styleable>
-
     <!-- The <code>uses-libraries</code> specifies a shared library that this
          package requires to be linked against.  Specifying this flag tells the
          system to include this library's code in your class loader.
@@ -1680,24 +1551,6 @@
               doesn't exist, and you will need to check for its presence
               dynamically at runtime. -->
         <attr name="required" />
-    </declare-styleable>
-
-    <!-- The <code>uses-static-library</code> specifies a shared <strong>static</strong>
-         library that this package requires to be statically linked against. Specifying
-         this tag tells the system to include this library's code in your class loader.
-         Depending on a static shared library is equivalent to statically linking with
-         the library at build time while it offers apps to share code defined in such
-         libraries. Hence, static libraries are strictly required.
-
-         <p>This appears as a child tag of the
-         {@link #AndroidManifestApplication application} tag. -->
-    <declare-styleable name="AndroidManifestUsesStaticLibrary" parent="AndroidManifestApplication">
-        <!-- Required name of the library you use. -->
-        <attr name="name" />
-        <!-- Specify which version of the shared library should be statically linked. -->
-        <attr name="version" />
-        <!-- The SHA-256 digest of the library signing certificate. -->
-        <attr name="certDigest" format="string" />
     </declare-styleable>
 
     <!-- The <code>supports-screens</code> specifies the screen dimensions an
@@ -1823,7 +1676,6 @@
         <attr name="label" />
         <attr name="description" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
         <attr name="process" />
@@ -1843,9 +1695,6 @@
         <attr name="exported" />
         <attr name="singleUser" />
         <attr name="directBootAware" />
-        <attr name="visibleToInstantApps" />
-        <!-- The code for this component is located in the given split. -->
-        <attr name="splitName" />
     </declare-styleable>
 
     <!-- Attributes that can be supplied in an AndroidManifest.xml
@@ -1910,7 +1759,6 @@
         <attr name="label" />
         <attr name="description" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
         <attr name="permission" />
@@ -1935,9 +1783,6 @@
              client to bind to the service as if it were running it its own package.  The service
              must also be {@link android.R.attr#exported} if this flag is set. -->
         <attr name="externalService" format="boolean" />
-        <attr name="visibleToInstantApps" />
-        <!-- The code for this component is located in the given split. -->
-        <attr name="splitName" />
     </declare-styleable>
 
     <!-- The <code>receiver</code> tag declares an
@@ -1962,7 +1807,6 @@
         <attr name="label" />
         <attr name="description" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
         <attr name="permission" />
@@ -1999,13 +1843,11 @@
         <attr name="label" />
         <attr name="description" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
         <attr name="launchMode" />
         <attr name="screenOrientation" />
         <attr name="configChanges" />
-        <attr name="restartOnConfigChanges" />
         <attr name="permission" />
         <attr name="multiprocess" />
         <attr name="process" />
@@ -2056,20 +1898,6 @@
              in a task/stack that isn't focusable. This flag allows them to be focusable.-->
         <attr name="alwaysFocusable" format="boolean" />
         <attr name="enableVrMode" />
-        <attr name="rotationAnimation" />
-        <attr name="visibleToInstantApps" />
-        <!-- The code for this component is located in the given split. -->
-        <attr name="splitName" />
-        <!-- Specify the color mode the activity desires. The requested color mode may be ignored
-             depending on the capabilities of the display the activity is displayed on. -->
-        <attr name="colorMode">
-            <!-- The default color mode (typically sRGB, low-dynamic range). -->
-            <enum name="default" value="0" />
-            <!-- Wide color gamut color mode. -->
-            <enum name="wideColorGamut" value="1" />
-            <!-- High dynamic range color mode. -->
-            <enum name="hdr" value="2" />
-        </attr>
     </declare-styleable>
 
     <!-- The <code>activity-alias</code> tag declares a new
@@ -2098,7 +1926,6 @@
         <attr name="label" />
         <attr name="description" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
         <attr name="permission" />
@@ -2171,7 +1998,6 @@
          parent="AndroidManifestActivity AndroidManifestReceiver AndroidManifestService">
         <attr name="label" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
         <attr name="priority" />
@@ -2300,10 +2126,8 @@
             is a period then it is appended to your package name. -->
         <attr name="name" />
         <attr name="targetPackage" />
-        <attr name="targetProcess" />
         <attr name="label" />
         <attr name="icon" />
-        <attr name="roundIcon" />
         <attr name="banner" />
         <attr name="logo" />
         <attr name="handleProfiling" />
@@ -2384,7 +2208,7 @@
     </declare-styleable>
 
     <!-- Declaration of an {@link android.content.Intent} object in XML.  May
-         also include zero or more {@link #IntentCategory <category>} and
+         also include zero or more {@link #IntentCategory <category> and
          {@link #Extra <extra>} tags. -->
     <declare-styleable name="Intent">
         <!-- The action name to assign to the Intent, as per
@@ -2462,6 +2286,8 @@
          then the system will set the same minimal width on all other activities in the task. It
          will also ignore any other minimal width attributes of non-root activities. -->
         <attr name="minWidth" />
+        <!-- @removed -->
+        <attr name="minimalWidth" format="dimension" />
         <!-- Minimal height of the activity.
 
          <p><strong>NOTE:</strong> A task's root activity value is applied to all additional
@@ -2469,6 +2295,8 @@
          then the system will set the same minimal height on all other activities in the task. It
          will also ignore any other minimal height attributes of non-root activities. -->
         <attr name="minHeight" />
+        <!-- @removed -->
+        <attr name="minimalHeight" format="dimension" />
     </declare-styleable>
 
     <!-- <code>restrict-update</code> tag restricts system apps from being updated unless the
@@ -2479,10 +2307,6 @@
              <p>NOTE: This is only applicable to system packages.
              @hide -->
         <attr name="hash" format="string" />
-    </declare-styleable>
-
-    <declare-styleable name="AndroidManifestUsesSplit" parent="AndroidManifest">
-        <attr name="name" format="string" />
     </declare-styleable>
 
 </resources>
