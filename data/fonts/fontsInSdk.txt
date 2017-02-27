@@ -83,7 +83,10 @@ NotoSansOriya-Bold.ttf
 NotoSansOriya-Regular.ttf
 NotoSansOriyaUI-Bold.ttf
 NotoSansOriyaUI-Regular.ttf
+NotoSansPhagsPa-Regular.ttf
 NotoSansRejang-Regular.ttf
+NotoSansRunic-Regular.ttf
+NotoSansSamaritan-Regular.ttf
 NotoSansSaurashtra-Regular.ttf
 NotoSansSinhala-Bold.ttf
 NotoSansSinhala-Regular.ttf
@@ -91,7 +94,10 @@ NotoSansSundanese-Regular.ttf
 NotoSansSylotiNagri-Regular.ttf
 NotoSansSymbols-Regular-Subsetted.ttf
 NotoSansSymbols-Regular-Subsetted2.ttf
+NotoSansSyriacEastern-Regular.ttf
 NotoSansSyriacEstrangela-Regular.ttf
+NotoSansSyriacWestern-Regular.ttf
+NotoSansTagalog-Regular.ttf
 NotoSansTagbanwa-Regular.ttf
 NotoSansTaiLe-Regular.ttf
 NotoSansTaiTham-Regular.ttf

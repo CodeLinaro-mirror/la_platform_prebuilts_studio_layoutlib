@@ -62,6 +62,10 @@
 
         <!-- Default disabled alpha for widgets that set enabled/disabled alpha programmatically. -->
         <attr name="disabledAlpha" format="float" />
+        <!-- The alpha applied to the foreground color to create the primary text color. -->
+        <attr name="primaryContentAlpha" format="float" />
+        <!-- The alpha applied to the foreground color to create the secondary text color. -->
+        <attr name="secondaryContentAlpha" format="float" />
         <!-- Default background dim amount when a menu, dialog, or something similar pops up. -->
         <attr name="backgroundDimAmount" format="float" />
         <!-- Control whether dimming behind the window is enabled.  The default
@@ -130,6 +134,9 @@
 
         <!-- Color of list item text in alert dialogs. -->
         <attr name="textColorAlertDialogListItem" format="reference|color" />
+
+        <!-- Text color for errors. -->
+        <attr name="textColorError" format="reference|color" />
 
         <!-- Search widget more corpus result item background. -->
         <attr name="searchWidgetCorpusItemBackground" format="reference|color" />
@@ -535,13 +542,15 @@
 
         <!-- Flag indicating whether this Window's transition should overlap with
              the exiting transition of the calling Activity. Corresponds to
-             {@link android.view.Window#setAllowEnterTransitionOverlap(boolean)}. -->
+             {@link android.view.Window#setAllowEnterTransitionOverlap(boolean)}.
+             The default value is true. -->
         <attr name="windowAllowEnterTransitionOverlap" format="boolean"/>
 
         <!-- Flag indicating whether this Window's transition should overlap with
              the exiting transition of the called Activity when the called Activity
              finishes. Corresponds to
-             {@link android.view.Window#setAllowReturnTransitionOverlap(boolean)}. -->
+             {@link android.view.Window#setAllowReturnTransitionOverlap(boolean)}.
+             The default value is true. -->
         <attr name="windowAllowReturnTransitionOverlap" format="boolean"/>
 
         <!-- Indicates whether or not shared elements should use an overlay
@@ -580,7 +589,7 @@
         <!-- Image elements -->
         <!-- ============== -->
         <eat-comment />
-i
+
         <!-- Background that can be used behind parts of a UI that provide
              details on data the user is selecting.  For example, this is
              the background element of PreferenceActivity's embedded
@@ -1006,6 +1015,15 @@ i
         <!-- Background to use for toasts -->
         <attr name="toastFrameBackground" format="reference" />
 
+        <!-- Background to use for tooltip popups -->
+        <attr name="tooltipFrameBackground" format="reference" />
+
+        <!-- Foreground color to use for tooltip popups -->
+        <attr name="tooltipForegroundColor" format="reference|color" />
+
+        <!-- Background color to use for tooltip popups -->
+        <attr name="tooltipBackgroundColor" format="reference|color" />
+
         <!-- Theme to use for Search Dialogs -->
         <attr name="searchDialogTheme" format="reference" />
 
@@ -1047,6 +1065,9 @@ i
         <!-- Dark variant of the primary branding color. By default, this is the color applied to
              the status bar (via statusBarColor) and navigation bar (via navigationBarColor). -->
         <attr name="colorPrimaryDark" format="color" />
+
+        <!-- The secondary branding color for the app. -->
+        <attr name="colorSecondary" format="color" />
 
         <!-- Bright complement to the primary branding color. By default, this is the color applied
              to framework controls (via colorControlActivated). -->
@@ -1832,6 +1853,10 @@ i
         <enum name="KEYCODE_CUT" value="277" />
         <enum name="KEYCODE_COPY" value="278" />
         <enum name="KEYCODE_PASTE" value="279" />
+        <enum name="KEYCODE_SYSTEM_NAVIGATION_UP" value="280" />
+        <enum name="KEYCODE_SYSTEM_NAVIGATION_DOWN" value="281" />
+        <enum name="KEYCODE_SYSTEM_NAVIGATION_LEFT" value="282" />
+        <enum name="KEYCODE_SYSTEM_NAVIGATION_RIGHT" value="283" />
     </attr>
 
     <!-- ***************************************************************** -->
@@ -2043,6 +2068,15 @@ i
         <attr name="showTitle" format="boolean" />
         <!-- @hide Whether fullDark, etc. should use default values if null. -->
         <attr name="needsDefaultBackgrounds" format="boolean" />
+        <!-- @hide Workaround until we replace AlertController with custom layout. -->
+        <attr name="controllerType">
+            <!-- The default controller. -->
+            <enum name="normal" value="0" />
+            <!-- Controller for micro specific layout. -->
+            <enum name="micro" value="1" />
+        </attr>
+        <!-- @hide Offset when scrolling to a selection. -->
+        <attr name="selectionScrollOffset" format="dimension" />
     </declare-styleable>
 
     <!-- @hide -->
@@ -2212,13 +2246,23 @@ i
             (black). -->
         <attr name="background" format="reference|color" />
 
-        <!-- Sets the padding, in pixels, of all four edges.  Padding is defined as
-             space between the edges of the view and the view's content. A views size
-             will include it's padding.  If a {@link android.R.attr#background}
+        <!-- Sets the padding, in pixels, of all four edges. Padding is defined as
+             space between the edges of the view and the view's content. This value will take
+             precedence over any of the edge-specific values, including
+             paddingHorizontal and paddingVertical, if set. A view's size
+             will include its padding. If a {@link android.R.attr#background}
              is provided, the padding will initially be set to that (0 if the
-             drawable does not have padding).  Explicitly setting a padding value
+             drawable does not have padding). Explicitly setting a padding value
              will override the corresponding padding found in the background. -->
         <attr name="padding" format="dimension" />
+        <!-- Sets the padding, in pixels, of the left and right edges; see
+             {@link android.R.attr#padding}. This value will take precedence over
+             paddingLeft, paddingRight, paddingStart, and paddingEnd, if set. -->
+        <attr name="paddingHorizontal" format="dimension" />
+        <!-- Sets the padding, in pixels, of the top and bottom edges; see
+             {@link android.R.attr#padding}. This value will take precedence over
+             paddingTop and paddingBottom, if set. -->
+        <attr name="paddingVertical" format="dimension" />
         <!-- Sets the padding, in pixels, of the left edge; see {@link android.R.attr#padding}. -->
         <attr name="paddingLeft" format="dimension" />
         <!-- Sets the padding, in pixels, of the top edge; see {@link android.R.attr#padding}. -->
@@ -2232,13 +2276,29 @@ i
         <!-- Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}. -->
         <attr name="paddingEnd" format="dimension" />
 
-        <!-- Boolean that controls whether a view can take focus.  By default the user can not
-             move focus to a view; by setting this attribute to true the view is
-             allowed to take focus.  This value does not impact the behavior of
+        <!-- Controls whether a view can take focus.  By default, this is "auto" which lets the
+             framework determine whether a user can move focus to a view.  By setting this attribute
+             to true the view is allowed to take focus. By setting it to "false" the view will not
+             take focus. This value does not impact the behavior of
              directly calling {@link android.view.View#requestFocus}, which will
              always request focus regardless of this view.  It only impacts where
              focus navigation will try to move focus. -->
-        <attr name="focusable" format="boolean" />
+        <attr name="focusable" format="boolean|enum">
+            <enum name="auto" value="0x00000010" />
+        </attr>
+
+        <!-- Controls the auto-fill behavior for this view -->
+        <attr name="autoFillMode">
+            <!-- Inherit the behavior from the parent. If there is no parent it is auto. This is the
+                 default value for this attribute.-->
+            <enum name="inherit" value="0" />
+            <!-- Allows this view to automatically trigger an auto-fill request when it get focus.
+                 -->
+            <enum name="auto" value="1" />
+            <!-- Do not trigger an auto-fill request when this view is focused. The user can still
+                 manually force an auto-fill request for this view. -->
+            <enum name="manual" value="2" />
+        </attr>
 
         <!-- Boolean that controls whether a view can take focus while in touch mode.
              If this is true for a view, that view can gain focus when clicked on, and can keep
@@ -2318,8 +2378,8 @@ i
         <!-- Defines whether the vertical scrollbar track should always be drawn. -->
         <attr name="scrollbarAlwaysDrawVerticalTrack" format="boolean" />
 
-        <!-- This attribute is deprecated and will be ignored as of
-             API level 14 ({@link android.os.Build.VERSION_CODES#ICE_CREAM_SANDWICH}).
+        <!-- This attribute is ignored in API level 14
+             ({@link android.os.Build.VERSION_CODES#ICE_CREAM_SANDWICH}) and higher.
              Using fading edges may introduce noticeable performance
              degradations and should be used only when required by the application's
              visual design. To request fading edges with API level 14 and above,
@@ -2455,13 +2515,13 @@ i
         <!-- Sets the id of a view before which this one is visited in accessibility traversal.
              A screen-reader must visit the content of this view before the content of the one
              it precedes.
-             @see android.view.View#setAccessibilityTraversalBefore(int)} -->
+             {@see android.view.View#setAccessibilityTraversalBefore(int)} -->
         <attr name="accessibilityTraversalBefore" format="integer" />
 
         <!-- Sets the id of a view after which this one is visited in accessibility traversal.
              A screen-reader must visit the content of the other view before the content of
              this one.
-             @see android.view.View#setAccessibilityTraversalAfter(int)} -->
+             {@see android.view.View#setAccessibilityTraversalAfter(int)} -->
         <attr name="accessibilityTraversalAfter" format="integer" />
 
         <!-- Name of the method in this View's context to invoke when the view is
@@ -2555,7 +2615,7 @@ i
 
         <!-- Defines the direction of layout drawing. This typically is associated with writing
              direction of the language script used. The possible values are "ltr" for Left-to-Right,
-             "rtl" for Right-to-Left, "locale" and "inherit" from parent view. If there is nothing
+             "rtl" for Right-to-Left, "locale", and "inherit" from parent view. If there is nothing
              to inherit, "locale" is used. "locale" falls back to "en-US". "ltr" is the direction
              used in "en-US". The default for this attribute is "inherit". -->
         <attr name="layoutDirection">
@@ -2569,8 +2629,7 @@ i
             <enum name="locale" value="3" />
         </attr>
 
-        <!-- Defines the direction of the text. A heuristic is used to determine the resolved text
-              direction of paragraphs. -->
+        <!-- Defines the direction of the text. -->
          <attr name="textDirection" format="integer">
             <!-- Default -->
             <enum name="inherit" value="0" />
@@ -2596,8 +2655,7 @@ i
             <enum name="firstStrongRtl" value="7" />
         </attr>
 
-        <!-- Defines the alignment of the text. A heuristic is used to determine the resolved
-            text alignment. -->
+        <!-- Defines the alignment of the text. -->
         <attr name="textAlignment" format="integer">
             <!-- Default -->
             <enum name="inherit" value="0" />
@@ -2849,6 +2907,29 @@ i
              {@link android.view.View#forceHasOverlappingRendering(boolean)}. -->
         <attr name="forceHasOverlappingRendering" format="boolean" />
 
+        <!-- Defines text displayed in a small popup window on hover or long press. -->
+        <attr name="tooltipText" format="string" localization="suggested" />
+
+        <!-- Whether this view is a root of a keyboard navigation cluster.
+             See {@link android.view.View#setKeyboardNavigationCluster(boolean)}. -->
+        <attr name="keyboardNavigationCluster" format="boolean" />
+
+        <attr name="__removed0" format="boolean" />
+
+        <!-- Defines the next keyboard navigation cluster.
+
+             If the reference refers to a view that does not exist or is part
+             of a hierarchy that is invisible, a {@link java.lang.RuntimeException}
+             will result when the reference is accessed.-->
+        <attr name="nextClusterForward" format="reference"/>
+
+        <attr name="__removed1" format="reference"/>
+
+        <!-- Whether this view is a default-focus view.
+             Only one view per keyboard navigation cluster can have this attribute set to true.
+             See {@link android.view.View#setFocusedByDefault(boolean)}. -->
+        <attr name="focusedByDefault" format="boolean" />
+
     </declare-styleable>
 
     <!-- Attributes that can be assigned to a tag for a particular View. -->
@@ -3031,7 +3112,11 @@ i
         <attr name="layout_width" />
         <attr name="layout_height" />
         <!--  Specifies extra space on the left, top, right and bottom
-              sides of this view. This space is outside this view's bounds.
+              sides of this view.  If both layout_margin and any of layout_marginLeft,
+              layout_marginRight, layout_marginStart, layout_marginEnd,
+              layout_marginTop, and layout_marginBottom are
+              also specified, the layout_margin value will take precedence over the
+              edge-specific values. This space is outside this view's bounds.
               Margin values should be positive. -->
         <attr name="layout_margin" format="dimension"  />
         <!--  Specifies extra space on the left side of this view.
@@ -3058,6 +3143,29 @@ i
               This space is outside this view's bounds.
               Margin values should be positive.-->
         <attr name="layout_marginEnd" format="dimension"  />
+        <!--  Specifies extra space on the left and right sides of this view.
+              Specifying layout_marginHorizontal is equivalent to specifying
+              either layout_marginLeft and layout_marginRight or
+              layout_marginStart and layout_marginEnd with that same value.
+              If both layout_marginHorizontal and any of layout_marginLeft,
+              layout_marginRight, layout_marginStart, and layout_marginEnd are
+              also specified, the layout_marginHorizontal value will take precedence over the
+              edge-specific values. Also, layout_margin will always take precendent over
+              any of these values, including layout_marginHorizontal.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="layout_marginHorizontal" format="dimension"  />
+        <!--  Specifies extra space on the tyop and bottom sides of this view.
+              Specifying layout_marginVertical is equivalent to specifying
+              layout_marginTop and layout_marginBottom with that same value.
+              If both layout_marginVertical and either/both layout_marginTop and
+              layout_marginBottom are also specified, the layout_marginVertical value
+              will take precedence over the edge-specific values.
+              Also, layout_margin will always take precendent over
+              any of these values, including layout_marginHorizontal.
+              This space is outside this view's bounds.
+              Margin values should be positive.-->
+        <attr name="layout_marginVertical" format="dimension"  />
     </declare-styleable>
 
     <!-- Use <code>input-method</code> as the root tag of the XML resource that
@@ -3083,6 +3191,18 @@ i
              and subtype in order to provide the consistent user experience in switching
              between IMEs and subtypes. -->
         <attr name="supportsSwitchingToNextInputMethod" format="boolean" />
+        <!-- Set to true if this input method supports ways to dismiss the windows assigned to
+             the input method (e.g. a dismiss button rendered by the input method itself).  The
+             System UI may optimize the UI by not showing system-level dismiss button if this
+             value is true.
+             <p> Must be a boolean value, either "true" or "false". The default value is "false".
+             <p> This may also be a reference to a resource (in the form "@[package:]type:name")
+             or theme attribute (in the form "?[package:]type:name") containing a value of this
+             type.
+             <p> A UI element that dismisses the input method window should report
+             {@link android.view.accessibility.AccessibilityNodeInfo#ACTION_DISMISS} action, so
+             that accessibility services can handle it accordingly. -->
+        <attr name="supportsDismissingWindow" format="boolean" />
     </declare-styleable>
 
     <!-- This is the subtype of InputMethod. Subtype can describe locales (e.g. en_US, fr_FR...)
@@ -3161,8 +3281,8 @@ i
         <!-- The unique id for the subtype. The text service (spell checker) framework keeps track
              of enabled subtypes by ID. When the spell checker package gets upgraded, enabled IDs
              will stay enabled even if other attributes are different. If the ID is unspecified or
-             or explicitly specified to 0 in XML resources,
-             {@code Arrays.hashCode(new Object[] {subtypeLocale, extraValue}) will be used instead.
+             explicitly specified to 0 in XML resources,
+             {@code Arrays.hashCode(new Object[] {subtypeLocale, extraValue})} will be used instead.
               -->
         <attr name="subtypeId" />
         <!-- The BCP-47 Language Tag of the subtype.  This replaces
@@ -3283,6 +3403,12 @@ i
             <flag name="flagRequestFilterKeyEvents" value="0x00000020" />
             <!-- Has flag {@link android.accessibilityservice.AccessibilityServiceInfo#FLAG_RETRIEVE_INTERACTIVE_WINDOWS} -->
             <flag name="flagRetrieveInteractiveWindows" value="0x00000040" />
+            <!-- Has flag {@link android.accessibilityservice.AccessibilityServiceInfo#FLAG_ENABLE_ACCESSIBILITY_VOLUME} -->
+            <flag name="flagEnableAccessibilityVolume" value="0x00000080" />
+            <!-- Has flag {@link android.accessibilityservice.AccessibilityServiceInfo#FLAG_REQUEST_ACCESSIBILITY_BUTTON} -->
+            <flag name="flagRequestAccessibilityButton" value="0x00000100" />
+            <!-- Has flag {@link android.accessibilityservice.AccessibilityServiceInfo#FLAG_CAPTURE_FINGERPRINT_GESTURES} -->
+            <flag name="flagCaptureFingerprintGestures" value="0x00000200" />
         </attr>
         <!-- Component name of an activity that allows the user to modify
              the settings for this service. This setting cannot be changed at runtime. -->
@@ -3318,19 +3444,18 @@ i
         <attr name="canRequestFilterKeyEvents" format="boolean" />
         <!-- Attribute whether the accessibility service wants to be able to control
              display magnification.
-             <p>
-             Required to allow setting the {@link android.accessibilityservice
-             #AccessibilityServiceInfo#FLAG_CAN_CONTROL_MAGNIFICATION} flag.
-             </p>
          -->
         <attr name="canControlMagnification" format="boolean" />
-        <!-- Attribute whether the accessibility service wants to be able to perform gestures.
+        <!-- Attribute whether the accessibility service wants to be able to perform gestures. -->
+        <attr name="canPerformGestures" format="boolean" />
+        <!-- Attribute whether the accessibility service wants to be able to capture gestures from
+             the fingerprint sensor.
              <p>
              Required to allow setting the {@link android.accessibilityservice
-             #AccessibilityServiceInfo#FLAG_CAN_PERFORM_GESTURES} flag.
+             #AccessibilityServiceInfo#FLAG_CAN_CAPTURE_FINGERPRINT_GESTURES} flag.
              </p>
          -->
-        <attr name="canPerformGestures" format="boolean" />
+        <attr name="canCaptureFingerprintGestures" format="boolean" />
         <!-- Short description of the accessibility service purpose or behavior.-->
         <attr name="description" />
     </declare-styleable>
@@ -3777,7 +3902,10 @@ i
         <!-- An optional argument to supply a maximum height for this view.
              See {see android.widget.ImageView#setMaxHeight} for details. -->
         <attr name="maxHeight" format="dimension" />
-        <!-- Set a tinting color for the image. By default, the tint will blend using SRC_ATOP mode. -->
+        <!-- The tinting color for the image. By default, the tint will blend using SRC_ATOP mode.
+             Please note that for compatibility reasons, this is NOT consistent with the default
+             SRC_IN tint mode used by {@link android.widget.ImageView#setImageTintList} and by
+             similar tint attributes on other views. -->
         <attr name="tint" format="color" />
         <!-- If true, the image view will be baseline aligned with based on its
              bottom edge. -->
@@ -3946,6 +4074,7 @@ i
     </declare-styleable>
 
     <declare-styleable name="ProgressBar">
+        <attr name="min" format="integer" />
         <!-- Defines the maximum value the progress can take. -->
         <attr name="max" format="integer" />
         <!-- Defines the default progress value, between 0 and max. -->
@@ -4592,6 +4721,26 @@ i
             screens with limited space for text. -->
             <enum name="full" value="2" />
         </attr>
+        <!-- Specify the type of auto-size. Note that this feature is not supported by EditText,
+        works only for TextView -->
+        <attr name="autoSizeText" format="enum">
+            <!-- No auto-sizing (default). -->
+            <enum name="none" value="0" />
+            <!-- Uniform horizontal and vertical scaling. -->
+            <enum name="uniform" value="1" />
+        </attr>
+        <!-- Specify the auto-size step size if <code>autoSizeText</code> is set to
+        <code>xy</code>. The default is 1px. Overwrites
+        <code>autoSizePresetSizes</code> if set. -->
+        <attr name="autoSizeStepGranularity" format="dimension" />
+        <!-- Array of dimensions to be used in conjunction with
+        <code>autoSizeText</code> set to <code>xy</code>. Overwrites
+        <code>autoSizeStepGranularity</code> if set. -->
+        <attr name="autoSizePresetSizes"/>
+        <!-- The minimum text size constraint to be used when auto-sizing text -->
+        <attr name="autoSizeMinTextSize" format="dimension" />
+        <!-- The maximum text size constraint to be used when auto-sizing text -->
+        <attr name="autoSizeMaxTextSize" format="dimension" />
     </declare-styleable>
     <declare-styleable name="TextViewAppearance">
         <!-- Base text color, typeface, size, and style. -->
@@ -4822,6 +4971,11 @@ i
         <!-- The list year's selected circle color in the list.
              {@deprecated No longer displayed.} -->
         <attr name="yearListSelectorColor" format="color" />
+
+        <!-- @hide Whether this time picker is being displayed within a dialog,
+             in which case it may ignore the requested time picker mode due to
+             space considerations. -->
+        <attr name="dialogMode" format="boolean" />
     </declare-styleable>
 
     <declare-styleable name="TwoLineListItem">
@@ -4916,7 +5070,14 @@ i
     <declare-styleable name="LinearLayout_Layout">
         <attr name="layout_width" />
         <attr name="layout_height" />
+        <!-- Indicates how much of the extra space in the LinearLayout is
+        allocated to the view associated with these LayoutParams. Specify
+        0 if the view should not be stretched. Otherwise the extra pixels
+        will be pro-rated among all views whose weight is greater than 0. -->
         <attr name="layout_weight" format="float" />
+        <!-- Gravity specifies how a component should be placed in its group of cells.
+        The default is {@link android.view.Gravity#TOP}.
+        See {@link android.widget.LinearLayout#setGravity(int)}. -->
         <attr name="layout_gravity" />
     </declare-styleable>
     <declare-styleable name="GridLayout_Layout">
@@ -5019,13 +5180,6 @@ i
     </declare-styleable>
     <declare-styleable name="VerticalSlider_Layout">
         <attr name="layout_scale" format="float" />
-    </declare-styleable>
-
-    <!-- attributes for internal rotary widget used in lock screen and phone app
-      @hide -->
-    <declare-styleable name="RotarySelector">
-        <!-- Use "horizontal" or "vertical".  The default is horizontal. -->
-        <attr name="orientation" />
     </declare-styleable>
 
     <!-- @hide -->
@@ -5150,6 +5304,11 @@ i
         <!-- The background color state list for the AM/PM selectors.
              {@deprecated Use headerBackground instead.}-->
         <attr name="amPmBackgroundColor" format="color" />
+
+        <!-- @hide Whether this time picker is being displayed within a dialog,
+             in which case it may ignore the requested time picker mode due to
+             space considerations. -->
+        <attr name="dialogMode" />
     </declare-styleable>
 
     <!-- ========================= -->
@@ -5296,6 +5455,21 @@ i
         <attr name="alpha" />
     </declare-styleable>
 
+    <!-- Drawable used to render according to the animation scale. Esp. when it is 0 due to battery
+         saver mode. It should contain one animatable drawable and one static drawable.
+         @hide -->
+    <declare-styleable name="AnimationScaleListDrawable">
+    </declare-styleable>
+
+    <!-- Attributes that can be assigned to a AnimationScaleListDrawable item.
+         @hide -->
+    <declare-styleable name="AnimationScaleListDrawableItem">
+        <!-- Reference to a drawable resource to use for the state. If not
+             given, the drawable must be defined by the first child tag. -->
+        <attr name="drawable" />
+    </declare-styleable>
+
+
     <!-- Drawable used to render a geometric shape, with a gradient or a solid color. -->
     <declare-styleable name="GradientDrawable">
         <!-- Indicates whether the drawable should intially be visible. -->
@@ -5325,7 +5499,10 @@ i
         <attr name="innerRadius" format="dimension" />
         <!-- Thickness of the ring. When defined, thicknessRatio is ignored. -->
         <attr name="thickness" format="dimension" />
-        <!-- Indicates whether the drawable's level affects the way the gradient is drawn. -->
+        <!-- Whether the drawable level value (see
+             {@link android.graphics.drawable.Drawable#getLevel()}) is used to scale the shape.
+             Scaling behavior depends on the shape type. For "ring", the angle is scaled from 0 to
+             360. For all other types, there is no effect. The default value is true. -->
         <attr name="useLevel" />
         <!-- If set, specifies the color to apply to the drawable as a tint. By default,
              no tint is applied. May be a color state list. -->
@@ -5359,28 +5536,37 @@ i
     <declare-styleable name="GradientDrawableGradient">
         <!-- Start color of the gradient. -->
         <attr name="startColor" format="color" />
-        <!-- Optional center color. For linear gradients, use centerX or centerY
-             to place the center color. -->
+        <!-- Optional center color. For linear gradients, use centerX or centerY to place the center
+             color. -->
         <attr name="centerColor" format="color" />
         <!-- End color of the gradient. -->
         <attr name="endColor" format="color" />
+        <!-- Whether the drawable level value (see
+             {@link android.graphics.drawable.Drawable#getLevel()}) is used to scale the gradient.
+             Scaling behavior varies based on gradient type. For "linear", adjusts the ending
+             position along the gradient's axis of orientation. For "radial", adjusts the outer
+             radius. For "sweep", adjusts the ending angle. The default value is false. -->
         <attr name="useLevel" format="boolean" />
-        <!-- Angle of the gradient. -->
+        <!-- Angle of the gradient, used only with linear gradient. Must be a multiple of 45 in the
+             range [0, 315]. -->
         <attr name="angle" format="float" />
         <!-- Type of gradient. The default type is linear. -->
         <attr name="type">
-            <!-- Linear gradient. -->
+            <!-- Linear gradient extending across the center point. -->
             <enum name="linear" value="0" />
-            <!-- Radial, or circular, gradient. -->
+            <!-- Radial gradient extending from the center point outward. -->
             <enum name="radial" value="1" />
-            <!-- Sweep, or angled or diamond, gradient. -->
+            <!-- Sweep (or angular) gradient sweeping counter-clockwise around the center point. -->
             <enum name="sweep"  value="2" />
         </attr>
-        <!-- X coordinate of the origin of the gradient within the shape. -->
+        <!-- X-position of the center point of the gradient within the shape as a fraction of the
+             width. The default value is 0.5. -->
         <attr name="centerX" format="float|fraction" />
-        <!-- Y coordinate of the origin of the gradient within the shape. -->
+        <!-- Y-position of the center point of the gradient within the shape as a fraction of the
+             height. The default value is 0.5. -->
         <attr name="centerY" format="float|fraction" />
-        <!-- Radius of the gradient, used only with radial gradient. -->
+        <!-- Radius of the gradient, used only with radial gradient. May be an explicit dimension
+             or a fractional value relative to the shape's minimum dimension. -->
         <attr name="gradientRadius" format="float|fraction|dimension" />
     </declare-styleable>
 
@@ -5670,6 +5856,12 @@ i
         <!-- The color to use. -->
         <attr name="color" />
     </declare-styleable>
+
+    <!-- Drawable used to draw adaptive icons with foreground and background layers. -->
+    <declare-styleable name="AdaptiveIconDrawableLayer">
+        <!-- The drawable to use for the layer. -->
+        <attr name="drawable" />
+     </declare-styleable>
 
     <!-- Drawable used to show animated touch feedback. -->
     <declare-styleable name="RippleDrawable">
@@ -6794,9 +6986,31 @@ i
              with alphabetic keys. -->
         <attr name="alphabeticShortcut" format="string" />
 
+        <!-- The alphabetic modifier key. This is the modifier when using a keyboard
+             with alphabetic keys. The values should be kept in sync with KeyEvent -->
+        <attr name="alphabeticModifiers">
+            <flag name="META" value="0x10000" />
+            <flag name="CTRL" value="0x1000" />
+            <flag name="ALT" value="0x02" />
+            <flag name="SHIFT" value="0x1" />
+            <flag name="SYM" value="0x4" />
+            <flag name="FUNCTION" value="0x8" />
+        </attr>
+
         <!-- The numeric shortcut key.  This is the shortcut when using a numeric (e.g., 12-key)
              keyboard. -->
         <attr name="numericShortcut" format="string" />
+
+        <!-- The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
+             keyboard. The values should be kept in sync with KeyEvent -->
+        <attr name="numericModifiers">
+            <flag name="META" value="0x10000" />
+            <flag name="CTRL" value="0x1000" />
+            <flag name="ALT" value="0x02" />
+            <flag name="SHIFT" value="0x1" />
+            <flag name="SYM" value="0x4" />
+            <flag name="FUNCTION" value="0x8" />
+        </attr>
 
         <!-- Whether the item is capable of displaying a check mark. -->
         <attr name="checkable" format="boolean" />
@@ -6853,6 +7067,12 @@ i
              See {@link android.view.MenuItem#setActionProvider(android.view.ActionProvider)}
              for more info. -->
         <attr name="actionProviderClass" format="string" />
+
+        <!-- The content description associated with the item. -->
+        <attr name="contentDescription" format="string" />
+
+        <!-- The tooltip text associated with the item. -->
+        <attr name="tooltipText" format="string" />
 
     </declare-styleable>
 
@@ -6912,9 +7132,11 @@ i
         <attr name="icon" />
         <!-- The key to store the Preference value. -->
         <attr name="key" format="string" />
-        <!-- The title for the Preference in a PreferenceActivity screen. -->
+        <!-- The title for the Preference. In API 25 and earlier, this value is read as a
+         plain string with styling information stripped. -->
         <attr name="title" />
-        <!-- The summary for the Preference in a PreferenceActivity screen. -->
+        <!-- The summary for the Preference. In API 25 and earlier, this value is read as a
+         plain string with styling information stripped. -->
         <attr name="summary" />
         <!-- The order for the Preference (lower values are to be ordered first). If this is not
              specified, the default ordering will be alphabetic. -->
@@ -7325,14 +7547,28 @@ i
     <declare-styleable name="Wallpaper">
         <attr name="settingsActivity" />
 
-        <!-- Reference to a the wallpaper's thumbnail bitmap. -->
+        <!-- Reference to the wallpaper's thumbnail bitmap. -->
         <attr name="thumbnail" format="reference" />
 
-        <!-- Name of the author of this component, e.g. Google. -->
+        <!-- Name of the author and/or source/collection of this component, e.g. Art Collection, Picasso. -->
         <attr name="author" format="reference" />
 
         <!-- Short description of the component's purpose or behavior. -->
         <attr name="description" />
+
+        <!-- Uri that specifies a link for further context of this wallpaper, e.g. http://www.picasso.org. -->
+        <attr name="contextUri" format="reference" />
+
+        <!-- Title of the uri that specifies a link for further context of this wallpaper, e.g. Explore collection. -->
+        <attr name="contextDescription" format="reference" />
+
+        <!-- Whether to show any metadata when previewing the wallpaper. If this value is
+             set to true, any component that shows a preview of this live wallpaper should also show
+             accompanying information like the title, the description, the author and the context
+             description of this wallpaper so the user gets to know further information about this
+             wallpaper. -->
+        <attr name="showMetadataInPreview" format="boolean" />
+
     </declare-styleable>
 
     <!-- Use <code>dream</code> as the root tag of the XML resource that
@@ -7362,6 +7598,8 @@ i
         <attr name="title" />
         <!-- @SystemApi Summary for the same preference as the title. @hide -->
         <attr name="summary" />
+        <!-- @SystemApi Whether trust agent can unlock a user profile @hide -->
+        <attr name="unlockProfile" format="boolean"/>
     </declare-styleable>
 
     <!-- =============================== -->
@@ -7419,6 +7657,21 @@ i
              activity for this SyncAdapter.
              -->
         <attr name="settingsActivity"/>
+    </declare-styleable>
+
+    <!-- =============================== -->
+    <!-- AutoFill attributes -->
+    <!-- =============================== -->
+    <eat-comment />
+
+    <!-- Use <code>autofill-service</code> as the root tag of the XML resource that describes a
+         {@link android.service.autofill.AutoFillService}, which is referenced from its
+         {@link android.service.autofill#SERVICE_META_DATA} meta-data entry.
+    -->
+    <declare-styleable name="AutoFillService">
+        <!-- Fully qualified class name of an activity that allows the user to modify
+             the settings for this service. -->
+        <attr name="settingsActivity" />
     </declare-styleable>
 
     <!-- =============================== -->
@@ -7708,7 +7961,6 @@ i
         <attr name="queryBackground" format="reference" />
         <!-- Background for the section containing the action (e.g. voice search) -->
         <attr name="submitBackground" format="reference" />
-        <attr name="focusable" />
     </declare-styleable>
 
     <declare-styleable name="Switch">
@@ -7862,12 +8114,27 @@ i
 
     <declare-styleable name="SeekBarPreference">
         <attr name="layout" />
+        <!-- Attribute indicating whether the slider within this preference can be adjusted, that is
+        pressing left/right keys when this preference is focused will move the slider accordingly (e.g.
+        inline adjustable preferences). False, if the slider within the preference is read-only and
+        cannot be adjusted. By default, the seekbar is adjustable. -->
+        <attr name="adjustable" format="boolean" />
+        <!-- Flag indicating whether the TextView next to the seekbar that shows the current seekbar value will be
+        displayed. If true, the view is VISIBLE; if false, the view will be GONE. By default, this view is VISIBLE. -->
+        <attr name="showSeekBarValue" format="boolean" />
     </declare-styleable>
 
     <!-- Base attributes available to PreferenceFragment. -->
     <declare-styleable name="PreferenceFragment">
         <!-- The layout for the PreferenceFragment. This should rarely need to be changed. -->
         <attr name="layout" />
+        <attr name="divider" />
+    </declare-styleable>
+
+    <!-- Base attributes available to PreferenceScreen. -->
+    <declare-styleable name="PreferenceScreen">
+        <!-- The layout for the PreferenceScreen. This should rarely need to be changed. -->
+        <attr name="screenLayout" format="reference" />
         <attr name="divider" />
     </declare-styleable>
 
@@ -8124,7 +8391,6 @@ i
     </declare-styleable>
 
     <declare-styleable name="MessagingLinearLayout">
-        <attr name="maxHeight" />
         <attr name="spacing" />
     </declare-styleable>
 
@@ -8217,14 +8483,54 @@ i
         <attr name="color" />
     </declare-styleable>
 
-    <!-- @hide Attributes which will be read by the Activity to intialize the 
+    <!-- @hide Attributes which will be read by the Activity to intialize the
                base activity TaskDescription. -->
     <declare-styleable name="ActivityTaskDescription">
-        <!-- @hide From Theme.colorPrimary, used for the TaskDescription primary 
+        <!-- @hide From Theme.colorPrimary, used for the TaskDescription primary
                    color. -->
         <attr name="colorPrimary" />
-        <!-- @hide From Theme.colorBackground, used for the TaskDescription background 
+        <!-- @hide From Theme.colorBackground, used for the TaskDescription background
                    color. -->
         <attr name="colorBackground" />
+    </declare-styleable>
+
+    <declare-styleable name="Shortcut">
+        <attr name="shortcutId" format="string" />
+        <attr name="enabled" />
+        <attr name="icon" />
+        <attr name="shortcutShortLabel" format="reference" />
+        <attr name="shortcutLongLabel" format="reference" />
+        <attr name="shortcutDisabledMessage" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ShortcutCategories">
+        <attr name="name" />
+    </declare-styleable>
+
+    <!-- Attributes that are read when parsing a <font> tag, which is a child of
+         <font-family>. -->
+    <declare-styleable name="FontFamilyFont">
+        <attr name="fontStyle">
+            <enum name="normal" value="0" />
+            <enum name="italic" value="1" />
+        </attr>
+        <attr name="font" format="reference" />
+        <attr name="fontWeight" format="integer" />
+    </declare-styleable>
+
+    <!-- Attributes that are read when parsing a <fontfamily> tag, -->
+    <declare-styleable name="FontFamily">
+        <attr name="fontProviderAuthority" format="string" />
+        <attr name="fontProviderQuery" format="string" />
+    </declare-styleable>
+
+    <!-- @hide -->
+    <declare-styleable name="RecyclerView">
+        <attr name="layoutManager" format="string" />
+        <attr name="orientation" />
+        <attr name="descendantFocusability" />
+        <attr name="spanCount" format="integer"/>
+        <attr name="reverseLayout" format="boolean" />
+        <attr name="stackFromEnd" format="boolean" />
     </declare-styleable>
 </resources>
