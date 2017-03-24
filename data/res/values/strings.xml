@@ -209,8 +209,7 @@
     <!-- Displayed to tell the user that they should switch their network preference. -->
     <string name="NetworkPreferenceSwitchTitle">Can\u2019t reach network</string>
     <!-- Displayed to tell the user that they should switch their network preference. -->
-    <string name="NetworkPreferenceSwitchSummary">To improve reception, try changing the type selected at Settings > Cellular networks > Preferred network type."</string>
-
+    <string name="NetworkPreferenceSwitchSummary">To improve reception, try changing the type selected at System &gt; Network &amp; Internet &gt; Mobile networks &gt; Preferred network type."</string>
 
     <!-- Displayed to tell the user that peer changed TTY mode -->
     <string name="peerTtyModeFull">Peer requested TTY Mode FULL</string>
@@ -263,7 +262,7 @@
     <string-array name="wfcOperatorErrorNotificationMessages">
         <item>Register with your carrier</item>
     </string-array>
-    <!-- Template for showing cellular network operator name while WFC is active -->
+    <!-- Template for showing mobile network operator name while WFC is active -->
     <string-array name="wfcSpnFormats">
         <item>%s</item>
         <item>%s Wi-Fi Calling</item>
@@ -272,8 +271,8 @@
     <string name="wifi_calling_off_summary">Off</string>
     <!-- WFC, summary for Wi-Fi Preferred -->
     <string name="wfc_mode_wifi_preferred_summary">Wi-Fi preferred</string>
-    <!-- WFC, summary for Cellular Preferred -->
-    <string name="wfc_mode_cellular_preferred_summary">Cellular preferred</string>
+    <!-- WFC, summary for Mobile data Preferred -->
+    <string name="wfc_mode_cellular_preferred_summary">Mobile preferred</string>
     <!-- WFC, summary for Wi-Fi Only -->
     <string name="wfc_mode_wifi_only_summary">Wi-Fi only</string>
 
@@ -392,12 +391,12 @@
         This indicates that a work profile has been deleted. [CHAR LIMIT=NONE]-->
     <string name="work_profile_deleted_description_dpm_wipe">Your work profile is no longer available on this device.</string>
 
-    <!-- Content title for a notification. This indicates that network logging was activated by
-        a device owner. [CHAR LIMIT=NONE]-->
-    <string name="network_logging_notification_title">Network traffic is being monitored</string>
-    <!-- Content text for a notification. Tapping opens a dialog with more information on network
-        logging. [CHAR LIMIT=NONE]-->
-    <string name="network_logging_notification_text">Tap to learn more</string>
+    <!-- Content title for a notification. This notification indicates that the device is managed
+         and network logging was activated by a device owner. [CHAR LIMIT=NONE]-->
+    <string name="network_logging_notification_title">Device is managed</string>
+    <!-- Content text for a notification. Tapping opens a dialog with more information on device management and network
+         logging. [CHAR LIMIT=NONE]-->
+    <string name="network_logging_notification_text">Your organization manages this device and may monitor network traffic. Tap for details.</string>
 
     <!-- Factory reset warning dialog strings--> <skip />
     <!-- Shows up in the dialog's title to warn about an impeding factory reset. [CHAR LIMIT=NONE] -->
@@ -587,6 +586,48 @@
     <!-- Text shown in place of notification contents when the notification is hidden by policy on a secure lockscreen -->
     <string name="notification_hidden_by_policy_text">Contents hidden by policy</string>
 
+    <!-- Text shown when viewing channel settings for notifications related to the virtual keyboard -->
+    <string name="notification_channel_virtual_keyboard">Virtual keyboard</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to the hardware keyboard -->
+    <string name="notification_channel_physical_keyboard">Physical keyboard</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to security -->
+    <string name="notification_channel_security">Security</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to car mode -->
+    <string name="notification_channel_car_mode">Car mode</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to account status -->
+    <string name="notification_channel_account">Account status</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to developers -->
+    <string name="notification_channel_developer">Developer messages</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to system updates -->
+    <string name="notification_channel_updates">Updates</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to network status -->
+    <string name="notification_channel_network_status">Network status</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to network alerts -->
+    <string name="notification_channel_network_alerts">Network alerts</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to vpn status -->
+    <string name="notification_channel_vpn">VPN status</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to remote device administration -->
+    <string name="notification_channel_device_admin">Device administration</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to important alerts -->
+    <string name="notification_channel_alerts">Alerts</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to being in retail mode -->
+    <string name="notification_channel_retail_mode">Retail demo</string>
+
+    <!-- Text shown when viewing channel settings for notifications related to a usb connection -->
+    <string name="notification_channel_usb">USB connection</string>
+
     <!-- Displayed to the user to tell them that they have started up the phone in "safe mode" -->
     <string name="safeMode">Safe mode</string>
 
@@ -726,6 +767,11 @@
     <string name="permdesc_processOutgoingCalls">Allows the app to see the
         number being dialed during an outgoing call with the option to redirect
         the call to a different number or abort the call altogether.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permlab_answerPhoneCalls">answer phone calls</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permdesc_answerPhoneCalls">Allows the app to answer an incoming phone call.</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permlab_receiveSms">receive text messages (SMS)</string>
@@ -2593,6 +2639,9 @@
     <!-- Item on EditText context menu. This action is used to redo a text edit operation. -->
     <string name="redo">Redo</string>
 
+    <!-- Item on EditText context menu. This action is used to request autofill. -->
+    <string name="autofill">Autofill</string>
+
     <!-- Text selection contextual mode title, displayed in the CAB. [CHAR LIMIT=20] -->
     <string name="textSelectionCABTitle">Text selection</string>
 
@@ -2922,18 +2971,18 @@
     <!-- A notification is shown when the user connects to a Wi-Fi network and the system detects that that network has no Internet access. This is the notification's message. -->
     <string name="wifi_no_internet_detailed">Tap for options</string>
 
-    <!-- A notification might be shown if the device switches to another network type (e.g., cellular data) because it detects that the network it was using (e.g., Wi-Fi) has lost Internet connectivity. This is the notification's title. %1$s is the network type that the device switched to, e.g., cellular data. It is one of the strings in the network_switch_type_name array. -->
+    <!-- A notification might be shown if the device switches to another network type (e.g., mobile data) because it detects that the network it was using (e.g., Wi-Fi) has lost Internet connectivity. This is the notification's title. %1$s is the network type that the device switched to, e.g., cellular data. It is one of the strings in the network_switch_type_name array. -->
     <string name="network_switch_metered">Switched to <xliff:g id="network_type">%1$s</xliff:g></string>
 
-    <!-- A notification might be shown if the device switches to another network type (e.g., cellular data) because it detects that the network it was using (e.g., Wi-Fi) has lost Internet connectivity. This is the notification's message. %1$s is the network that the device switched to, e.g., cellular data. %2$s is the network type the device switched from, e.g., Wi-Fi. Both are strings in the network_switch_type_name array. -->
+    <!-- A notification might be shown if the device switches to another network type (e.g., mobile data) because it detects that the network it was using (e.g., Wi-Fi) has lost Internet connectivity. This is the notification's message. %1$s is the network that the device switched to, e.g., cellular data. %2$s is the network type the device switched from, e.g., Wi-Fi. Both are strings in the network_switch_type_name array. -->
     <string name="network_switch_metered_detail">Device uses <xliff:g id="new_network">%1$s</xliff:g> when <xliff:g id="previous_network">%2$s</xliff:g> has no Internet access. Charges may apply.</string>
 
-    <!-- A toast might be shown if the device switches to another network type (e.g., cellular data) because it detects that the network it was using (e.g., Wi-Fi) has lost Internet connectivity. This is the text of the toast. %1$s is the network that the device switched from, e.g., Wi-Fi. %2$s is the network type the device switched from, e.g., cellular data. Both are strings in the network_switch_type_name array. -->
+    <!-- A toast might be shown if the device switches to another network type (e.g., mobile data) because it detects that the network it was using (e.g., Wi-Fi) has lost Internet connectivity. This is the text of the toast. %1$s is the network that the device switched from, e.g., Wi-Fi. %2$s is the network type the device switched from, e.g., cellular data. Both are strings in the network_switch_type_name array. -->
     <string name="network_switch_metered_toast">Switched from <xliff:g id="previous_network">%1$s</xliff:g> to <xliff:g id="new_network">%2$s</xliff:g></string>
 
     <!-- Network type names used in the network_switch_metered and network_switch_metered_detail strings. These must be kept in the sync with the values NetworkCapabilities.TRANSPORT_xxx values, and in the same order. -->
     <string-array name="network_switch_type_name">
-        <item>cellular data</item>
+        <item>mobile data</item>
         <item>Wi-Fi</item>
         <item>Bluetooth</item>
         <item>Ethernet</item>
@@ -3017,13 +3066,13 @@
     <!-- See SIM_REMOVED_DIALOG.  This is the title of that dialog. -->
     <string name="sim_removed_title">SIM card removed</string>
     <!-- See SIM_REMOVED_DIALOG.  This is the message of that dialog. -->
-    <string name="sim_removed_message">The cellular network will be unavailable until you restart with a valid SIM card inserted.</string>
+    <string name="sim_removed_message">The mobile network will be unavailable until you restart with a valid SIM card inserted.</string>
     <!-- See SIM_REMOVED_DIALOG.  This is the button of that dialog. -->
     <string name="sim_done_button">Done</string>
     <!-- See SIM_ADDED_DIALOG.  This is the title of that dialog. -->
     <string name="sim_added_title">SIM card added</string>
     <!-- See SIM_ADDED_DIALOG.  This is the message of that dialog. -->
-    <string name="sim_added_message">Restart your device to access the cellular network.</string>
+    <string name="sim_added_message">Restart your device to access the mobile network.</string>
     <!-- See SIM_ADDED_DIALOG.  This is the button of that dialog. -->
     <string name="sim_restart_button">Restart</string>
     <!-- See Carrier_App_Dialog. This is the message of that dialog. -->
@@ -3120,13 +3169,13 @@
     <skip />
     <!-- Name of notification channel the system post notification to inform the use about apps
          that are drawing ui on-top of other apps (alert-windows) [CHAR LIMIT=NONE] -->
-    <string name="alert_windows_notification_channel_name"><xliff:g id="name" example="Google Maps">%s</xliff:g> draw over other apps</string>
+    <string name="alert_windows_notification_channel_name"><xliff:g id="name" example="Google Maps">%s</xliff:g> displaying over other apps</string>
     <!-- Notification title when an application is displaying ui on-top of other apps
          [CHAR LIMIT=30] -->
-    <string name="alert_windows_notification_title"><xliff:g id="name" example="Google Maps">%s</xliff:g> app displaying on top.</string>
+    <string name="alert_windows_notification_title"><xliff:g id="name" example="Google Maps">%s</xliff:g> is displaying over other apps.</string>
     <!-- Notification body when an application is displaying ui on-top of other apps
          [CHAR LIMIT=NONE] -->
-    <string name="alert_windows_notification_message">Parts of this app may remain visible at all times. If this feature isn\'t working correctly, turn it off.</string>
+    <string name="alert_windows_notification_message">If you don’t want <xliff:g id="name" example="Google Maps">%s</xliff:g> to use this feature, tap to open settings and turn it off.</string>
     <!-- Notification action to turn-off app displaying on-top of other apps. [CHAR LIMIT=20] -->
     <string name="alert_windows_notification_turn_off_action">TURN OFF</string>
 
@@ -3148,11 +3197,15 @@
     <string name="ext_media_unmountable_notification_title">Corrupted <xliff:g id="name" example="SD card">%s</xliff:g></string>
     <!-- Notification body when external media is unmountable (corrupt) [CHAR LIMIT=NONE] -->
     <string name="ext_media_unmountable_notification_message"><xliff:g id="name" example="SD card">%s</xliff:g> is corrupt. Tap to fix.</string>
+    <!-- TV-specifiv notification body when external media is unmountable (corrupt) [CHAR LIMIT=NONE] -->
+    <string name="ext_media_unmountable_notification_message" product="tv"><xliff:g id="name" example="SD card">%s</xliff:g> is corrupt. Select to fix.</string>
 
     <!-- Notification title when external media is unsupported [CHAR LIMIT=30] -->
     <string name="ext_media_unsupported_notification_title">Unsupported <xliff:g id="name" example="SD card">%s</xliff:g></string>
     <!-- Notification body when external media is unsupported [CHAR LIMIT=NONE] -->
     <string name="ext_media_unsupported_notification_message">This device doesn\u2019t support this <xliff:g id="name" example="SD card">%s</xliff:g>. Tap to set up in a supported format.</string>
+    <!-- TV-specific notification body when external media is unsupported [CHAR LIMIT=NONE] -->
+    <string name="ext_media_unsupported_notification_message" product="tv">This device doesn\u2019t support this <xliff:g id="name" example="SD card">%s</xliff:g>. Select to set up in a supported format.</string>
 
     <!-- Notification title when external media is unsafely removed [CHAR LIMIT=30] -->
     <string name="ext_media_badremoval_notification_title"><xliff:g id="name" example="SD card">%s</xliff:g> unexpectedly removed</string>
@@ -3574,7 +3627,7 @@
     <!-- Notification title when 4G data usage has exceeded limit threshold, and has been disabled. [CHAR LIMIT=32] -->
     <string name="data_usage_4g_limit_title">4G data limit reached</string>
     <!-- Notification title when mobile data usage has exceeded limit threshold, and has been disabled. [CHAR LIMIT=32] -->
-    <string name="data_usage_mobile_limit_title">Cellular data limit reached</string>
+    <string name="data_usage_mobile_limit_title">Mobile data limit reached</string>
     <!-- Notification title when Wi-Fi data usage has exceeded limit threshold, and has been disabled. [CHAR LIMIT=32] -->
     <string name="data_usage_wifi_limit_title">Wi-Fi data limit reached</string>
     <!-- Notification body when data usage has exceeded limit threshold, and has been disabled. -->
@@ -3585,7 +3638,7 @@
     <!-- Notification title when 4G data usage has exceeded limit threshold. [CHAR LIMIT=32] -->
     <string name="data_usage_4g_limit_snoozed_title">4G data limit exceeded</string>
     <!-- Notification title when mobile data usage has exceeded limit threshold. [CHAR LIMIT=32] -->
-    <string name="data_usage_mobile_limit_snoozed_title">Cellular data limit exceeded</string>
+    <string name="data_usage_mobile_limit_snoozed_title">Mobile data limit exceeded</string>
     <!-- Notification title when Wi-Fi data usage has exceeded limit threshold. [CHAR LIMIT=32] -->
     <string name="data_usage_wifi_limit_snoozed_title">Wi-Fi data limit exceeded</string>
     <!-- Notification body when data usage has exceeded limit threshold. -->
@@ -4335,8 +4388,11 @@
     <!-- Content description of the work profile icon in the notification. -->
     <string name="notification_work_profile_content_description">Work profile</string>
 
-    <!-- Content description of the expand button icon in the notification.-->
-    <string name="expand_button_content_description">Expand button</string>
+    <!-- Content description of the expand button icon in the notification when collaped.-->
+    <string name="expand_button_content_description_collapsed">Expand</string>
+
+    <!-- Content description of the expand button icon in the notification when expanded.-->
+    <string name="expand_button_content_description_expanded">Collapse</string>
 
     <!-- Accessibility action description on the expand button. -->
     <string name="expand_action_accessibility">toggle expansion</string>
@@ -4481,7 +4537,7 @@
     <string name="app_category_video">Movies &amp; Video</string>
     <!-- Category title for apps which primarily work with images or photos, such as camera or gallery apps. [CHAR LIMIT=32] -->
     <string name="app_category_image">Photos &amp; Images</string>
-    <!-- Category title for apps which are primarily social apps, such as messaging, communication, or social network apps. [CHAR LIMIT=32] -->
+    <!-- Category title for apps which are primarily social apps, such as messaging, communication, email, or social network apps. [CHAR LIMIT=32] -->
     <string name="app_category_social">Social &amp; Communication</string>
     <!-- Category title for apps which are primarily news apps, such as newspapers, magazines, or sports apps. [CHAR LIMIT=32] -->
     <string name="app_category_news">News &amp; Magazines</string>
@@ -4510,4 +4566,39 @@
     <!-- Accessibility string used for describing the button in time picker that changes the dialog to circular clock mode. [CHAR LIMIT=NONE] -->
     <string name="time_picker_radial_mode_description">Switch to clock mode for the time input.</string>
 
+    <!-- Accessibility title for the autofill dialog used to select a list of options to autofill an activity. [CHAR LIMIT=NONE] -->
+    <string name="autofill_picker_accessibility_title">Autofill options</string>
+
+    <!-- Title for the autofill save dialog shown when the the contents of the activity can be saved
+         by an autofill service, but the service does not know what the activity represents [CHAR LIMIT=NONE] -->
+    <string name="autofill_save_title">Save to <xliff:g id="label" example="MyPass">%1$s</xliff:g>?</string>
+    <!-- Title for the autofill save dialog shown when the the contents of the activity can be saved
+         by an autofill service, and the service does knows what the activity represents (for example, credit card info) [CHAR LIMIT=NONE] -->
+    <string name="autofill_save_title_with_type">Save <xliff:g id="type" example="Credit Card">%1$s</xliff:g> to <xliff:g id="label" example="MyPass">%2$s</xliff:g>?</string>
+    <!-- Label for the autofill save button [CHAR LIMIT=NONE] -->
+    <string name="autofill_save_yes">Save</string>
+    <!-- Label for the autofill cancel button [CHAR LIMIT=NONE] -->
+    <string name="autofill_save_no">No thanks</string>
+
+    <!-- Label for the type of data being saved for autofill when it represent user credentials with a password [CHAR LIMIT=NONE] -->
+    <string name="autofill_save_type_password">password</string>
+    <!-- Label for the type of data being saved for autofill when it represent an address (street, city, etc.) [CHAR LIMIT=NONE] -->
+    <string name="autofill_save_type_address">address</string>
+    <!-- Label for the type of data being saved for autofill when it represents a credit card [CHAR LIMIT=NONE] -->
+    <string name="autofill_save_type_credit_card">credit card</string>
+
+    <!-- Primary ETWS (Earthquake and Tsunami Warning System) default message for earthquake -->
+    <string name="etws_primary_default_message_earthquake">Stay calm and seek shelter nearby.</string>
+
+    <!-- Primary ETWS (Earthquake and Tsunami Warning System) default message for Tsunami -->
+    <string name="etws_primary_default_message_tsunami">Evacuate immediately from coastal regions and riverside areas to a safer place such as high ground.</string>
+
+    <!-- Primary ETWS (Earthquake and Tsunami Warning System) default message for earthquake and Tsunami -->
+    <string name="etws_primary_default_message_earthquake_and_tsunami">Stay calm and seek shelter nearby.</string>
+
+    <!-- Primary ETWS (Earthquake and Tsunami Warning System) default message for test -->
+    <string name="etws_primary_default_message_test">Emergency messages test</string>
+
+    <!-- Primary ETWS (Earthquake and Tsunami Warning System) default message for others -->
+    <string name="etws_primary_default_message_others"></string>
 </resources>
