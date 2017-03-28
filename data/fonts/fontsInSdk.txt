@@ -171,3 +171,4 @@ RobotoCondensed-Regular.ttf
 fonts.xml
 NanumGothic.ttf
 DroidSansFallback.ttf
+NotoSansCJK-Regular.ttc
