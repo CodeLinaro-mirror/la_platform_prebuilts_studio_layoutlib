@@ -165,6 +165,9 @@
     -->
     <dimen name="notification_content_plus_picture_margin_end">72dp</dimen>
 
+    <!-- The additional margin on the sides of the ambient view. -->
+    <dimen name="notification_extra_margin_ambient">16dp</dimen>
+
     <!-- The height of the notification action list -->
     <dimen name="notification_action_list_height">56dp</dimen>
 
@@ -530,9 +533,4 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
-
-    <!-- The elevation of AutoFill fill window-->
-    <dimen name="autofill_fill_elevation">4dp</dimen>
-    <dimen name="autofill_fill_item_height">64dp</dimen>
-    <dimen name="autofill_fill_min_margin">16dp</dimen>
 </resources>
