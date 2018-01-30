@@ -310,7 +310,7 @@
     <string name="permlab_subscribedFeedsRead" msgid="4756609637053353318">"குழுசேர்ந்த ஊட்டங்களைப் படித்தல்"</string>
     <string name="permdesc_subscribedFeedsRead" msgid="5557058907906144505">"தற்போது ஒத்திசைந்த ஊட்டங்களைப் பற்றிய விவரங்களைப் பெற பயன்பாட்டை அனுமதிக்கிறது."</string>
     <string name="permlab_sendSms" msgid="7544599214260982981">"SMS செய்திகளை அனுப்புதல் மற்றும் பார்த்தல்"</string>
-    <string name="permdesc_sendSms" msgid="7094729298204937667">"SMS செய்திகளை அனுப்ப பயன்பாட்டை அனுமதிக்கிறது. இதற்கு எதிர்பாராத கட்டணங்கள் விதிக்கப்படலாம். தீங்கு விளைவிக்கும் பயன்பாடுகள் உங்களின் உறுதிப்படுத்தல் எதுவுமின்றி செய்திகளை அனுப்பி உங்களுக்குக் கட்டணம் விதிக்கலாம்."</string>
+    <string name="permdesc_sendSms" msgid="7094729298204937667">"SMS செய்திகளை அனுப்ப பயன்பாட்டை அனுமதிக்கிறது. இதற்கு எதிர்பாராத பேமெண்ட்கள் விதிக்கப்படலாம். தீங்கு விளைவிக்கும் பயன்பாடுகள் உங்களின் உறுதிப்படுத்தல் எதுவுமின்றி செய்திகளை அனுப்பி உங்களுக்குக் கட்டணம் விதிக்கலாம்."</string>
     <string name="permlab_readSms" msgid="8745086572213270480">"உங்கள் உரைச் செய்திகளை (SMS அல்லது MMS) படித்தல்"</string>
     <string name="permdesc_readSms" product="tablet" msgid="4741697454888074891">"இந்தப் பயன்பாடு உங்கள் டேப்லெட்டில் சேமிக்கப்பட்டுள்ள எல்லா SMS (உரை) செய்திகளையும் படிக்கலாம்."</string>
     <string name="permdesc_readSms" product="tv" msgid="5796670395641116592">"இந்தப் பயன்பாடு உங்கள் டிவியில் சேமிக்கப்பட்டுள்ள எல்லா SMS (உரை) செய்திகளையும் படிக்கலாம்."</string>
@@ -979,7 +979,6 @@
     <string name="cancel" msgid="6442560571259935130">"ரத்துசெய்"</string>
     <string name="yes" msgid="5362982303337969312">"சரி"</string>
     <string name="no" msgid="5141531044935541497">"ரத்துசெய்"</string>
-    <string name="close" msgid="2318214661230355730">"மூடு"</string>
     <string name="dialog_alert_title" msgid="2049658708609043103">"கவனத்திற்கு"</string>
     <string name="loading" msgid="7933681260296021180">"ஏற்றுகிறது..."</string>
     <string name="capital_on" msgid="1544682755514494298">"ஆன்"</string>
@@ -1036,8 +1035,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"அளவு"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"எப்போதும் காட்டு"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"சிஸ்டம் அமைப்பு &gt; பயன்பாடுகள் &gt; பதிவிறக்கம் என்பதில் இதை மீண்டும் இயக்கவும்."</string>
-    <string name="top_app_killed_title" msgid="6814231368167994497">"பயன்பாடு செயல்படவில்லை"</string>
-    <string name="top_app_killed_message" msgid="3487519022191609844">"<xliff:g id="APP_NAME">%1$s</xliff:g> பயன்பாடு, அதிகளவு நினைவகத்தைப் பயன்படுத்தக்கூடும்."</string>
     <string name="unsupported_display_size_message" msgid="6545327290756295232">"தற்போதைய திரை அளவு அமைப்பை <xliff:g id="APP_NAME">%1$s</xliff:g> ஆதரிக்காததால், அது வழக்கத்திற்கு மாறாகச் செயல்படக்கூடும்."</string>
     <string name="unsupported_display_size_show" msgid="7969129195360353041">"எப்போதும் காட்டு"</string>
     <string name="smv_application" msgid="3307209192155442829">"<xliff:g id="APPLICATION">%1$s</xliff:g> பயன்பாடு (செயல்முறை <xliff:g id="PROCESS">%2$s</xliff:g>), தனது சுய-செயலாக்க StrictMode கொள்கையை மீறியது."</string>
@@ -1108,7 +1105,7 @@
     <string name="wifi_no_internet" msgid="8451173622563841546">"வைஃபை இணைய அணுகல் கொண்டிருக்கவில்லை"</string>
     <string name="wifi_no_internet_detailed" msgid="8083079241212301741">"விருப்பங்களுக்கு, தட்டவும்"</string>
     <string name="network_switch_metered" msgid="4671730921726992671">"<xliff:g id="NETWORK_TYPE">%1$s</xliff:g>க்கு மாற்றப்பட்டது"</string>
-    <string name="network_switch_metered_detail" msgid="5325661434777870353">"<xliff:g id="PREVIOUS_NETWORK">%2$s</xliff:g> இல் இணைய அணுகல் இல்லாததால், சாதனமானது <xliff:g id="NEW_NETWORK">%1$s</xliff:g>ஐப் பயன்படுத்துகிறது. கட்டணங்கள் விதிக்கப்படலாம்."</string>
+    <string name="network_switch_metered_detail" msgid="5325661434777870353">"<xliff:g id="PREVIOUS_NETWORK">%2$s</xliff:g> இல் இணைய அணுகல் இல்லாததால், சாதனமானது <xliff:g id="NEW_NETWORK">%1$s</xliff:g>ஐப் பயன்படுத்துகிறது. பேமெண்ட்கள் விதிக்கப்படலாம்."</string>
     <string name="network_switch_metered_toast" msgid="5779283181685974304">"<xliff:g id="PREVIOUS_NETWORK">%1$s</xliff:g> இலிருந்து <xliff:g id="NEW_NETWORK">%2$s</xliff:g>க்கு மாற்றப்பட்டது"</string>
   <string-array name="network_switch_type_name">
     <item msgid="3979506840912951943">"மொபைல் டேட்டா"</item>
@@ -1173,7 +1170,7 @@
     <string name="no_permissions" msgid="7283357728219338112">"அனுமதிகள் தேவையில்லை"</string>
     <string name="perm_costs_money" msgid="4902470324142151116">"இதனால் நீங்கள் கட்டணம் செலுத்த வேண்டியிருக்கலாம்"</string>
     <string name="dlg_ok" msgid="7376953167039865701">"சரி"</string>
-    <string name="usb_charging_notification_title" msgid="6895185153353640787">"இந்தச் சாதனத்தை USB சார்ஜ் செய்கிறது"</string>
+    <string name="usb_charging_notification_title" msgid="6895185153353640787">"சாதனம் USB சார்ஜிங் செய்யப்படுகிறது"</string>
     <string name="usb_supplying_notification_title" msgid="5310642257296510271">"இணைத்துள்ள சாதனத்திற்கு USB சக்தி அளிக்கிறது"</string>
     <string name="usb_mtp_notification_title" msgid="8396264943589760855">"USB, கோப்புப் பரிமாற்றத்துக்கு மட்டும்"</string>
     <string name="usb_ptp_notification_title" msgid="1347328437083192112">"USB, படப் பரிமாற்றத்துக்கு மட்டும்"</string>

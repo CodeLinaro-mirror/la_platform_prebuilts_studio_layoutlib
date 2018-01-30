@@ -210,9 +210,9 @@
     <string name="global_action_lock" msgid="2844945191792119712">"Schermvergrendeling"</string>
     <string name="global_action_power_off" msgid="4471879440839879722">"Uitschakelen"</string>
     <string name="global_action_emergency" msgid="7112311161137421166">"Noodgeval"</string>
-    <string name="global_action_bug_report" msgid="7934010578922304799">"Foutenrapport"</string>
-    <string name="bugreport_title" msgid="2667494803742548533">"Foutenrapport genereren"</string>
-    <string name="bugreport_message" msgid="398447048750350456">"Hiermee worden gegevens over de huidige status van je apparaat verzameld en als e-mail verzonden. Wanneer u een foutenrapport start, duurt het even voordat het kan worden verzonden. Even geduld alstublieft."</string>
+    <string name="global_action_bug_report" msgid="7934010578922304799">"Bugrapport"</string>
+    <string name="bugreport_title" msgid="2667494803742548533">"Bugrapport genereren"</string>
+    <string name="bugreport_message" msgid="398447048750350456">"Hiermee worden gegevens over de huidige status van je apparaat verzameld en als e-mail verzonden. Wanneer u een bugrapport start, duurt het even voordat het kan worden verzonden. Even geduld alstublieft."</string>
     <string name="bugreport_option_interactive_title" msgid="8635056131768862479">"Interactief rapport"</string>
     <string name="bugreport_option_interactive_summary" msgid="229299488536107968">"Gebruik deze optie in de meeste situaties. Hiermee kun je de voortgang van het rapport bijhouden, meer gegevens over het probleem opgeven en screenshots maken. Mogelijk worden bepaalde minder vaak gebruikte gedeelten weggelaten (waarvoor het lang zou duren om een rapport te genereren)."</string>
     <string name="bugreport_option_full_title" msgid="6354382025840076439">"Volledig rapport"</string>
@@ -823,8 +823,8 @@
     <string name="permdesc_writeHistoryBookmarks" product="tablet" msgid="6825527469145760922">"Hiermee kan de app de webgeschiedenis wijzigen in de systeemeigen browser en de bladwijzers die zijn opgeslagen op je tablet. Deze toestemming kan niet worden geforceerd door andere browsers of andere apps met internetmogelijkheden.."</string>
     <string name="permdesc_writeHistoryBookmarks" product="tv" msgid="7007393823197766548">"Hiermee kan de app de webgeschiedenis wijzigen in de systeemeigen browser en de bladwijzers die zijn opgeslagen op je tv. De app kan browsergegevens wissen of aanpassen. Deze toestemming kan niet worden geforceerd door andere browsers of andere apps met internetmogelijkheden."</string>
     <string name="permdesc_writeHistoryBookmarks" product="default" msgid="8497389531014185509">"Hiermee kan de app de webgeschiedenis wijzigen in de systeemeigen browser en de bladwijzers die zijn opgeslagen op je telefoon. Deze toestemming kan niet worden geforceerd door andere browsers of andere apps met internetmogelijkheden."</string>
-    <string name="permlab_setAlarm" msgid="1379294556362091814">"een alarm instellen"</string>
-    <string name="permdesc_setAlarm" msgid="316392039157473848">"Hiermee kan de app een alarm instellen in een geïnstalleerde wekkerapp. Deze functie wordt door sommige wekkerapps niet geïmplementeerd."</string>
+    <string name="permlab_setAlarm" msgid="1379294556362091814">"een wekker instellen"</string>
+    <string name="permdesc_setAlarm" msgid="316392039157473848">"Hiermee kan de app een wekker instellen in een geïnstalleerde wekker-app. Deze functie wordt door sommige wekker-apps niet geïmplementeerd."</string>
     <string name="permlab_addVoicemail" msgid="5525660026090959044">"voicemail toevoegen"</string>
     <string name="permdesc_addVoicemail" msgid="6604508651428252437">"Hiermee kan de app berichten toevoegen aan de inbox van je voicemail."</string>
     <string name="permlab_writeGeolocationPermissions" msgid="5962224158955273932">"geolocatiemachtigingen voor browser aanpassen"</string>
@@ -979,7 +979,6 @@
     <string name="cancel" msgid="6442560571259935130">"Annuleren"</string>
     <string name="yes" msgid="5362982303337969312">"OK"</string>
     <string name="no" msgid="5141531044935541497">"Annuleren"</string>
-    <string name="close" msgid="2318214661230355730">"SLUITEN"</string>
     <string name="dialog_alert_title" msgid="2049658708609043103">"Let op"</string>
     <string name="loading" msgid="7933681260296021180">"Laden..."</string>
     <string name="capital_on" msgid="1544682755514494298">"AAN"</string>
@@ -1036,8 +1035,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"Schaal"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"Altijd weergeven"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"U kunt dit opnieuw inschakelen via Systeeminstellingen &gt; Apps &gt; Gedownload."</string>
-    <string name="top_app_killed_title" msgid="6814231368167994497">"App reageert niet"</string>
-    <string name="top_app_killed_message" msgid="3487519022191609844">"<xliff:g id="APP_NAME">%1$s</xliff:g> gebruikt mogelijk te veel geheugen"</string>
     <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> biedt geen ondersteuning voor de huidige instelling voor weergavegrootte en kan onverwacht gedrag vertonen."</string>
     <string name="unsupported_display_size_show" msgid="7969129195360353041">"Altijd weergeven"</string>
     <string name="smv_application" msgid="3307209192155442829">"De app <xliff:g id="APPLICATION">%1$s</xliff:g> (proces <xliff:g id="PROCESS">%2$s</xliff:g>) heeft het zelf afgedwongen StrictMode-beleid geschonden."</string>
@@ -1655,7 +1652,7 @@
       <item quantity="one">Gedurende 1 u</item>
     </plurals>
     <string name="zen_mode_until" msgid="7336308492289875088">"Tot <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
-    <string name="zen_mode_alarm" msgid="9128205721301330797">"Tot <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> (volgend alarm)"</string>
+    <string name="zen_mode_alarm" msgid="9128205721301330797">"Tot <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> (volgende wekker)"</string>
     <string name="zen_mode_forever" msgid="1916263162129197274">"Totdat je \'Niet storen\' uitschakelt"</string>
     <string name="zen_mode_forever_dnd" msgid="3792132696572189081">"Totdat u \'Niet storen\' uitschakelt"</string>
     <string name="zen_mode_rule_name_combination" msgid="191109939968076477">"<xliff:g id="FIRST">%1$s</xliff:g>/<xliff:g id="REST">%2$s</xliff:g>"</string>
