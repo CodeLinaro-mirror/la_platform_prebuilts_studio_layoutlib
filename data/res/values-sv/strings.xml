@@ -420,7 +420,7 @@
     <string name="permdesc_setTimeZone" product="tv" msgid="888864653946175955">"Tillåter att appen ändrar tidszonen på TV:n."</string>
     <string name="permdesc_setTimeZone" product="default" msgid="4499943488436633398">"Tillåter att appen ändrar mobilens tidszon."</string>
     <string name="permlab_getAccounts" msgid="1086795467760122114">"hitta konton på enheten"</string>
-    <string name="permdesc_getAccounts" product="tablet" msgid="2741496534769660027">"Tillåter att appen hämtar en lista över alla kända konton på surfplattan. Detta kan inkludera konton som har skapats av appar som du har installerat."</string>
+    <string name="permdesc_getAccounts" product="tablet" msgid="2741496534769660027">"Tillåter att appen laddar ned en lista över alla kända konton på surfplattan. Detta kan inkludera konton som har skapats av appar som du har installerat."</string>
     <string name="permdesc_getAccounts" product="tv" msgid="4190633395633907543">"Tillåter att appen hämtar listan med konton som TV:n kan identifiera. Den kan innehålla konton som skapats av appar som du har installerat."</string>
     <string name="permdesc_getAccounts" product="default" msgid="3448316822451807382">"Tillåter att appen hämtar en lista över alla kända konton på mobilen. Detta kan inkludera konton som har skapats av appar som du har installerat."</string>
     <string name="permlab_accessNetworkState" msgid="4951027964348974773">"visa nätverksanslutningar"</string>
@@ -441,7 +441,7 @@
     <string name="permdesc_changeWifiMulticastState" product="default" msgid="6851949706025349926">"Tillåter att appen tar emot paket som skickats med multicast-adress till alla enheter i ett Wi-Fi-nätverk och inte bara till den här mobilen. Detta drar mer batteri än när multicastläget inte används."</string>
     <string name="permlab_bluetoothAdmin" msgid="6006967373935926659">"få åtkomst till Bluetooth-inställningar"</string>
     <string name="permdesc_bluetoothAdmin" product="tablet" msgid="6921177471748882137">"Tillåter att appen konfigurerar den lokala Bluetooth-surfplattan samt upptäcker och parkopplar den med fjärranslutna enheter."</string>
-    <string name="permdesc_bluetoothAdmin" product="tv" msgid="3373125682645601429">"Tillåter att appen konfigurerar den lokala Bluetooth-TV:n och identifierar och kopplar den till fjärrenheter."</string>
+    <string name="permdesc_bluetoothAdmin" product="tv" msgid="3373125682645601429">"Tillåter att appen konfigurerar den lokala Bluetooth-TV:n och identifierar och parkopplar den till fjärrenheter."</string>
     <string name="permdesc_bluetoothAdmin" product="default" msgid="8931682159331542137">"Tillåter att appen konfigurerar den lokala Bluetooth-mobilen samt upptäcker och parkopplar den med fjärranslutna enheter."</string>
     <string name="permlab_accessWimaxState" msgid="4195907010610205703">"ansluta till och koppla från WiMAX"</string>
     <string name="permdesc_accessWimaxState" msgid="6360102877261978887">"Tillåter att appen avgör om WiMAX är aktiverat och kommer åt information om eventuella anslutna WiMAX-nätverk."</string>
@@ -449,7 +449,7 @@
     <string name="permdesc_changeWimaxState" product="tablet" msgid="3156456504084201805">"Tillåter att appen ansluter surfplattan till eller kopplar från WiMAX-nätverk."</string>
     <string name="permdesc_changeWimaxState" product="tv" msgid="6022307083934827718">"Tillåter att appen ansluter TV:n till och kopplar från TV:n från WiMAX-nätverk."</string>
     <string name="permdesc_changeWimaxState" product="default" msgid="697025043004923798">"Tillåter att appen ansluter mobilen till eller kopplar från WiMAX-nätverk."</string>
-    <string name="permlab_bluetooth" msgid="6127769336339276828">"koppla till Bluetooth-enheter"</string>
+    <string name="permlab_bluetooth" msgid="6127769336339276828">"parkoppla till Bluetooth-enheter"</string>
     <string name="permdesc_bluetooth" product="tablet" msgid="3480722181852438628">"Tillåter att appen kommer åt pekdatorns Bluetooth-konfiguration och upprättar och godkänner anslutningar till parkopplade enheter."</string>
     <string name="permdesc_bluetooth" product="tv" msgid="3974124940101104206">"Tillåter att appen visar konfigurationen av Bluetooth på TV:n och godkänner alla anslutningar till kopplade enheter."</string>
     <string name="permdesc_bluetooth" product="default" msgid="3207106324452312739">"Tillåter att appen kommer åt mobilens Bluetooth-konfiguration och upprättar och godkänner anslutningar till parkopplade enheter."</string>
@@ -979,7 +979,6 @@
     <string name="cancel" msgid="6442560571259935130">"Avbryt"</string>
     <string name="yes" msgid="5362982303337969312">"OK"</string>
     <string name="no" msgid="5141531044935541497">"Avbryt"</string>
-    <string name="close" msgid="2318214661230355730">"STÄNG"</string>
     <string name="dialog_alert_title" msgid="2049658708609043103">"Obs!"</string>
     <string name="loading" msgid="7933681260296021180">"Läser in …"</string>
     <string name="capital_on" msgid="1544682755514494298">"PÅ"</string>
@@ -1036,8 +1035,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"Anpassning"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"Visa alltid"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"Aktivera detta igen i Systeminställningar &gt; Appar &gt; Hämtat."</string>
-    <string name="top_app_killed_title" msgid="6814231368167994497">"Appen svarar inte"</string>
-    <string name="top_app_killed_message" msgid="3487519022191609844">"<xliff:g id="APP_NAME">%1$s</xliff:g> kanske använder för mycket minne."</string>
     <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> har inte stöd för den nuvarande inställningen för skärmstorlek och kanske inte fungerar som förväntat."</string>
     <string name="unsupported_display_size_show" msgid="7969129195360353041">"Visa alltid"</string>
     <string name="smv_application" msgid="3307209192155442829">"Appen <xliff:g id="APPLICATION">%1$s</xliff:g> (processen <xliff:g id="PROCESS">%2$s</xliff:g>) har brutit mot sin egen StrictMode-policy."</string>
@@ -1183,7 +1180,7 @@
     <string name="usb_unsupported_audio_accessory_title" msgid="3529881374464628084">"Ett tillbehör med analog ljudutgång hittades"</string>
     <string name="usb_unsupported_audio_accessory_message" msgid="6309553946441565215">"Den anslutna enheten är inte kompatibel med mobilen. Tryck här om du vill veta mer."</string>
     <string name="adb_active_notification_title" msgid="6729044778949189918">"USB-felsökning ansluten"</string>
-    <string name="adb_active_notification_message" msgid="4948470599328424059">"Tryck om du vill inaktivera USB-felsökning."</string>
+    <string name="adb_active_notification_message" msgid="4948470599328424059">"Tryck för att inaktivera USB-felsökning."</string>
     <string name="adb_active_notification_message" product="tv" msgid="8470296818270110396">"Välj för att inaktivera USB-felsökning."</string>
     <string name="taking_remote_bugreport_notification_title" msgid="6742483073875060934">"Felrapporten överförs …"</string>
     <string name="share_remote_bugreport_notification_title" msgid="4987095013583691873">"Vill du dela felrapporten?"</string>

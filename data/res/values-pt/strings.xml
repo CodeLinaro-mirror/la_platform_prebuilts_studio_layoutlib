@@ -199,9 +199,9 @@
     <string name="shutdown_confirm" product="tv" msgid="476672373995075359">"Sua TV será desligada."</string>
     <string name="shutdown_confirm" product="watch" msgid="3490275567476369184">"Seu relógio será desligado."</string>
     <string name="shutdown_confirm" product="default" msgid="649792175242821353">"O seu telefone será desligado."</string>
-    <string name="shutdown_confirm_question" msgid="2906544768881136183">"Deseja desligar?"</string>
+    <string name="shutdown_confirm_question" msgid="2906544768881136183">"Quer desligar?"</string>
     <string name="reboot_safemode_title" msgid="7054509914500140361">"Reiniciar no modo de segurança"</string>
-    <string name="reboot_safemode_confirm" msgid="55293944502784668">"Deseja reiniciar no modo de segurança? Isso desativará todos os apps de terceiros instalados. Eles serão restaurados quando você reiniciar novamente."</string>
+    <string name="reboot_safemode_confirm" msgid="55293944502784668">"Quer reiniciar no modo de segurança? Isso desativará todos os apps de terceiros instalados. Eles serão restaurados quando você reiniciar novamente."</string>
     <string name="recent_tasks_title" msgid="3691764623638127888">"Recente"</string>
     <string name="no_recent_tasks" msgid="8794906658732193473">"Nenhum app recente"</string>
     <string name="global_actions" product="tablet" msgid="408477140088053665">"Opções do tablet"</string>
@@ -796,7 +796,7 @@
     <string name="js_dialog_before_unload_title" msgid="2619376555525116593">"Confirmar navegação"</string>
     <string name="js_dialog_before_unload_positive_button" msgid="3112752010600484130">"Sair desta página"</string>
     <string name="js_dialog_before_unload_negative_button" msgid="5614861293026099715">"Permanecer nesta página"</string>
-    <string name="js_dialog_before_unload" msgid="3468816357095378590">"<xliff:g id="MESSAGE">%s</xliff:g>\n\nTem certeza de que deseja sair desta página?"</string>
+    <string name="js_dialog_before_unload" msgid="3468816357095378590">"<xliff:g id="MESSAGE">%s</xliff:g>\n\nTem certeza que quer sair desta página?"</string>
     <string name="save_password_label" msgid="6860261758665825069">"Confirmar"</string>
     <string name="double_tap_toast" msgid="4595046515400268881">"Dica: toque duas vezes para aumentar e diminuir o zoom."</string>
     <string name="autofill_this_form" msgid="4616758841157816676">"Preench. aut."</string>
@@ -829,7 +829,7 @@
     <string name="permdesc_addVoicemail" msgid="6604508651428252437">"Permite que o app adicione mensagens a sua caixa de entrada do correio de voz."</string>
     <string name="permlab_writeGeolocationPermissions" msgid="5962224158955273932">"Modifique as permissões de geolocalização de seu navegador"</string>
     <string name="permdesc_writeGeolocationPermissions" msgid="1083743234522638747">"Permite que o app modifique as permissões de geolocalização do navegador. Apps maliciosos podem usar isso para permitir o envio de informações locais para sites arbitrários."</string>
-    <string name="save_password_message" msgid="767344687139195790">"Deseja que o navegador lembre desta senha?"</string>
+    <string name="save_password_message" msgid="767344687139195790">"Quer que o navegador lembre desta senha?"</string>
     <string name="save_password_notnow" msgid="6389675316706699758">"Agora não"</string>
     <string name="save_password_remember" msgid="6491879678996749466">"Lembrar"</string>
     <string name="save_password_never" msgid="8274330296785855105">"Nunca"</string>
@@ -979,7 +979,6 @@
     <string name="cancel" msgid="6442560571259935130">"Cancelar"</string>
     <string name="yes" msgid="5362982303337969312">"OK"</string>
     <string name="no" msgid="5141531044935541497">"Cancelar"</string>
-    <string name="close" msgid="2318214661230355730">"FECHAR"</string>
     <string name="dialog_alert_title" msgid="2049658708609043103">"Atenção"</string>
     <string name="loading" msgid="7933681260296021180">"Carregando…"</string>
     <string name="capital_on" msgid="1544682755514494298">"LIG"</string>
@@ -1029,15 +1028,13 @@
     <string name="force_close" msgid="8346072094521265605">"OK"</string>
     <string name="report" msgid="4060218260984795706">"Informar"</string>
     <string name="wait" msgid="7147118217226317732">"Aguardar"</string>
-    <string name="webpage_unresponsive" msgid="3272758351138122503">"A página não responde.\n\nDeseja fechá-la?"</string>
+    <string name="webpage_unresponsive" msgid="3272758351138122503">"A página não responde.\n\nQuer fechá-la?"</string>
     <string name="launch_warning_title" msgid="1547997780506713581">"App redirecionado"</string>
     <string name="launch_warning_replace" msgid="6202498949970281412">"<xliff:g id="APP_NAME">%1$s</xliff:g> não está em execução."</string>
     <string name="launch_warning_original" msgid="188102023021668683">"<xliff:g id="APP_NAME">%1$s</xliff:g> foi iniciado."</string>
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"Escala"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"Mostrar sempre"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"Reativar isso em Configurações do sistema &gt; Apps &gt; Transferidos."</string>
-    <string name="top_app_killed_title" msgid="6814231368167994497">"O app não está respondendo"</string>
-    <string name="top_app_killed_message" msgid="3487519022191609844">"O app <xliff:g id="APP_NAME">%1$s</xliff:g> pode estar usando muita memória."</string>
     <string name="unsupported_display_size_message" msgid="6545327290756295232">"O app <xliff:g id="APP_NAME">%1$s</xliff:g> não é compatível com a configuração atual de tamanho de exibição e pode se comportar de forma inesperada."</string>
     <string name="unsupported_display_size_show" msgid="7969129195360353041">"Mostrar sempre"</string>
     <string name="smv_application" msgid="3307209192155442829">"O app <xliff:g id="APPLICATION">%1$s</xliff:g>, processo <xliff:g id="PROCESS">%2$s</xliff:g>, violou a política StrictMode imposta automaticamente."</string>
@@ -1141,7 +1138,7 @@
     <string name="wifi_p2p_frequency_conflict_message" product="default" msgid="7363907213787469151">"O telefone desconectará temporariamente da rede Wi-Fi enquanto estiver conectado a <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
     <string name="select_character" msgid="3365550120617701745">"Inserir caractere"</string>
     <string name="sms_control_title" msgid="7296612781128917719">"Enviando mensagens SMS"</string>
-    <string name="sms_control_message" msgid="3867899169651496433">"&lt;b&gt;<xliff:g id="APP_NAME">%1$s</xliff:g>&lt;/b&gt; envia uma grande quantidade de mensagens SMS. Deseja permitir que este app continue enviando mensagens?"</string>
+    <string name="sms_control_message" msgid="3867899169651496433">"&lt;b&gt;<xliff:g id="APP_NAME">%1$s</xliff:g>&lt;/b&gt; envia uma grande quantidade de mensagens SMS. Quer permitir que este app continue enviando mensagens?"</string>
     <string name="sms_control_yes" msgid="3663725993855816807">"Permitir"</string>
     <string name="sms_control_no" msgid="625438561395534982">"Negar"</string>
     <string name="sms_short_code_confirm_message" msgid="1645436466285310855">"&lt;b&gt;<xliff:g id="APP_NAME">%1$s</xliff:g>&lt;/b&gt; deseja enviar uma mensagem para &lt;b&gt;<xliff:g id="DEST_ADDRESS">%2$s</xliff:g>&lt;/b&gt;."</string>
@@ -1264,7 +1261,7 @@
     <string name="dial_number_using" msgid="5789176425167573586">"Discar número\nusando <xliff:g id="NUMBER">%s</xliff:g>"</string>
     <string name="create_contact_using" msgid="4947405226788104538">"Criar contato \nusando <xliff:g id="NUMBER">%s</xliff:g>"</string>
     <string name="grant_credentials_permission_message_header" msgid="2106103817937859662">"O app a seguir ou outros apps solicitam permissão para acessar sua conta, agora e no futuro."</string>
-    <string name="grant_credentials_permission_message_footer" msgid="3125211343379376561">"Deseja permitir essa solicitação?"</string>
+    <string name="grant_credentials_permission_message_footer" msgid="3125211343379376561">"Quer permitir essa solicitação?"</string>
     <string name="grant_permissions_header_text" msgid="6874497408201826708">"Solicitação de acesso"</string>
     <string name="allow" msgid="7225948811296386551">"Permitir"</string>
     <string name="deny" msgid="2081879885755434506">"Negar"</string>

@@ -856,7 +856,7 @@
       <item quantity="other">지난 <xliff:g id="COUNT_1">%d</xliff:g>일</item>
       <item quantity="one">지난 <xliff:g id="COUNT_0">%d</xliff:g>일</item>
     </plurals>
-    <string name="last_month" msgid="3959346739979055432">"지난 달"</string>
+    <string name="last_month" msgid="3959346739979055432">"지난달"</string>
     <string name="older" msgid="5211975022815554840">"이전"</string>
     <string name="preposition_for_date" msgid="9093949757757445117">"<xliff:g id="DATE">%s</xliff:g>"</string>
     <string name="preposition_for_time" msgid="5506831244263083793">"<xliff:g id="TIME">%s</xliff:g>"</string>
@@ -979,7 +979,6 @@
     <string name="cancel" msgid="6442560571259935130">"취소"</string>
     <string name="yes" msgid="5362982303337969312">"확인"</string>
     <string name="no" msgid="5141531044935541497">"취소"</string>
-    <string name="close" msgid="2318214661230355730">"닫기"</string>
     <string name="dialog_alert_title" msgid="2049658708609043103">"주의"</string>
     <string name="loading" msgid="7933681260296021180">"로드 중.."</string>
     <string name="capital_on" msgid="1544682755514494298">"ON"</string>
@@ -1036,8 +1035,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"배율"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"항상 표시"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"시스템 설정 &gt; 앱 &gt; 다운로드로 이동하여 이 모드를 다시 사용하도록 설정합니다."</string>
-    <string name="top_app_killed_title" msgid="6814231368167994497">"앱이 응답하지 않음"</string>
-    <string name="top_app_killed_message" msgid="3487519022191609844">"<xliff:g id="APP_NAME">%1$s</xliff:g>에서 메모리를 과도하게 사용하는 것으로 보입니다."</string>
     <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> 앱은 현재 디스플레이 크기 설정을 지원하지 않으며 예기치 않게 동작할 수 있습니다."</string>
     <string name="unsupported_display_size_show" msgid="7969129195360353041">"항상 표시"</string>
     <string name="smv_application" msgid="3307209192155442829">"앱 <xliff:g id="APPLICATION">%1$s</xliff:g>(프로세스 <xliff:g id="PROCESS">%2$s</xliff:g>)이(가) 자체 시행 StrictMode 정책을 위반했습니다."</string>
@@ -1220,7 +1217,7 @@
     <string name="ext_media_unmounting_notification_title" msgid="640674168454809372">"아직 <xliff:g id="NAME">%s</xliff:g> 꺼내는 중…"</string>
     <string name="ext_media_unmounting_notification_message" msgid="4182843895023357756">"삭제하지 마세요."</string>
     <string name="ext_media_init_action" msgid="7952885510091978278">"설정"</string>
-    <string name="ext_media_unmount_action" msgid="1121883233103278199">"꺼내기"</string>
+    <string name="ext_media_unmount_action" msgid="1121883233103278199">"마운트 해제"</string>
     <string name="ext_media_browse_action" msgid="8322172381028546087">"둘러보기"</string>
     <string name="ext_media_missing_title" msgid="620980315821543904">"<xliff:g id="NAME">%s</xliff:g> 없음"</string>
     <string name="ext_media_missing_message" msgid="5761133583368750174">"기기 다시 삽입"</string>
