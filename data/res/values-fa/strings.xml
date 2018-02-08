@@ -441,7 +441,7 @@
     <string name="permdesc_changeWifiMulticastState" product="default" msgid="6851949706025349926">"‏به برنامه اجازه می‌دهد به دریافت بسته‌های ارسالی به همه دستگاه‌های موجود در شبکه Wi-Fi با استفاده از آدرس‌های پخش چندگانه و نه فقط به تلفن شما بپردازند. این از توان مصرف بیشتری نسبت به حالت پخش غیرچندگانه استفاده می‌کند."</string>
     <string name="permlab_bluetoothAdmin" msgid="6006967373935926659">"دسترسی به تنظیمات بلوتوث"</string>
     <string name="permdesc_bluetoothAdmin" product="tablet" msgid="6921177471748882137">"‏به برنامه اجازه می‎دهد تا رایانهٔ لوحی بلوتوث محلی را پیکربندی کرده، دستگاه‌های راه دور را شناسایی کرده و با آن‌ها مرتبط‌سازی شود."</string>
-    <string name="permdesc_bluetoothAdmin" product="tv" msgid="3373125682645601429">"به برنامه اجازه می‌دهد تا تلویزیون بلوتوث محلی را پیکربندی کند و دستگاه‌های از راه دور را شناسایی کند و با آنها مرتبط شود."</string>
+    <string name="permdesc_bluetoothAdmin" product="tv" msgid="3373125682645601429">"به برنامه اجازه می‌دهد تا تلویزیون بلوتوث محلی را پیکربندی کند و دستگاه‌های ازراه‌دور را شناسایی کند و با آنها مرتبط شود."</string>
     <string name="permdesc_bluetoothAdmin" product="default" msgid="8931682159331542137">"‏به برنامه اجازه می‎دهد تا تلفن بلوتوث محلی را پیکربندی کند و دستگاه‌های راه دور را پیدا کند و با آن‌ها مرتبط‌سازی شود."</string>
     <string name="permlab_accessWimaxState" msgid="4195907010610205703">"‏اتصال و قطع اتصال از WiMAX"</string>
     <string name="permdesc_accessWimaxState" msgid="6360102877261978887">"به برنامه امکان می‌دهد فعال بودن وایمکس و اطلاعات مربوط به هر یک از شبکه‌های وایمکس متصل را مشخص کند."</string>
@@ -965,7 +965,7 @@
     <string name="addToDictionary" msgid="4352161534510057874">"افزودن به واژه‌نامه"</string>
     <string name="deleteText" msgid="6979668428458199034">"حذف"</string>
     <string name="inputMethod" msgid="1653630062304567879">"روش ورودی"</string>
-    <string name="editTextMenuTitle" msgid="4909135564941815494">"عملکردهای متنی"</string>
+    <string name="editTextMenuTitle" msgid="4909135564941815494">"کنش‌های متنی"</string>
     <string name="email" msgid="4560673117055050403">"رایانامه"</string>
     <string name="dial" msgid="4204975095406423102">"تلفن"</string>
     <string name="map" msgid="6068210738233985748">"نقشه‌ها"</string>
@@ -979,7 +979,6 @@
     <string name="cancel" msgid="6442560571259935130">"لغو"</string>
     <string name="yes" msgid="5362982303337969312">"تأیید"</string>
     <string name="no" msgid="5141531044935541497">"لغو"</string>
-    <string name="close" msgid="2318214661230355730">"بستن"</string>
     <string name="dialog_alert_title" msgid="2049658708609043103">"توجه"</string>
     <string name="loading" msgid="7933681260296021180">"در حال بارکردن…"</string>
     <string name="capital_on" msgid="1544682755514494298">"روشن"</string>
@@ -1036,8 +1035,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"مقیاس"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"همیشه نشان داده شود"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"‏در تنظیمات سیستم &gt;برنامه‎ها &gt; مورد بارگیری شده آن را دوباره فعال کنید."</string>
-    <string name="top_app_killed_title" msgid="6814231368167994497">"برنامه پاسخ نمی‌دهد"</string>
-    <string name="top_app_killed_message" msgid="3487519022191609844">"<xliff:g id="APP_NAME">%1$s</xliff:g> ممکن است حافظه خیلی زیادی مصرف کند."</string>
     <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> از تنظیم فعلی اندازه نمایشگر پشتیبانی نمی‌کند و ممکن است رفتار غیرمنتظره‌ای داشته باشد."</string>
     <string name="unsupported_display_size_show" msgid="7969129195360353041">"همیشه نشان داده شود"</string>
     <string name="smv_application" msgid="3307209192155442829">"‏برنامه <xliff:g id="APPLICATION">%1$s</xliff:g> (پردازش <xliff:g id="PROCESS">%2$s</xliff:g>) خط‌مشی StrictMode اجرایی خود را نقض کرده است."</string>

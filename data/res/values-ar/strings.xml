@@ -28,7 +28,7 @@
     <string name="unknownName" msgid="6867811765370350269">"غير معروف"</string>
     <string name="defaultVoiceMailAlphaTag" msgid="2660020990097733077">"البريد الصوتي"</string>
     <string name="defaultMsisdnAlphaTag" msgid="2850889754919584674">"MSISDN1"</string>
-    <string name="mmiError" msgid="5154499457739052907">"‏حدثت مشكلة في الاتصال أو أن كود MMI غير صحيح."</string>
+    <string name="mmiError" msgid="5154499457739052907">"‏حدثت مشكلة في الاتصال أو أن رمز MMI غير صحيح."</string>
     <string name="mmiFdnError" msgid="5224398216385316471">"تم تقييد التشغيل لأرقام الاتصال الثابت فقط."</string>
     <string name="mmiErrorWhileRoaming" msgid="762488890299284230">"يتعذر تغيير إعدادات إعادة توجيه المكالمات من هاتفك أثناء التجوال."</string>
     <string name="serviceEnabled" msgid="8147278346414714315">"تم تمكين الخدمة."</string>
@@ -43,11 +43,11 @@
     <string name="mismatchPin" msgid="609379054496863419">"أرقام التعريف الشخصية التي كتبتها غير مطابقة."</string>
     <string name="invalidPin" msgid="3850018445187475377">"ادخل رقم تعريف شخصي مكون من ٤ إلى ٨ أرقام."</string>
     <string name="invalidPuk" msgid="8761456210898036513">"‏اكتب رمز PUK مكونًا من ٨ أرقام أو أكثر."</string>
-    <string name="needPuk" msgid="919668385956251611">"‏شريحة SIM مؤمّنة بكود PUK. اكتب كود PUK لإلغاء تأمينها."</string>
+    <string name="needPuk" msgid="919668385956251611">"‏شريحة SIM مؤمّنة برمز PUK. اكتب رمز PUK لإلغاء تأمينها."</string>
     <string name="needPuk2" msgid="4526033371987193070">"‏اكتب PUK2 لإلغاء تأمين شريحة SIM."</string>
     <string name="enablePin" msgid="209412020907207950">"‏محاولة غير ناجحة، مكّن قفل SIM/RUIM."</string>
     <plurals name="pinpuk_attempts" formatted="false" msgid="1251012001539225582">
-      <item quantity="zero">‏لم يتبق لديك أية محاولات (<xliff:g id="NUMBER_1">%d</xliff:g>) يتم بعدها قفل شريحة SIM.</item>
+      <item quantity="zero">‏لم يتبق لديك أي محاولات (<xliff:g id="NUMBER_1">%d</xliff:g>) يتم بعدها قفل شريحة SIM.</item>
       <item quantity="two">‏يتبقى لديك محاولتان (<xliff:g id="NUMBER_1">%d</xliff:g>) يتم بعدهما قفل شريحة SIM.</item>
       <item quantity="few">‏يتبقى لديك <xliff:g id="NUMBER_1">%d</xliff:g> محاولات يتم بعدها قفل شريحة SIM.</item>
       <item quantity="many">‏يتبقى لديك <xliff:g id="NUMBER_1">%d</xliff:g> محاولة يتم بعدها قفل شريحة SIM.</item>
@@ -66,15 +66,15 @@
     <string name="PwdMmi" msgid="7043715687905254199">"تغيير كلمة المرور"</string>
     <string name="PinMmi" msgid="3113117780361190304">"‏تغيير رمز PIN"</string>
     <string name="CnipMmi" msgid="3110534680557857162">"رقم الاتصال موجود"</string>
-    <string name="CnirMmi" msgid="3062102121430548731">"رقم الاتصال مقيّد"</string>
+    <string name="CnirMmi" msgid="3062102121430548731">"رقم الاتصال محظور"</string>
     <string name="ThreeWCMmi" msgid="9051047170321190368">"اتصال ثلاثي"</string>
     <string name="RuacMmi" msgid="7827887459138308886">"رفض المكالمات المزعجة غير المرغوب فيها"</string>
     <string name="CndMmi" msgid="3116446237081575808">"تسليم رقم الاتصال"</string>
     <string name="DndMmi" msgid="1265478932418334331">"عدم الإزعاج"</string>
-    <string name="CLIRDefaultOnNextCallOn" msgid="429415409145781923">"الإعداد الافتراضي لمعرف المتصل هو مقيّد. الاتصال التالي: مقيّد"</string>
-    <string name="CLIRDefaultOnNextCallOff" msgid="3092918006077864624">"الإعداد الافتراضي لمعرف المتصل هو مقيّد. الاتصال التالي: غير مقيّد"</string>
-    <string name="CLIRDefaultOffNextCallOn" msgid="6179425182856418465">"الإعداد الافتراضي لمعرف المتصل هو غير مقيّد. الاتصال التالي: مقيّد"</string>
-    <string name="CLIRDefaultOffNextCallOff" msgid="2567998633124408552">"الإعداد الافتراضي لمعرف المتصل هو غير مقيّد. الاتصال التالي: غير مقيّد"</string>
+    <string name="CLIRDefaultOnNextCallOn" msgid="429415409145781923">"الإعداد الافتراضي لمعرف المتصل هو محظور  . الاتصال التالي: محظور"</string>
+    <string name="CLIRDefaultOnNextCallOff" msgid="3092918006077864624">"الإعداد الافتراضي لمعرف المتصل هو محظور  . الاتصال التالي: غير محظور"</string>
+    <string name="CLIRDefaultOffNextCallOn" msgid="6179425182856418465">"الإعداد الافتراضي لمعرف المتصل هو غير محظور  . الاتصال التالي: محظور"</string>
+    <string name="CLIRDefaultOffNextCallOff" msgid="2567998633124408552">"الإعداد الافتراضي لمعرف المتصل هو غير محظور  . الاتصال التالي: غير محظور"</string>
     <string name="serviceNotProvisioned" msgid="8614830180508686666">"الخدمة غير متوفرة."</string>
     <string name="CLIRPermanent" msgid="3377371145926835671">"لا يمكنك تغيير إعداد معرّف المتصل."</string>
     <string name="RestrictedOnDataTitle" msgid="1322504692764166532">"ليست هناك خدمة بيانات"</string>
@@ -139,8 +139,8 @@
     <string name="cfTemplateForwardedTime" msgid="9206251736527085256">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g> بعد <xliff:g id="TIME_DELAY">{2}</xliff:g> ثانية"</string>
     <string name="cfTemplateRegistered" msgid="5073237827620166285">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: لم تتم إعادة التوجيه"</string>
     <string name="cfTemplateRegisteredTime" msgid="6781621964320635172">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: لم تتم إعادة التوجيه"</string>
-    <string name="fcComplete" msgid="3118848230966886575">"اكتمل كود الميزة."</string>
-    <string name="fcError" msgid="3327560126588500777">"حدثت مشكلة بالاتصال أو أن كود الميزة غير صحيح."</string>
+    <string name="fcComplete" msgid="3118848230966886575">"اكتمل رمز الميزة."</string>
+    <string name="fcError" msgid="3327560126588500777">"حدثت مشكلة بالاتصال أو أن رمز الميزة غير صحيح."</string>
     <string name="httpErrorOk" msgid="1191919378083472204">"حسنًا"</string>
     <string name="httpError" msgid="7956392511146698522">"حدث خطأ في الشبكة."</string>
     <string name="httpErrorLookup" msgid="4711687456111963163">"‏تعذر العثور على عنوان URL."</string>
@@ -432,9 +432,9 @@
     <string name="permdesc_setTimeZone" product="tv" msgid="888864653946175955">"يتيح للتطبيق تغيير المنطقة الزمنية للتلفزيون."</string>
     <string name="permdesc_setTimeZone" product="default" msgid="4499943488436633398">"للسماح للتطبيق بتغيير المنطقة الزمنية للهاتف."</string>
     <string name="permlab_getAccounts" msgid="1086795467760122114">"البحث عن حسابات على الجهاز"</string>
-    <string name="permdesc_getAccounts" product="tablet" msgid="2741496534769660027">"للسماح للتطبيق بالحصول على قائمة بالحسابات التي يعرفها الجهاز اللوحي. وقد يتضمن ذلك أية حسابات تم إنشاؤها بواسطة التطبيقات التي ثبتها."</string>
-    <string name="permdesc_getAccounts" product="tv" msgid="4190633395633907543">"يتيح للتطبيق الحصول على قائمة بالحسابات المعروفة في التلفزيون. وقد يتضمن هذا أية حسابات أنشأتها التطبيقات التي ثبتها."</string>
-    <string name="permdesc_getAccounts" product="default" msgid="3448316822451807382">"للسماح للتطبيق بالحصول على قائمة بالحسابات التي يعرفها الهاتف. وقد يتضمن ذلك أية حسابات تم إنشاؤها بواسطة التطبيقات التي ثبتها."</string>
+    <string name="permdesc_getAccounts" product="tablet" msgid="2741496534769660027">"للسماح للتطبيق بالحصول على قائمة بالحسابات التي يعرفها الجهاز اللوحي. وقد يتضمن ذلك أي حسابات تم إنشاؤها بواسطة التطبيقات التي ثبتها."</string>
+    <string name="permdesc_getAccounts" product="tv" msgid="4190633395633907543">"يتيح للتطبيق الحصول على قائمة بالحسابات المعروفة في التلفزيون. وقد يتضمن هذا أي حسابات أنشأتها التطبيقات التي ثبتها."</string>
+    <string name="permdesc_getAccounts" product="default" msgid="3448316822451807382">"للسماح للتطبيق بالحصول على قائمة بالحسابات التي يعرفها الهاتف. وقد يتضمن ذلك أي حسابات تم إنشاؤها بواسطة التطبيقات التي ثبتها."</string>
     <string name="permlab_accessNetworkState" msgid="4951027964348974773">"عرض اتصالات الشبكة"</string>
     <string name="permdesc_accessNetworkState" msgid="8318964424675960975">"للسماح للتطبيق بعرض معلومات حول اتصالات الشبكة كعرض معلومات عن الشبكات المتوفرة والشبكات المتصلة."</string>
     <string name="permlab_createNetworkSockets" msgid="7934516631384168107">"حق الوصول الكامل إلى الشبكة"</string>
@@ -456,7 +456,7 @@
     <string name="permdesc_bluetoothAdmin" product="tv" msgid="3373125682645601429">"يتيح للتطبيق تهيئة تلفزيون بلوتوث المحلي، واكتشاف الأجهزة البعيدة وإقرانها."</string>
     <string name="permdesc_bluetoothAdmin" product="default" msgid="8931682159331542137">"للسماح للتطبيق بتهيئة هاتف البلوتوث المحلي، واكتشاف أجهزة التحكم عن بعد والاقتران بها."</string>
     <string name="permlab_accessWimaxState" msgid="4195907010610205703">"‏الاتصال بـشبكة WiMAX وقطع الاتصال بها"</string>
-    <string name="permdesc_accessWimaxState" msgid="6360102877261978887">"‏للسماح للتطبيق بتحديد ما إذا تم تمكين WiMAX وتحديد معلومات حول أية شبكات WiMAX متصلة."</string>
+    <string name="permdesc_accessWimaxState" msgid="6360102877261978887">"‏للسماح للتطبيق بتحديد ما إذا تم تمكين WiMAX وتحديد معلومات حول أي شبكات WiMAX متصلة."</string>
     <string name="permlab_changeWimaxState" msgid="340465839241528618">"‏تغيير حالة WiMAX"</string>
     <string name="permdesc_changeWimaxState" product="tablet" msgid="3156456504084201805">"‏للسماح للتطبيق بتوصيل الجهاز اللوحي بشبكات WiMAX وقطع اتصاله بها."</string>
     <string name="permdesc_changeWimaxState" product="tv" msgid="6022307083934827718">"‏يتيح للتطبيق توصيل التلفزيون أو إلغاء توصيله بشبكات WiMAX."</string>
@@ -801,7 +801,7 @@
     <string name="granularity_label_line" msgid="5764267235026120888">"سطر"</string>
     <string name="factorytest_failed" msgid="5410270329114212041">"تعذّر اختبار المصنع"</string>
     <string name="factorytest_not_system" msgid="4435201656767276723">"‏إجراء FACTORY_TEST غير متاح سوى للحزم المثبتة في /system/app."</string>
-    <string name="factorytest_no_action" msgid="872991874799998561">"‏لم يتم العثور على أية حزمة توفر إجراء FACTORY_TEST."</string>
+    <string name="factorytest_no_action" msgid="872991874799998561">"‏لم يتم العثور على أي حزمة توفر إجراء FACTORY_TEST."</string>
     <string name="factorytest_reboot" msgid="6320168203050791643">"إعادة تشغيل"</string>
     <string name="js_dialog_title" msgid="1987483977834603872">"تعرض الصفحة في \"<xliff:g id="TITLE">%s</xliff:g>\":"</string>
     <string name="js_dialog_title_default" msgid="6961903213729667573">"جافا سكريبت"</string>
@@ -1059,7 +1059,6 @@
     <string name="cancel" msgid="6442560571259935130">"إلغاء"</string>
     <string name="yes" msgid="5362982303337969312">"حسنًا"</string>
     <string name="no" msgid="5141531044935541497">"إلغاء"</string>
-    <string name="close" msgid="2318214661230355730">"إغلاق"</string>
     <string name="dialog_alert_title" msgid="2049658708609043103">"تنبيه"</string>
     <string name="loading" msgid="7933681260296021180">"جارٍ التحميل…"</string>
     <string name="capital_on" msgid="1544682755514494298">"تشغيل"</string>
@@ -1116,8 +1115,6 @@
     <string name="screen_compat_mode_scale" msgid="3202955667675944499">"تدرج"</string>
     <string name="screen_compat_mode_show" msgid="4013878876486655892">"الإظهار دائمًا"</string>
     <string name="screen_compat_mode_hint" msgid="1064524084543304459">"‏يمكنك إعادة تمكين هذا في إعدادات النظام &gt; التطبيقات &gt; ما تم تنزيله."</string>
-    <string name="top_app_killed_title" msgid="6814231368167994497">"التطبيق لا يستجيب"</string>
-    <string name="top_app_killed_message" msgid="3487519022191609844">"ربما يشغل <xliff:g id="APP_NAME">%1$s</xliff:g> مساحة كبيرة جدًا من الذاكرة."</string>
     <string name="unsupported_display_size_message" msgid="6545327290756295232">"<xliff:g id="APP_NAME">%1$s</xliff:g> غير متوافق مع الإعداد الحالي لحجم شاشة العرض وربما يعمل بطريقة غير متوقعة."</string>
     <string name="unsupported_display_size_show" msgid="7969129195360353041">"العرض دائمًا"</string>
     <string name="smv_application" msgid="3307209192155442829">"‏انتهك التطبيق <xliff:g id="APPLICATION">%1$s</xliff:g> (العملية <xliff:g id="PROCESS">%2$s</xliff:g>) سياسة StrictMode المفروضة ذاتيًا."</string>
@@ -1167,7 +1164,7 @@
     <string name="ringtone_picker_title_notification" msgid="4837740874822788802">"أصوات الإشعار"</string>
     <string name="ringtone_unknown" msgid="3914515995813061520">"غير معروف"</string>
     <plurals name="wifi_available" formatted="false" msgid="7900333017752027322">
-      <item quantity="zero">‏لا تتوفر أية شبكات Wi-Fi</item>
+      <item quantity="zero">‏لا تتوفر أي شبكات Wi-Fi</item>
       <item quantity="two">‏تتوفر شبكتا Wi-Fi</item>
       <item quantity="few">‏تتوفر شبكات Wi-Fi</item>
       <item quantity="many">‏تتوفر شبكات Wi-Fi</item>
@@ -1175,7 +1172,7 @@
       <item quantity="one">‏تتوفر شبكة Wi-Fi واحدة</item>
     </plurals>
     <plurals name="wifi_available_detailed" formatted="false" msgid="1140699367193975606">
-      <item quantity="zero">‏لا تتوفر أية شبكات Wi-Fi مفتوحة</item>
+      <item quantity="zero">‏لا تتوفر أي شبكات Wi-Fi مفتوحة</item>
       <item quantity="two">‏تتوفر شبكتا Wi-Fi مفتوحتان</item>
       <item quantity="few">‏تتوفر شبكات Wi-Fi مفتوحة</item>
       <item quantity="many">‏تتوفر شبكات Wi-Fi مفتوحة</item>
@@ -1389,7 +1386,7 @@
     <string name="back_button_label" msgid="2300470004503343439">"رجوع"</string>
     <string name="next_button_label" msgid="1080555104677992408">"التالي"</string>
     <string name="skip_button_label" msgid="1275362299471631819">"تخطي"</string>
-    <string name="no_matches" msgid="8129421908915840737">"ليس هناك أية مطابقات"</string>
+    <string name="no_matches" msgid="8129421908915840737">"ليس هناك أي مطابقات"</string>
     <string name="find_on_page" msgid="1946799233822820384">"بحث في الصفحة"</string>
     <plurals name="matches_found" formatted="false" msgid="1210884353962081884">
       <item quantity="zero"><xliff:g id="INDEX">%d</xliff:g> من <xliff:g id="TOTAL">%d</xliff:g></item>
