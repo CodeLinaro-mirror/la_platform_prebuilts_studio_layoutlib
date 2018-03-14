@@ -73,7 +73,7 @@
     <drawable name="editbox_dropdown_light_frame">@drawable/editbox_dropdown_background</drawable>
 
     <drawable name="input_method_fullscreen_background">#fff9f9f9</drawable>
-    <color name="decor_view_status_guard">#ff000000</color>
+    <color name="input_method_navigation_guard">#ff000000</color>
 
     <!-- For date picker widget -->
     <drawable name="selected_day_background">#ff0092f4</drawable>
@@ -167,8 +167,8 @@
     <color name="user_icon_default_white">#ffffffff</color><!-- white -->
 
     <!-- Default profile badge colors -->
-    <color name="profile_badge_1">#ff1A73E8</color><!-- Blue -->
-    <color name="profile_badge_2">#ffff6d00</color><!-- Orange -->
+    <color name="profile_badge_1">#ffff6d00</color><!-- Orange -->
+    <color name="profile_badge_2">#ff000000</color><!-- Black -->
     <color name="profile_badge_3">#ff22f033</color><!-- Green -->
 
     <!-- Default instant app badge color -->

@@ -21,10 +21,9 @@
      for watch products.  Do not translate. -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Show smaller list of items due to smaller real estate. -->
+    <!-- Only show settings item due to smaller real estate. -->
     <string-array translatable="false" name="config_globalActionsList">
-        <item>power</item>
-        <item>restart</item>
+        <item>assist</item>
     </string-array>
 
     <!-- Base "touch slop" value used by ViewConfiguration as a

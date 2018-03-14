@@ -69,13 +69,12 @@ easier.
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small</item>
 
         <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
         <item name="buttonStyle">@style/Widget.DeviceDefault.Button</item>
 
         <item name="buttonStyleSmall">@style/Widget.DeviceDefault.Button.Small</item>
         <item name="buttonStyleInset">@style/Widget.DeviceDefault.Button.Inset</item>
+
         <item name="buttonStyleToggle">@style/Widget.DeviceDefault.Button.Toggle</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
         <item name="switchStyle">@style/Widget.DeviceDefault.CompoundButton.Switch</item>
 
         <item name="borderlessButtonStyle">@style/Widget.DeviceDefault.Button.Borderless</item>
@@ -89,7 +88,6 @@ easier.
 
         <!-- Dialog attributes -->
         <item name="dialogTheme">@style/Theme.DeviceDefault.Dialog</item>
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
 
         <!-- AlertDialog attributes -->
         <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
@@ -126,8 +124,6 @@ easier.
         <item name="progressBarStyleInverse">@style/Widget.DeviceDefault.ProgressBar.Inverse</item>
         <item name="progressBarStyleSmallInverse">@style/Widget.DeviceDefault.ProgressBar.Small.Inverse</item>
         <item name="progressBarStyleLargeInverse">@style/Widget.DeviceDefault.ProgressBar.Large.Inverse</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
         <item name="seekBarStyle">@style/Widget.DeviceDefault.SeekBar</item>
         <item name="ratingBarStyle">@style/Widget.DeviceDefault.RatingBar</item>
         <item name="ratingBarStyleIndicator">@style/Widget.DeviceDefault.RatingBar.Indicator</item>
@@ -218,21 +214,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault} with no action bar and no status bar.  This theme
@@ -242,21 +223,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault} with no action bar and no status bar and
@@ -268,21 +234,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault} that has no title bar and translucent
@@ -293,21 +244,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault theme for dialog windows and activities. This changes the window to be
@@ -320,27 +256,13 @@ easier.
         <item name="buttonBarStyle">@style/DeviceDefault.ButtonBar.AlertDialog</item>
         <item name="borderlessButtonStyle">@style/Widget.DeviceDefault.Button.Borderless.Small</item>
 
-        <!-- Text styles -->
         <item name="textAppearance">@style/TextAppearance.DeviceDefault</item>
         <item name="textAppearanceInverse">@style/TextAppearance.DeviceDefault.Inverse</item>
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
 
         <!-- Color palette -->
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault_Dialog} that has a nice minimum width for a
@@ -350,21 +272,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault_Dialog} without an action bar -->
@@ -373,21 +280,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault_Dialog_NoActionBar} that has a nice minimum width
@@ -397,21 +289,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of Theme.DeviceDefault.Dialog that has a fixed size. -->
@@ -437,21 +314,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault theme for a window without an action bar that will be displayed either
@@ -462,21 +324,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault theme for a presentation window on a secondary display. -->
@@ -485,21 +332,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault theme for panel windows. This removes all extraneous window
@@ -510,21 +342,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault theme for windows that want to have the user's selected wallpaper appear
@@ -534,21 +351,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault theme for windows that want to have the user's selected wallpaper appear
@@ -558,21 +360,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault style for input methods, which is used by the
@@ -582,21 +369,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault style for input methods, which is used by the
@@ -606,45 +378,15 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <style name="Theme.DeviceDefault.Dialog.Alert" parent="Theme.Material.Dialog.Alert">
         <item name="windowTitleStyle">@style/DialogWindowTitle.DeviceDefault</item>
 
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
         <!-- Color palette -->
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <style name="Theme.DeviceDefault.SearchBar" parent="Theme.Material.SearchBar">
@@ -652,21 +394,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <style name="Theme.DeviceDefault.Dialog.NoFrame" parent="Theme.Material.Dialog.NoFrame">
@@ -674,21 +401,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault} with a light-colored style -->
@@ -712,7 +424,6 @@ easier.
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.DeviceDefault.Widget.PopupMenu.Small</item>
 
         <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
         <item name="buttonStyle">@style/Widget.DeviceDefault.Light.Button</item>
 
         <item name="buttonStyleSmall">@style/Widget.DeviceDefault.Light.Button.Small</item>
@@ -730,7 +441,6 @@ easier.
 
         <!-- Dialog attributes -->
         <item name="dialogTheme">@style/Theme.DeviceDefault.Light.Dialog</item>
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
 
         <!-- AlertDialog attributes -->
         <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
@@ -767,8 +477,6 @@ easier.
         <item name="progressBarStyleInverse">@style/Widget.DeviceDefault.Light.ProgressBar.Inverse</item>
         <item name="progressBarStyleSmallInverse">@style/Widget.DeviceDefault.Light.ProgressBar.Small.Inverse</item>
         <item name="progressBarStyleLargeInverse">@style/Widget.DeviceDefault.Light.ProgressBar.Large.Inverse</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
         <item name="seekBarStyle">@style/Widget.DeviceDefault.Light.SeekBar</item>
         <item name="ratingBarStyle">@style/Widget.DeviceDefault.Light.RatingBar</item>
         <item name="ratingBarStyleIndicator">@style/Widget.DeviceDefault.Light.RatingBar.Indicator</item>
@@ -854,21 +562,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_dark</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_dark</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault_Light} with no action bar -->
@@ -877,21 +570,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault_Light} with no action bar and no status bar.
@@ -901,21 +579,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault_Light} with no action bar and no status bar
@@ -927,21 +590,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault_Light} that has no title bar and translucent
@@ -952,21 +600,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault light theme for dialog windows and activities. This changes the window to be
@@ -976,28 +609,16 @@ easier.
         <item name="windowTitleStyle">@style/DialogWindowTitle.DeviceDefault.Light</item>
         <item name="windowAnimationStyle">@style/Animation.DeviceDefault.Dialog</item>
 
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
         <item name="buttonBarStyle">@style/DeviceDefault.Light.ButtonBar.AlertDialog</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
         <item name="borderlessButtonStyle">@style/Widget.DeviceDefault.Light.Button.Borderless.Small</item>
 
         <item name="textAppearance">@style/TextAppearance.DeviceDefault</item>
         <item name="textAppearanceInverse">@style/TextAppearance.DeviceDefault.Inverse</item>
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
 
         <!-- Color palette -->
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault_Light_Dialog} that has a nice minimum width for a
@@ -1007,21 +628,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
      <!-- Variant of {@link #Theme_DeviceDefault_Light_Dialog} without an action bar -->
@@ -1030,21 +636,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault_Light_Dialog_NoActionBar} that has a nice minimum
@@ -1054,21 +645,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of Theme.DeviceDefault.Dialog that has a fixed size. -->
@@ -1104,21 +680,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault light theme for a window without an action bar that will be displayed either
@@ -1129,21 +690,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault light theme for a presentation window on a secondary display. -->
@@ -1152,21 +698,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault light theme for panel windows. This removes all extraneous window
@@ -1177,21 +708,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Dialog.Alert" parent="Theme.Material.Light.Dialog.Alert">
@@ -1201,21 +717,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.SearchBar" parent="Theme.Material.Light.SearchBar">
@@ -1223,21 +724,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <style name="Theme.DeviceDefault.Light.Voice" parent="Theme.Material.Light.Voice">
@@ -1245,21 +731,6 @@ easier.
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault theme for a window that should look like the Settings app.  -->
@@ -1269,7 +740,6 @@ easier.
         <item name="popupTheme">@style/ThemeOverlay.DeviceDefault.Popup.Light</item>
 
         <!-- Color palette -->
-        <item name="colorBackground">@color/background_device_default_light</item>
         <item name="colorPrimary">@color/primary_device_default_settings_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_settings_light</item>
         <item name="colorSecondary">@color/secondary_device_default_settings_light</item>
@@ -1280,21 +750,6 @@ easier.
         <item name="navigationBarDividerColor">#1f000000</item>
         <item name="navigationBarColor">@android:color/white</item>
         <item name="windowLightNavigationBar">true</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- @hide DeviceDefault theme for a window that should use Settings theme colors
@@ -1306,18 +761,6 @@ easier.
         <item name="colorSecondary">@color/secondary_device_default_settings_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
         <item name="colorControlNormal">?attr/textColorPrimary</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <style name="Theme.DeviceDefault.QuickSettings.Dialog" parent="Theme.DeviceDefault.Light.Dialog">
@@ -1326,11 +769,6 @@ easier.
         <item name="colorPrimaryDark">@color/primary_dark_device_default_settings_light</item>
         <item name="colorSecondary">@color/secondary_device_default_settings_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- Variant of {@link #Theme_DeviceDefault_Settings_Dark} with no action bar -->
@@ -1340,21 +778,6 @@ easier.
         <item name="colorPrimaryDark">@color/primary_dark_device_default_settings</item>
         <item name="colorSecondary">@color/secondary_device_default_settings</item>
         <item name="colorAccent">@color/accent_device_default_dark</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <style name="Theme.DeviceDefault.Settings.Dialog" parent="Theme.Material.Settings.Dialog">
@@ -1363,21 +786,6 @@ easier.
         <item name="colorPrimaryDark">@color/primary_dark_device_default_settings</item>
         <item name="colorSecondary">@color/secondary_device_default_settings</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <style name="Theme.DeviceDefault.Settings.DialogWhenLarge" parent="Theme.Material.Settings.DialogWhenLarge">
@@ -1386,21 +794,6 @@ easier.
         <item name="colorPrimaryDark">@color/primary_dark_device_default_settings</item>
         <item name="colorSecondary">@color/secondary_device_default_settings</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <style name="Theme.DeviceDefault.Settings.Dialog.Alert" parent="Theme.Material.Settings.Dialog.Alert">
@@ -1409,24 +802,9 @@ easier.
         <item name="colorPrimaryDark">@color/primary_dark_device_default_settings</item>
         <item name="colorSecondary">@color/secondary_device_default_settings</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
-        <!-- Text styles -->
-        <item name="textAppearanceButton">@style/TextAppearance.DeviceDefault.Widget.Button</item>
-
-        <!-- Button styles -->
-        <item name="buttonCornerRadius">@dimen/config_buttonCornerRadius</item>
-        <item name="buttonBarButtonStyle">@style/Widget.DeviceDefault.Button.ButtonBar.AlertDialog</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
-    <style name="Theme.DeviceDefault.Settings.Dialog.NoActionBar" parent="Theme.DeviceDefault.Light.Dialog.NoActionBar" />
+    <style name="Theme.DeviceDefault.Settings.Dialog.NoActionBar" parent="Theme.DeviceDefault.Light.Dialog.NoActionBar"/>
 
     <!-- Theme used for the intent picker activity. -->
     <style name="Theme.DeviceDefault.Resolver" parent="Theme.Material.Light">
@@ -1442,18 +820,10 @@ easier.
         <item name="listPreferredItemPaddingStart">?attr/dialogPreferredPadding</item>
         <item name="listPreferredItemPaddingEnd">?attr/dialogPreferredPadding</item>
 
-        <!-- Dialog attributes -->
-        <item name="dialogCornerRadius">@dimen/config_dialogCornerRadius</item>
-        <item name="alertDialogTheme">@style/Theme.DeviceDefault.Light.Dialog.Alert</item>
-
         <!-- Color palette -->
         <item name="colorPrimary">@color/primary_device_default_light</item>
         <item name="colorPrimaryDark">@color/primary_dark_device_default_light</item>
         <item name="colorAccent">@color/accent_device_default_light</item>
-
-        <!-- Progress bar attributes -->
-        <item name="colorProgressBackgroundNormal">@color/config_progress_background_tint</item>
-        <item name="progressBarCornerRadius">@dimen/config_progressBarCornerRadius</item>
     </style>
 
     <!-- DeviceDefault theme for the default system theme.  -->
@@ -1461,7 +831,7 @@ easier.
 
     <style name="ThemeOverlay.DeviceDefault" />
 
-    <!-- @hide Theme overlay that inherits from material actionbar, and use accent color for
+    <!-- @hide Theme overlay that inherits from material actionbar,  and use accent color for
              primary text -->
     <style name="ThemeOverlay.DeviceDefault.ActionBar.Accent" parent="ThemeOverlay.Material.ActionBar">
         <item name="textColorPrimary">@color/btn_colored_borderless_text_material</item>
