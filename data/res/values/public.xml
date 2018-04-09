@@ -2745,18 +2745,6 @@
 
   <!-- ===============================================================
        Resources added in version O of the platform
-
-       NOTE: add <public> elements within a <public-group> like so:
-
-       <public-group type="attr" first-id="0x01010531">
-           <public name="exampleAttr1" />
-           <public name="exampleAttr2" />
-       </public-group>
-
-       To add a new public-group block, choose an id value that is 1 greater
-       than the last of that item above. For example, the last "attr" id
-       value above is 0x01010530, so the public-group of attrs below has
-       the id value of 0x01010531.
        =============================================================== -->
     <eat-comment />
 
@@ -2827,18 +2815,6 @@
 
   <!-- ===============================================================
        Resources added in version O MR1 of the platform
-
-       NOTE: add <public> elements within a <public-group> like so:
-
-       <public-group type="attr" first-id="0x01010531">
-           <public name="exampleAttr1" />
-           <public name="exampleAttr2" />
-       </public-group>
-
-       To add a new public-group block, choose an id value that is 1 greater
-       than the last of that item above. For example, the last "attr" id
-       value above is 0x01010530, so the public-group of attrs below has
-       the id value of 0x01010531.
        =============================================================== -->
     <eat-comment />
 
@@ -2849,6 +2825,71 @@
     <public type="attr" name="navigationBarDividerColor" id="0x0101056d" />
 
     <public type="string" name="autofill" id="0x0104001a"/>
+
+    <!-- ===============================================================
+         Resources added in version P of the platform
+
+         NOTE: add <public> elements within a <public-group> like so:
+
+         <public-group type="attr" first-id="0x01010531">
+             <public name="exampleAttr1" />
+             <public name="exampleAttr2" />
+         </public-group>
+
+         To add a new public-group block, choose an id value that is 1 greater
+         than the last of that item above. For example, the last "attr" id
+         value above is 0x01010530, so the public-group of attrs below has
+         the id value of 0x01010531.
+         =============================================================== -->
+    <eat-comment />
+
+    <public-group type="attr" first-id="0x0101056e">
+      <public name="cantSaveState" />
+      <public name="ttcIndex" />
+      <public name="fontVariationSettings" />
+      <public name="dialogCornerRadius" />
+      <!-- @hide For use by platform and tools only. Developers should not specify this value. -->
+      <public name="compileSdkVersion" />
+      <!-- @hide For use by platform and tools only. Developers should not specify this value. -->
+      <public name="compileSdkVersionCodename" />
+      <public name="screenReaderFocusable" />
+      <public name="buttonCornerRadius" />
+      <public name="versionCodeMajor" />
+      <public name="versionMajor" />
+      <!-- @hide @SystemApi -->
+      <public name="isVrOnly"/>
+      <public name="widgetFeatures" />
+      <public name="appComponentFactory" />
+      <public name="fallbackLineSpacing" />
+      <public name="accessibilityPaneTitle" />
+      <public name="firstBaselineToTopHeight" />
+      <public name="lastBaselineToBottomHeight" />
+      <public name="lineHeight" />
+      <public name="accessibilityHeading" />
+      <public name="outlineSpotShadowColor" />
+      <public name="outlineAmbientShadowColor" />
+      <public name="maxLongVersionCode" />
+      <!-- @hide @SystemApi -->
+      <public name="userRestriction" />
+      <public name="textFontWeight" />
+      <public name="windowLayoutInDisplayCutoutMode" />
+    </public-group>
+
+    <public-group type="style" first-id="0x010302e0">
+      <public name="Widget.DeviceDefault.Button.Colored" />
+      <public name="Widget.DeviceDefault.Button.Borderless.Colored" />
+    </public-group>
+
+    <public-group type="id" first-id="0x01020044">
+      <public name="accessibilityActionShowTooltip" />
+      <public name="accessibilityActionHideTooltip" />
+    </public-group>
+
+    <public-group type="string" first-id="0x0104001b">
+    </public-group>
+
+    <!-- An interpolator which accelerates fast but decelerates extra slowly. -->
+    <public type="interpolator" name="fast_out_extra_slow_in" id="0x10c001a"/>
 
   <!-- ===============================================================
        DO NOT ADD UN-GROUPED ITEMS HERE
