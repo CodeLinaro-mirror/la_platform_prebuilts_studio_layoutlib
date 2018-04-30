@@ -1,9 +1,9 @@
 package(default_visibility = ["//visibility:public"])
 
+# managed by go/iml_to_build
 java_import(
     name = "data/layoutlib",
     jars = ["data/layoutlib.jar"],
-    tags = ["managed"],
     visibility = ["//visibility:public"],
 )
 
