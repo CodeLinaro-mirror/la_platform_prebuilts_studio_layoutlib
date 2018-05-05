@@ -724,6 +724,14 @@
         &lt;b><xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b> to take pictures and record video?</string>
 
     <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permgrouplab_calllog">Call logs</string>
+    <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
+    <string name="permgroupdesc_calllog">read and write phone call log</string>
+    <!-- Message shown to the user when the apps requests permission from this group -->
+    <string name="permgrouprequest_calllog">Allow
+        &lt;b><xliff:g id="app_name" example="Gmail">%1$s</xliff:g>&lt;/b> to access your phone call logs?</string>
+
+    <!-- Title of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permgrouplab_phone">Phone</string>
     <!-- Description of a category of application permissions, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permgroupdesc_phone">make and manage phone calls</string>
@@ -1324,6 +1332,11 @@
       keylock and any associated password security.  For example, the phone
       disables the keylock when receiving an incoming phone call, then
       re-enables the keylock when the call is finished.</string>
+
+    <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. [CHAR_LIMIT=NONE] -->
+    <string name="permlab_useBiometric">use biometric hardware</string>
+    <!-- Description of an application permission, listed so the user can choose whether they want to allow the application to do this.[CHAR_LIMIT=NONE] -->
+    <string name="permdesc_useBiometric">Allows the app to use biometric hardware for authentication</string>
 
     <!-- Title of an application permission, listed so the user can choose whether they want to allow the application to do this. -->
     <string name="permlab_manageFingerprint">manage fingerprint hardware</string>
@@ -2191,8 +2204,8 @@
     <!-- Text to show in the auto complete drop down list on a text view when the WebView can auto fill the entire form but the user has not configured an AutoFill profile [CHAR-LIMIT=19] -->
     <string name="setup_autofill">Set up Autofill</string>
 
-    <!-- Title of fullscreen autofill window [CHAR-LIMIT=80] -->
-    <string name="autofill_window_title">Autofill</string>
+    <!-- Title of fullscreen autofill window, including the name of which autofill service it is using [CHAR-LIMIT=NONE] -->
+    <string name="autofill_window_title">Autofill with <xliff:g id="serviceName" example="MyPass">%1$s</xliff:g></string>
 
     <!-- String used to separate FirstName and LastName when writing out a local name
          e.g. John<separator>Smith [CHAR-LIMIT=NONE]-->
@@ -2752,29 +2765,56 @@
     <!-- Label for item in the text selection menu to trigger an Email app [CHAR LIMIT=20] -->
     <string name="email">Email</string>
 
+    <!-- Accessibility description for an item in the text selection menu to trigger an Email app [CHAR LIMIT=NONE] -->
+    <string name="email_desc">Email selected address</string>
+
     <!-- Label for item in the text selection menu to trigger a Dialer app [CHAR LIMIT=20] -->
     <string name="dial">Call</string>
 
+    <!-- Accessibility description for an item in the text selection menu to call a phone number [CHAR LIMIT=NONE] -->
+    <string name="dial_desc">Call selected phone number</string>
+
     <!-- Label for item in the text selection menu to trigger a Map app [CHAR LIMIT=20] -->
-    <string name="map">Locate</string>
+    <string name="map">Map</string>
+
+    <!-- Accessibility description for an item in the text selection menu to open maps for an address [CHAR LIMIT=NONE] -->
+    <string name="map_desc">Locate selected address</string>
 
     <!-- Label for item in the text selection menu to trigger a Browser app [CHAR LIMIT=20] -->
     <string name="browse">Open</string>
 
+    <!-- Accessibility description for an item in the text selection menu to open a URL in a browser [CHAR LIMIT=NONE] -->
+    <string name="browse_desc">Open selected URL</string>
+
     <!-- Label for item in the text selection menu to trigger an SMS app [CHAR LIMIT=20] -->
     <string name="sms">Message</string>
+
+    <!-- Accessibility description for an item in the text selection menu to send an SMS to a phone number [CHAR LIMIT=NONE] -->
+    <string name="sms_desc">Message selected phone number</string>
 
     <!-- Label for item in the text selection menu to trigger adding a contact [CHAR LIMIT=20] -->
     <string name="add_contact">Add</string>
 
+    <!-- Accessibility description for an item in the text selection menu to add the selected detail to contacts [CHAR LIMIT=NONE] -->
+    <string name="add_contact_desc">Add to contacts</string>
+
     <!-- Label for item in the text selection menu to view the calendar for the selected time/date [CHAR LIMIT=20] -->
     <string name="view_calendar">View</string>
+
+    <!-- Accessibility description for an item in the text selection menu to view the calendar for a date [CHAR LIMIT=NONE]-->
+    <string name="view_calendar_desc">View selected time in calendar</string>
 
     <!-- Label for item in the text selection menu to create a calendar event at the selected time/date [CHAR LIMIT=20] -->
     <string name="add_calendar_event">Schedule</string>
 
+    <!-- Accessibility description for an item in the text selection menu to schedule an event for a date [CHAR LIMIT=NONE] -->
+    <string name="add_calendar_event_desc">Schedule event for selected time</string>
+
     <!-- Label for item in the text selection menu to track a selected flight number [CHAR LIMIT=20] -->
     <string name="view_flight">Track</string>
+
+    <!-- Accessibility description for an item in the text selection menu to track a flight [CHAR LIMIT=NONE] -->
+    <string name="view_flight_desc">Track selected flight</string>
 
     <!-- If the device is getting low on internal storage, a notification is shown to the user.  This is the title of that notification. -->
     <string name="low_internal_storage_view_title">Storage space running out</string>
@@ -4482,8 +4522,11 @@
     <!-- Notification shown when device owner silently deletes a package [CHAR LIMIT=NONE] -->
     <string name="package_deleted_device_owner">Deleted by your admin</string>
 
-    <!-- [CHAR_LIMIT=NONE] Battery saver: Feature description -->
-    <string name="battery_saver_description">To extend battery life, Battery Saver reduces your device\'s performance and limits or turns off vibration, location services, and background data. Email, messaging, and other apps that rely on syncing may not update unless you open them.\n\nBattery Saver turns off automatically when your device is charging.</string>
+    <!-- [CHAR_LIMIT=NONE] Battery saver: Feature description, with a "learn more" link. -->
+    <string name="battery_saver_description_with_learn_more">To extend your battery life, Battery Saver turns off some device features and restricts apps. <annotation id="url">Learn More</annotation></string>
+
+    <!-- [CHAR_LIMIT=NONE] Battery saver: Feature description, without a "learn more" link. -->
+    <string name="battery_saver_description">To extend your battery life, Battery Saver turns off some device features and restricts apps.</string>
 
     <!-- [CHAR_LIMIT=NONE] Data saver: Feature description -->
     <string name="data_saver_description">To help reduce data usage, Data Saver prevents some apps from sending or receiving data in the background. An app you’re currently using can access data, but may do so less frequently. This may mean, for example, that images don’t display until you tap them.</string>
@@ -4577,7 +4620,7 @@
     <string name="zen_mode_default_every_night_name">Sleeping</string>
 
     <!-- Indication that the current volume and other effects (vibration) are being suppressed by a third party, such as a notification listener. [CHAR LIMIT=30] -->
-    <string name="muted_by">Muted by <xliff:g id="third_party">%1$s</xliff:g></string>
+    <string name="muted_by"><xliff:g id="third_party">%1$s</xliff:g> is muting some sounds</string>
 
     <!-- Error message shown when there is a system error which can be solved by user performing factory reset. [CHAR LIMIT=NONE] -->
     <string name="system_error_wipe_data">There\'s an internal problem with your device, and it may be unstable until you factory data reset.</string>
@@ -4670,6 +4713,15 @@
 
     <!-- Menu item in the locale menu  [CHAR LIMIT=30] -->
     <string name="locale_search_menu">Search</string>
+
+    <!-- Title of the dialog that is shown when the user tries to launch a suspended application [CHAR LIMIT=30] -->
+    <string name="app_suspended_title">Can\u2019t open app</string>
+    <!-- Default message shown in the dialog that is shown when the user tries to launch a suspended application [CHAR LIMIT=NONE] -->
+    <string name="app_suspended_default_message">
+        The app <xliff:g id="app_name" example="Gmail">%1$s</xliff:g> isn\u2019t available right now. This is managed by <xliff:g id="app_name" example="Settings">%2$s</xliff:g>.
+    </string>
+    <!-- Title of the button to show users more details about why the app has been suspended [CHAR LIMIT=50]-->
+    <string name="app_suspended_more_details">Learn more</string>
 
     <!-- Title of a dialog. The string is asking if the user wants to turn on their work profile, which contains work apps that are managed by their employer. "Work" is an adjective. [CHAR LIMIT=30] -->
     <string name="work_mode_off_title">Turn on work profile?</string>
@@ -4904,9 +4956,9 @@
     <!-- Title for the notification channel notifying user of do not disturb system changes (i.e. Do Not Disturb has changed). [CHAR LIMIT=NONE] -->
     <string name="notification_channel_do_not_disturb">Do Not Disturb</string>
     <!-- Title of notification indicating do not disturb visual interruption settings have changed when upgrading to P -->
-    <string name="zen_upgrade_notification_visd_title">Do Not Disturb is hiding notifications to help you focus</string>
+    <string name="zen_upgrade_notification_visd_title">New: Do Not Disturb is hiding notifications</string>
     <!-- Content of notification indicating users can tap on the notification to go to dnd behavior settings -->
-    <string name="zen_upgrade_notification_visd_content">This is new behavior. Tap to change.</string>
+    <string name="zen_upgrade_notification_visd_content">Tap to learn more and change.</string>
     <!-- Title of notification indicating do not disturb settings have changed when upgrading to P -->
     <string name="zen_upgrade_notification_title">Do Not Disturb has changed</string>
     <!-- Content of notification indicating users can tap on the notification to go to dnd behavior settings -->
@@ -4916,4 +4968,8 @@
     <string name="notification_app_name_system">System</string>
     <!-- Application name displayed in notifications [CHAR LIMIT=60] -->
     <string name="notification_app_name_settings">Settings</string>
+
+    <!-- Strings for car -->
+    <!-- String displayed when loading a user in the car [CHAR LIMIT=30] -->
+    <string name="car_loading_profile">Loading</string>
 </resources>

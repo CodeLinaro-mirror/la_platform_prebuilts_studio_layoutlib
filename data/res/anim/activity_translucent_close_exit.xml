@@ -1,5 +1,5 @@
-<!--
-  ~ Copyright (C) 2017 The Android Open Source Project
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2018 The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
   ~ you may not use this file except in compliance with the License.
@@ -14,11 +14,12 @@
   ~ limitations under the License
   -->
 
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval">
-    <solid
-        android:color="#ff757575"/>
-    <size
-        android:width="16dp"
-        android:height="16dp"/>
-</shape>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false"
+    android:zAdjustment="top">
+    <translate
+        android:fromYDelta="0%"
+        android:toYDelta="100%"
+        android:interpolator="@interpolator/accelerate_quad"
+        android:duration="250"/>
+</set>
