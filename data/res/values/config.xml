@@ -491,12 +491,20 @@
 
          Note also: the order of this is important. The first upstream type
          for which a satisfying network exists is used.
-      -->
+    -->
     <integer-array translatable="false" name="config_tether_upstream_types">
         <item>1</item>
         <item>7</item>
         <item>0</item>
     </integer-array>
+
+    <!-- When true, the tethering upstream network follows the current default
+         Internet network (except when the current default network is mobile,
+         in which case a DUN network will be used if required).
+
+         When true, overrides the config_tether_upstream_types setting above.
+    -->
+    <bool translatable="false" name="config_tether_upstream_automatic">false</bool>
 
     <!-- If the DUN connection for this CDMA device supports more than just DUN -->
     <!-- traffic you should list them here. -->
@@ -518,6 +526,10 @@
 
     <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
     <bool translatable="false" name="config_wifi_dual_band_support">false</bool>
+
+    <!-- Boolean indicating whether the wifi chipset requires the softap band be -->
+    <!-- converted from 5GHz to ANY due to hardware restrictions -->
+    <bool translatable="false" name="config_wifi_convert_apband_5ghz_to_any">false</bool>
 
     <!-- Boolean indicating whether 802.11r Fast BSS Transition is enabled on this platform -->
     <bool translatable="false" name="config_wifi_fast_bss_transition_enabled">false</bool>
@@ -655,9 +667,27 @@
     <!-- Boolean indicating that wifi only link configuratios that have exact same credentials (i.e PSK) -->
     <bool translatable="false" name="config_wifi_only_link_same_credential_configurations">true</bool>
 
-    <!-- Boolean indicating whether framework needs to set the tx power limit for meeting SAR requirements
-         during voice calls -->
-    <bool translatable="false" name="config_wifi_framework_enable_voice_call_sar_tx_power_limit">false</bool>
+    <!-- Boolean indicating whether framework needs to set the tx power limit for meeting SAR requirements -->
+    <bool translatable="false" name="config_wifi_framework_enable_sar_tx_power_limit">false</bool>
+
+    <!-- Boolean indicating whether framework needs to use body proximity to set the tx power limit
+         for meeting SAR requirements -->
+    <bool translatable="false" name="config_wifi_framework_enable_body_proximity_sar_tx_power_limit">false</bool>
+
+    <!-- String for the sensor type for body/head proximity for SAR -->
+    <string translatable="false" name="config_wifi_sar_sensor_type"></string>
+
+    <!-- Integer indicating event id by sar sensor for free space -->
+    <integer translatable="false" name="config_wifi_framework_sar_free_space_event_id">1</integer>
+
+    <!-- Integer indicating event id by sar sensor for near hand -->
+    <integer translatable="false" name="config_wifi_framework_sar_near_hand_event_id">2</integer>
+
+    <!-- Integer indicating event id by sar sensor for near head -->
+    <integer translatable="false" name="config_wifi_framework_sar_near_head_event_id">3</integer>
+
+    <!-- Integer indicating event id by sar sensor for near body -->
+    <integer translatable="false" name="config_wifi_framework_sar_near_body_event_id">4</integer>
 
     <!-- Wifi driver supports batched scan -->
     <bool translatable="false" name="config_wifi_batched_scan_supported">false</bool>
@@ -2081,6 +2111,10 @@
          states. -->
     <bool name="config_dozeAlwaysOnDisplayAvailable">false</bool>
 
+    <!-- Control whether the always on display mode is enabled by default. This value will be used
+         during initialization when the setting is still null. -->
+    <bool name="config_dozeAlwaysOnEnabled">true</bool>
+
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">false</bool>
 
@@ -2518,9 +2552,11 @@
          property. If this is false, then the following recents config flags are ignored. -->
     <bool name="config_hasRecents">true</bool>
 
-    <!-- Component name for the activity that will be presenting the Recents UI, which will receive
-         special permissions for API related to fetching and presenting recent tasks. -->
-    <string name="config_recentsComponentName" translatable="false">com.android.systemui/.recents.RecentsActivity</string>
+    <!-- Component name for the activity that will be presenting the Recents UI, which will receive special permissions for API related
+          to fetching and presenting recent tasks. The default configuration uses Launcehr3QuickStep as default launcher and points to
+          the corresponding recents component. When using a different default launcher, change this appropriately or use the default
+          systemui implementation: com.android.systemui/.recents.RecentsActivity -->
+    <string name="config_recentsComponentName" translatable="false">com.android.launcher3/com.android.quickstep.RecentsActivity</string>
 
     <!-- The minimum number of visible recent tasks to be presented to the user through the
          SystemUI. Can be -1 if there is no minimum limit. -->
@@ -3441,4 +3477,6 @@
     <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
     <bool name="config_swipe_up_gesture_setting_available">false</bool>
 
+    <!-- Whether or not we should show the option to show battery percentage -->
+    <bool name="config_battery_percentage_setting_available">true</bool>
 </resources>
