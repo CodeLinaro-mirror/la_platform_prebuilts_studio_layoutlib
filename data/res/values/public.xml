@@ -1067,7 +1067,8 @@
   <public type="id" name="inputExtractEditText" id="0x01020025" />
 
   <!-- View ID of the {@link android.inputmethodservice.KeyboardView} within
-        an input method's input area. -->
+       an input method's input area.
+       {@deprecated Use Copy this definition into your own application project.} -->
   <public type="id" name="keyboardView" id="0x01020026" />
   <!-- View ID of a {@link android.view.View} to close a popup keyboard -->
   <public type="id" name="closeButton" id="0x01020027" />
@@ -1082,6 +1083,7 @@
   <public type="style" name="Theme.InputMethod" id="0x01030054" />
   <public type="style" name="Theme.NoDisplay" id="0x01030055" />
   <public type="style" name="Animation.InputMethod" id="0x01030056" />
+  <!-- {@deprecated Use Copy this definition into your own application project.} -->
   <public type="style" name="Widget.KeyboardView" id="0x01030057" />
   <public type="style" name="ButtonBar" id="0x01030058" />
   <public type="style" name="Theme.Panel" id="0x01030059" />
@@ -2903,15 +2905,112 @@
   <eat-comment />
 
     <public-group type="attr" first-id="0x01010587">
+        <public name="packageType" />
+        <public name="opticalInsetLeft" />
+        <public name="opticalInsetTop" />
+        <public name="opticalInsetRight" />
+        <public name="opticalInsetBottom" />
+        <public name="forceDarkAllowed" />
+        <!-- @hide @SystemApi -->
+        <public name="supportsAmbientMode" />
+        <!-- @hide For use by platform and tools only. Developers should not specify this value. -->
+        <public name="usesNonSdkApi" />
+        <public name="nonInteractiveUiTimeout" />
+        <public name="isLightTheme" />
+        <public name="isSplitRequired" />
+        <public name="textLocale" />
+        <public name="settingsSliceUri" />
+        <public name="shell" />
+        <public name="interactiveUiTimeout" />
+        <public name="__removed6" />
+        <public name="supportsMultipleDisplays" />
+        <public name="useAppZygote" />
+        <public name="__removed1" />
+        <public name="__removed2" />
+        <public name="__removed3" />
+        <public name="__removed4" />
+        <public name="__removed5" />
+        <public name="selectionDividerHeight" />
+        <public name="foregroundServiceType" />
+        <public name="hasFragileUserData" />
+        <public name="minAspectRatio" />
+        <public name="inheritShowWhenLocked" />
+        <public name="zygotePreloadName" />
+        <public name="useEmbeddedDex" />
+        <public name="forceUriPermissions" />
+        <!-- @hide @SystemApi -->
+        <public name="allowClearUserDataOnFailedRestore"/>
+        <public name="allowAudioPlaybackCapture"/>
+        <public name="secureElementName" />
+        <public name="allowExternalStorageSandbox"/>
+        <public name="ensuringStatusBarContrastWhenTransparent" />
+        <public name="ensuringNavigationBarContrastWhenTransparent" />
+        <public name="identifier" />
+    </public-group>
+
+    <public-group type="drawable" first-id="0x010800b4">
+        <!-- @hide @SystemApi -->
+        <public name="ic_info" />
     </public-group>
 
     <public-group type="style" first-id="0x010302e2">
+        <!-- @hide @SystemApi -->
+        <public name="Theme.DeviceDefault.DocumentsUI" />
+        <public name="Theme.DeviceDefault.DayNight" />
+        <public name="ThemeOverlay.DeviceDefault.Accent.DayNight" />
     </public-group>
 
     <public-group type="id" first-id="0x01020046">
+      <public name="accessibilityActionPageUp" />
+      <public name="accessibilityActionPageDown" />
+      <public name="accessibilityActionPageLeft" />
+      <public name="accessibilityActionPageRight" />
     </public-group>
 
     <public-group type="string" first-id="0x0104001b">
+        <!-- @hide @SystemApi -->
+        <public name="config_helpPackageNameKey" />
+        <!-- @hide @SystemApi -->
+        <public name="config_helpPackageNameValue" />
+        <!-- @hide @SystemApi -->
+        <public name="config_helpIntentExtraKey" />
+        <!-- @hide @SystemApi -->
+        <public name="config_helpIntentNameKey" />
+        <!-- @hide @SystemApi -->
+        <public name="config_feedbackIntentExtraKey" />
+        <!-- @hide @SystemApi -->
+        <public name="config_feedbackIntentNameKey" />
+      <!-- @hide @SystemApi @TestApi -->
+      <public name="config_defaultAssistant" />
+      <!-- @hide @SystemApi -->
+      <public name="config_defaultBrowser" />
+      <!-- @hide @SystemApi @TestApi -->
+      <public name="config_defaultDialer" />
+      <!-- @hide @SystemApi -->
+      <public name="config_defaultSms" />
+    </public-group>
+
+    <public-group type="bool" first-id="0x01110000">
+        <!-- @hide @SystemApi -->
+        <public name="config_sendPackageName" />
+      <!-- @hide @SystemApi -->
+      <public name="config_showDefaultAssistant" />
+      <!-- @hide @SystemApi -->
+      <public name="config_showDefaultEmergency" />
+      <!-- @hide @SystemApi -->
+      <public name="config_showDefaultHome" />
+      <!-- @hide @TestApi -->
+      <public name="config_perDisplayFocusEnabled" />
+    </public-group>
+
+    <public-group type="dimen" first-id="0x01050007">
+        <!-- @hide @SystemApi -->
+        <public name="config_restrictedIconSize" />
+    </public-group>
+
+    <public-group type="color" first-id="0x0106001c">
+        <!-- @hide @SystemApi -->
+        <public name="system_notification_accent_color" />
     </public-group>
 
   <!-- ===============================================================
