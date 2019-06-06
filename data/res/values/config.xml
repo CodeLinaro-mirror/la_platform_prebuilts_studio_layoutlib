@@ -3279,7 +3279,8 @@
          various workspace stacks.
          0 - Nav bar is always opaque when either the freeform stack or docked stack is visible.
          1 - Nav bar is always translucent when the freeform stack is visible, otherwise always
-         opaque.
+             opaque.
+         2 - Nav bar is never forced opaque.
          -->
     <integer name="config_navBarOpacityMode">0</integer>
 
@@ -3901,6 +3902,10 @@
          set in AndroidManifest.
          {@see android.view.Display#FLAG_SHOULD_SHOW_SYSTEM_DECORATIONS} -->
     <string name="config_secondaryHomeComponent" translatable="false">com.android.launcher3/com.android.launcher3.SecondaryDisplayLauncher</string>
+
+    <!-- Force secondary home launcher specified in config_secondaryHomeComponent always. If this is
+         not set, secondary home launcher can be replaced by user. -->
+    <bool name ="config_useSystemProvidedLauncherForSecondary">false</bool>
 
     <!-- If device supports corner radius on windows.
          This should be turned off on low-end devices to improve animation performance. -->

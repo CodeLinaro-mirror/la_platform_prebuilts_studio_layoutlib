@@ -131,6 +131,7 @@
     <!-- no translation found for wfcSpnFormat_spn (4998685024207291232) -->
     <skip />
     <string name="wfcSpnFormat_spn_wifi_calling" msgid="136001023263502280">"Повици преку Wi-Fi на <xliff:g id="SPN">%s</xliff:g>"</string>
+    <string name="wfcSpnFormat_spn_wifi_calling_vo_hyphen" msgid="1730997175789582756">"Повикување преку Wi-Fi на <xliff:g id="SPN">%s</xliff:g>"</string>
     <string name="wfcSpnFormat_wlan_call" msgid="2533371081782489793">"Повик преку WLAN"</string>
     <string name="wfcSpnFormat_spn_wlan_call" msgid="2315240198303197168">"Повик преку WLAN на <xliff:g id="SPN">%s</xliff:g>"</string>
     <string name="wfcSpnFormat_spn_wifi" msgid="6546481665561961938">"Wi-Fi на <xliff:g id="SPN">%s</xliff:g>"</string>
@@ -1358,8 +1359,7 @@
     <string name="test_harness_mode_notification_message" msgid="1343197173054407119">"Извршете фабричко ресетирање за да го оневозможите режимот на рамка за тестирање."</string>
     <string name="usb_contaminant_detected_title" msgid="7136400633704058349">"Течност или нечистотија во USB-портата"</string>
     <string name="usb_contaminant_detected_message" msgid="832337061059487250">"USB-портата е автоматски оневозможена. Допрете за да дознаете повеќе."</string>
-    <!-- no translation found for usb_contaminant_not_detected_title (7708281124088684821) -->
-    <skip />
+    <string name="usb_contaminant_not_detected_title" msgid="7708281124088684821">"Во ред е да се користи USB-порта"</string>
     <string name="usb_contaminant_not_detected_message" msgid="2415791798244545292">"Телефонот веќе не открива течност или нечистотија."</string>
     <string name="taking_remote_bugreport_notification_title" msgid="6742483073875060934">"Се зема извештајот за грешки…"</string>
     <string name="share_remote_bugreport_notification_title" msgid="4987095013583691873">"Да се сподели извештајот за грешки?"</string>
@@ -1670,8 +1670,18 @@
     <string name="accessibility_shortcut_enabling_service" msgid="7771852911861522636">"Кратенката за пристапност ја вклучи <xliff:g id="SERVICE_NAME">%1$s</xliff:g>"</string>
     <string name="accessibility_shortcut_disabling_service" msgid="2747243438223109821">"Кратенката за пристапност ја исклучи <xliff:g id="SERVICE_NAME">%1$s</xliff:g>"</string>
     <string name="accessibility_shortcut_spoken_feedback" msgid="8376923232350078434">"Притиснете ги и задржете ги двете копчиња за јачина на звукот во траење од три секунди за да користите <xliff:g id="SERVICE_NAME">%1$s</xliff:g>"</string>
-    <string name="accessibility_button_prompt_text" msgid="4234556536456854251">"Изберете функција за користење кога ќе го допрете копчето за „Пристапност“."</string>
-    <string name="accessibility_button_instructional_text" msgid="6942300463612999993">"За променување функции, допрете го и задржете го копчето за „Пристапност“."</string>
+    <!-- no translation found for accessibility_button_prompt_text (1176658502969738564) -->
+    <skip />
+    <!-- no translation found for accessibility_gesture_prompt_text (8259145549733019401) -->
+    <skip />
+    <!-- no translation found for accessibility_gesture_3finger_prompt_text (1041435574275047665) -->
+    <skip />
+    <!-- no translation found for accessibility_button_instructional_text (7003212763213614833) -->
+    <skip />
+    <!-- no translation found for accessibility_gesture_instructional_text (5261788874937410950) -->
+    <skip />
+    <!-- no translation found for accessibility_gesture_3finger_instructional_text (4969448938984394550) -->
+    <skip />
     <string name="accessibility_magnification_chooser_text" msgid="1227146738764986237">"Зголемување"</string>
     <string name="user_switched" msgid="3768006783166984410">"Тековен корисник <xliff:g id="NAME">%1$s</xliff:g>."</string>
     <string name="user_switching_message" msgid="2871009331809089783">"Се префрла на <xliff:g id="NAME">%1$s</xliff:g>…"</string>
