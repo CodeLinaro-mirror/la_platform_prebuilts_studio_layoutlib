@@ -13,6 +13,11 @@ filegroup(
 )
 
 filegroup(
+    name = "data/framework_res",
+    srcs = ["data/framework_res.jar"],
+)
+
+filegroup(
     name = "data/fonts",
     srcs = glob(["data/fonts/**"]),
 )
