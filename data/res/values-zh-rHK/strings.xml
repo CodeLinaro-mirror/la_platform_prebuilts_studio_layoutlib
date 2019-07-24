@@ -817,7 +817,7 @@
     <string name="lockscreen_pattern_wrong" msgid="4317955014948108794">"再試一次"</string>
     <string name="lockscreen_password_wrong" msgid="5737815393253165301">"再試一次"</string>
     <string name="lockscreen_storage_locked" msgid="9167551160010625200">"解鎖即可使用所有功能和資料"</string>
-    <string name="faceunlock_multiple_failures" msgid="754137583022792429">"已超過臉容解鎖嘗試次數上限"</string>
+    <string name="faceunlock_multiple_failures" msgid="754137583022792429">"已超過臉孔解鎖嘗試次數上限"</string>
     <string name="lockscreen_missing_sim_message_short" msgid="5099439277819215399">"找不到 SIM 卡"</string>
     <string name="lockscreen_missing_sim_message" product="tablet" msgid="151659196095791474">"平板電腦中沒有 SIM 卡。"</string>
     <string name="lockscreen_missing_sim_message" product="tv" msgid="1943633865476989599">"電視沒有 SIM 卡。"</string>
@@ -887,7 +887,7 @@
     <string name="keyguard_accessibility_expand_lock_area" msgid="519859720934178024">"展開解鎖區域。"</string>
     <string name="keyguard_accessibility_slide_unlock" msgid="2959928478764697254">"滑動解鎖。"</string>
     <string name="keyguard_accessibility_pattern_unlock" msgid="1490840706075246612">"圖案解鎖。"</string>
-    <string name="keyguard_accessibility_face_unlock" msgid="4817282543351718535">"臉容解鎖。"</string>
+    <string name="keyguard_accessibility_face_unlock" msgid="4817282543351718535">"臉孔解鎖。"</string>
     <string name="keyguard_accessibility_pin_unlock" msgid="2469687111784035046">"PIN 解鎖。"</string>
     <string name="keyguard_accessibility_sim_pin_unlock" msgid="9149698847116962307">"SIM 卡 PIN 碼解鎖。"</string>
     <string name="keyguard_accessibility_sim_puk_unlock" msgid="9106899279724723341">"SIM 卡 PUK 解鎖。"</string>
@@ -1130,14 +1130,10 @@
     <string name="whichViewApplication" msgid="3272778576700572102">"選擇開啟方式"</string>
     <string name="whichViewApplicationNamed" msgid="2286418824011249620">"使用 %1$s 開啟"</string>
     <string name="whichViewApplicationLabel" msgid="2666774233008808473">"開啟"</string>
-    <!-- no translation found for whichOpenHostLinksWith (3788174881117226583) -->
-    <skip />
-    <!-- no translation found for whichOpenLinksWith (6392123355599572804) -->
-    <skip />
-    <!-- no translation found for whichOpenLinksWithApp (8225991685366651614) -->
-    <skip />
-    <!-- no translation found for whichOpenHostLinksWithApp (3464470639011045589) -->
-    <skip />
+    <string name="whichOpenHostLinksWith" msgid="3788174881117226583">"開啟 <xliff:g id="HOST">%1$s</xliff:g> 連結的方式"</string>
+    <string name="whichOpenLinksWith" msgid="6392123355599572804">"開啟連結的方式"</string>
+    <string name="whichOpenLinksWithApp" msgid="8225991685366651614">"使用 <xliff:g id="APPLICATION">%1$s</xliff:g> 開啟連結"</string>
+    <string name="whichOpenHostLinksWithApp" msgid="3464470639011045589">"使用 <xliff:g id="APPLICATION">%2$s</xliff:g> 開啟 <xliff:g id="HOST">%1$s</xliff:g> 連結"</string>
     <string name="whichGiveAccessToApplicationLabel" msgid="6142688895536868827">"授予存取權"</string>
     <string name="whichEditApplication" msgid="144727838241402655">"使用以下選擇器編輯："</string>
     <string name="whichEditApplicationNamed" msgid="1775815530156447790">"使用 %1$s 編輯"</string>
@@ -1589,8 +1585,7 @@
     <string name="launchBrowserDefault" msgid="2057951947297614725">"要啟動「瀏覽器」嗎？"</string>
     <string name="SetupCallDefault" msgid="5834948469253758575">"接聽電話嗎？"</string>
     <string name="activity_resolver_use_always" msgid="8017770747801494933">"一律採用"</string>
-    <!-- no translation found for activity_resolver_set_always (1422574191056490585) -->
-    <skip />
+    <string name="activity_resolver_set_always" msgid="1422574191056490585">"設為一律開啟"</string>
     <string name="activity_resolver_use_once" msgid="2404644797149173758">"只此一次"</string>
     <string name="activity_resolver_app_settings" msgid="8965806928986509855">"設定"</string>
     <string name="activity_resolver_work_profiles_support" msgid="185598180676883455">"%1$s 不支援公司檔案"</string>
