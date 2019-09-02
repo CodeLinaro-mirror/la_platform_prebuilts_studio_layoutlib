@@ -13,3 +13,19 @@ java_import(
     jars = ["layoutlib_native.jar"],
     visibility = ["//visibility:public"],
 )
+
+filegroup(
+    name = "native_libs",
+    srcs = select({
+        "//tools/base/bazel:windows": [
+            "//prebuilts/studio/layoutlib/data/win",
+        ],
+        "//tools/base/bazel:darwin": [
+            "//prebuilts/studio/layoutlib/data/mac",
+        ],
+        "//conditions:default": [
+            "//prebuilts/studio/layoutlib/data/linux",
+        ],
+    }),
+    visibility = ["//visibility:public"],
+)
