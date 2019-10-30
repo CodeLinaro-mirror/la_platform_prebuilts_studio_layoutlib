@@ -5,8 +5,5 @@ filegroup(
     srcs = glob(
         include = ["*"],
         exclude = ["BUILD"],
-    ) + [
-        "native/fonts.xml",
-        "standard/fonts.xml",
-    ],
+    ),
 )

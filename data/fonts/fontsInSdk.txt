@@ -9,7 +9,7 @@ DroidSansFallback.ttf
 DroidSansMono.ttf
 DroidSans.ttf
 NanumGothic.ttf
-NotoEmoji.ttf
+NotoColorEmoji.ttf
 NotoNaskhArabic-Bold.ttf
 NotoNaskhArabic-Regular.ttf
 NotoNaskhArabicUI-Bold.ttf
@@ -206,9 +206,3 @@ Roboto-Medium.ttf
 Roboto-Regular.ttf
 Roboto-ThinItalic.ttf
 Roboto-Thin.ttf
-SourceSansPro-BoldItalic.ttf
-SourceSansPro-Bold.ttf
-SourceSansPro-Italic.ttf
-SourceSansPro-Regular.ttf
-SourceSansPro-SemiBoldItalic.ttf
-SourceSansPro-SemiBold.ttf
