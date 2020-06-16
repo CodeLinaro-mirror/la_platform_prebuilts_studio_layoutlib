@@ -5,10 +5,8 @@ CutiveMono.ttf
 DancingScript-Bold.ttf
 DancingScript-Regular.ttf
 DroidSans-Bold.ttf
-DroidSansFallback.ttf
 DroidSansMono.ttf
 DroidSans.ttf
-NanumGothic.ttf
 NotoEmoji.ttf
 NotoNaskhArabic-Bold.ttf
 NotoNaskhArabic-Regular.ttf
