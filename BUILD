@@ -1,3 +1,5 @@
+load("//tools/adt/idea/studio:studio.bzl", "studio_data")
+
 package(default_visibility = ["//visibility:public"])
 
 exports_files(srcs = ["build.prop"])
@@ -6,4 +8,16 @@ exports_files(srcs = ["build.prop"])
 filegroup(
     name = "licenses",
     srcs = glob(["licenses/*"]),
+)
+
+studio_data(
+    name = "layoutlib",
+    files = [
+        "build.prop",
+        "//prebuilts/studio/layoutlib/data",
+    ],
+    mappings = {
+        "prebuilts/studio/": "",
+    },
+    visibility = ["//visibility:public"],
 )

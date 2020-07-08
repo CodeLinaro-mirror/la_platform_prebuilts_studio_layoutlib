@@ -1,5 +1,7 @@
 exports_files(srcs = ["framework_res.jar"])
 
+load("//tools/adt/idea/studio:studio.bzl", "studio_data")
+
 # managed by go/iml_to_build
 java_import(
     name = "layoutlib",
@@ -11,6 +13,23 @@ java_import(
 java_import(
     name = "layoutlib_native",
     jars = ["layoutlib_native.jar"],
+    visibility = ["//visibility:public"],
+)
+
+studio_data(
+    name = "data",
+    files = [
+        "framework_res.jar",
+        "layoutlib-extensions.jar",
+        "//prebuilts/studio/layoutlib/data/fonts",
+        "//prebuilts/studio/layoutlib/data/icu",
+    ],
+    files_linux = ["//prebuilts/studio/layoutlib/data/linux"],
+    files_mac = ["//prebuilts/studio/layoutlib/data/mac"],
+    files_win = ["//prebuilts/studio/layoutlib/data/win"],
+    mappings = {
+        "prebuilts/studio/": "",
+    },
     visibility = ["//visibility:public"],
 )
 
