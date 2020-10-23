@@ -48,25 +48,3 @@ filegroup(
     }),
     visibility = ["//visibility:public"],
 )
-
-# managed by go/iml_to_build [unb]
-java_import(
-    name = "unb.layoutlib_native",
-    jars = ["layoutlib_native.jar"],
-    tags = [
-        "manual",
-        "unb",
-    ],
-    visibility = ["//visibility:public"],
-)
-
-# managed by go/iml_to_build [unb]
-java_import(
-    name = "unb.layoutlib",
-    jars = ["layoutlib.jar"],
-    tags = [
-        "manual",
-        "unb",
-    ],
-    visibility = ["//visibility:public"],
-)
