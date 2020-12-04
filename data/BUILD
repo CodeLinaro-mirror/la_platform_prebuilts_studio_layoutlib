@@ -11,7 +11,7 @@ java_import(
 
 # managed by go/iml_to_build
 java_import(
-    name = "layoutlib_legacy",
+    name = "layoutlib-legacy",
     jars = ["layoutlib_legacy.jar"],
     visibility = ["//visibility:public"],
 )
