@@ -511,22 +511,6 @@
     <family>
         <font weight="400" style="normal">NotoSansSymbols-Regular-Subsetted.ttf</font>
     </family>
-    <family lang="zh-Hans">
-        <font weight="400" style="normal">NotoSansCJK-Regular-2.otf</font>
-        <font weight="400" style="normal" fallbackFor="serif">NotoSerifCJK-Regular-2.otf</font>
-    </family>
-    <family lang="zh-Hant,zh-Bopo">
-        <font weight="400" style="normal">NotoSansCJK-Regular-3.otf</font>
-        <font weight="400" style="normal" fallbackFor="serif">NotoSerifCJK-Regular-3.otf</font>
-    </family>
-    <family lang="ja">
-        <font weight="400" style="normal">NotoSansCJK-Regular-0.otf</font>
-        <font weight="400" style="normal" fallbackFor="serif">NotoSerifCJK-Regular-0.otf</font>
-    </family>
-    <family lang="ko">
-        <font weight="400" style="normal">NotoSansCJK-Regular-1.otf</font>
-        <font weight="400" style="normal" fallbackFor="serif">NotoSerifCJK-Regular-1.otf</font>
-    </family>
     <family lang="und-Zsye">
         <font weight="400" style="normal">NotoEmoji.ttf</font>
     </family>
