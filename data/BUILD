@@ -19,6 +19,7 @@ studio_data(
     ],
     files_linux = ["//prebuilts/studio/layoutlib/data/linux"],
     files_mac = ["//prebuilts/studio/layoutlib/data/mac"],
+    files_mac_arm = ["//prebuilts/studio/layoutlib/data/mac-arm"],
     files_win = ["//prebuilts/studio/layoutlib/data/win"],
     mappings = {
         "prebuilts/studio/": "",
