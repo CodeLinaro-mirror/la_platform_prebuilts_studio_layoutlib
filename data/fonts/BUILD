@@ -7,6 +7,5 @@ filegroup(
         exclude = ["BUILD"],
     ) + [
         "native/fonts.xml",
-        "standard/fonts.xml",
     ],
 )

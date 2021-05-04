@@ -2,13 +2,6 @@ exports_files(srcs = ["framework_res.jar"])
 
 load("//tools/adt/idea/studio:studio.bzl", "studio_data")
 
-# managed by go/iml_to_build
-java_import(
-    name = "layoutlib-legacy",
-    jars = ["layoutlib_legacy.jar"],
-    visibility = ["//visibility:public"],
-)
-
 studio_data(
     name = "data",
     files = [
