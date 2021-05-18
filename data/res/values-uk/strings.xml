@@ -59,7 +59,7 @@
     <string name="imei" msgid="2157082351232630390">"IMEI"</string>
     <string name="meid" msgid="3291227361605924674">"MEID"</string>
     <string name="ClipMmi" msgid="4110549342447630629">"Вхідн. ід. абонента"</string>
-    <string name="ClirMmi" msgid="4702929460236547156">"Вихід. ід. абонента"</string>
+    <string name="ClirMmi" msgid="6752346475055446417">"Приховати ідентифікатор абонента для вихідних викликів"</string>
     <string name="ColpMmi" msgid="4736462893284419302">"Ідентифікатор під’єднаної лінії"</string>
     <string name="ColrMmi" msgid="5889782479745764278">"Обмеження ідентифікатора під’єднаної лінії"</string>
     <string name="CfMmi" msgid="8390012691099787178">"Переадресація виклику"</string>
@@ -148,6 +148,9 @@
     <string name="wfc_mode_wifi_preferred_summary" msgid="1035175836270943089">"Телефонувати через Wi-Fi"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="4958965609212575619">"Телефонувати через мобільну мережу"</string>
     <string name="wfc_mode_wifi_only_summary" msgid="104951993894678665">"Лише Wi-Fi"</string>
+    <!-- no translation found for crossSimFormat_spn (9125246077491634262) -->
+    <skip />
+    <string name="crossSimFormat_spn_cross_sim_calling" msgid="779976494687695991">"<xliff:g id="SPN">%s</xliff:g> – виклики між SIM-картами"</string>
     <string name="cfTemplateNotForwarded" msgid="862202427794270501">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: не переслано"</string>
     <string name="cfTemplateForwarded" msgid="9132506315842157860">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
     <string name="cfTemplateForwardedTime" msgid="735042369233323609">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g> після <xliff:g id="TIME_DELAY">{2}</xliff:g> сек."</string>
@@ -197,10 +200,15 @@
     <string name="network_logging_notification_text" msgid="1327373071132562512">"Адміністратор вашої організації контролює цей пристрій і відстежує мережевий трафік. Торкніться, щоб дізнатися більше."</string>
     <string name="location_changed_notification_title" msgid="3620158742816699316">"Додаток має доступ до геоданих"</string>
     <string name="location_changed_notification_text" msgid="7158423339982706912">"Дізнатися більше можна в IT-адміністратора"</string>
+    <string name="geofencing_service" msgid="3826902410740315456">"Сервіс геозонування"</string>
     <string name="country_detector" msgid="7023275114706088854">"Визначення країни"</string>
     <string name="location_service" msgid="2439187616018455546">"Служби локації"</string>
+    <string name="gnss_service" msgid="8907781262179951385">"Сервіс GNSS"</string>
     <string name="sensor_notification_service" msgid="7474531979178682676">"Сервіс \"Сповіщення датчика\""</string>
     <string name="twilight_service" msgid="8964898045693187224">"Сервіс \"Сутінки\""</string>
+    <string name="offline_location_time_zone_detection_service_attribution" msgid="303754195048744816">"Визначення часового поясу (без Інтернету)"</string>
+    <!-- no translation found for gnss_time_update_service (9039489496037616095) -->
+    <skip />
     <string name="factory_reset_warning" msgid="6858705527798047809">"З вашого пристрою буде стерто всі дані"</string>
     <string name="factory_reset_message" msgid="2657049595153992213">"Не можна запускати додаток для адміністраторів. Буде відновлено заводські налаштування пристрою.\n\nЯкщо у вас є запитання, зв’яжіться з адміністратором своєї організації."</string>
     <string name="printing_disabled_by" msgid="3517499806528864633">"Додаток <xliff:g id="OWNER_APP">%s</xliff:g> вимкнув друк."</string>
@@ -291,6 +299,7 @@
     <string name="notification_channel_usb" msgid="1528280969406244896">"З’єднання USB"</string>
     <string name="notification_channel_heavy_weight_app" msgid="17455756500828043">"Працює додаток"</string>
     <string name="notification_channel_foreground_service" msgid="7102189948158885178">"Додатки, що використовують заряд акумулятора"</string>
+    <string name="notification_channel_accessibility_magnification" msgid="1707913872219798098">"Збільшення"</string>
     <string name="foreground_service_app_in_background" msgid="1439289699671273555">"Додаток <xliff:g id="APP_NAME">%1$s</xliff:g> використовує заряд акумулятора"</string>
     <string name="foreground_service_apps_in_background" msgid="7340037176412387863">"Додатків, що використовують заряд акумулятора: <xliff:g id="NUMBER">%1$d</xliff:g>"</string>
     <string name="foreground_service_tap_for_details" msgid="9078123626015586751">"Торкніться, щоб перевірити використання акумулятора й трафік"</string>
@@ -355,6 +364,8 @@
     <string name="permdesc_receiveMms" msgid="958102423732219710">"Дозволяє програмі отримувати й обробляти MMS-повідомлення. Це означає, що програма може відстежувати чи видаляти повідомлення, надіслані на ваш пристрій, навіть не показуючи їх вам."</string>
     <string name="permlab_bindCellBroadcastService" msgid="586746677002040651">"Переадресувати повідомлення Cell Broadcast"</string>
     <string name="permdesc_bindCellBroadcastService" msgid="6540910200973641606">"Дозволяє додатку зв\'язуватися з модулем Cell Broadcast, щоб переадресувати відповідні вхідні повідомлення. У деяких місцеположеннях сповіщення Cell Broadcast надсилаються для попередження про надзвичайні ситуації. Після повідомлення Cell Broadcast шкідливі додатки можуть перешкоджати роботі вашого пристрою."</string>
+    <string name="permlab_manageOngoingCalls" msgid="281244770664231782">"Керування поточними дзвінками"</string>
+    <string name="permdesc_manageOngoingCalls" msgid="7003138133829915265">"Дає змогу додатку переглядати поточні дзвінки на пристрої та керувати ними."</string>
     <string name="permlab_readCellBroadcasts" msgid="5869884450872137693">"читати широкомовні повідомлення мережі"</string>
     <string name="permdesc_readCellBroadcasts" msgid="672513437331980168">"Дозволяє програмі читати широкомовні повідомлення мережі, отримані пристроєм. Широкомовні сповіщення мережі надсилаються в деяких країнах для попередження про надзвичайні ситуації. Шкідливі програми можуть втручатися у швидкодію чи роботу пристрою під час отримання широкомовного повідомлення мережі про надзвичайну ситуацію."</string>
     <string name="permlab_subscribedFeedsRead" msgid="217624769238425461">"читати підписані канали"</string>
@@ -436,13 +447,17 @@
     <string name="permlab_modifyAudioSettings" msgid="6129039778010031815">"змінювати налаштув-ня звуку"</string>
     <string name="permdesc_modifyAudioSettings" msgid="8687227609663124921">"Дозволяє програмі змінювати загальні налаштування звуку, як-от гучність і динамік, який використовується для виводу сигналу."</string>
     <string name="permlab_recordAudio" msgid="1208457423054219147">"запис-ти аудіо"</string>
-    <string name="permdesc_recordAudio" msgid="3976213377904701093">"Цей додаток може будь-коли записувати звук за допомогою мікрофона."</string>
+    <string name="permdesc_recordAudio" msgid="5857246765327514062">"Цей додаток може записувати звук за допомогою мікрофона, коли ви використовуєте його."</string>
+    <string name="permlab_recordBackgroundAudio" msgid="5891032812308878254">"записувати звук у фоновому режимі"</string>
+    <string name="permdesc_recordBackgroundAudio" msgid="1992623135737407516">"Цей додаток може будь-коли записувати звук за допомогою мікрофона."</string>
     <string name="permlab_sim_communication" msgid="176788115994050692">"надсилати команди на SIM-карту"</string>
     <string name="permdesc_sim_communication" msgid="4179799296415957960">"Дозволяє програмі надсилати команди на SIM-карту. Це дуже небезпечно."</string>
     <string name="permlab_activityRecognition" msgid="1782303296053990884">"розпізнавати фізичну активність"</string>
     <string name="permdesc_activityRecognition" msgid="8667484762991357519">"Цей додаток може розпізнавати фізичну активність."</string>
     <string name="permlab_camera" msgid="6320282492904119413">"фотограф. та знімати відео"</string>
-    <string name="permdesc_camera" msgid="1354600178048761499">"Цей додаток може будь-коли робити фотографії та записувати відео за допомогою камери."</string>
+    <string name="permdesc_camera" msgid="5240801376168647151">"Цей додаток може робити фотографії та записувати відео за допомогою камери, коли ви використовуєте його."</string>
+    <string name="permlab_backgroundCamera" msgid="7549917926079731681">"робити фотографії та записувати відео у фоновому режимі"</string>
+    <string name="permdesc_backgroundCamera" msgid="1615291686191138250">"Цей додаток може будь-коли робити фотографії та записувати відео за допомогою камери."</string>
     <string name="permlab_systemCamera" msgid="3642917457796210580">"Дозволити додатку або сервісу отримувати доступ до системних камер, робити фото й записувати відео"</string>
     <string name="permdesc_systemCamera" msgid="5938360914419175986">"Цей пріоритетний системний додаток може будь-коли робити фото й записувати відео, використовуючи камеру системи. Додатку потрібен дозвіл android.permission.CAMERA"</string>
     <string name="permlab_cameraOpenCloseListener" msgid="5548732769068109315">"Дозволити додатку або сервісу отримувати зворотні виклики щодо відкриття чи закриття камер."</string>
@@ -548,6 +563,7 @@
     <string name="biometric_not_recognized" msgid="5106687642694635888">"Не розпізнано"</string>
     <string name="biometric_error_canceled" msgid="8266582404844179778">"Автентифікацію скасовано"</string>
     <string name="biometric_error_device_not_secured" msgid="3129845065043995924">"Не вказано PIN-код, ключ або пароль"</string>
+    <string name="biometric_error_generic" msgid="6784371929985434439">"Помилка автентифікації"</string>
     <string name="fingerprint_acquired_partial" msgid="8532380671091299342">"Відбиток пальця розпізнано частково. Повторіть спробу."</string>
     <string name="fingerprint_acquired_insufficient" msgid="2545149524031515411">"Не вдалось обробити відбиток пальця. Повторіть спробу."</string>
     <string name="fingerprint_acquired_imager_dirty" msgid="4694800187151533990">"Датчик відбитків пальців забруднився. Очистьте його та повторіть спробу."</string>
@@ -835,7 +851,7 @@
     <string name="lockscreen_instructions_when_pattern_enabled" msgid="7982445492532123308">"Натис. меню, щоб розбл. чи зробити авар. виклик."</string>
     <string name="lockscreen_instructions_when_pattern_disabled" msgid="7434061749374801753">"Натисн. меню, щоб розбл."</string>
     <string name="lockscreen_pattern_instructions" msgid="3169991838169244941">"Намал. ключ, щоб розбл."</string>
-    <string name="lockscreen_emergency_call" msgid="7500692654885445299">"Екстрений виклик"</string>
+    <string name="lockscreen_emergency_call" msgid="7549683825868928636">"Екстрений виклик"</string>
     <string name="lockscreen_return_to_call" msgid="3156883574692006382">"Поверн. до дзвін."</string>
     <string name="lockscreen_pattern_correct" msgid="8050630103651508582">"Правильно!"</string>
     <string name="lockscreen_pattern_wrong" msgid="2940138714468358458">"Повторіть спробу"</string>
@@ -1130,7 +1146,7 @@
     <string name="elapsed_time_short_format_mm_ss" msgid="8689459651807876423">"<xliff:g id="MINUTES">%1$02d</xliff:g>:<xliff:g id="SECONDS">%2$02d</xliff:g>"</string>
     <string name="elapsed_time_short_format_h_mm_ss" msgid="2302144714803345056">"<xliff:g id="HOURS">%1$d</xliff:g>:<xliff:g id="MINUTES">%2$02d</xliff:g>:<xliff:g id="SECONDS">%3$02d</xliff:g>"</string>
     <string name="selectAll" msgid="1532369154488982046">"Вибрати все"</string>
-    <string name="cut" msgid="2561199725874745819">"Виріз."</string>
+    <string name="cut" msgid="2561199725874745819">"Вирізати"</string>
     <string name="copy" msgid="5472512047143665218">"Копіювати"</string>
     <string name="failed_to_copy_to_clipboard" msgid="725919885138539875">"Не вдалося скопіювати в буфер обміну"</string>
     <string name="paste" msgid="461843306215520225">"Вставити"</string>
@@ -1162,7 +1178,9 @@
     <string name="capital_off" msgid="7443704171014626777">"ВИМК"</string>
     <string name="checked" msgid="9179896827054513119">"вибрано"</string>
     <string name="not_checked" msgid="7972320087569023342">"не вибрано"</string>
-    <string name="whichApplication" msgid="5432266899591255759">"Завершити дію за доп."</string>
+    <string name="selected" msgid="6614607926197755875">"вибрано"</string>
+    <string name="not_selected" msgid="410652016565864475">"не вибрано"</string>
+    <string name="whichApplication" msgid="5432266899591255759">"Що використовувати?"</string>
     <string name="whichApplicationNamed" msgid="6969946041713975681">"Завершити дію за допомогою %1$s"</string>
     <string name="whichApplicationLabel" msgid="7852182961472531728">"Завершити дію"</string>
     <string name="whichViewApplication" msgid="5733194231473132945">"Відкрити за допомогою"</string>
@@ -1259,9 +1277,9 @@
     <string name="volume_music" msgid="7727274216734955095">"Гучність медіа"</string>
     <string name="volume_music_hint_playing_through_bluetooth" msgid="2614142915948898228">"Відтвор. через Bluetooth"</string>
     <string name="volume_music_hint_silent_ringtone_selected" msgid="1514829655029062233">"Установлено сигнал дзвінка без звуку"</string>
-    <string name="volume_call" msgid="7625321655265747433">"Обсяг вхідних"</string>
-    <string name="volume_bluetooth_call" msgid="2930204618610115061">"Обсяг вхідних Bluetooth"</string>
-    <string name="volume_alarm" msgid="4486241060751798448">"Гучн. сповіщ."</string>
+    <string name="volume_call" msgid="7625321655265747433">"Гучність під час розмови"</string>
+    <string name="volume_bluetooth_call" msgid="2930204618610115061">"Гучність у викликах Bluetooth"</string>
+    <string name="volume_alarm" msgid="4486241060751798448">"Гучність будильника"</string>
     <string name="volume_notification" msgid="6864412249031660057">"Гучність сповіщень"</string>
     <string name="volume_unknown" msgid="4041914008166576293">"Гучність"</string>
     <string name="volume_icon_description_bluetooth" msgid="7540388479345558400">"Гучність Bluetooth"</string>
@@ -1502,9 +1520,6 @@
     <string name="gpsNotifMessage" msgid="7346649122793758032">"Запит зроблено користувачем <xliff:g id="NAME">%1$s</xliff:g> (<xliff:g id="SERVICE">%2$s</xliff:g>)"</string>
     <string name="gpsVerifYes" msgid="3719843080744112940">"Так"</string>
     <string name="gpsVerifNo" msgid="1671201856091564741">"Ні"</string>
-    <string name="gnss_nfw_notification_title" msgid="5004493772059563423">"Переглянуто геодані в екстреній ситуації"</string>
-    <string name="gnss_nfw_notification_message_oem" msgid="3683958907027107969">"Виробник пристрою отримав доступ до ваших геоданих під час нещодавнього екстреного звернення"</string>
-    <string name="gnss_nfw_notification_message_carrier" msgid="815888995791562151">"Оператор отримав доступ до ваших геоданих під час нещодавнього екстреного звернення"</string>
     <string name="sync_too_many_deletes" msgid="6999440774578705300">"Перевищено ліміт видалень"</string>
     <string name="sync_too_many_deletes_desc" msgid="7409327940303504440">"Для <xliff:g id="TYPE_OF_SYNC">%2$s</xliff:g>, облікового запису <xliff:g id="ACCOUNT_NAME">%3$s</xliff:g>, знайдено стільки видалених елементів: <xliff:g id="NUMBER_OF_DELETED_ITEMS">%1$d</xliff:g>. Що робити?"</string>
     <string name="sync_really_delete" msgid="5657871730315579051">"Видалити елементи"</string>
@@ -1666,10 +1681,10 @@
     <string name="safe_media_volume_warning" product="default" msgid="3751676824423049994">"Збільшити гучність понад рекомендований рівень?\n\nЯкщо слухати надто гучну музику тривалий час, можна пошкодити слух."</string>
     <string name="accessibility_shortcut_warning_dialog_title" msgid="4017995837692622933">"Використовувати швидке ввімкнення?"</string>
     <string name="accessibility_shortcut_toogle_warning" msgid="4161716521310929544">"Якщо цей засіб увімкнено, ви можете активувати спеціальні можливості, утримуючи обидві кнопки гучності протягом трьох секунд."</string>
-    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="8417489297036013065">"Увімкнути спеціальні можливості?"</string>
+    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="3135860819356676426">"Увімкнути засіб спеціальних можливостей?"</string>
     <string name="accessibility_shortcut_multiple_service_warning" msgid="3740723309483706911">"Якщо втримувати обидві клавіші гучності впродовж кількох секунд, вмикаються спеціальні можливості. Це впливає на роботу пристрою.\n\nПоточні функції:\n<xliff:g id="SERVICE">%1$s</xliff:g>\nВибрані функції можна змінити в налаштуваннях у меню спеціальних можливостей."</string>
     <string name="accessibility_shortcut_multiple_service_list" msgid="6935581470716541531">"	• <xliff:g id="SERVICE">%1$s</xliff:g>\n"</string>
-    <string name="accessibility_shortcut_single_service_warning_title" msgid="2819109500943271385">"Увімкнути <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <string name="accessibility_shortcut_single_service_warning_title" msgid="1909518473488345266">"Увімкнути засіб швидкого доступу до сервісу <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="accessibility_shortcut_single_service_warning" msgid="6363127705112844257">"Якщо втримувати обидві клавіші гучності впродовж кількох секунд, буде ввімкнено спеціальні можливості – <xliff:g id="SERVICE">%1$s</xliff:g>. Це може вплинути на роботу пристрою.\n\nДля цієї комбінації клавіш можна вибрати іншу функцію в меню \"Налаштування &gt; Спеціальні можливості\"."</string>
     <string name="accessibility_shortcut_on" msgid="5463618449556111344">"Увімкнути"</string>
     <string name="accessibility_shortcut_off" msgid="3651336255403648739">"Не вмикати"</string>
@@ -1838,8 +1853,8 @@
     <string name="package_updated_device_owner" msgid="7560272363805506941">"Оновлено адміністратором"</string>
     <string name="package_deleted_device_owner" msgid="2292335928930293023">"Видалено адміністратором"</string>
     <string name="confirm_battery_saver" msgid="5247976246208245754">"ОК"</string>
-    <string name="battery_saver_description_with_learn_more" msgid="5997766757551917769">"Щоб подовжити час роботи акумулятора, режим енергозбереження:\n\n•вмикає темну тему;\n•припиняє або обмежує фонову активність, вимикає деякі візуальні ефекти та інші енергозатратні функції, зокрема команду \"Ok Google\".\n\n"<annotation id="url">"Докладніше"</annotation></string>
-    <string name="battery_saver_description" msgid="8587408568232177204">"Щоб подовжити час роботи акумулятора, режим енергозбереження:\n\n•вмикає темну тему;\n•припиняє або обмежує фонову активність, вимикає деякі візуальні ефекти та інші енергозатратні функції, зокрема команду \"Ok Google\"."</string>
+    <string name="battery_saver_description_with_learn_more" msgid="4424488535318105801">"Щоб подовжити час роботи акумулятора, режим енергозбереження:\n\n• вмикає темну тему;\n• припиняє або обмежує фонову активність, вимикає деякі візуальні ефекти та інші енергозатратні функції, зокрема команду \"Ok Google\".\n\n"<annotation id="url">"Докладніше"</annotation></string>
+    <string name="battery_saver_description" msgid="6794188153647295212">"Щоб подовжити час роботи акумулятора, режим енергозбереження:\n\n• вмикає темну тему;\n• припиняє або обмежує фонову активність, вимикає деякі візуальні ефекти та інші енергозатратні функції, зокрема команду \"Ok Google\"."</string>
     <string name="data_saver_description" msgid="4995164271550590517">"Щоб зменшити використання трафіку, функція \"Заощадження трафіку\" не дозволяє деяким додаткам надсилати чи отримувати дані у фоновому режимі. Поточний додаток зможе отримувати доступ до таких даних, але рідше. Наприклад, зображення не відображатиметься, доки ви не торкнетеся його."</string>
     <string name="data_saver_enable_title" msgid="7080620065745260137">"Увімкнути заощадження трафіку?"</string>
     <string name="data_saver_enable_button" msgid="4399405762586419726">"Увімкнути"</string>
@@ -1856,7 +1871,7 @@
       <item quantity="other">Протягом %1$d хв (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
     </plurals>
     <plurals name="zen_mode_duration_hours_summary" formatted="false" msgid="7725354244196466758">
-      <item quantity="one">%1$d годину (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
+      <item quantity="one">%1$d година (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
       <item quantity="few">%1$d години (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
       <item quantity="many">%1$d годин (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
       <item quantity="other">%1$d години (до <xliff:g id="FORMATTEDTIME_1">%2$s</xliff:g>)</item>
@@ -1891,6 +1906,7 @@
       <item quantity="many">Протягом %d год</item>
       <item quantity="other">Протягом %d год</item>
     </plurals>
+    <string name="zen_mode_until_next_day" msgid="1403042784161725038">"До: <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_until" msgid="2250286190237669079">"До <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_alarm" msgid="7046911727540499275">"До <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> (наступний будильник)"</string>
     <string name="zen_mode_forever" msgid="740585666364912448">"Доки ви не вимкнете"</string>
@@ -2063,6 +2079,11 @@
     <string name="notification_appops_camera_active" msgid="8177643089272352083">"Камера"</string>
     <string name="notification_appops_microphone_active" msgid="581333393214739332">"Мікрофон"</string>
     <string name="notification_appops_overlay_active" msgid="5571732753262836481">"показ поверх інших додатків на екрані"</string>
+    <string name="notification_feedback_indicator" msgid="663476517711323016">"Надати відгук"</string>
+    <string name="notification_feedback_indicator_alerted" msgid="6552871804121942099">"Важливість цього сповіщення підвищено до рівня \"За умовчанням\". Натисніть, щоб надіслати відгук."</string>
+    <string name="notification_feedback_indicator_silenced" msgid="3799442124723177262">"Важливість цього сповіщення знижено до рівня \"Без звуку\". Натисніть, щоб надіслати відгук."</string>
+    <string name="notification_feedback_indicator_promoted" msgid="9030204303764698640">"Важливість цього сповіщення підвищено. Натисніть, щоб надіслати відгук."</string>
+    <string name="notification_feedback_indicator_demoted" msgid="8880309924296450875">"Важливість цього сповіщення знижено. Натисніть, щоб надіслати відгук."</string>
     <string name="dynamic_mode_notification_channel_name" msgid="2986926422100223328">"Сповіщення про послідовнсть дій"</string>
     <string name="dynamic_mode_notification_title" msgid="9205715501274608016">"Акумулятор може розрядитися раніше ніж зазвичай"</string>
     <string name="dynamic_mode_notification_summary" msgid="4141614604437372157">"Режим енергозбереження активовано для збільшення часу роботи акумулятора"</string>
@@ -2248,4 +2269,16 @@
     <string name="config_pdp_reject_user_authentication_failed" msgid="4531693033885744689"></string>
     <string name="config_pdp_reject_service_not_subscribed" msgid="8190338397128671588"></string>
     <string name="config_pdp_reject_multi_conn_to_same_pdn_not_allowed" msgid="6024904218067254186"></string>
+    <string name="window_magnification_prompt_title" msgid="8197528399699536320">"Нове: збільшення вікон"</string>
+    <string name="window_magnification_prompt_content" msgid="4166711383253283838">"Тепер можна збільшити весь екран або його частину"</string>
+    <string name="turn_on_magnification_settings_action" msgid="8521433346684847700">"Увімкнути в налаштуваннях"</string>
+    <string name="dismiss_action" msgid="1728820550388704784">"Закрити"</string>
+    <!-- no translation found for sensor_privacy_start_use_mic_notification_content (8063355861118105607) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_camera_notification_content (4738005643315863736) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_dialog_turn_on_button (7921147002346108119) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_notification_channel_label (936036783155261349) -->
+    <skip />
 </resources>

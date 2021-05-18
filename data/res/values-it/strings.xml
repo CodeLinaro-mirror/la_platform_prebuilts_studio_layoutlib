@@ -57,7 +57,7 @@
     <string name="imei" msgid="2157082351232630390">"IMEI"</string>
     <string name="meid" msgid="3291227361605924674">"MEID"</string>
     <string name="ClipMmi" msgid="4110549342447630629">"ID chiamante in entrata"</string>
-    <string name="ClirMmi" msgid="4702929460236547156">"ID chiamante in uscita"</string>
+    <string name="ClirMmi" msgid="6752346475055446417">"Nascondi ID chiamante in uscita"</string>
     <string name="ColpMmi" msgid="4736462893284419302">"ID linea connessa"</string>
     <string name="ColrMmi" msgid="5889782479745764278">"Limitazione ID linea connessa"</string>
     <string name="CfMmi" msgid="8390012691099787178">"Deviazione chiamate"</string>
@@ -146,6 +146,9 @@
     <string name="wfc_mode_wifi_preferred_summary" msgid="1035175836270943089">"Chiamata tramite Wi-Fi"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="4958965609212575619">"Chiamata su rete mobile"</string>
     <string name="wfc_mode_wifi_only_summary" msgid="104951993894678665">"Solo Wi-Fi"</string>
+    <!-- no translation found for crossSimFormat_spn (9125246077491634262) -->
+    <skip />
+    <string name="crossSimFormat_spn_cross_sim_calling" msgid="779976494687695991">"Chiamate tramite più SIM <xliff:g id="SPN">%s</xliff:g>"</string>
     <string name="cfTemplateNotForwarded" msgid="862202427794270501">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: inoltro non effettuato"</string>
     <string name="cfTemplateForwarded" msgid="9132506315842157860">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
     <string name="cfTemplateForwardedTime" msgid="735042369233323609">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g><xliff:g id="DIALING_NUMBER">{1}</xliff:g> dopo <xliff:g id="TIME_DELAY">{2}</xliff:g> secondi"</string>
@@ -193,10 +196,15 @@
     <string name="network_logging_notification_text" msgid="1327373071132562512">"Questo dispositivo è gestito dalla tua organizzazione, che potrebbe monitorare il traffico di rete. Tocca per i dettagli."</string>
     <string name="location_changed_notification_title" msgid="3620158742816699316">"Le app possono accedere alla tua posizione"</string>
     <string name="location_changed_notification_text" msgid="7158423339982706912">"Contatta l\'amministratore IT per saperne di più"</string>
+    <string name="geofencing_service" msgid="3826902410740315456">"Servizio Geofencing"</string>
     <string name="country_detector" msgid="7023275114706088854">"Rilevatore paese"</string>
     <string name="location_service" msgid="2439187616018455546">"Servizio di geolocalizzazione"</string>
+    <string name="gnss_service" msgid="8907781262179951385">"Servizio GNSS"</string>
     <string name="sensor_notification_service" msgid="7474531979178682676">"Servizio di notifica dei sensori"</string>
     <string name="twilight_service" msgid="8964898045693187224">"Servizio Twilight"</string>
+    <string name="offline_location_time_zone_detection_service_attribution" msgid="303754195048744816">"Rilevatore di fuso orario (connessione a Internet non necessaria)"</string>
+    <!-- no translation found for gnss_time_update_service (9039489496037616095) -->
+    <skip />
     <string name="factory_reset_warning" msgid="6858705527798047809">"Il dispositivo verrà resettato"</string>
     <string name="factory_reset_message" msgid="2657049595153992213">"Impossibile usare l\'app di amministrazione. Il dispositivo verrà resettato.\n\nPer eventuali domande, contatta l\'amministratore della tua organizzazione."</string>
     <string name="printing_disabled_by" msgid="3517499806528864633">"Stampa disattivata da <xliff:g id="OWNER_APP">%s</xliff:g>."</string>
@@ -285,6 +293,7 @@
     <string name="notification_channel_usb" msgid="1528280969406244896">"Connessione USB"</string>
     <string name="notification_channel_heavy_weight_app" msgid="17455756500828043">"App in esecuzione"</string>
     <string name="notification_channel_foreground_service" msgid="7102189948158885178">"App che consumano la batteria"</string>
+    <string name="notification_channel_accessibility_magnification" msgid="1707913872219798098">"Ingrandimento"</string>
     <string name="foreground_service_app_in_background" msgid="1439289699671273555">"L\'app <xliff:g id="APP_NAME">%1$s</xliff:g> sta consumando la batteria"</string>
     <string name="foreground_service_apps_in_background" msgid="7340037176412387863">"<xliff:g id="NUMBER">%1$d</xliff:g> app stanno consumando la batteria"</string>
     <string name="foreground_service_tap_for_details" msgid="9078123626015586751">"Tocca per conoscere i dettagli sull\'utilizzo dei dati e della batteria"</string>
@@ -349,6 +358,8 @@
     <string name="permdesc_receiveMms" msgid="958102423732219710">"Consente all\'applicazione di ricevere ed elaborare messaggi MMS. Significa che l\'applicazione potrebbe monitorare o eliminare i messaggi inviati al tuo dispositivo senza mostrarteli."</string>
     <string name="permlab_bindCellBroadcastService" msgid="586746677002040651">"Inoltro di messaggi cell broadcast"</string>
     <string name="permdesc_bindCellBroadcastService" msgid="6540910200973641606">"Consente all\'app di essere associata al modulo di cell broadcast al fine di inoltrare i messaggi di cell broadcast man mano che arrivano. Gli avvisi cell broadcast vengono trasmessi in alcune località per avvertire di situazioni di emergenza. Le app dannose potrebbero interferire con le prestazioni o con il funzionamento del dispositivo quando si riceve un messaggio cell broadcast di emergenza."</string>
+    <string name="permlab_manageOngoingCalls" msgid="281244770664231782">"Gestione delle chiamate in corso"</string>
+    <string name="permdesc_manageOngoingCalls" msgid="7003138133829915265">"Consente a un\'app di accedere a dettagli relativi alle chiamate in corso sul tuo dispositivo e di controllare tali chiamate."</string>
     <string name="permlab_readCellBroadcasts" msgid="5869884450872137693">"lettura di messaggi cell broadcast"</string>
     <string name="permdesc_readCellBroadcasts" msgid="672513437331980168">"Consente all\'applicazione di leggere i messaggi cell broadcast ricevuti dal dispositivo. Gli avvisi cell broadcast vengono trasmessi in alcune località per avvertire di eventuali situazioni di emergenza. Le app dannose potrebbero interferire con le prestazioni o con il funzionamento del dispositivo quando si riceve un messaggio cell broadcast di emergenza."</string>
     <string name="permlab_subscribedFeedsRead" msgid="217624769238425461">"lettura feed sottoscritti"</string>
@@ -430,13 +441,17 @@
     <string name="permlab_modifyAudioSettings" msgid="6129039778010031815">"modifica impostazioni audio"</string>
     <string name="permdesc_modifyAudioSettings" msgid="8687227609663124921">"Consente all\'applicazione di modificare le impostazioni audio globali, come il volume e quale altoparlante viene utilizzato per l\'uscita."</string>
     <string name="permlab_recordAudio" msgid="1208457423054219147">"registrazione audio"</string>
-    <string name="permdesc_recordAudio" msgid="3976213377904701093">"Questa app può registrare audio tramite il microfono in qualsiasi momento."</string>
+    <string name="permdesc_recordAudio" msgid="5857246765327514062">"Questa app può registrare audio tramite il microfono mentre l\'app è in uso."</string>
+    <string name="permlab_recordBackgroundAudio" msgid="5891032812308878254">"Registrazione di audio in background"</string>
+    <string name="permdesc_recordBackgroundAudio" msgid="1992623135737407516">"Questa app può registrare audio tramite il microfono in qualsiasi momento."</string>
     <string name="permlab_sim_communication" msgid="176788115994050692">"invio di comandi alla SIM"</string>
     <string name="permdesc_sim_communication" msgid="4179799296415957960">"Consente all\'app di inviare comandi alla SIM. Questo è molto pericoloso."</string>
     <string name="permlab_activityRecognition" msgid="1782303296053990884">"riconoscimento dell\'attività fisica"</string>
     <string name="permdesc_activityRecognition" msgid="8667484762991357519">"Questa app può riconoscere la tua attività fisica."</string>
     <string name="permlab_camera" msgid="6320282492904119413">"acquisizione di foto e video"</string>
-    <string name="permdesc_camera" msgid="1354600178048761499">"Questa app può scattare foto e registrare video tramite la fotocamera in qualsiasi momento."</string>
+    <string name="permdesc_camera" msgid="5240801376168647151">"Questa app può scattare foto e registrare video tramite la fotocamera mentre l\'app è in uso."</string>
+    <string name="permlab_backgroundCamera" msgid="7549917926079731681">"Acquisizione di foto e video in background"</string>
+    <string name="permdesc_backgroundCamera" msgid="1615291686191138250">"Questa app può scattare foto e registrare video tramite la fotocamera in qualsiasi momento."</string>
     <string name="permlab_systemCamera" msgid="3642917457796210580">"Consenti a un\'applicazione o a un servizio di accedere alle videocamere del sistema per fare foto e video"</string>
     <string name="permdesc_systemCamera" msgid="5938360914419175986">"Questa app di sistema o con privilegi può scattare foto e registrare video tramite una videocamera di sistema in qualsiasi momento. Richiede che anche l\'app disponga dell\'autorizzazione android.permission.CAMERA"</string>
     <string name="permlab_cameraOpenCloseListener" msgid="5548732769068109315">"Consenti a un\'applicazione o a un servizio di ricevere callback relativi all\'apertura o alla chiusura di videocamere."</string>
@@ -542,6 +557,7 @@
     <string name="biometric_not_recognized" msgid="5106687642694635888">"Non riconosciuto"</string>
     <string name="biometric_error_canceled" msgid="8266582404844179778">"Autenticazione annullata"</string>
     <string name="biometric_error_device_not_secured" msgid="3129845065043995924">"Non hai impostato PIN, sequenza o password"</string>
+    <string name="biometric_error_generic" msgid="6784371929985434439">"Errore durante l\'autenticazione"</string>
     <string name="fingerprint_acquired_partial" msgid="8532380671091299342">"Rilevata impronta parziale. Riprova."</string>
     <string name="fingerprint_acquired_insufficient" msgid="2545149524031515411">"Impossibile elaborare l\'impronta. Riprova."</string>
     <string name="fingerprint_acquired_imager_dirty" msgid="4694800187151533990">"Il sensore di impronte è sporco. Puliscilo e riprova."</string>
@@ -829,7 +845,7 @@
     <string name="lockscreen_instructions_when_pattern_enabled" msgid="7982445492532123308">"Premi Menu per sbloccare o effettuare chiamate di emergenza."</string>
     <string name="lockscreen_instructions_when_pattern_disabled" msgid="7434061749374801753">"Premi Menu per sbloccare."</string>
     <string name="lockscreen_pattern_instructions" msgid="3169991838169244941">"Traccia la sequenza di sblocco"</string>
-    <string name="lockscreen_emergency_call" msgid="7500692654885445299">"Emergenza"</string>
+    <string name="lockscreen_emergency_call" msgid="7549683825868928636">"Chiamata di emergenza"</string>
     <string name="lockscreen_return_to_call" msgid="3156883574692006382">"Torna a chiamata"</string>
     <string name="lockscreen_pattern_correct" msgid="8050630103651508582">"Corretta."</string>
     <string name="lockscreen_pattern_wrong" msgid="2940138714468358458">"Riprova"</string>
@@ -1122,6 +1138,8 @@
     <string name="capital_off" msgid="7443704171014626777">"OFF"</string>
     <string name="checked" msgid="9179896827054513119">"selezionato"</string>
     <string name="not_checked" msgid="7972320087569023342">"deselezionato"</string>
+    <string name="selected" msgid="6614607926197755875">"selezionato"</string>
+    <string name="not_selected" msgid="410652016565864475">"non selezionato"</string>
     <string name="whichApplication" msgid="5432266899591255759">"Completa l\'azione con"</string>
     <string name="whichApplicationNamed" msgid="6969946041713975681">"Completamento azione con %1$s"</string>
     <string name="whichApplicationLabel" msgid="7852182961472531728">"Completa azione"</string>
@@ -1231,7 +1249,7 @@
     <string name="volume_icon_description_notification" msgid="579091344110747279">"Volume notifiche"</string>
     <string name="ringtone_default" msgid="9118299121288174597">"Suoneria predefinita"</string>
     <string name="ringtone_default_with_actual" msgid="2709686194556159773">"Predefinita (<xliff:g id="ACTUAL_RINGTONE">%1$s</xliff:g>)"</string>
-    <string name="ringtone_silent" msgid="397111123930141876">"Nessuna"</string>
+    <string name="ringtone_silent" msgid="397111123930141876">"Nessuno"</string>
     <string name="ringtone_picker_title" msgid="667342618626068253">"Suonerie"</string>
     <string name="ringtone_picker_title_alarm" msgid="7438934548339024767">"Suoni delle sveglie"</string>
     <string name="ringtone_picker_title_notification" msgid="6387191794719608122">"Suoni di notifica"</string>
@@ -1441,7 +1459,7 @@
     <string name="car_mode_disable_notification_message" msgid="8954550232288567515">"Tocca per uscire dall\'app di guida."</string>
     <string name="back_button_label" msgid="4078224038025043387">"Indietro"</string>
     <string name="next_button_label" msgid="6040209156399907780">"Avanti"</string>
-    <string name="skip_button_label" msgid="3566599811326688389">"Ignora"</string>
+    <string name="skip_button_label" msgid="3566599811326688389">"Salta"</string>
     <string name="no_matches" msgid="6472699895759164599">"Nessuna corrispondenza"</string>
     <string name="find_on_page" msgid="5400537367077438198">"Trova nella pagina"</string>
     <plurals name="matches_found" formatted="false" msgid="1101758718194295554">
@@ -1460,9 +1478,6 @@
     <string name="gpsNotifMessage" msgid="7346649122793758032">"Richiesto da <xliff:g id="NAME">%1$s</xliff:g> (<xliff:g id="SERVICE">%2$s</xliff:g>)"</string>
     <string name="gpsVerifYes" msgid="3719843080744112940">"Sì"</string>
     <string name="gpsVerifNo" msgid="1671201856091564741">"No"</string>
-    <string name="gnss_nfw_notification_title" msgid="5004493772059563423">"Posizione usata durante un\'emergenza"</string>
-    <string name="gnss_nfw_notification_message_oem" msgid="3683958907027107969">"Il produttore del dispositivo ha usato la tua posizione durante una recente sessione di emergenza"</string>
-    <string name="gnss_nfw_notification_message_carrier" msgid="815888995791562151">"L\'operatore ha usato la tua posizione durante una recente sessione di emergenza"</string>
     <string name="sync_too_many_deletes" msgid="6999440774578705300">"Limite di eliminazioni superato"</string>
     <string name="sync_too_many_deletes_desc" msgid="7409327940303504440">"Ci sono <xliff:g id="NUMBER_OF_DELETED_ITEMS">%1$d</xliff:g> elementi eliminati per <xliff:g id="TYPE_OF_SYNC">%2$s</xliff:g>, account <xliff:g id="ACCOUNT_NAME">%3$s</xliff:g> . Come vuoi procedere?"</string>
     <string name="sync_really_delete" msgid="5657871730315579051">"Elimina gli elementi"</string>
@@ -1622,10 +1637,10 @@
     <string name="safe_media_volume_warning" product="default" msgid="3751676824423049994">"Vuoi aumentare il volume oltre il livello consigliato?\n\nL\'ascolto ad alto volume per lunghi periodi di tempo potrebbe danneggiare l\'udito."</string>
     <string name="accessibility_shortcut_warning_dialog_title" msgid="4017995837692622933">"Usare la scorciatoia Accessibilità?"</string>
     <string name="accessibility_shortcut_toogle_warning" msgid="4161716521310929544">"Quando la scorciatoia è attiva, puoi premere entrambi i pulsanti del volume per tre secondi per avviare una funzione di accessibilità."</string>
-    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="8417489297036013065">"Attivare le funzioni di accessibilità?"</string>
+    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="3135860819356676426">"Vuoi attivare la scorciatoia per le funzioni di accessibilità?"</string>
     <string name="accessibility_shortcut_multiple_service_warning" msgid="3740723309483706911">"Se tieni premuti entrambi i tasti del volume per qualche secondo, vengono attivate le funzioni di accessibilità. Questa operazione potrebbe modificare il funzionamento del dispositivo.\n\nFunzioni correnti:\n<xliff:g id="SERVICE">%1$s</xliff:g>\nPuoi modificare le funzioni selezionate in Impostazioni &gt; Accessibilità."</string>
     <string name="accessibility_shortcut_multiple_service_list" msgid="6935581470716541531">"	• <xliff:g id="SERVICE">%1$s</xliff:g>\n"</string>
-    <string name="accessibility_shortcut_single_service_warning_title" msgid="2819109500943271385">"Attivare <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <string name="accessibility_shortcut_single_service_warning_title" msgid="1909518473488345266">"Vuoi attivare la scorciatoia per <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="accessibility_shortcut_single_service_warning" msgid="6363127705112844257">"Se tieni premuti entrambi i tasti del volume per qualche secondo verrà attivata la funzione di accessibilità <xliff:g id="SERVICE">%1$s</xliff:g>. Questa operazione potrebbe modificare il funzionamento del dispositivo.\n\nPuoi associare questa scorciatoia a un\'altra funzionalità in Impostazioni &gt; Accessibilità."</string>
     <string name="accessibility_shortcut_on" msgid="5463618449556111344">"Attiva"</string>
     <string name="accessibility_shortcut_off" msgid="3651336255403648739">"Non attivare"</string>
@@ -1792,8 +1807,8 @@
     <string name="package_updated_device_owner" msgid="7560272363805506941">"Aggiornato dall\'amministratore"</string>
     <string name="package_deleted_device_owner" msgid="2292335928930293023">"Eliminato dall\'amministratore"</string>
     <string name="confirm_battery_saver" msgid="5247976246208245754">"OK"</string>
-    <string name="battery_saver_description_with_learn_more" msgid="5997766757551917769">"Per estendere la durata della batteria, la funzionalità di risparmio energetico:\n\n•Attiva il tema scuro\n•Disattiva o limita le attività in background, alcuni effetti visivi e altre funzionalità come \"Ok Google\"\n\n"<annotation id="url">"Ulteriori informazioni"</annotation></string>
-    <string name="battery_saver_description" msgid="8587408568232177204">"Per estendere la durata della batteria, la funzionalità di risparmio energetico:\n\n•Attiva il tema scuro\n•Disattiva o limita le attività in background, alcuni effetti visivi e altre funzionalità come \"Ok Google\""</string>
+    <string name="battery_saver_description_with_learn_more" msgid="4424488535318105801">"Per estendere la durata della batteria, la funzionalità di risparmio energetico:\n\n• Attiva il tema scuro\n• Disattiva o limita le attività in background, alcuni effetti visivi e altre funzionalità come \"Hey Google\"\n\n"<annotation id="url">"Scopri di più"</annotation></string>
+    <string name="battery_saver_description" msgid="6794188153647295212">"Per estendere la durata della batteria, la funzionalità di risparmio energetico:\n\n• Attiva il tema scuro\n• Disattiva o limita le attività in background, alcuni effetti visivi e altre funzionalità come \"Hey Google\""</string>
     <string name="data_saver_description" msgid="4995164271550590517">"Per contribuire a ridurre l\'utilizzo dei dati, la funzione Risparmio dati impedisce ad alcune app di inviare o ricevere dati in background. Un\'app in uso può accedere ai dati, ma potrebbe farlo con meno frequenza. Esempio: le immagini non vengono visualizzate finché non le tocchi."</string>
     <string name="data_saver_enable_title" msgid="7080620065745260137">"Attivare Risparmio dati?"</string>
     <string name="data_saver_enable_button" msgid="4399405762586419726">"Attiva"</string>
@@ -1829,6 +1844,7 @@
       <item quantity="other">Per %d ore</item>
       <item quantity="one">Per 1 ora</item>
     </plurals>
+    <string name="zen_mode_until_next_day" msgid="1403042784161725038">"Fino a: <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_until" msgid="2250286190237669079">"Fino a <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_alarm" msgid="7046911727540499275">"Fino a <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> (prossima sveglia)"</string>
     <string name="zen_mode_forever" msgid="740585666364912448">"Fino alla disattivazione"</string>
@@ -1937,7 +1953,7 @@
       <item quantity="one">Un suggerimento di Compilazione automatica</item>
     </plurals>
     <string name="autofill_save_title" msgid="7719802414283739775">"Vuoi salvare su "<b>"<xliff:g id="LABEL">%1$s</xliff:g>"</b>"?"</string>
-    <string name="autofill_save_title_with_type" msgid="3002460014579799605">"Vuoi salvare <xliff:g id="TYPE">%1$s</xliff:g> su "<b>"<xliff:g id="LABEL">%2$s</xliff:g>"</b>"?"</string>
+    <string name="autofill_save_title_with_type" msgid="3002460014579799605">"Vuoi salvare la <xliff:g id="TYPE">%1$s</xliff:g> su "<b>"<xliff:g id="LABEL">%2$s</xliff:g>"</b>"?"</string>
     <string name="autofill_save_title_with_2types" msgid="3783270967447869241">"Vuoi salvare <xliff:g id="TYPE_0">%1$s</xliff:g> e <xliff:g id="TYPE_1">%2$s</xliff:g> su "<b>"<xliff:g id="LABEL">%3$s</xliff:g>"</b>"?"</string>
     <string name="autofill_save_title_with_3types" msgid="6598228952100102578">"Vuoi salvare <xliff:g id="TYPE_0">%1$s</xliff:g>, <xliff:g id="TYPE_1">%2$s</xliff:g> e <xliff:g id="TYPE_2">%3$s</xliff:g> su "<b>"<xliff:g id="LABEL">%4$s</xliff:g>"</b>"?"</string>
     <string name="autofill_update_title" msgid="3630695947047069136">"Vuoi aggiornare su "<b>"<xliff:g id="LABEL">%1$s</xliff:g>"</b>"?"</string>
@@ -1997,6 +2013,11 @@
     <string name="notification_appops_camera_active" msgid="8177643089272352083">"Fotocamera"</string>
     <string name="notification_appops_microphone_active" msgid="581333393214739332">"Microfono"</string>
     <string name="notification_appops_overlay_active" msgid="5571732753262836481">"si sovrappone ad altre app sullo schermo"</string>
+    <string name="notification_feedback_indicator" msgid="663476517711323016">"Fornisci feedback"</string>
+    <string name="notification_feedback_indicator_alerted" msgid="6552871804121942099">"Questa notifica è stata promossa a Predefinita. Tocca per dare un feedback."</string>
+    <string name="notification_feedback_indicator_silenced" msgid="3799442124723177262">"Questa notifica è stata retrocessa a Silenziosa. Tocca per dare un feedback."</string>
+    <string name="notification_feedback_indicator_promoted" msgid="9030204303764698640">"Questa notifica è stata posizionata più in alto. Tocca per dare un feedback."</string>
+    <string name="notification_feedback_indicator_demoted" msgid="8880309924296450875">"Questa notifica è stata posizionata più in basso. Tocca per dare un feedback."</string>
     <string name="dynamic_mode_notification_channel_name" msgid="2986926422100223328">"Notifica di informazioni sulla modalità Routine"</string>
     <string name="dynamic_mode_notification_title" msgid="9205715501274608016">"La batteria potrebbe esaurirsi prima della ricarica abituale"</string>
     <string name="dynamic_mode_notification_summary" msgid="4141614604437372157">"Risparmio energetico attivo per far durare di più la batteria"</string>
@@ -2180,4 +2201,16 @@
     <string name="config_pdp_reject_user_authentication_failed" msgid="4531693033885744689"></string>
     <string name="config_pdp_reject_service_not_subscribed" msgid="8190338397128671588"></string>
     <string name="config_pdp_reject_multi_conn_to_same_pdn_not_allowed" msgid="6024904218067254186"></string>
+    <string name="window_magnification_prompt_title" msgid="8197528399699536320">"Novità: Ingrandimento finestra"</string>
+    <string name="window_magnification_prompt_content" msgid="4166711383253283838">"Puoi ingrandire lo schermo in parte o per intero"</string>
+    <string name="turn_on_magnification_settings_action" msgid="8521433346684847700">"Attiva nelle Impostazioni"</string>
+    <string name="dismiss_action" msgid="1728820550388704784">"Ignora"</string>
+    <!-- no translation found for sensor_privacy_start_use_mic_notification_content (8063355861118105607) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_camera_notification_content (4738005643315863736) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_dialog_turn_on_button (7921147002346108119) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_notification_channel_label (936036783155261349) -->
+    <skip />
 </resources>
