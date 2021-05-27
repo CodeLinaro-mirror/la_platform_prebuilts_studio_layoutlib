@@ -57,7 +57,7 @@
     <string name="imei" msgid="2157082351232630390">"IMEI"</string>
     <string name="meid" msgid="3291227361605924674">"MEID"</string>
     <string name="ClipMmi" msgid="4110549342447630629">"ID de emisor de llamada entrante"</string>
-    <string name="ClirMmi" msgid="4702929460236547156">"ID de emisor de llamada saliente"</string>
+    <string name="ClirMmi" msgid="6752346475055446417">"Ocultar ID de las llamadas salientes"</string>
     <string name="ColpMmi" msgid="4736462893284419302">"ID de línea conectada"</string>
     <string name="ColrMmi" msgid="5889782479745764278">"Restricción de ID de línea conectada"</string>
     <string name="CfMmi" msgid="8390012691099787178">"Desvío de llamadas"</string>
@@ -146,6 +146,9 @@
     <string name="wfc_mode_wifi_preferred_summary" msgid="1035175836270943089">"Llamar a través de la red Wi‑Fi"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="4958965609212575619">"Llamar a través de la red móvil"</string>
     <string name="wfc_mode_wifi_only_summary" msgid="104951993894678665">"Solo Wi-Fi"</string>
+    <!-- no translation found for crossSimFormat_spn (9125246077491634262) -->
+    <skip />
+    <string name="crossSimFormat_spn_cross_sim_calling" msgid="779976494687695991">"Llamadas entre tarjetas SIM de <xliff:g id="SPN">%s</xliff:g>"</string>
     <string name="cfTemplateNotForwarded" msgid="862202427794270501">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: No desviada"</string>
     <string name="cfTemplateForwarded" msgid="9132506315842157860">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
     <string name="cfTemplateForwardedTime" msgid="735042369233323609">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g> transcurridos <xliff:g id="TIME_DELAY">{2}</xliff:g> segundos"</string>
@@ -193,10 +196,15 @@
     <string name="network_logging_notification_text" msgid="1327373071132562512">"Tu organización administra este dispositivo y puede supervisar el tráfico de red. Toca la notificación para obtener más información."</string>
     <string name="location_changed_notification_title" msgid="3620158742816699316">"Las aplicaciones pueden acceder a tu ubicación"</string>
     <string name="location_changed_notification_text" msgid="7158423339982706912">"Contacta con tu admin. de TI para más información"</string>
+    <string name="geofencing_service" msgid="3826902410740315456">"Servicio de geoperimetraje"</string>
     <string name="country_detector" msgid="7023275114706088854">"Detector de país"</string>
     <string name="location_service" msgid="2439187616018455546">"Servicio de ubicación"</string>
+    <string name="gnss_service" msgid="8907781262179951385">"Servicio GNSS"</string>
     <string name="sensor_notification_service" msgid="7474531979178682676">"Servicio de notificación de sensor"</string>
     <string name="twilight_service" msgid="8964898045693187224">"Servicio de Twilight"</string>
+    <string name="offline_location_time_zone_detection_service_attribution" msgid="303754195048744816">"Detector de zona horaria (sin conexión)"</string>
+    <!-- no translation found for gnss_time_update_service (9039489496037616095) -->
+    <skip />
     <string name="factory_reset_warning" msgid="6858705527798047809">"Tu dispositivo se borrará"</string>
     <string name="factory_reset_message" msgid="2657049595153992213">"No se puede utilizar la aplicación de administración. Se borrarán todos los datos del dispositivo.\n\nSi tienes alguna pregunta, ponte en contacto con el administrador de tu organización."</string>
     <string name="printing_disabled_by" msgid="3517499806528864633">"<xliff:g id="OWNER_APP">%s</xliff:g> ha inhabilitado la impresión."</string>
@@ -285,6 +293,7 @@
     <string name="notification_channel_usb" msgid="1528280969406244896">"Conexión USB"</string>
     <string name="notification_channel_heavy_weight_app" msgid="17455756500828043">"Aplicación en ejecución"</string>
     <string name="notification_channel_foreground_service" msgid="7102189948158885178">"Aplicaciones que consumen batería"</string>
+    <string name="notification_channel_accessibility_magnification" msgid="1707913872219798098">"Ampliación"</string>
     <string name="foreground_service_app_in_background" msgid="1439289699671273555">"<xliff:g id="APP_NAME">%1$s</xliff:g> está usando la batería"</string>
     <string name="foreground_service_apps_in_background" msgid="7340037176412387863">"<xliff:g id="NUMBER">%1$d</xliff:g> aplicaciones están usando la batería"</string>
     <string name="foreground_service_tap_for_details" msgid="9078123626015586751">"Toca para ver información detallada sobre el uso de datos y de la batería"</string>
@@ -325,7 +334,7 @@
     <string name="capability_desc_canControlMagnification" msgid="2206586716709254805">"Controla el posicionamiento y el nivel de zoom de la pantalla."</string>
     <string name="capability_title_canPerformGestures" msgid="9106545062106728987">"Realizar gestos"</string>
     <string name="capability_desc_canPerformGestures" msgid="6619457251067929726">"Puedes tocar y pellizcar la pantalla, deslizar el dedo y hacer otros gestos."</string>
-    <string name="capability_title_canCaptureFingerprintGestures" msgid="1189053104594608091">"Gestos de huellas digitales"</string>
+    <string name="capability_title_canCaptureFingerprintGestures" msgid="1189053104594608091">"Gestos de huella digital"</string>
     <string name="capability_desc_canCaptureFingerprintGestures" msgid="6861869337457461274">"Puede capturar los gestos realizados en el sensor de huellas digitales del dispositivo."</string>
     <string name="capability_title_canTakeScreenshot" msgid="3895812893130071930">"Hacer captura"</string>
     <string name="capability_desc_canTakeScreenshot" msgid="7762297374317934052">"Puede hacer capturas de la pantalla."</string>
@@ -349,6 +358,8 @@
     <string name="permdesc_receiveMms" msgid="958102423732219710">"Permite que la aplicación reciba y procese mensajes MMS, lo que significa que podría utilizar este permiso para controlar o eliminar mensajes enviados al dispositivo sin mostrárselos al usuario."</string>
     <string name="permlab_bindCellBroadcastService" msgid="586746677002040651">"Reenviar mensajes de difusión móvil"</string>
     <string name="permdesc_bindCellBroadcastService" msgid="6540910200973641606">"Permite que la aplicación se vincule con el módulo de difusión móvil para reenviar los mensajes de ese tipo en cuanto se reciben. En ciertas ubicaciones se envían alertas de difusión móvil para avisar de situaciones de emergencia. Cuando se recibe una alerta de difusión móvil de emergencia, ciertas aplicaciones malintencionadas podrían interferir en el rendimiento o en el funcionamiento del dispositivo."</string>
+    <string name="permlab_manageOngoingCalls" msgid="281244770664231782">"Gestionar llamadas en curso"</string>
+    <string name="permdesc_manageOngoingCalls" msgid="7003138133829915265">"Permite que una aplicación consulte datos de llamadas que estén en curso en tu dispositivo y controle esas llamadas."</string>
     <string name="permlab_readCellBroadcasts" msgid="5869884450872137693">"leer mensajes de difusión móvil"</string>
     <string name="permdesc_readCellBroadcasts" msgid="672513437331980168">"Permite que la aplicación lea mensajes de difusión móvil que haya recibido el dispositivo. Las alertas de difusión móvil se envían en algunas ubicaciones para avisar de situaciones de emergencia. Es posible que las aplicaciones malintencionadas interfieran en el rendimiento o en el funcionamiento del dispositivo si se recibe una alerta de difusión móvil de emergencia."</string>
     <string name="permlab_subscribedFeedsRead" msgid="217624769238425461">"leer feeds a los que está suscrito el usuario"</string>
@@ -430,13 +441,17 @@
     <string name="permlab_modifyAudioSettings" msgid="6129039778010031815">"cambiar la configuración de audio"</string>
     <string name="permdesc_modifyAudioSettings" msgid="8687227609663124921">"Permite que la aplicación modifique la configuración de audio global (por ejemplo, el volumen y el altavoz de salida)."</string>
     <string name="permlab_recordAudio" msgid="1208457423054219147">"grabar sonido"</string>
-    <string name="permdesc_recordAudio" msgid="3976213377904701093">"Esta aplicación puede grabar audio con el micrófono en cualquier momento."</string>
+    <string name="permdesc_recordAudio" msgid="5857246765327514062">"Esta aplicación puede grabar audio con el micrófono mientras la estés usando."</string>
+    <string name="permlab_recordBackgroundAudio" msgid="5891032812308878254">"Grabar audio en segundo plano"</string>
+    <string name="permdesc_recordBackgroundAudio" msgid="1992623135737407516">"Esta aplicación puede grabar audio con el micrófono en cualquier momento."</string>
     <string name="permlab_sim_communication" msgid="176788115994050692">"enviar comandos a la tarjeta SIM"</string>
     <string name="permdesc_sim_communication" msgid="4179799296415957960">"Permite que la aplicación envíe comandos a la tarjeta SIM. Este permiso es muy peligroso."</string>
     <string name="permlab_activityRecognition" msgid="1782303296053990884">"reconocer actividad física"</string>
     <string name="permdesc_activityRecognition" msgid="8667484762991357519">"Esta aplicación puede reconocer tu actividad física."</string>
     <string name="permlab_camera" msgid="6320282492904119413">"realizar fotografías y vídeos"</string>
-    <string name="permdesc_camera" msgid="1354600178048761499">"Esta aplicación puede hacer fotografías y grabar vídeos con la cámara en cualquier momento."</string>
+    <string name="permdesc_camera" msgid="5240801376168647151">"Esta aplicación puede hacer fotografías y grabar vídeos con la cámara mientras la estés usando."</string>
+    <string name="permlab_backgroundCamera" msgid="7549917926079731681">"Hacer fotografías y grabar vídeos en segundo plano"</string>
+    <string name="permdesc_backgroundCamera" msgid="1615291686191138250">"Esta aplicación puede hacer fotografías y grabar vídeos con la cámara en cualquier momento."</string>
     <string name="permlab_systemCamera" msgid="3642917457796210580">"Permitir que una aplicación o servicio acceda a las cámaras del sistema para hacer fotos y vídeos"</string>
     <string name="permdesc_systemCamera" msgid="5938360914419175986">"Esta aplicación del sistema o con privilegios puede hacer fotos y grabar vídeos en cualquier momento con una cámara del sistema, aunque debe tener también el permiso android.permission.CAMERA para hacerlo"</string>
     <string name="permlab_cameraOpenCloseListener" msgid="5548732769068109315">"Permitir que una aplicación o servicio reciba retrollamadas cada vez que se abra o cierre una cámara."</string>
@@ -542,6 +557,7 @@
     <string name="biometric_not_recognized" msgid="5106687642694635888">"No se reconoce"</string>
     <string name="biometric_error_canceled" msgid="8266582404844179778">"Autenticación cancelada"</string>
     <string name="biometric_error_device_not_secured" msgid="3129845065043995924">"No se ha definido el PIN, el patrón o la contraseña"</string>
+    <string name="biometric_error_generic" msgid="6784371929985434439">"No se ha podido autenticar"</string>
     <string name="fingerprint_acquired_partial" msgid="8532380671091299342">"Se ha detectado una huella digital parcial. Vuelve a intentarlo."</string>
     <string name="fingerprint_acquired_insufficient" msgid="2545149524031515411">"No se ha podido procesar la huella digital. Vuelve a intentarlo."</string>
     <string name="fingerprint_acquired_imager_dirty" msgid="4694800187151533990">"El sensor de huellas digitales está sucio. Límpialo y vuelve a intentarlo."</string>
@@ -823,13 +839,13 @@
     <string name="keyguard_password_enter_pin_password_code" msgid="7792964196473964340">"Introduce el código PIN para desbloquear."</string>
     <string name="keyguard_password_wrong_pin_code" msgid="8583732939138432793">"Código PIN incorrecto"</string>
     <string name="keyguard_label_text" msgid="3841953694564168384">"Para desbloquear el teléfono, pulsa la tecla de menú y, a continuación, pulsa 0."</string>
-    <string name="emergency_call_dialog_number_for_display" msgid="2978165477085612673">"Llamada de emergencia"</string>
+    <string name="emergency_call_dialog_number_for_display" msgid="2978165477085612673">"Número de emergencia"</string>
     <string name="lockscreen_carrier_default" msgid="6192313772955399160">"Sin servicio"</string>
     <string name="lockscreen_screen_locked" msgid="7364905540516041817">"Pantalla bloqueada"</string>
     <string name="lockscreen_instructions_when_pattern_enabled" msgid="7982445492532123308">"Pulsa la tecla de menú para desbloquear el teléfono o realizar una llamada de emergencia."</string>
     <string name="lockscreen_instructions_when_pattern_disabled" msgid="7434061749374801753">"Pulsa la tecla de menú para desbloquear la pantalla."</string>
     <string name="lockscreen_pattern_instructions" msgid="3169991838169244941">"Dibujar patrón de desbloqueo"</string>
-    <string name="lockscreen_emergency_call" msgid="7500692654885445299">"Emergencia"</string>
+    <string name="lockscreen_emergency_call" msgid="7549683825868928636">"Llamada de emergencia"</string>
     <string name="lockscreen_return_to_call" msgid="3156883574692006382">"Volver a llamada"</string>
     <string name="lockscreen_pattern_correct" msgid="8050630103651508582">"Correcto"</string>
     <string name="lockscreen_pattern_wrong" msgid="2940138714468358458">"Vuelve a intentarlo"</string>
@@ -1122,6 +1138,8 @@
     <string name="capital_off" msgid="7443704171014626777">"DESACTIVADO"</string>
     <string name="checked" msgid="9179896827054513119">"seleccionado"</string>
     <string name="not_checked" msgid="7972320087569023342">"no seleccionado"</string>
+    <string name="selected" msgid="6614607926197755875">"seleccionado"</string>
+    <string name="not_selected" msgid="410652016565864475">"no seleccionado"</string>
     <string name="whichApplication" msgid="5432266899591255759">"Completar acción utilizando"</string>
     <string name="whichApplicationNamed" msgid="6969946041713975681">"Completar acción con %1$s"</string>
     <string name="whichApplicationLabel" msgid="7852182961472531728">"Completar acción"</string>
@@ -1460,9 +1478,6 @@
     <string name="gpsNotifMessage" msgid="7346649122793758032">"Solicitud enviada por <xliff:g id="NAME">%1$s</xliff:g> (<xliff:g id="SERVICE">%2$s</xliff:g>)"</string>
     <string name="gpsVerifYes" msgid="3719843080744112940">"Sí"</string>
     <string name="gpsVerifNo" msgid="1671201856091564741">"No"</string>
-    <string name="gnss_nfw_notification_title" msgid="5004493772059563423">"Ubicación consultada durante emergencia"</string>
-    <string name="gnss_nfw_notification_message_oem" msgid="3683958907027107969">"El fabricante de tu dispositivo ha consultado tu ubicación durante una sesión de emergencia reciente"</string>
-    <string name="gnss_nfw_notification_message_carrier" msgid="815888995791562151">"Tu operador ha consultado tu ubicación durante una sesión de emergencia reciente"</string>
     <string name="sync_too_many_deletes" msgid="6999440774578705300">"Se ha superado el límite de eliminaciones."</string>
     <string name="sync_too_many_deletes_desc" msgid="7409327940303504440">"Hay <xliff:g id="NUMBER_OF_DELETED_ITEMS">%1$d</xliff:g> elementos eliminados para <xliff:g id="TYPE_OF_SYNC">%2$s</xliff:g> (cuenta <xliff:g id="ACCOUNT_NAME">%3$s</xliff:g>). ¿Qué quieres hacer?"</string>
     <string name="sync_really_delete" msgid="5657871730315579051">"Eliminar elementos"</string>
@@ -1622,14 +1637,14 @@
     <string name="safe_media_volume_warning" product="default" msgid="3751676824423049994">"¿Quieres subir el volumen por encima del nivel recomendado?\n\nEscuchar sonidos fuertes durante mucho tiempo puede dañar los oídos."</string>
     <string name="accessibility_shortcut_warning_dialog_title" msgid="4017995837692622933">"¿Utilizar acceso directo de accesibilidad?"</string>
     <string name="accessibility_shortcut_toogle_warning" msgid="4161716521310929544">"Si el acceso directo está activado, pulsa los dos botones de volumen durante 3 segundos para iniciar una función de accesibilidad."</string>
-    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="8417489297036013065">"¿Activar funciones de accesibilidad?"</string>
+    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="3135860819356676426">"¿Quieres activar el acceso directo a las funciones de accesibilidad?"</string>
     <string name="accessibility_shortcut_multiple_service_warning" msgid="3740723309483706911">"Al mantener pulsadas las dos teclas de volumen durante unos segundos, se activan las funciones de accesibilidad, que pueden cambiar el funcionamiento del dispositivo.\n\nFunciones actuales:\n<xliff:g id="SERVICE">%1$s</xliff:g>\nPuedes cambiar las funciones seleccionadas en Ajustes &gt; Accesibilidad."</string>
     <string name="accessibility_shortcut_multiple_service_list" msgid="6935581470716541531">"	• <xliff:g id="SERVICE">%1$s</xliff:g>\n"</string>
-    <string name="accessibility_shortcut_single_service_warning_title" msgid="2819109500943271385">"¿Quieres activar <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <string name="accessibility_shortcut_single_service_warning_title" msgid="1909518473488345266">"¿Quieres activar el acceso directo a <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="accessibility_shortcut_single_service_warning" msgid="6363127705112844257">"Al mantener pulsadas ambas teclas de volumen durante unos segundos se activa <xliff:g id="SERVICE">%1$s</xliff:g>, una función de accesibilidad. Esta función puede modificar el funcionamiento del dispositivo.\n\nPuedes asignar este acceso directo a otra función en Ajustes &gt; Accesibilidad."</string>
     <string name="accessibility_shortcut_on" msgid="5463618449556111344">"Activar"</string>
     <string name="accessibility_shortcut_off" msgid="3651336255403648739">"No activar"</string>
-    <string name="accessibility_shortcut_menu_item_status_on" msgid="6608392117189732543">"SÍ"</string>
+    <string name="accessibility_shortcut_menu_item_status_on" msgid="6608392117189732543">"ACTIVADO"</string>
     <string name="accessibility_shortcut_menu_item_status_off" msgid="5531598275559472393">"NO"</string>
     <string name="accessibility_enable_service_title" msgid="3931558336268541484">"¿Permitir que <xliff:g id="SERVICE">%1$s</xliff:g> pueda controlar totalmente tu dispositivo?"</string>
     <string name="accessibility_enable_service_encryption_warning" msgid="8603532708618236909">"Si activas <xliff:g id="SERVICE">%1$s</xliff:g>, el dispositivo no utilizará el bloqueo de pantalla para mejorar el cifrado de datos."</string>
@@ -1770,7 +1785,7 @@
       <item quantity="other">Vuelve a intentarlo en <xliff:g id="COUNT">%d</xliff:g> segundos</item>
       <item quantity="one">Vuelve a intentarlo en 1 segundo</item>
     </plurals>
-    <string name="restr_pin_try_later" msgid="5897719962541636727">"Volver a intentar más tarde"</string>
+    <string name="restr_pin_try_later" msgid="5897719962541636727">"Reintentar más tarde"</string>
     <string name="immersive_cling_title" msgid="2307034298721541791">"Modo de pantalla completa"</string>
     <string name="immersive_cling_description" msgid="7092737175345204832">"Para salir, desliza el dedo de arriba abajo."</string>
     <string name="immersive_cling_positive" msgid="7047498036346489883">"Entendido"</string>
@@ -1792,8 +1807,8 @@
     <string name="package_updated_device_owner" msgid="7560272363805506941">"Actualizado por el administrador"</string>
     <string name="package_deleted_device_owner" msgid="2292335928930293023">"Eliminado por el administrador"</string>
     <string name="confirm_battery_saver" msgid="5247976246208245754">"Aceptar"</string>
-    <string name="battery_saver_description_with_learn_more" msgid="5997766757551917769">"Para que la batería dure más, el modo Ahorro de batería hace lo siguiente:\n\n• Activa el tema oscuro\n•Desactiva o restringe actividad en segundo plano, algunos efectos visuales y otras funciones como \"Ok Google\"\n\n"<annotation id="url">"Más información"</annotation></string>
-    <string name="battery_saver_description" msgid="8587408568232177204">"Para que la batería dure más, el modo Ahorro de batería hace lo siguiente:\n\n• Activa el tema oscuro\n• Desactiva o restringe actividad en segundo plano, algunos efectos visuales y otras funciones como \"Ok Google\""</string>
+    <string name="battery_saver_description_with_learn_more" msgid="4424488535318105801">"Para que la batería dure más, Ahorro de batería hace lo siguiente:\n\n• Activa el tema oscuro.\n• Desactiva o restringe la actividad en segundo plano, algunos efectos visuales y otras funciones, como \"Ok Google\".\n\n"<annotation id="url">"Más información"</annotation></string>
+    <string name="battery_saver_description" msgid="6794188153647295212">"Para que la batería dure más, Ahorro de batería hace lo siguiente:\n\n• Activa el tema oscuro.\n• Desactiva o restringe la actividad en segundo plano, algunos efectos visuales y otras funciones, como \"Ok Google\"."</string>
     <string name="data_saver_description" msgid="4995164271550590517">"El modo Ahorro de datos evita que algunas aplicaciones envíen o reciban datos en segundo plano, lo que puede reducir el uso de datos. Una aplicación activa puede acceder a los datos, aunque con menos frecuencia. Esto significa que es posible que, por ejemplo, algunas imágenes no se muestren hasta que las toques."</string>
     <string name="data_saver_enable_title" msgid="7080620065745260137">"¿Activar Ahorro de datos?"</string>
     <string name="data_saver_enable_button" msgid="4399405762586419726">"Activar"</string>
@@ -1829,6 +1844,7 @@
       <item quantity="other">Durante %d horas</item>
       <item quantity="one">Durante 1 hora</item>
     </plurals>
+    <string name="zen_mode_until_next_day" msgid="1403042784161725038">"Hasta las <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_until" msgid="2250286190237669079">"Hasta <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_alarm" msgid="7046911727540499275">"Hasta las <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> (próxima alarma)"</string>
     <string name="zen_mode_forever" msgid="740585666364912448">"Hasta que lo desactives"</string>
@@ -1997,6 +2013,11 @@
     <string name="notification_appops_camera_active" msgid="8177643089272352083">"Cámara"</string>
     <string name="notification_appops_microphone_active" msgid="581333393214739332">"Micrófono"</string>
     <string name="notification_appops_overlay_active" msgid="5571732753262836481">"se muestra sobre otras aplicaciones que haya en la pantalla"</string>
+    <string name="notification_feedback_indicator" msgid="663476517711323016">"Enviar comentarios"</string>
+    <string name="notification_feedback_indicator_alerted" msgid="6552871804121942099">"La importancia de esta notificación ha aumentado a Predeterminado. Toca para enviar comentarios."</string>
+    <string name="notification_feedback_indicator_silenced" msgid="3799442124723177262">"La importancia de esta notificación ha disminuido a Silencio. Toca para enviar comentarios."</string>
+    <string name="notification_feedback_indicator_promoted" msgid="9030204303764698640">"Esta notificación aparecerá en una posición más alta. Toca para enviar comentarios."</string>
+    <string name="notification_feedback_indicator_demoted" msgid="8880309924296450875">"Esta notificación aparecerá en una posición más baja. Toca para enviar comentarios."</string>
     <string name="dynamic_mode_notification_channel_name" msgid="2986926422100223328">"Notificación sobre el modo rutina"</string>
     <string name="dynamic_mode_notification_title" msgid="9205715501274608016">"Quizás se agote la batería antes de lo habitual"</string>
     <string name="dynamic_mode_notification_summary" msgid="4141614604437372157">"Se ha activado el modo Ahorro de batería para aumentar la duración de la batería"</string>
@@ -2180,4 +2201,16 @@
     <string name="config_pdp_reject_user_authentication_failed" msgid="4531693033885744689"></string>
     <string name="config_pdp_reject_service_not_subscribed" msgid="8190338397128671588"></string>
     <string name="config_pdp_reject_multi_conn_to_same_pdn_not_allowed" msgid="6024904218067254186"></string>
+    <string name="window_magnification_prompt_title" msgid="8197528399699536320">"Nuevo: Lupa de ventanas"</string>
+    <string name="window_magnification_prompt_content" msgid="4166711383253283838">"Ahora puedes ampliar toda la pantalla o una parte"</string>
+    <string name="turn_on_magnification_settings_action" msgid="8521433346684847700">"Activar en Ajustes"</string>
+    <string name="dismiss_action" msgid="1728820550388704784">"Cerrar"</string>
+    <!-- no translation found for sensor_privacy_start_use_mic_notification_content (8063355861118105607) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_camera_notification_content (4738005643315863736) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_dialog_turn_on_button (7921147002346108119) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_notification_channel_label (936036783155261349) -->
+    <skip />
 </resources>

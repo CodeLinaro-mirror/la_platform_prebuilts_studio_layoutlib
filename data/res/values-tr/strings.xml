@@ -57,7 +57,7 @@
     <string name="imei" msgid="2157082351232630390">"IMEI"</string>
     <string name="meid" msgid="3291227361605924674">"MEID"</string>
     <string name="ClipMmi" msgid="4110549342447630629">"Gelen Çağrı Kimliği"</string>
-    <string name="ClirMmi" msgid="4702929460236547156">"Giden Çağrı Kimliği"</string>
+    <string name="ClirMmi" msgid="6752346475055446417">"Giden Arama Arayan Kimliğini Gizle"</string>
     <string name="ColpMmi" msgid="4736462893284419302">"Bağlanılan Hat Kimliği"</string>
     <string name="ColrMmi" msgid="5889782479745764278">"Bağlanılan Hat Kimliğini Kısıtlama"</string>
     <string name="CfMmi" msgid="8390012691099787178">"Çağrı yönlendirme"</string>
@@ -146,6 +146,9 @@
     <string name="wfc_mode_wifi_preferred_summary" msgid="1035175836270943089">"Kablosuz ağ üzerinden arama"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="4958965609212575619">"Mobil ağ üzerinden arama"</string>
     <string name="wfc_mode_wifi_only_summary" msgid="104951993894678665">"Yalnızca kablosuz"</string>
+    <!-- no translation found for crossSimFormat_spn (9125246077491634262) -->
+    <skip />
+    <string name="crossSimFormat_spn_cross_sim_calling" msgid="779976494687695991">"<xliff:g id="SPN">%s</xliff:g> Çapraz SIM Araması"</string>
     <string name="cfTemplateNotForwarded" msgid="862202427794270501">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: Yönlendirilmedi"</string>
     <string name="cfTemplateForwarded" msgid="9132506315842157860">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
     <string name="cfTemplateForwardedTime" msgid="735042369233323609">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="TIME_DELAY">{2}</xliff:g> saniye sonra <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
@@ -193,10 +196,15 @@
     <string name="network_logging_notification_text" msgid="1327373071132562512">"Kuruluşunuz bu cihazı yönetmekte olup ağ trafiğini izleyebilir. Ayrıntılar için dokunun."</string>
     <string name="location_changed_notification_title" msgid="3620158742816699316">"Uygulamalar konumunuza erişebilir"</string>
     <string name="location_changed_notification_text" msgid="7158423339982706912">"BT yöneticinizden daha fazla bilgi alabilirsiniz."</string>
+    <string name="geofencing_service" msgid="3826902410740315456">"Coğrafi Sınır Çizme Hizmeti"</string>
     <string name="country_detector" msgid="7023275114706088854">"Ülke Algılayıcı"</string>
     <string name="location_service" msgid="2439187616018455546">"Konum Hizmeti"</string>
+    <string name="gnss_service" msgid="8907781262179951385">"GNSS Hizmeti"</string>
     <string name="sensor_notification_service" msgid="7474531979178682676">"Sensör Bildirim Hizmeti"</string>
     <string name="twilight_service" msgid="8964898045693187224">"Alacakaranlık Hizmeti"</string>
+    <string name="offline_location_time_zone_detection_service_attribution" msgid="303754195048744816">"Zaman Dilimi Algılayıcı (Bağlantı yok)"</string>
+    <!-- no translation found for gnss_time_update_service (9039489496037616095) -->
+    <skip />
     <string name="factory_reset_warning" msgid="6858705527798047809">"Cihazınız silinecek"</string>
     <string name="factory_reset_message" msgid="2657049595153992213">"Yönetim uygulaması kullanılamıyor. Cihazınız şimdi silinecek.\n\nSorularınız varsa kuruluşunuzun yöneticisine başvurun."</string>
     <string name="printing_disabled_by" msgid="3517499806528864633">"Yazdırma işlemi <xliff:g id="OWNER_APP">%s</xliff:g> tarafından devre dışı bırakıldı."</string>
@@ -285,6 +293,7 @@
     <string name="notification_channel_usb" msgid="1528280969406244896">"USB bağlantısı"</string>
     <string name="notification_channel_heavy_weight_app" msgid="17455756500828043">"Uygulama çalışıyor"</string>
     <string name="notification_channel_foreground_service" msgid="7102189948158885178">"Pil kullanan uygulamalar"</string>
+    <string name="notification_channel_accessibility_magnification" msgid="1707913872219798098">"Büyütme"</string>
     <string name="foreground_service_app_in_background" msgid="1439289699671273555">"<xliff:g id="APP_NAME">%1$s</xliff:g> pil kullanıyor"</string>
     <string name="foreground_service_apps_in_background" msgid="7340037176412387863">"<xliff:g id="NUMBER">%1$d</xliff:g> uygulama pil kullanıyor"</string>
     <string name="foreground_service_tap_for_details" msgid="9078123626015586751">"Pil ve veri kullanımı ile ilgili ayrıntılar için dokunun"</string>
@@ -349,6 +358,8 @@
     <string name="permdesc_receiveMms" msgid="958102423732219710">"Uygulamaya MMS iletilerini alma ve işleme izni verir. Bu izin, uygulamanın cihazınıza gönderilen iletileri takip edip size göstermeden silebileceği anlamına gelir."</string>
     <string name="permlab_bindCellBroadcastService" msgid="586746677002040651">"Hücre yayını mesajlarını yönlendirme"</string>
     <string name="permdesc_bindCellBroadcastService" msgid="6540910200973641606">"Uygulamanın hücre yayını mesajları geldiğinde bunları yönlendirmek için hücre yayını modülüne bağlanmasına izin verir. Hücre yayını uyarıları bazı konumlarda acil durumlar hakkında sizi uyarmak için kullanılır. Zararlı uygulamalar acil durum hücre yayını alındığında cihazınızın performansını ve çalışmasını olumsuz etkileyebilir."</string>
+    <string name="permlab_manageOngoingCalls" msgid="281244770664231782">"Devam eden aramaları yönetme"</string>
+    <string name="permdesc_manageOngoingCalls" msgid="7003138133829915265">"Uygulamanın, cihazınızda devam eden aramalarla ilgili bilgileri görüp kontrol etmesine izin verir."</string>
     <string name="permlab_readCellBroadcasts" msgid="5869884450872137693">"hücre yayını mesajlarını oku"</string>
     <string name="permdesc_readCellBroadcasts" msgid="672513437331980168">"Uygulamaya, cihazınız tarafından alınan hücre yayını mesajlarını okuma izni verir. Hücre yayını uyarıları bazı yerlerde acil durumlar konusunda sizi uyarmak için gönderilir. Kötü amaçlı uygulamalar acil hücre yayını alındığında cihazınızın performansına ya da çalışmasına engel olabilir."</string>
     <string name="permlab_subscribedFeedsRead" msgid="217624769238425461">"abone olunan yayınları okuma"</string>
@@ -430,13 +441,17 @@
     <string name="permlab_modifyAudioSettings" msgid="6129039778010031815">"ses ayarlarınızı değiştirin"</string>
     <string name="permdesc_modifyAudioSettings" msgid="8687227609663124921">"Uygulamaya ses düzeyi ve ses çıkışı için kullanılan hoparlör gibi genel ses ayarlarını değiştirme izni verir."</string>
     <string name="permlab_recordAudio" msgid="1208457423054219147">"ses kaydet"</string>
-    <string name="permdesc_recordAudio" msgid="3976213377904701093">"Bu uygulama, istediği zaman mikrofonu kullanarak ses kaydedebilir."</string>
+    <string name="permdesc_recordAudio" msgid="5857246765327514062">"Bu uygulama, kullanıldığı sırada mikrofonu kullanarak ses kaydedebilir."</string>
+    <string name="permlab_recordBackgroundAudio" msgid="5891032812308878254">"arka planda ses kaydeder"</string>
+    <string name="permdesc_recordBackgroundAudio" msgid="1992623135737407516">"Bu uygulama, herhangi bir zaman mikrofonu kullanarak ses kaydedebilir."</string>
     <string name="permlab_sim_communication" msgid="176788115994050692">"SIM karta komut gönderme"</string>
     <string name="permdesc_sim_communication" msgid="4179799296415957960">"Uygulamanın SIM karta komut göndermesine izin verir. Bu izin çok tehlikelidir."</string>
     <string name="permlab_activityRecognition" msgid="1782303296053990884">"fiziksel aktiviteyi algıla"</string>
     <string name="permdesc_activityRecognition" msgid="8667484762991357519">"Bu uygulama fiziksel aktivitenizi algılayabilir."</string>
     <string name="permlab_camera" msgid="6320282492904119413">"resim çekme ve görüntü kaydetme"</string>
-    <string name="permdesc_camera" msgid="1354600178048761499">"Bu uygulama, herhangi bir zamanda kamerayı kullanarak fotoğraf ve video çekebilir."</string>
+    <string name="permdesc_camera" msgid="5240801376168647151">"Bu uygulama, kullanıldığı sırada kamerayı kullanarak fotoğraf ve video çekebilir."</string>
+    <string name="permlab_backgroundCamera" msgid="7549917926079731681">"arka planda resim ve video çeker"</string>
+    <string name="permdesc_backgroundCamera" msgid="1615291686191138250">"Bu uygulama, herhangi bir zaman kamerayı kullanarak fotoğraf ve video çekebilir."</string>
     <string name="permlab_systemCamera" msgid="3642917457796210580">"Bir uygulama veya hizmetin fotoğraf ve video çekmek için sistem kameralarına erişmesine izin verin"</string>
     <string name="permdesc_systemCamera" msgid="5938360914419175986">"Ayrıcalık tanınmış bu veya sistem uygulaması herhangi bir zamanda sistem kamerası kullanarak fotoğraf çekebilir ve video kaydedebilir. Uygulamanın da bu ayrıcalığa sahip olması için android.permission.CAMERA izni gerektirir"</string>
     <string name="permlab_cameraOpenCloseListener" msgid="5548732769068109315">"Bir uygulama veya hizmetin açılıp kapatılan kamera cihazları hakkında geri çağırmalar almasına izin verin."</string>
@@ -542,6 +557,7 @@
     <string name="biometric_not_recognized" msgid="5106687642694635888">"Tanınmadı"</string>
     <string name="biometric_error_canceled" msgid="8266582404844179778">"Kimlik doğrulama iptal edildi"</string>
     <string name="biometric_error_device_not_secured" msgid="3129845065043995924">"PIN, desen veya şifre seti yok"</string>
+    <string name="biometric_error_generic" msgid="6784371929985434439">"Kimlik doğrulama sırasında hata oluştu"</string>
     <string name="fingerprint_acquired_partial" msgid="8532380671091299342">"Parmak izinin tümü algılanamadı. Lütfen tekrar deneyin."</string>
     <string name="fingerprint_acquired_insufficient" msgid="2545149524031515411">"Parmak izi işlenemedi. Lütfen tekrar deneyin."</string>
     <string name="fingerprint_acquired_imager_dirty" msgid="4694800187151533990">"Parmak izi sensörü kirli. Lütfen temizleyin ve tekrar deneyin."</string>
@@ -829,7 +845,7 @@
     <string name="lockscreen_instructions_when_pattern_enabled" msgid="7982445492532123308">"Kilidi açmak veya acil çağrı yapmak için Menü\'ye basın."</string>
     <string name="lockscreen_instructions_when_pattern_disabled" msgid="7434061749374801753">"Kilidi açmak için Menü\'ye basın."</string>
     <string name="lockscreen_pattern_instructions" msgid="3169991838169244941">"Kilit açmak için deseni çizin"</string>
-    <string name="lockscreen_emergency_call" msgid="7500692654885445299">"Acil durum çağrısı"</string>
+    <string name="lockscreen_emergency_call" msgid="7549683825868928636">"Acil durum araması"</string>
     <string name="lockscreen_return_to_call" msgid="3156883574692006382">"Çağrıya dön"</string>
     <string name="lockscreen_pattern_correct" msgid="8050630103651508582">"Doğru!"</string>
     <string name="lockscreen_pattern_wrong" msgid="2940138714468358458">"Tekrar deneyin"</string>
@@ -1122,6 +1138,8 @@
     <string name="capital_off" msgid="7443704171014626777">"KAPALI"</string>
     <string name="checked" msgid="9179896827054513119">"işaretli"</string>
     <string name="not_checked" msgid="7972320087569023342">"işaretli değil"</string>
+    <string name="selected" msgid="6614607926197755875">"seçili"</string>
+    <string name="not_selected" msgid="410652016565864475">"seçili değil"</string>
     <string name="whichApplication" msgid="5432266899591255759">"İşlemi şunu kullanarak tamamla"</string>
     <string name="whichApplicationNamed" msgid="6969946041713975681">"İşlemi %1$s kullanarak tamamla"</string>
     <string name="whichApplicationLabel" msgid="7852182961472531728">"İşlemi tamamla"</string>
@@ -1460,9 +1478,6 @@
     <string name="gpsNotifMessage" msgid="7346649122793758032">"<xliff:g id="NAME">%1$s</xliff:g> tarafından istendi (<xliff:g id="SERVICE">%2$s</xliff:g>)"</string>
     <string name="gpsVerifYes" msgid="3719843080744112940">"Evet"</string>
     <string name="gpsVerifNo" msgid="1671201856091564741">"Hayır"</string>
-    <string name="gnss_nfw_notification_title" msgid="5004493772059563423">"Acil durum sırasında konuma erişildi"</string>
-    <string name="gnss_nfw_notification_message_oem" msgid="3683958907027107969">"Yakın zamanda yaşanan bir acil durum sırasında cihaz üreticiniz konumunuza erişti"</string>
-    <string name="gnss_nfw_notification_message_carrier" msgid="815888995791562151">"Yakın zamanda yaşanan bir acil durum sırasında operatörünüz konumunuza erişti"</string>
     <string name="sync_too_many_deletes" msgid="6999440774578705300">"Silme sınırı aşıldı"</string>
     <string name="sync_too_many_deletes_desc" msgid="7409327940303504440">"<xliff:g id="ACCOUNT_NAME">%3$s</xliff:g> hesabında <xliff:g id="TYPE_OF_SYNC">%2$s</xliff:g> için <xliff:g id="NUMBER_OF_DELETED_ITEMS">%1$d</xliff:g> adet silinmiş öğe var. Ne yapmak istiyorsunuz?"</string>
     <string name="sync_really_delete" msgid="5657871730315579051">"Öğeleri sil"</string>
@@ -1622,10 +1637,10 @@
     <string name="safe_media_volume_warning" product="default" msgid="3751676824423049994">"Ses seviyesi önerilen düzeyin üzerine yükseltilsin mi?\n\nUzun süre yüksek ses seviyesinde dinlemek işitme duyunuza zarar verebilir."</string>
     <string name="accessibility_shortcut_warning_dialog_title" msgid="4017995837692622933">"Erişilebilirlik Kısayolu Kullanılsın mı?"</string>
     <string name="accessibility_shortcut_toogle_warning" msgid="4161716521310929544">"Kısayol açıkken ses düğmelerinin ikisini birden 3 saniyeliğine basılı tutmanız bir erişilebilirlik özelliğini başlatır."</string>
-    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="8417489297036013065">"Erişilebilirlik özellikleri etkinleştirilsin mi?"</string>
+    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="3135860819356676426">"Erişilebilirlik özellikleri için kısayol açılsın mı?"</string>
     <string name="accessibility_shortcut_multiple_service_warning" msgid="3740723309483706911">"Ses tuşlarının ikisini birden birkaç saniyeliğine basılı tutmak, erişilebilirlik özelliklerini açar. Bu, cihazınızın çalışma şeklini değiştirebilir.\n\nGeçerli özellikler:\n<xliff:g id="SERVICE">%1$s</xliff:g>\nSeçilen özellikleri Ayarlar &gt; Erişilebilirlik\'te değiştirebilirsiniz."</string>
     <string name="accessibility_shortcut_multiple_service_list" msgid="6935581470716541531">"	• <xliff:g id="SERVICE">%1$s</xliff:g>\n"</string>
-    <string name="accessibility_shortcut_single_service_warning_title" msgid="2819109500943271385">"<xliff:g id="SERVICE">%1$s</xliff:g> etkinleştirilsin mi?"</string>
+    <string name="accessibility_shortcut_single_service_warning_title" msgid="1909518473488345266">"<xliff:g id="SERVICE">%1$s</xliff:g> kısayolu açılsın mı?"</string>
     <string name="accessibility_shortcut_single_service_warning" msgid="6363127705112844257">"Ses tuşlarının ikisini birden birkaç saniyeliğine basılı tutmak <xliff:g id="SERVICE">%1$s</xliff:g> erişilebilirlik özelliğini etkinleştirir. Bu, cihazınızın çalışma şeklini değiştirebilir.\n\nBu kısayolu, Ayarlar &gt; Erişilebilirlik\'te başka bir özellikle değiştirebilirsiniz."</string>
     <string name="accessibility_shortcut_on" msgid="5463618449556111344">"Etkinleştir"</string>
     <string name="accessibility_shortcut_off" msgid="3651336255403648739">"Etkinleştirme"</string>
@@ -1792,8 +1807,8 @@
     <string name="package_updated_device_owner" msgid="7560272363805506941">"Yöneticiniz tarafından güncellendi"</string>
     <string name="package_deleted_device_owner" msgid="2292335928930293023">"Yöneticiniz tarafından silindi"</string>
     <string name="confirm_battery_saver" msgid="5247976246208245754">"Tamam"</string>
-    <string name="battery_saver_description_with_learn_more" msgid="5997766757551917769">"Pil ömrünü uzatmak için Pil Tasarrufu:\n\n•Koyu temayı açar\n•Arka plan etkinliğini, bazı görsel efektleri ve \"Ok Google\" gibi diğer özellikleri kapatır veya kısıtlar\n\n"<annotation id="url">"Daha fazla bilgi"</annotation></string>
-    <string name="battery_saver_description" msgid="8587408568232177204">"Pil ömrünü uzatmak için Pil Tasarrufu:\n\n•Koyu temayı açar\n•Arka plan etkinliğini, bazı görsel efektleri ve \"Ok Google\" gibi diğer özellikleri kapatır veya kısıtlar"</string>
+    <string name="battery_saver_description_with_learn_more" msgid="4424488535318105801">"Pil ömrünü uzatmak için Pil Tasarrufu:\n\n• Koyu temayı açar\n• Arka plan etkinliğini, bazı görsel efektleri ve \"Ok Google\" gibi diğer özellikleri kapatır veya kısıtlar\n\n"<annotation id="url">"Daha fazla bilgi"</annotation></string>
+    <string name="battery_saver_description" msgid="6794188153647295212">"Pil ömrünü uzatmak için Pil Tasarrufu:\n\n• Koyu temayı açar\n• Arka plan etkinliğini, bazı görsel efektleri ve \"Ok Google\" gibi diğer özellikleri kapatır veya kısıtlar"</string>
     <string name="data_saver_description" msgid="4995164271550590517">"Veri kullanımını azaltmaya yardımcı olması için Veri Tasarrufu, bazı uygulamaların arka planda veri göndermesini veya almasını engeller. Şu anda kullandığınız bir uygulama veri bağlantısına erişebilir, ancak bunu daha seyrek yapabilir. Bu durumda örneğin, siz resimlere dokunmadan resimler görüntülenmez."</string>
     <string name="data_saver_enable_title" msgid="7080620065745260137">"Veri Tasarrufu açılsın mı?"</string>
     <string name="data_saver_enable_button" msgid="4399405762586419726">"Aç"</string>
@@ -1829,6 +1844,7 @@
       <item quantity="other">%d saat</item>
       <item quantity="one">1 saat</item>
     </plurals>
+    <string name="zen_mode_until_next_day" msgid="1403042784161725038">"Şu saate kadar: <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_until" msgid="2250286190237669079">"Şu saate kadar: <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_alarm" msgid="7046911727540499275">"<xliff:g id="FORMATTEDTIME">%1$s</xliff:g> (sonraki alarma) saatine kadar"</string>
     <string name="zen_mode_forever" msgid="740585666364912448">"Siz kapatana kadar"</string>
@@ -1997,6 +2013,11 @@
     <string name="notification_appops_camera_active" msgid="8177643089272352083">"Kamera"</string>
     <string name="notification_appops_microphone_active" msgid="581333393214739332">"Mikrofon"</string>
     <string name="notification_appops_overlay_active" msgid="5571732753262836481">"ekranınızdaki diğer uygulamaların üzerinde görüntüleniyor"</string>
+    <string name="notification_feedback_indicator" msgid="663476517711323016">"Geri Bildirim Gönder"</string>
+    <string name="notification_feedback_indicator_alerted" msgid="6552871804121942099">"Bu bildirimin önem derecesi, \"Varsayılan\" seviyesine yükseltildi. Geri bildirimde bulunmak için dokunun."</string>
+    <string name="notification_feedback_indicator_silenced" msgid="3799442124723177262">"Bu bildirimin önem derecesi, \"Sessiz\" seviyesine düşürüldü. Geri bildirimde bulunmak için dokunun."</string>
+    <string name="notification_feedback_indicator_promoted" msgid="9030204303764698640">"Bu bildirimin önem derecesi yükseltildi. Geri bildirimde bulunmak için dokunun."</string>
+    <string name="notification_feedback_indicator_demoted" msgid="8880309924296450875">"Bu bildirimin önem derecesi düşürüldü. Geri bildirimde bulunmak için dokunun."</string>
     <string name="dynamic_mode_notification_channel_name" msgid="2986926422100223328">"Rutin Modu bilgi bildirimi"</string>
     <string name="dynamic_mode_notification_title" msgid="9205715501274608016">"Pil normal şarjdan önce bitebilir"</string>
     <string name="dynamic_mode_notification_summary" msgid="4141614604437372157">"Pilin ömrünü uzatmak için Pil Tasarrufu etkinleştirildi"</string>
@@ -2180,4 +2201,16 @@
     <string name="config_pdp_reject_user_authentication_failed" msgid="4531693033885744689"></string>
     <string name="config_pdp_reject_service_not_subscribed" msgid="8190338397128671588"></string>
     <string name="config_pdp_reject_multi_conn_to_same_pdn_not_allowed" msgid="6024904218067254186"></string>
+    <string name="window_magnification_prompt_title" msgid="8197528399699536320">"Yeni: Pencere Büyüteci"</string>
+    <string name="window_magnification_prompt_content" msgid="4166711383253283838">"Artık ekranınızın bir kısmını veya tamamını büyütebilirsiniz"</string>
+    <string name="turn_on_magnification_settings_action" msgid="8521433346684847700">"Ayarlar\'da aç"</string>
+    <string name="dismiss_action" msgid="1728820550388704784">"Kapat"</string>
+    <!-- no translation found for sensor_privacy_start_use_mic_notification_content (8063355861118105607) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_camera_notification_content (4738005643315863736) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_dialog_turn_on_button (7921147002346108119) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_notification_channel_label (936036783155261349) -->
+    <skip />
 </resources>

@@ -57,7 +57,7 @@
     <string name="imei" msgid="2157082351232630390">"IMEI"</string>
     <string name="meid" msgid="3291227361605924674">"MEID"</string>
     <string name="ClipMmi" msgid="4110549342447630629">"발신자 번호"</string>
-    <string name="ClirMmi" msgid="4702929460236547156">"내 발신 번호"</string>
+    <string name="ClirMmi" msgid="6752346475055446417">"발신 번호 숨김"</string>
     <string name="ColpMmi" msgid="4736462893284419302">"환승편 ID"</string>
     <string name="ColrMmi" msgid="5889782479745764278">"환승편 ID 제한"</string>
     <string name="CfMmi" msgid="8390012691099787178">"착신전환"</string>
@@ -146,6 +146,9 @@
     <string name="wfc_mode_wifi_preferred_summary" msgid="1035175836270943089">"Wi-Fi를 통해 통화"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="4958965609212575619">"모바일 네트워크를 통해 통화"</string>
     <string name="wfc_mode_wifi_only_summary" msgid="104951993894678665">"Wi-Fi에서만"</string>
+    <!-- no translation found for crossSimFormat_spn (9125246077491634262) -->
+    <skip />
+    <string name="crossSimFormat_spn_cross_sim_calling" msgid="779976494687695991">"<xliff:g id="SPN">%s</xliff:g> Cross SIM 통화"</string>
     <string name="cfTemplateNotForwarded" msgid="862202427794270501">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: 착신전환 안됨"</string>
     <string name="cfTemplateForwarded" msgid="9132506315842157860">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
     <string name="cfTemplateForwardedTime" msgid="735042369233323609">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g><xliff:g id="TIME_DELAY">{2}</xliff:g>초 후"</string>
@@ -193,10 +196,15 @@
     <string name="network_logging_notification_text" msgid="1327373071132562512">"조직에서 이 기기를 관리하며 네트워크 트래픽을 모니터링할 수도 있습니다. 자세한 내용을 보려면 탭하세요."</string>
     <string name="location_changed_notification_title" msgid="3620158742816699316">"앱에서 위치 정보에 액세스할 수 있음"</string>
     <string name="location_changed_notification_text" msgid="7158423339982706912">"자세한 내용은 IT 관리자에게 문의하세요."</string>
+    <string name="geofencing_service" msgid="3826902410740315456">"지오펜싱 서비스"</string>
     <string name="country_detector" msgid="7023275114706088854">"국가 감지기"</string>
     <string name="location_service" msgid="2439187616018455546">"위치 서비스"</string>
+    <string name="gnss_service" msgid="8907781262179951385">"GNSS 서비스"</string>
     <string name="sensor_notification_service" msgid="7474531979178682676">"센서 알림 서비스"</string>
     <string name="twilight_service" msgid="8964898045693187224">"새벽 서비스"</string>
+    <string name="offline_location_time_zone_detection_service_attribution" msgid="303754195048744816">"시간대 감지(연결되지 않음)"</string>
+    <!-- no translation found for gnss_time_update_service (9039489496037616095) -->
+    <skip />
     <string name="factory_reset_warning" msgid="6858705527798047809">"기기가 삭제됩니다."</string>
     <string name="factory_reset_message" msgid="2657049595153992213">"관리자 앱을 사용할 수 없습니다. 곧 기기가 삭제됩니다.\n\n궁금한 점이 있으면 조직의 관리자에게 문의하세요."</string>
     <string name="printing_disabled_by" msgid="3517499806528864633">"<xliff:g id="OWNER_APP">%s</xliff:g>에 의해 사용 중지되었습니다."</string>
@@ -285,6 +293,7 @@
     <string name="notification_channel_usb" msgid="1528280969406244896">"USB 연결"</string>
     <string name="notification_channel_heavy_weight_app" msgid="17455756500828043">"실행 중인 앱"</string>
     <string name="notification_channel_foreground_service" msgid="7102189948158885178">"배터리를 소모하는 앱"</string>
+    <string name="notification_channel_accessibility_magnification" msgid="1707913872219798098">"확대"</string>
     <string name="foreground_service_app_in_background" msgid="1439289699671273555">"<xliff:g id="APP_NAME">%1$s</xliff:g>에서 배터리 사용 중"</string>
     <string name="foreground_service_apps_in_background" msgid="7340037176412387863">"앱 <xliff:g id="NUMBER">%1$d</xliff:g>개에서 배터리 사용 중"</string>
     <string name="foreground_service_tap_for_details" msgid="9078123626015586751">"탭하여 배터리 및 데이터 사용량 확인"</string>
@@ -349,6 +358,8 @@
     <string name="permdesc_receiveMms" msgid="958102423732219710">"앱이 MMS 메시지를 수신하고 처리할 수 있도록 허용합니다. 앱이 사용자에게 표시하지 않고 기기로 전송된 메시지를 확인 또는 삭제할 수도 있습니다."</string>
     <string name="permlab_bindCellBroadcastService" msgid="586746677002040651">"셀 브로드캐스트 메시지 전달"</string>
     <string name="permdesc_bindCellBroadcastService" msgid="6540910200973641606">"셀 브로드캐스트 메시지를 수신하자마자 전달하기 위해 앱이 셀 브로드캐스트 모듈에 연결하도록 허용합니다. 비상 상황임을 알리기 위해 일부 지역에서 셀 브로드캐스트 경고가 전달됩니다. 비상 셀 브로드캐스트를 수신할 때 악성 앱이 기기의 성능이나 작동을 방해할 수 있습니다."</string>
+    <string name="permlab_manageOngoingCalls" msgid="281244770664231782">"진행 중인 전화 관리"</string>
+    <string name="permdesc_manageOngoingCalls" msgid="7003138133829915265">"앱에서 기기의 진행 중인 전화에 관한 세부정보를 확인하고 전화를 제어하도록 허용합니다."</string>
     <string name="permlab_readCellBroadcasts" msgid="5869884450872137693">"셀 브로드캐스트 메시지 읽기"</string>
     <string name="permdesc_readCellBroadcasts" msgid="672513437331980168">"앱이 기기가 수신한 셀 브로드캐스트 메시지를 읽을 수 있도록 합니다. 비상 상황임을 알리기 위해 일부 지역에서 셀 브로드캐스트 경고가 전달됩니다. 비상 셀 브로드캐스트를 수신할 때 악성 앱이 기기의 성능이나 작동을 방해할 수 있습니다."</string>
     <string name="permlab_subscribedFeedsRead" msgid="217624769238425461">"가입된 피드 읽기"</string>
@@ -430,13 +441,17 @@
     <string name="permlab_modifyAudioSettings" msgid="6129039778010031815">"오디오 설정 변경"</string>
     <string name="permdesc_modifyAudioSettings" msgid="8687227609663124921">"앱이 음량이나 출력을 위해 사용하는 스피커 등 전체 오디오 설정을 변경할 수 있도록 허용합니다."</string>
     <string name="permlab_recordAudio" msgid="1208457423054219147">"오디오 녹음"</string>
-    <string name="permdesc_recordAudio" msgid="3976213377904701093">"이 앱은 언제든지 마이크를 사용하여 오디오를 녹음할 수 있습니다."</string>
+    <string name="permdesc_recordAudio" msgid="5857246765327514062">"앱을 사용하는 동안 앱에서 마이크를 사용하여 오디오를 녹음할 수 있습니다."</string>
+    <string name="permlab_recordBackgroundAudio" msgid="5891032812308878254">"백그라운드에서 오디오 녹음"</string>
+    <string name="permdesc_recordBackgroundAudio" msgid="1992623135737407516">"언제든지 앱에서 마이크를 사용하여 오디오를 녹음할 수 있습니다."</string>
     <string name="permlab_sim_communication" msgid="176788115994050692">"SIM 카드로 명령 전송"</string>
     <string name="permdesc_sim_communication" msgid="4179799296415957960">"앱이 SIM에 명령어를 전송할 수 있도록 허용합니다. 이 기능은 매우 신중히 허용해야 합니다."</string>
     <string name="permlab_activityRecognition" msgid="1782303296053990884">"신체 활동 확인"</string>
     <string name="permdesc_activityRecognition" msgid="8667484762991357519">"이 앱에서 내 신체 활동을 확인할 수 있습니다."</string>
     <string name="permlab_camera" msgid="6320282492904119413">"사진과 동영상 찍기"</string>
-    <string name="permdesc_camera" msgid="1354600178048761499">"이 앱은 언제든지 카메라를 사용하여 사진을 촬영하고 동영상을 녹화할 수 있습니다."</string>
+    <string name="permdesc_camera" msgid="5240801376168647151">"앱을 사용하는 동안 앱에서 카메라를 사용하여 사진을 촬영하고 동영상을 녹화할 수 있습니다."</string>
+    <string name="permlab_backgroundCamera" msgid="7549917926079731681">"백그라운드에서 사진 촬영 및 동영상 녹화"</string>
+    <string name="permdesc_backgroundCamera" msgid="1615291686191138250">"언제든지 앱에서 카메라를 사용하여 사진을 촬영하고 동영상을 녹화할 수 있습니다."</string>
     <string name="permlab_systemCamera" msgid="3642917457796210580">"사진 및 동영상 촬영을 위해 애플리케이션 또는 서비스에서 시스템 카메라에 액세스하도록 허용"</string>
     <string name="permdesc_systemCamera" msgid="5938360914419175986">"이 권한이 있는 시스템 앱은 언제든지 시스템 카메라를 사용하여 사진을 촬영하고 동영상을 녹화할 수 있습니다. 또한 앱에 android.permission.CAMERA 권한이 필요합니다."</string>
     <string name="permlab_cameraOpenCloseListener" msgid="5548732769068109315">"애플리케이션 또는 서비스에서 카메라 기기 열림 또는 닫힘에 대한 콜백을 수신하도록 허용"</string>
@@ -542,6 +557,7 @@
     <string name="biometric_not_recognized" msgid="5106687642694635888">"인식할 수 없음"</string>
     <string name="biometric_error_canceled" msgid="8266582404844179778">"인증이 취소되었습니다."</string>
     <string name="biometric_error_device_not_secured" msgid="3129845065043995924">"PIN, 패턴, 비밀번호가 설정되지 않음"</string>
+    <string name="biometric_error_generic" msgid="6784371929985434439">"인증 오류"</string>
     <string name="fingerprint_acquired_partial" msgid="8532380671091299342">"지문이 일부만 인식되었습니다. 다시 시도해 주세요."</string>
     <string name="fingerprint_acquired_insufficient" msgid="2545149524031515411">"지문을 인식할 수 없습니다. 다시 시도해 주세요."</string>
     <string name="fingerprint_acquired_imager_dirty" msgid="4694800187151533990">"지문 센서를 깨끗이 닦고 다시 시도하세요."</string>
@@ -829,7 +845,7 @@
     <string name="lockscreen_instructions_when_pattern_enabled" msgid="7982445492532123308">"비상 전화를 걸거나 잠금해제하려면 메뉴를 누르세요."</string>
     <string name="lockscreen_instructions_when_pattern_disabled" msgid="7434061749374801753">"잠금해제하려면 메뉴를 누르세요."</string>
     <string name="lockscreen_pattern_instructions" msgid="3169991838169244941">"잠금해제를 위해 패턴 그리기"</string>
-    <string name="lockscreen_emergency_call" msgid="7500692654885445299">"긴급 전화"</string>
+    <string name="lockscreen_emergency_call" msgid="7549683825868928636">"긴급 전화"</string>
     <string name="lockscreen_return_to_call" msgid="3156883574692006382">"통화로 돌아가기"</string>
     <string name="lockscreen_pattern_correct" msgid="8050630103651508582">"맞습니다."</string>
     <string name="lockscreen_pattern_wrong" msgid="2940138714468358458">"다시 시도"</string>
@@ -1122,6 +1138,8 @@
     <string name="capital_off" msgid="7443704171014626777">"OFF"</string>
     <string name="checked" msgid="9179896827054513119">"선택함"</string>
     <string name="not_checked" msgid="7972320087569023342">"선택 안함"</string>
+    <string name="selected" msgid="6614607926197755875">"선택됨"</string>
+    <string name="not_selected" msgid="410652016565864475">"선택되지 않음"</string>
     <string name="whichApplication" msgid="5432266899591255759">"작업을 수행할 때 사용하는 애플리케이션"</string>
     <string name="whichApplicationNamed" msgid="6969946041713975681">"%1$s을(를) 사용하여 작업 완료"</string>
     <string name="whichApplicationLabel" msgid="7852182961472531728">"작업 완료"</string>
@@ -1460,9 +1478,6 @@
     <string name="gpsNotifMessage" msgid="7346649122793758032">"요청한 사람: <xliff:g id="NAME">%1$s</xliff:g>(<xliff:g id="SERVICE">%2$s</xliff:g>)"</string>
     <string name="gpsVerifYes" msgid="3719843080744112940">"예"</string>
     <string name="gpsVerifNo" msgid="1671201856091564741">"아니요"</string>
-    <string name="gnss_nfw_notification_title" msgid="5004493772059563423">"응급 상황 동안 위치에 액세스함"</string>
-    <string name="gnss_nfw_notification_message_oem" msgid="3683958907027107969">"기기 제조업체에서 최근 응급 상황 세션 동안 내 위치에 액세스했습니다."</string>
-    <string name="gnss_nfw_notification_message_carrier" msgid="815888995791562151">"이동통신사에서 최근 응급 상황 세션 동안 내 위치에 액세스했습니다."</string>
     <string name="sync_too_many_deletes" msgid="6999440774578705300">"삭제 한도를 초과했습니다."</string>
     <string name="sync_too_many_deletes_desc" msgid="7409327940303504440">"<xliff:g id="TYPE_OF_SYNC">%2$s</xliff:g>, <xliff:g id="ACCOUNT_NAME">%3$s</xliff:g> 계정에 대해 <xliff:g id="NUMBER_OF_DELETED_ITEMS">%1$d</xliff:g>개의 삭제된 항목이 있습니다. 어떻게 하시겠습니까?"</string>
     <string name="sync_really_delete" msgid="5657871730315579051">"항목 삭제"</string>
@@ -1622,10 +1637,10 @@
     <string name="safe_media_volume_warning" product="default" msgid="3751676824423049994">"권장 수준 이상으로 볼륨을 높이시겠습니까?\n\n높은 볼륨으로 장시간 청취하면 청력에 손상이 올 수 있습니다."</string>
     <string name="accessibility_shortcut_warning_dialog_title" msgid="4017995837692622933">"접근성 단축키를 사용하시겠습니까?"</string>
     <string name="accessibility_shortcut_toogle_warning" msgid="4161716521310929544">"단축키가 사용 설정된 경우 볼륨 버튼 두 개를 동시에 3초간 누르면 접근성 기능이 시작됩니다."</string>
-    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="8417489297036013065">"접근성 기능을 사용하시겠습니까?"</string>
+    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="3135860819356676426">"접근성 기능 바로가기를 사용 설정하시겠습니까?"</string>
     <string name="accessibility_shortcut_multiple_service_warning" msgid="3740723309483706911">"볼륨 키 2개를 몇 초 동안 길게 누르면 접근성 기능이 사용 설정됩니다. 이때 기기 작동 방식이 달라질 수 있습니다.\n\n현재 기능:\n<xliff:g id="SERVICE">%1$s</xliff:g>\n설정 &gt; 접근성에서 선택한 기능을 변경할 수 있습니다."</string>
     <string name="accessibility_shortcut_multiple_service_list" msgid="6935581470716541531">"	• <xliff:g id="SERVICE">%1$s</xliff:g>\n"</string>
-    <string name="accessibility_shortcut_single_service_warning_title" msgid="2819109500943271385">"<xliff:g id="SERVICE">%1$s</xliff:g>을(를) 사용하시겠습니까?"</string>
+    <string name="accessibility_shortcut_single_service_warning_title" msgid="1909518473488345266">"<xliff:g id="SERVICE">%1$s</xliff:g> 바로가기를 사용 설정하시겠습니까?"</string>
     <string name="accessibility_shortcut_single_service_warning" msgid="6363127705112844257">"볼륨 키 2개를 몇 초 동안 길게 누르면 <xliff:g id="SERVICE">%1$s</xliff:g> 접근성 기능이 사용 설정됩니다. 이렇게 되면 기기 작동 방식이 달라질 수 있습니다.\n\n설정 &gt; 접근성에서 이 단축키를 다른 기능으로 변경할 수 있습니다."</string>
     <string name="accessibility_shortcut_on" msgid="5463618449556111344">"사용"</string>
     <string name="accessibility_shortcut_off" msgid="3651336255403648739">"사용 안 함"</string>
@@ -1792,8 +1807,8 @@
     <string name="package_updated_device_owner" msgid="7560272363805506941">"관리자에 의해 업데이트되었습니다."</string>
     <string name="package_deleted_device_owner" msgid="2292335928930293023">"관리자에 의해 삭제되었습니다."</string>
     <string name="confirm_battery_saver" msgid="5247976246208245754">"확인"</string>
-    <string name="battery_saver_description_with_learn_more" msgid="5997766757551917769">"배터리 수명을 늘리기 위해 절전 모드가 다음과 같이 작동합니다.\n\n•어두운 테마를 사용 설정합니다.\n•백그라운드 활동, 일부 시각 효과 및 \'Hey Google\'과 같은 기타 기능을 사용 중지하거나 제한합니다.\n\n"<annotation id="url">"자세히 알아보기"</annotation></string>
-    <string name="battery_saver_description" msgid="8587408568232177204">"배터리 수명을 늘리기 위해 절전 모드가 다음과 같이 작동합니다.\n\n•어두운 테마를 사용 설정합니다.\n•백그라운드 활동, 일부 시각 효과 및 \'Hey Google\'과 같은 기타 기능을 사용 중지하거나 제한합니다."</string>
+    <string name="battery_saver_description_with_learn_more" msgid="4424488535318105801">"배터리 수명을 늘리기 위해 절전 모드가 다음과 같이 작동합니다.\n\n• 어두운 테마를 사용 설정합니다.\n• 백그라운드 활동, 일부 시각 효과 및 \'Hey Google\'과 같은 기타 기능을 사용 중지하거나 제한합니다.\n\n"<annotation id="url">"자세히 알아보기"</annotation></string>
+    <string name="battery_saver_description" msgid="6794188153647295212">"배터리 수명을 연장하기 위해 절전 모드가 다음과 같이 작동합니다.\n\n• 어두운 테마를 사용 설정합니다.\n• 백그라운드 활동, 일부 시각 효과 및 \'Hey Google\' 등의 기타 기능을 사용 중지하거나 제한합니다."</string>
     <string name="data_saver_description" msgid="4995164271550590517">"데이터 사용량을 줄이기 위해 데이터 절약 모드는 일부 앱이 백그라운드에서 데이터를 전송하거나 수신하지 못하도록 합니다. 현재 사용 중인 앱에서 데이터에 액세스할 수 있지만 빈도가 줄어듭니다. 예를 들면, 이미지를 탭하기 전에는 이미지가 표시되지 않습니다."</string>
     <string name="data_saver_enable_title" msgid="7080620065745260137">"데이터 절약 모드를 사용 설정하시겠습니까?"</string>
     <string name="data_saver_enable_button" msgid="4399405762586419726">"사용 설정"</string>
@@ -1829,6 +1844,7 @@
       <item quantity="other">%d시간 동안</item>
       <item quantity="one">1시간 동안</item>
     </plurals>
+    <string name="zen_mode_until_next_day" msgid="1403042784161725038">"<xliff:g id="FORMATTEDTIME">%1$s</xliff:g>까지"</string>
     <string name="zen_mode_until" msgid="2250286190237669079">"<xliff:g id="FORMATTEDTIME">%1$s</xliff:g>까지"</string>
     <string name="zen_mode_alarm" msgid="7046911727540499275">"<xliff:g id="FORMATTEDTIME">%1$s</xliff:g>(다음 알람)까지"</string>
     <string name="zen_mode_forever" msgid="740585666364912448">"사용 중지할 때까지"</string>
@@ -1997,6 +2013,11 @@
     <string name="notification_appops_camera_active" msgid="8177643089272352083">"카메라"</string>
     <string name="notification_appops_microphone_active" msgid="581333393214739332">"마이크"</string>
     <string name="notification_appops_overlay_active" msgid="5571732753262836481">"화면에서 다른 앱 위에 표시"</string>
+    <string name="notification_feedback_indicator" msgid="663476517711323016">"의견 보내기"</string>
+    <string name="notification_feedback_indicator_alerted" msgid="6552871804121942099">"이 알림의 중요도가 기본으로 상향되었습니다. 의견을 보내려면 탭하세요."</string>
+    <string name="notification_feedback_indicator_silenced" msgid="3799442124723177262">"이 알림의 중요도가 무음으로 하향되었습니다. 의견을 보내려면 탭하세요."</string>
+    <string name="notification_feedback_indicator_promoted" msgid="9030204303764698640">"이전에 이 알림의 중요도는 더 높았습니다. 의견을 보내려면 탭하세요."</string>
+    <string name="notification_feedback_indicator_demoted" msgid="8880309924296450875">"이전에 이 알림의 중요도는 더 낮았습니다. 의견을 보내려면 탭하세요."</string>
     <string name="dynamic_mode_notification_channel_name" msgid="2986926422100223328">"루틴 모드 정보 알림"</string>
     <string name="dynamic_mode_notification_title" msgid="9205715501274608016">"평소에 충전하는 시간 전에 배터리가 소진될 수 있습니다."</string>
     <string name="dynamic_mode_notification_summary" msgid="4141614604437372157">"배터리 수명을 연장하기 위해 배터리 세이버가 활성화되었습니다."</string>
@@ -2180,4 +2201,16 @@
     <string name="config_pdp_reject_user_authentication_failed" msgid="4531693033885744689"></string>
     <string name="config_pdp_reject_service_not_subscribed" msgid="8190338397128671588"></string>
     <string name="config_pdp_reject_multi_conn_to_same_pdn_not_allowed" msgid="6024904218067254186"></string>
+    <string name="window_magnification_prompt_title" msgid="8197528399699536320">"새로운 기능: 창 돋보기"</string>
+    <string name="window_magnification_prompt_content" msgid="4166711383253283838">"이제 화면 일부 또는 전체를 확대할 수 있습니다."</string>
+    <string name="turn_on_magnification_settings_action" msgid="8521433346684847700">"설정에서 사용 설정"</string>
+    <string name="dismiss_action" msgid="1728820550388704784">"닫기"</string>
+    <!-- no translation found for sensor_privacy_start_use_mic_notification_content (8063355861118105607) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_camera_notification_content (4738005643315863736) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_dialog_turn_on_button (7921147002346108119) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_notification_channel_label (936036783155261349) -->
+    <skip />
 </resources>

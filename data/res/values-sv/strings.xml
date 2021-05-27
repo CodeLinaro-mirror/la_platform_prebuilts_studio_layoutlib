@@ -57,7 +57,7 @@
     <string name="imei" msgid="2157082351232630390">"IMEI-kod"</string>
     <string name="meid" msgid="3291227361605924674">"MEID"</string>
     <string name="ClipMmi" msgid="4110549342447630629">"Nummerpresentatör för inkommande samtal"</string>
-    <string name="ClirMmi" msgid="4702929460236547156">"Nummerpresentatör för utgående samtal"</string>
+    <string name="ClirMmi" msgid="6752346475055446417">"Dölj nummerpresentatör för utgående samtal"</string>
     <string name="ColpMmi" msgid="4736462893284419302">"Visning av uppkopplat nummer"</string>
     <string name="ColrMmi" msgid="5889782479745764278">"Blockera visning av uppkopplat nummer"</string>
     <string name="CfMmi" msgid="8390012691099787178">"Vidarekoppla samtal"</string>
@@ -146,6 +146,9 @@
     <string name="wfc_mode_wifi_preferred_summary" msgid="1035175836270943089">"Ring via Wi-Fi"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="4958965609212575619">"Ring via mobilnätverk"</string>
     <string name="wfc_mode_wifi_only_summary" msgid="104951993894678665">"Endast Wi-Fi"</string>
+    <!-- no translation found for crossSimFormat_spn (9125246077491634262) -->
+    <skip />
+    <string name="crossSimFormat_spn_cross_sim_calling" msgid="779976494687695991">"<xliff:g id="SPN">%s</xliff:g> – samtal mellan SIM-kort"</string>
     <string name="cfTemplateNotForwarded" msgid="862202427794270501">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: Vidarebefordras inte"</string>
     <string name="cfTemplateForwarded" msgid="9132506315842157860">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
     <string name="cfTemplateForwardedTime" msgid="735042369233323609">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g><xliff:g id="DIALING_NUMBER">{1}</xliff:g> efter <xliff:g id="TIME_DELAY">{2}</xliff:g> sekunder"</string>
@@ -193,10 +196,15 @@
     <string name="network_logging_notification_text" msgid="1327373071132562512">"Organisationen hanterar den här enheten och kan övervaka nätverkstrafiken. Tryck om du vill veta mer."</string>
     <string name="location_changed_notification_title" msgid="3620158742816699316">"Appar har åtkomst till din plats"</string>
     <string name="location_changed_notification_text" msgid="7158423339982706912">"Kontakta IT-administratören om du vill veta mer"</string>
+    <string name="geofencing_service" msgid="3826902410740315456">"Tjänst med geoblockering"</string>
     <string name="country_detector" msgid="7023275114706088854">"Country Detector"</string>
     <string name="location_service" msgid="2439187616018455546">"Location Service"</string>
+    <string name="gnss_service" msgid="8907781262179951385">"GNSS-tjänst"</string>
     <string name="sensor_notification_service" msgid="7474531979178682676">"Sensor Notification Service"</string>
     <string name="twilight_service" msgid="8964898045693187224">"Twilight Service"</string>
+    <string name="offline_location_time_zone_detection_service_attribution" msgid="303754195048744816">"Tidszondetektering (ingen anslutning)"</string>
+    <!-- no translation found for gnss_time_update_service (9039489496037616095) -->
+    <skip />
     <string name="factory_reset_warning" msgid="6858705527798047809">"Enheten kommer att rensas"</string>
     <string name="factory_reset_message" msgid="2657049595153992213">"Det går inte att använda administratörsappen. Enheten rensas.\n\nKontakta organisationens administratör om du har några frågor."</string>
     <string name="printing_disabled_by" msgid="3517499806528864633">"Utskrift har inaktiverats av <xliff:g id="OWNER_APP">%s</xliff:g>."</string>
@@ -242,19 +250,19 @@
     <string name="global_action_emergency" msgid="1387617624177105088">"Nödsituation"</string>
     <string name="global_action_bug_report" msgid="5127867163044170003">"Felrapport"</string>
     <string name="global_action_logout" msgid="6093581310002476511">"Avsluta session"</string>
-    <string name="global_action_screenshot" msgid="2610053466156478564">"Skärmdump"</string>
+    <string name="global_action_screenshot" msgid="2610053466156478564">"Skärmbild"</string>
     <string name="bugreport_title" msgid="8549990811777373050">"Felrapport"</string>
     <string name="bugreport_message" msgid="5212529146119624326">"Nu hämtas information om aktuell status för enheten, som sedan skickas i ett e-postmeddelade. Det tar en liten stund innan felrapporten är färdig och kan skickas, så vi ber dig ha tålamod."</string>
     <string name="bugreport_option_interactive_title" msgid="7968287837902871289">"Interaktiv rapport"</string>
-    <string name="bugreport_option_interactive_summary" msgid="8493795476325339542">"Bör användas i de flesta fall. Då kan du spåra rapportförloppet, ange mer information om problemet och ta skärmdumpar. En del mindre använda avsnitt, som det tar lång tid att rapportera om, kan uteslutas."</string>
+    <string name="bugreport_option_interactive_summary" msgid="8493795476325339542">"Bör användas i de flesta fall. Då kan du spåra rapportförloppet, ange mer information om problemet och ta skärmbilder. En del mindre använda avsnitt, som det tar lång tid att rapportera om, kan uteslutas."</string>
     <string name="bugreport_option_full_title" msgid="7681035745950045690">"Fullständig rapport"</string>
-    <string name="bugreport_option_full_summary" msgid="1975130009258435885">"Alternativet innebär minsta möjliga störning när enheten inte svarar eller är långsam, eller när alla avsnitt ska ingå i rapporten. Du kan inte ange mer information eller ta ytterligare skärmdumpar."</string>
+    <string name="bugreport_option_full_summary" msgid="1975130009258435885">"Alternativet innebär minsta möjliga störning när enheten inte svarar eller är långsam, eller när alla avsnitt ska ingå i rapporten. Du kan inte ange mer information eller ta ytterligare skärmbilder."</string>
     <plurals name="bugreport_countdown" formatted="false" msgid="3906120379260059206">
-      <item quantity="other">Tar en skärmdump till felrapporten om <xliff:g id="NUMBER_1">%d</xliff:g> sekunder.</item>
-      <item quantity="one">Tar en skärmdump till felrapporten om <xliff:g id="NUMBER_0">%d</xliff:g> sekund.</item>
+      <item quantity="other">Tar en skärmbild till felrapporten om <xliff:g id="NUMBER_1">%d</xliff:g> sekunder.</item>
+      <item quantity="one">Tar en skärmbild till felrapporten om <xliff:g id="NUMBER_0">%d</xliff:g> sekund.</item>
     </plurals>
-    <string name="bugreport_screenshot_success_toast" msgid="7986095104151473745">"Skärmdump med felrapport har tagits"</string>
-    <string name="bugreport_screenshot_failure_toast" msgid="6736320861311294294">"Det gick inte att ta en skärmdump med felrapport"</string>
+    <string name="bugreport_screenshot_success_toast" msgid="7986095104151473745">"Skärmbild med felrapport har tagits"</string>
+    <string name="bugreport_screenshot_failure_toast" msgid="6736320861311294294">"Det gick inte att ta en skärmbild med felrapport"</string>
     <string name="global_action_toggle_silent_mode" msgid="8464352592860372188">"Tyst läge"</string>
     <string name="global_action_silent_mode_on_status" msgid="2371892537738632013">"Ljudet är AV"</string>
     <string name="global_action_silent_mode_off_status" msgid="6608006545950920042">"Ljudet är PÅ"</string>
@@ -285,6 +293,7 @@
     <string name="notification_channel_usb" msgid="1528280969406244896">"USB-anslutning"</string>
     <string name="notification_channel_heavy_weight_app" msgid="17455756500828043">"App körs"</string>
     <string name="notification_channel_foreground_service" msgid="7102189948158885178">"Appar som drar batteri"</string>
+    <string name="notification_channel_accessibility_magnification" msgid="1707913872219798098">"Förstoring"</string>
     <string name="foreground_service_app_in_background" msgid="1439289699671273555">"<xliff:g id="APP_NAME">%1$s</xliff:g> drar batteri"</string>
     <string name="foreground_service_apps_in_background" msgid="7340037176412387863">"<xliff:g id="NUMBER">%1$d</xliff:g> appar drar batteri"</string>
     <string name="foreground_service_tap_for_details" msgid="9078123626015586751">"Tryck för information om batteri- och dataanvändning"</string>
@@ -327,8 +336,8 @@
     <string name="capability_desc_canPerformGestures" msgid="6619457251067929726">"Kan trycka, svepa, nypa och göra andra rörelser."</string>
     <string name="capability_title_canCaptureFingerprintGestures" msgid="1189053104594608091">"Fingeravtrycksrörelser"</string>
     <string name="capability_desc_canCaptureFingerprintGestures" msgid="6861869337457461274">"Kan registrera rörelser som utförs med hjälp av enhetens fingeravtryckssensor."</string>
-    <string name="capability_title_canTakeScreenshot" msgid="3895812893130071930">"Ta skärmdump"</string>
-    <string name="capability_desc_canTakeScreenshot" msgid="7762297374317934052">"Du kan ta en skärmdump av skärmen."</string>
+    <string name="capability_title_canTakeScreenshot" msgid="3895812893130071930">"Ta skärmbild"</string>
+    <string name="capability_desc_canTakeScreenshot" msgid="7762297374317934052">"Du kan ta en skärmbild av skärmen."</string>
     <string name="permlab_statusBar" msgid="8798267849526214017">"inaktivera eller ändra statusfält"</string>
     <string name="permdesc_statusBar" msgid="5809162768651019642">"Tillåter att appen inaktiverar statusfältet eller lägger till och tar bort systemikoner."</string>
     <string name="permlab_statusBarService" msgid="2523421018081437981">"visas i statusfältet"</string>
@@ -349,6 +358,8 @@
     <string name="permdesc_receiveMms" msgid="958102423732219710">"Tillåter att appen tar emot och hanterar MMS-meddelanden. Detta innebär att appen kan övervaka eller ta bort meddelanden som skickats till enheten utan att visa dem för dig."</string>
     <string name="permlab_bindCellBroadcastService" msgid="586746677002040651">"Vidarebefordra massutskick via sms"</string>
     <string name="permdesc_bindCellBroadcastService" msgid="6540910200973641606">"Tillåter att appen binds till cellsändningsmodulen så att massutskick via sms kan vidarebefordras vid mottagandet. I vissa områden används massutskick via sms för att varna om nödsituationer. Skadliga appar kan påverka enhetens prestanda eller funktioner när ett massutskick via sms tas emot."</string>
+    <string name="permlab_manageOngoingCalls" msgid="281244770664231782">"Hantera pågående samtal"</string>
+    <string name="permdesc_manageOngoingCalls" msgid="7003138133829915265">"Tillåter att en app får åtkomst till information om pågående samtal på enheten och kan kontrollera dessa samtal."</string>
     <string name="permlab_readCellBroadcasts" msgid="5869884450872137693">"läsa SMS-meddelanden"</string>
     <string name="permdesc_readCellBroadcasts" msgid="672513437331980168">"Appen tillåts läsa SMS som skickas till din enhet. På vissa platser skickas SMS för att varna för nödsituationer. Skadliga appar kan påverka enhetens prestanda eller funktionalitet när du får ett meddelande om en nödsituation via SMS."</string>
     <string name="permlab_subscribedFeedsRead" msgid="217624769238425461">"läsa flöden som du prenumererar på"</string>
@@ -430,13 +441,17 @@
     <string name="permlab_modifyAudioSettings" msgid="6129039778010031815">"ändra dina ljudinställningar"</string>
     <string name="permdesc_modifyAudioSettings" msgid="8687227609663124921">"Tillåter att appen ändrar globala ljudinställningar som volym och vilken högtalarutgång som används."</string>
     <string name="permlab_recordAudio" msgid="1208457423054219147">"spela in ljud"</string>
-    <string name="permdesc_recordAudio" msgid="3976213377904701093">"Appen kan spela in ljud med mikrofonen när som helst."</string>
+    <string name="permdesc_recordAudio" msgid="5857246765327514062">"Appen kan ta spela in ljud med mikrofonen när appen används."</string>
+    <string name="permlab_recordBackgroundAudio" msgid="5891032812308878254">"spela in ljud i bakgrunden"</string>
+    <string name="permdesc_recordBackgroundAudio" msgid="1992623135737407516">"Appen kan spela in ljud med mikrofonen när som helst."</string>
     <string name="permlab_sim_communication" msgid="176788115994050692">"skicka kommandon till SIM-kortet"</string>
     <string name="permdesc_sim_communication" msgid="4179799296415957960">"Tillåter att appen skickar kommandon till SIM-kortet. Detta är mycket farligt."</string>
     <string name="permlab_activityRecognition" msgid="1782303296053990884">"känn igen fysisk aktivitet"</string>
     <string name="permdesc_activityRecognition" msgid="8667484762991357519">"Den här appen kan känna igen fysisk aktivitet."</string>
     <string name="permlab_camera" msgid="6320282492904119413">"ta bilder och spela in videoklipp"</string>
-    <string name="permdesc_camera" msgid="1354600178048761499">"Appen kan ta kort och spela in video med kameran när som helst."</string>
+    <string name="permdesc_camera" msgid="5240801376168647151">"Appen kan ta bilder och spela in video med kameran när appen används."</string>
+    <string name="permlab_backgroundCamera" msgid="7549917926079731681">"ta bilder och spela in video i bakgrunden"</string>
+    <string name="permdesc_backgroundCamera" msgid="1615291686191138250">"Appen kan ta bilder och spela in video med kameran när som helst."</string>
     <string name="permlab_systemCamera" msgid="3642917457796210580">"Ge en app eller tjänst behörighet att ta bilder och spela in videor med systemets kameror"</string>
     <string name="permdesc_systemCamera" msgid="5938360914419175986">"Denna systemapp med särskild behörighet kan ta bilder och spela in videor med systemets kamera när som helst. Appen måste även ha behörigheten android.permission.CAMERA"</string>
     <string name="permlab_cameraOpenCloseListener" msgid="5548732769068109315">"Tillåt att en app eller tjänst får återanrop när en kameraenhet öppnas eller stängs."</string>
@@ -542,6 +557,7 @@
     <string name="biometric_not_recognized" msgid="5106687642694635888">"Identifierades inte"</string>
     <string name="biometric_error_canceled" msgid="8266582404844179778">"Autentiseringen avbröts"</string>
     <string name="biometric_error_device_not_secured" msgid="3129845065043995924">"Pinkod, grafiskt lösenord eller lösenord har inte angetts"</string>
+    <string name="biometric_error_generic" msgid="6784371929985434439">"Ett fel uppstod vid autentiseringen"</string>
     <string name="fingerprint_acquired_partial" msgid="8532380671091299342">"Ofullständigt fingeravtryck. Försök igen."</string>
     <string name="fingerprint_acquired_insufficient" msgid="2545149524031515411">"Det gick inte att bearbeta fingeravtrycket. Försök igen."</string>
     <string name="fingerprint_acquired_imager_dirty" msgid="4694800187151533990">"Fingeravtryckssensorn är smutsig. Rengör den och försök igen."</string>
@@ -829,7 +845,7 @@
     <string name="lockscreen_instructions_when_pattern_enabled" msgid="7982445492532123308">"Tryck på Menu för att låsa upp eller ringa nödsamtal."</string>
     <string name="lockscreen_instructions_when_pattern_disabled" msgid="7434061749374801753">"Tryck på Menu för att låsa upp."</string>
     <string name="lockscreen_pattern_instructions" msgid="3169991838169244941">"Rita grafiskt lösenord för att låsa upp"</string>
-    <string name="lockscreen_emergency_call" msgid="7500692654885445299">"Nödsamtal"</string>
+    <string name="lockscreen_emergency_call" msgid="7549683825868928636">"Nödsamtal"</string>
     <string name="lockscreen_return_to_call" msgid="3156883574692006382">"Tillbaka till samtal"</string>
     <string name="lockscreen_pattern_correct" msgid="8050630103651508582">"Korrekt!"</string>
     <string name="lockscreen_pattern_wrong" msgid="2940138714468358458">"Försök igen"</string>
@@ -1122,6 +1138,8 @@
     <string name="capital_off" msgid="7443704171014626777">"AV"</string>
     <string name="checked" msgid="9179896827054513119">"markerad"</string>
     <string name="not_checked" msgid="7972320087569023342">"inte markerad"</string>
+    <string name="selected" msgid="6614607926197755875">"valt"</string>
+    <string name="not_selected" msgid="410652016565864475">"inte valt"</string>
     <string name="whichApplication" msgid="5432266899591255759">"Slutför åtgärd genom att använda"</string>
     <string name="whichApplicationNamed" msgid="6969946041713975681">"Slutför åtgärden med %1$s"</string>
     <string name="whichApplicationLabel" msgid="7852182961472531728">"Slutför åtgärd"</string>
@@ -1460,9 +1478,6 @@
     <string name="gpsNotifMessage" msgid="7346649122793758032">"Begärt av <xliff:g id="NAME">%1$s</xliff:g> (<xliff:g id="SERVICE">%2$s</xliff:g>)"</string>
     <string name="gpsVerifYes" msgid="3719843080744112940">"Ja"</string>
     <string name="gpsVerifNo" msgid="1671201856091564741">"Nej"</string>
-    <string name="gnss_nfw_notification_title" msgid="5004493772059563423">"Åtkomst till platsen för nödsituationen"</string>
-    <string name="gnss_nfw_notification_message_oem" msgid="3683958907027107969">"Din enhetstillverkare kom åt till din plats vid en nödsituation nyligen"</string>
-    <string name="gnss_nfw_notification_message_carrier" msgid="815888995791562151">"Din operatör kom åt till din plats vid en nödsituation nyligen"</string>
     <string name="sync_too_many_deletes" msgid="6999440774578705300">"Gränsen för borttagning har överskridits"</string>
     <string name="sync_too_many_deletes_desc" msgid="7409327940303504440">"Det finns <xliff:g id="NUMBER_OF_DELETED_ITEMS">%1$d</xliff:g> borttagna objekt för <xliff:g id="TYPE_OF_SYNC">%2$s</xliff:g>, konto <xliff:g id="ACCOUNT_NAME">%3$s</xliff:g>. Vad vill du göra?"</string>
     <string name="sync_really_delete" msgid="5657871730315579051">"Ta bort objekten"</string>
@@ -1622,10 +1637,10 @@
     <string name="safe_media_volume_warning" product="default" msgid="3751676824423049994">"Vill du höja volymen över den rekommenderade nivån?\n\nAtt lyssna med stark volym långa stunder åt gången kan skada hörseln."</string>
     <string name="accessibility_shortcut_warning_dialog_title" msgid="4017995837692622933">"Vill du använda Aktivera tillgänglighet snabbt?"</string>
     <string name="accessibility_shortcut_toogle_warning" msgid="4161716521310929544">"När kortkommandot har aktiverats startar du en tillgänglighetsfunktion genom att trycka ned båda volymknapparna i tre sekunder."</string>
-    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="8417489297036013065">"Vill du aktivera tillgänglighetsfunktionerna?"</string>
+    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="3135860819356676426">"Vill du aktivera genvägen till tillgänglighetsfunktioner?"</string>
     <string name="accessibility_shortcut_multiple_service_warning" msgid="3740723309483706911">"Om du trycker ned båda volymknapparna i ett par sekunder aktiveras tillgänglighetsfunktionerna. Det kan få enheten ett fungera annorlunda.\n\nAktuella funktioner:\n<xliff:g id="SERVICE">%1$s</xliff:g>\nDu kan ändra vilka funktioner som aktiveras under Inställningar &gt; Tillgänglighet."</string>
     <string name="accessibility_shortcut_multiple_service_list" msgid="6935581470716541531">"	• <xliff:g id="SERVICE">%1$s</xliff:g>\n"</string>
-    <string name="accessibility_shortcut_single_service_warning_title" msgid="2819109500943271385">"Vill du aktivera <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <string name="accessibility_shortcut_single_service_warning_title" msgid="1909518473488345266">"Vill du aktivera genvägen till <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="accessibility_shortcut_single_service_warning" msgid="6363127705112844257">"Om du trycker ned båda volymknapparna i ett par sekunder aktiveras <xliff:g id="SERVICE">%1$s</xliff:g>, en tillgänglighetsfunktion. Det kan leda till att enheten fungerar annorlunda.\n\nDu kan ändra vilken funktion som ska aktiveras med genvägen under Inställningar &gt; Tillgänglighet."</string>
     <string name="accessibility_shortcut_on" msgid="5463618449556111344">"Aktivera"</string>
     <string name="accessibility_shortcut_off" msgid="3651336255403648739">"Aktivera inte"</string>
@@ -1792,8 +1807,8 @@
     <string name="package_updated_device_owner" msgid="7560272363805506941">"Administratören uppdaterade paketet"</string>
     <string name="package_deleted_device_owner" msgid="2292335928930293023">"Administratören raderade paketet"</string>
     <string name="confirm_battery_saver" msgid="5247976246208245754">"OK"</string>
-    <string name="battery_saver_description_with_learn_more" msgid="5997766757551917769">"Batterisparläget förlänger batteritiden genom att:\n\n• aktivera mörkt tema\n• inaktivera eller begränsa aktivitet i bakgrunden, vissa visuella effekter och andra funktioner, som ”Hey Google”\n\n"<annotation id="url">"Läs mer"</annotation></string>
-    <string name="battery_saver_description" msgid="8587408568232177204">"Batterisparläget förlänger batteritiden genom att:\n\n• aktivera mörkt tema\n• inaktivera eller begränsa aktivitet i bakgrunden, vissa visuella effekter och andra funktioner, som ”Hey Google”"</string>
+    <string name="battery_saver_description_with_learn_more" msgid="4424488535318105801">"Batterisparläget förlänger batteritiden genom att\n\n• aktivera mörkt tema\n• inaktivera eller begränsa aktivitet i bakgrunden, vissa visuella effekter och andra funktioner, som ”Hey Google”\n\n"<annotation id="url">"Läs mer"</annotation></string>
+    <string name="battery_saver_description" msgid="6794188153647295212">"Batterisparläget förlänger batteritiden genom att\n\n• aktivera Mörkt tema\n• inaktivera eller begränsa aktivitet i bakgrunden, vissa visuella effekter och andra funktioner, som ”Hey Google”"</string>
     <string name="data_saver_description" msgid="4995164271550590517">"Med databesparing kan du minska dataanvändningen genom att hindra en del appar från att skicka eller ta emot data i bakgrunden. Appar som du använder kan komma åt data, men det sker kanske inte lika ofta. Detta innebär t.ex. att bilder inte visas förrän du trycker på dem."</string>
     <string name="data_saver_enable_title" msgid="7080620065745260137">"Vill du aktivera Databesparing?"</string>
     <string name="data_saver_enable_button" msgid="4399405762586419726">"Aktivera"</string>
@@ -1829,7 +1844,8 @@
       <item quantity="other">I %d tim</item>
       <item quantity="one">I en 1 tim</item>
     </plurals>
-    <string name="zen_mode_until" msgid="2250286190237669079">"Till kl. <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
+    <string name="zen_mode_until_next_day" msgid="1403042784161725038">"Till <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
+    <string name="zen_mode_until" msgid="2250286190237669079">"Till <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_alarm" msgid="7046911727540499275">"Till <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> (nästa alarm)"</string>
     <string name="zen_mode_forever" msgid="740585666364912448">"Tills du stänger av"</string>
     <string name="zen_mode_forever_dnd" msgid="3423201955704180067">"Tills du inaktiverar Stör ej"</string>
@@ -1997,6 +2013,11 @@
     <string name="notification_appops_camera_active" msgid="8177643089272352083">"Kamera"</string>
     <string name="notification_appops_microphone_active" msgid="581333393214739332">"Mikrofon"</string>
     <string name="notification_appops_overlay_active" msgid="5571732753262836481">"visar över andra appar på mobilen"</string>
+    <string name="notification_feedback_indicator" msgid="663476517711323016">"Lämna feedback"</string>
+    <string name="notification_feedback_indicator_alerted" msgid="6552871804121942099">"Den här aviseringen har ändrats till Standard. Tryck för att lämna feedback."</string>
+    <string name="notification_feedback_indicator_silenced" msgid="3799442124723177262">"Den här aviseringen har ändrats till Tyst. Tryck för att lämna feedback."</string>
+    <string name="notification_feedback_indicator_promoted" msgid="9030204303764698640">"Den här aviseringen har fått högre rankning. Tryck för att lämna feedback."</string>
+    <string name="notification_feedback_indicator_demoted" msgid="8880309924296450875">"Den här aviseringen har fått lägre rankning. Tryck för att lämna feedback."</string>
     <string name="dynamic_mode_notification_channel_name" msgid="2986926422100223328">"Avisering om rutinläge"</string>
     <string name="dynamic_mode_notification_title" msgid="9205715501274608016">"Batteriet kan ta slut innan du brukar ladda det"</string>
     <string name="dynamic_mode_notification_summary" msgid="4141614604437372157">"Batterisparläget har aktiverats för att utöka batteritiden"</string>
@@ -2039,7 +2060,7 @@
     <string name="accessibility_system_action_quick_settings_label" msgid="4583900123506773783">"Snabbinställningar"</string>
     <string name="accessibility_system_action_power_dialog_label" msgid="8095341821683910781">"Dialogruta för ström"</string>
     <string name="accessibility_system_action_lock_screen_label" msgid="5484190691945563838">"Låsskärm"</string>
-    <string name="accessibility_system_action_screenshot_label" msgid="3581566515062741676">"Skärmdump"</string>
+    <string name="accessibility_system_action_screenshot_label" msgid="3581566515062741676">"Skärmbild"</string>
     <string name="accessibility_system_action_on_screen_a11y_shortcut_label" msgid="8488701469459210309">"Tillgänglighetsgenväg på skärmen"</string>
     <string name="accessibility_system_action_on_screen_a11y_shortcut_chooser_label" msgid="1057878690209817886">"Valfunktion för tillgänglighetsgenväg på skärmen"</string>
     <string name="accessibility_system_action_hardware_a11y_shortcut_label" msgid="5764644187715255107">"Aktivera tillgänglighet snabbt"</string>
@@ -2180,4 +2201,16 @@
     <string name="config_pdp_reject_user_authentication_failed" msgid="4531693033885744689"></string>
     <string name="config_pdp_reject_service_not_subscribed" msgid="8190338397128671588"></string>
     <string name="config_pdp_reject_multi_conn_to_same_pdn_not_allowed" msgid="6024904218067254186"></string>
+    <string name="window_magnification_prompt_title" msgid="8197528399699536320">"Nyhet: Fönsterförstoring"</string>
+    <string name="window_magnification_prompt_content" msgid="4166711383253283838">"Nu kan du förstora delar av eller hela skärmen"</string>
+    <string name="turn_on_magnification_settings_action" msgid="8521433346684847700">"Aktivera i inställningarna"</string>
+    <string name="dismiss_action" msgid="1728820550388704784">"Stäng"</string>
+    <!-- no translation found for sensor_privacy_start_use_mic_notification_content (8063355861118105607) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_camera_notification_content (4738005643315863736) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_dialog_turn_on_button (7921147002346108119) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_notification_channel_label (936036783155261349) -->
+    <skip />
 </resources>

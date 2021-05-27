@@ -57,7 +57,7 @@
     <string name="imei" msgid="2157082351232630390">"IMEI"</string>
     <string name="meid" msgid="3291227361605924674">"MEID"</string>
     <string name="ClipMmi" msgid="4110549342447630629">"ID Pemanggil Masuk"</string>
-    <string name="ClirMmi" msgid="4702929460236547156">"ID Pemanggil Keluar"</string>
+    <string name="ClirMmi" msgid="6752346475055446417">"Sembunyikan ID Pemanggil Keluar"</string>
     <string name="ColpMmi" msgid="4736462893284419302">"ID Laluan yang disambungkan"</string>
     <string name="ColrMmi" msgid="5889782479745764278">"Sekatan ID Laluan yang disambungkan"</string>
     <string name="CfMmi" msgid="8390012691099787178">"Pemajuan panggilan"</string>
@@ -146,6 +146,9 @@
     <string name="wfc_mode_wifi_preferred_summary" msgid="1035175836270943089">"Panggil melalui Wi-Fi"</string>
     <string name="wfc_mode_cellular_preferred_summary" msgid="4958965609212575619">"Panggil melalui rangkaian mudah alih"</string>
     <string name="wfc_mode_wifi_only_summary" msgid="104951993894678665">"Wi-Fi sahaja"</string>
+    <!-- no translation found for crossSimFormat_spn (9125246077491634262) -->
+    <skip />
+    <string name="crossSimFormat_spn_cross_sim_calling" msgid="779976494687695991">"<xliff:g id="SPN">%s</xliff:g> Panggilan Silang Sim"</string>
     <string name="cfTemplateNotForwarded" msgid="862202427794270501">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: Tidak dimajukan"</string>
     <string name="cfTemplateForwarded" msgid="9132506315842157860">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g>"</string>
     <string name="cfTemplateForwardedTime" msgid="735042369233323609">"<xliff:g id="BEARER_SERVICE_CODE">{0}</xliff:g>: <xliff:g id="DIALING_NUMBER">{1}</xliff:g> selepas <xliff:g id="TIME_DELAY">{2}</xliff:g> saat"</string>
@@ -193,10 +196,15 @@
     <string name="network_logging_notification_text" msgid="1327373071132562512">"Organisasi anda mengurus peranti ini dan mungkin memantau trafik rangkaian. Ketik untuk mendapatkan butiran."</string>
     <string name="location_changed_notification_title" msgid="3620158742816699316">"Apl boleh mengakses lokasi anda"</string>
     <string name="location_changed_notification_text" msgid="7158423339982706912">"Hubungi pentadbir IT untuk mengetahui lebih lanjut"</string>
+    <string name="geofencing_service" msgid="3826902410740315456">"Perkhidmatan Penyempadanan Geografi"</string>
     <string name="country_detector" msgid="7023275114706088854">"Pengesan Negara"</string>
     <string name="location_service" msgid="2439187616018455546">"Perkhidmatan Lokasi"</string>
+    <string name="gnss_service" msgid="8907781262179951385">"Perkhidmatan GNSS"</string>
     <string name="sensor_notification_service" msgid="7474531979178682676">"Perkhidmatan Pemberitahuan Penderia"</string>
     <string name="twilight_service" msgid="8964898045693187224">"Perkhidmatan Twilight"</string>
+    <string name="offline_location_time_zone_detection_service_attribution" msgid="303754195048744816">"Pengesan Zon Waktu (Tiada kesambungan)"</string>
+    <!-- no translation found for gnss_time_update_service (9039489496037616095) -->
+    <skip />
     <string name="factory_reset_warning" msgid="6858705527798047809">"Peranti anda akan dipadam"</string>
     <string name="factory_reset_message" msgid="2657049595153992213">"Apl pentadbir tidak dapat digunakan. Peranti anda akan dipadamkan sekarang.\n\nJika anda ingin mengemukakan soalan, hubungi pentadbir organisasi anda."</string>
     <string name="printing_disabled_by" msgid="3517499806528864633">"Pencetakan dilumpuhkan oleh <xliff:g id="OWNER_APP">%s</xliff:g>."</string>
@@ -285,6 +293,7 @@
     <string name="notification_channel_usb" msgid="1528280969406244896">"Sambungan USB"</string>
     <string name="notification_channel_heavy_weight_app" msgid="17455756500828043">"Apl berjalan"</string>
     <string name="notification_channel_foreground_service" msgid="7102189948158885178">"Apl yang menggunakan bateri"</string>
+    <string name="notification_channel_accessibility_magnification" msgid="1707913872219798098">"Pembesaran"</string>
     <string name="foreground_service_app_in_background" msgid="1439289699671273555">"<xliff:g id="APP_NAME">%1$s</xliff:g> sedang menggunakan bateri"</string>
     <string name="foreground_service_apps_in_background" msgid="7340037176412387863">"<xliff:g id="NUMBER">%1$d</xliff:g> apl sedang menggunakan bateri"</string>
     <string name="foreground_service_tap_for_details" msgid="9078123626015586751">"Ketik untuk mendapatkan butiran tentang penggunaan kuasa bateri dan data"</string>
@@ -349,6 +358,8 @@
     <string name="permdesc_receiveMms" msgid="958102423732219710">"Membenarkan apl menerima dan memproses mesej MMS. Ini bermakna apl boleh memantau atau memadam mesej yang dihantar ke peranti anda tanpa menunjukkannya kepada anda."</string>
     <string name="permlab_bindCellBroadcastService" msgid="586746677002040651">"Kirim semula mesej siaran sel"</string>
     <string name="permdesc_bindCellBroadcastService" msgid="6540910200973641606">"Membenarkan apl terikat pada modul siaran sel untuk mengirim semula mesej siaran sel apabila diterima. Makluman siaran sel dihantar di sesetengah lokasi untuk memberi amaran kepada anda tentang situasi kecemasan. Apl hasad boleh mengganggu prestasi atau operasi peranti anda apabila siaran sel kecemasan diterima."</string>
+    <string name="permlab_manageOngoingCalls" msgid="281244770664231782">"Urus panggilan yang sedang berjalan"</string>
+    <string name="permdesc_manageOngoingCalls" msgid="7003138133829915265">"Benarkan apl melihat butiran panggilan yang sedang berjalan pada peranti anda dan mengawal panggilan ini."</string>
     <string name="permlab_readCellBroadcasts" msgid="5869884450872137693">"baca mesej siaran sel"</string>
     <string name="permdesc_readCellBroadcasts" msgid="672513437331980168">"Membolehkan apl membaca mesej siaran sel yang diterima oleh peranti anda. Isyarat siaran sel dihantar di beberapa lokasi untuk memberi amaran kepada anda tentang situasi kecemasan. Apl hasad boleh mengganggu prestasi atau operasi peranti anda apabila siaran sel kecemasan diterima."</string>
     <string name="permlab_subscribedFeedsRead" msgid="217624769238425461">"baca suapan langganan"</string>
@@ -430,13 +441,17 @@
     <string name="permlab_modifyAudioSettings" msgid="6129039778010031815">"tukar tetapan audio anda"</string>
     <string name="permdesc_modifyAudioSettings" msgid="8687227609663124921">"Membenarkan apl untuk mengubah suai tetapan audio global seperti kelantangan dan pembesar suara mana digunakan untuk output."</string>
     <string name="permlab_recordAudio" msgid="1208457423054219147">"rakam audio"</string>
-    <string name="permdesc_recordAudio" msgid="3976213377904701093">"Apl ini boleh merakam audio menggunakan mikrofon pada bila-bila masa."</string>
+    <string name="permdesc_recordAudio" msgid="5857246765327514062">"Aplikasi ini boleh merakam audio menggunakan mikrofon semasa apl sedang digunakan."</string>
+    <string name="permlab_recordBackgroundAudio" msgid="5891032812308878254">"rakam audio di latar"</string>
+    <string name="permdesc_recordBackgroundAudio" msgid="1992623135737407516">"Apl ini boleh merakam audio menggunakan mikrofon pada bila-bila masa."</string>
     <string name="permlab_sim_communication" msgid="176788115994050692">"hantar perintah ke SIM"</string>
     <string name="permdesc_sim_communication" msgid="4179799296415957960">"Membenarkan apl menghantar arahan kepada SIM. Ini amat berbahaya."</string>
     <string name="permlab_activityRecognition" msgid="1782303296053990884">"camkan aktiviti fizikal"</string>
     <string name="permdesc_activityRecognition" msgid="8667484762991357519">"Apl ini dapat mengecam aktiviti fizikal anda."</string>
     <string name="permlab_camera" msgid="6320282492904119413">"ambil gambar dan video"</string>
-    <string name="permdesc_camera" msgid="1354600178048761499">"Apl ini boleh mengambil gambar dan merakam video menggunakan kamera pada bila-bila masa."</string>
+    <string name="permdesc_camera" msgid="5240801376168647151">"Apl ini boleh mengambil gambar dan merakam video menggunakan kamera semasa apl sedang digunakan."</string>
+    <string name="permlab_backgroundCamera" msgid="7549917926079731681">"ambil gambar dan video di latar"</string>
+    <string name="permdesc_backgroundCamera" msgid="1615291686191138250">"Apl ini boleh mengambil gambar dan merakam video menggunakan kamera pada bila-bila masa."</string>
     <string name="permlab_systemCamera" msgid="3642917457796210580">"Benarkan aplikasi atau perkhidmatan mengakses kamera sistem untuk mengambil gambar dan video"</string>
     <string name="permdesc_systemCamera" msgid="5938360914419175986">"Apl terlindung atau apl sistem ini boleh mengambil gambar dan merakam video menggunakan kamera sistem pada bila-bila masa. Apl juga perlu mempunyai kebenaran android.permission.CAMERA"</string>
     <string name="permlab_cameraOpenCloseListener" msgid="5548732769068109315">"Benarkan aplikasi atau perkhidmatan menerima panggilan balik tentang peranti kamera yang dibuka atau ditutup."</string>
@@ -542,6 +557,7 @@
     <string name="biometric_not_recognized" msgid="5106687642694635888">"Tidak dikenali"</string>
     <string name="biometric_error_canceled" msgid="8266582404844179778">"Pengesahan dibatalkan"</string>
     <string name="biometric_error_device_not_secured" msgid="3129845065043995924">"Pin, corak atau kata laluan tidak ditetapkan"</string>
+    <string name="biometric_error_generic" msgid="6784371929985434439">"Ralat semasa membuat pengesahan"</string>
     <string name="fingerprint_acquired_partial" msgid="8532380671091299342">"Cap jari separa dikesan. Sila cuba lagi."</string>
     <string name="fingerprint_acquired_insufficient" msgid="2545149524031515411">"Tidak dapat memproses cap jari. Sila cuba lagi."</string>
     <string name="fingerprint_acquired_imager_dirty" msgid="4694800187151533990">"Penderia cap jari kotor. Sila bersihkan dan cuba lagi."</string>
@@ -829,7 +845,7 @@
     <string name="lockscreen_instructions_when_pattern_enabled" msgid="7982445492532123308">"Tekan Menu untuk menyahsekat atau membuat panggilan kecemasan."</string>
     <string name="lockscreen_instructions_when_pattern_disabled" msgid="7434061749374801753">"Tekan Menu untuk membuka kunci."</string>
     <string name="lockscreen_pattern_instructions" msgid="3169991838169244941">"Lukiskan corak untuk membuka kunci"</string>
-    <string name="lockscreen_emergency_call" msgid="7500692654885445299">"Kecemasan"</string>
+    <string name="lockscreen_emergency_call" msgid="7549683825868928636">"Panggilan kecemasan"</string>
     <string name="lockscreen_return_to_call" msgid="3156883574692006382">"Kembali ke panggilan"</string>
     <string name="lockscreen_pattern_correct" msgid="8050630103651508582">"Betul!"</string>
     <string name="lockscreen_pattern_wrong" msgid="2940138714468358458">"Cuba lagi"</string>
@@ -1122,6 +1138,8 @@
     <string name="capital_off" msgid="7443704171014626777">"MATIKAN"</string>
     <string name="checked" msgid="9179896827054513119">"ditandai"</string>
     <string name="not_checked" msgid="7972320087569023342">"tidak ditandai"</string>
+    <string name="selected" msgid="6614607926197755875">"dipilih"</string>
+    <string name="not_selected" msgid="410652016565864475">"tidak dipilih"</string>
     <string name="whichApplication" msgid="5432266899591255759">"Selesaikan tindakan menggunakan"</string>
     <string name="whichApplicationNamed" msgid="6969946041713975681">"Selesaikan tindakan menggunakan %1$s"</string>
     <string name="whichApplicationLabel" msgid="7852182961472531728">"Selesaikan tindakan"</string>
@@ -1460,9 +1478,6 @@
     <string name="gpsNotifMessage" msgid="7346649122793758032">"Diminta oleh <xliff:g id="NAME">%1$s</xliff:g> (<xliff:g id="SERVICE">%2$s</xliff:g>)"</string>
     <string name="gpsVerifYes" msgid="3719843080744112940">"Ya"</string>
     <string name="gpsVerifNo" msgid="1671201856091564741">"Tidak"</string>
-    <string name="gnss_nfw_notification_title" msgid="5004493772059563423">"Lokasi kecemasan diakses"</string>
-    <string name="gnss_nfw_notification_message_oem" msgid="3683958907027107969">"Pengilang peranti anda mengakses lokasi anda semasa sesi kecemasan baru-baru ini"</string>
-    <string name="gnss_nfw_notification_message_carrier" msgid="815888995791562151">"Pembawa anda mengakses lokasi anda semasa sesi kecemasan baru-baru ini"</string>
     <string name="sync_too_many_deletes" msgid="6999440774578705300">"Melebihi had padam"</string>
     <string name="sync_too_many_deletes_desc" msgid="7409327940303504440">"Terdapat <xliff:g id="NUMBER_OF_DELETED_ITEMS">%1$d</xliff:g> item yang dipadamkan untuk <xliff:g id="TYPE_OF_SYNC">%2$s</xliff:g>, akaun <xliff:g id="ACCOUNT_NAME">%3$s</xliff:g>. Apakah yang mahu anda lakukan?"</string>
     <string name="sync_really_delete" msgid="5657871730315579051">"Padamkan item itu"</string>
@@ -1622,10 +1637,10 @@
     <string name="safe_media_volume_warning" product="default" msgid="3751676824423049994">"Naikkan kelantangan melebihi paras yang disyokorkan?\n\nMendengar pada kelantangan yang tinggi untuk tempoh yang lama boleh merosakkan pendengaran anda."</string>
     <string name="accessibility_shortcut_warning_dialog_title" msgid="4017995837692622933">"Gunakan Pintasan Kebolehaksesan?"</string>
     <string name="accessibility_shortcut_toogle_warning" msgid="4161716521310929544">"Apabila pintasan dihidupkan, tindakan menekan kedua-dua butang kelantangan selama 3 saat akan memulakan ciri kebolehaksesan."</string>
-    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="8417489297036013065">"Hidupkan ciri kebolehaksesan?"</string>
+    <string name="accessibility_shortcut_multiple_service_warning_title" msgid="3135860819356676426">"Hidupkan pintasan untuk ciri kebolehaksesan?"</string>
     <string name="accessibility_shortcut_multiple_service_warning" msgid="3740723309483706911">"Tindakan menahan kedua-dua kekunci kelantangan selama beberapa saat akan menghidupkan ciri kebolehaksesan. Hal ini mungkin mengubah cara peranti anda berfungsi.\n\nCiri semasa:\n<xliff:g id="SERVICE">%1$s</xliff:g>\nAnda boleh menukar ciri yang dipilih dalam Tetapan &gt; Kebolehaksesan."</string>
     <string name="accessibility_shortcut_multiple_service_list" msgid="6935581470716541531">"	• <xliff:g id="SERVICE">%1$s</xliff:g>\n"</string>
-    <string name="accessibility_shortcut_single_service_warning_title" msgid="2819109500943271385">"Hidupkan <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
+    <string name="accessibility_shortcut_single_service_warning_title" msgid="1909518473488345266">"Hidupkan pintasan <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="accessibility_shortcut_single_service_warning" msgid="6363127705112844257">"Tindakan menahan kedua-dua kekunci kelantangan selama beberapa saat akan menghidupkan <xliff:g id="SERVICE">%1$s</xliff:g>, iaitu satu ciri kebolehaksesan. Ini mungkin mengubah cara peranti anda berfungsi.\n\nAnda boleh menukar pintasan ini kepada ciri lain dalam Tetapan &gt; Kebolehaksesan."</string>
     <string name="accessibility_shortcut_on" msgid="5463618449556111344">"Hidupkan"</string>
     <string name="accessibility_shortcut_off" msgid="3651336255403648739">"Jangan hidupkan"</string>
@@ -1792,8 +1807,8 @@
     <string name="package_updated_device_owner" msgid="7560272363805506941">"Dikemas kini oleh pentadbir anda"</string>
     <string name="package_deleted_device_owner" msgid="2292335928930293023">"Dipadamkan oleh pentadbir anda"</string>
     <string name="confirm_battery_saver" msgid="5247976246208245754">"OK"</string>
-    <string name="battery_saver_description_with_learn_more" msgid="5997766757551917769">"Untuk melanjutkan hayat bateri, Penjimat Bateri:\n\n•Menghidupkan Tema gelap\n•Mematikan atau mengehadkan aktiviti latar belakang, sesetengah kesan visual dan ciri lain seperti “Ok Google”\n\n"<annotation id="url">"Ketahui lebih lanjut"</annotation></string>
-    <string name="battery_saver_description" msgid="8587408568232177204">"Untuk melanjutkan hayat bateri, Penjimat Bateri:\n\n•Menghidupkan Tema gelap\n•Mematikan atau mengehadkan aktiviti latar belakang, sesetengah kesan visual dan ciri lain seperti “Ok Google”"</string>
+    <string name="battery_saver_description_with_learn_more" msgid="4424488535318105801">"Untuk melanjutkan hayat bateri, Penjimat Bateri:\n\n• Menghidupkan Tema gelap\n• Mematikan atau mengehadkan aktiviti latar belakang, sesetengah kesan visual dan ciri lain seperti “Ok Google”\n\n"<annotation id="url">"Ketahui lebih lanjut"</annotation></string>
+    <string name="battery_saver_description" msgid="6794188153647295212">"Untuk melanjutkan hayat bateri, Penjimat Bateri:\n\n•Menghidupkan Tema gelap\n• Mematikan atau mengehadkan aktiviti latar belakang, sesetengah kesan visual dan ciri-ciri lain seperti “Ok Google”"</string>
     <string name="data_saver_description" msgid="4995164271550590517">"Untuk membantu mengurangkan penggunaan data, Penjimat Data menghalang sesetengah apl daripada menghantar atau menerima data di latar. Apl yang sedang digunakan boleh mengakses data tetapi mungkin tidak secara kerap. Perkara ini mungkin bermaksud bahawa imej tidak dipaparkan sehingga anda mengetik pada imej itu, contohnya."</string>
     <string name="data_saver_enable_title" msgid="7080620065745260137">"Hidupkan Penjimat Data?"</string>
     <string name="data_saver_enable_button" msgid="4399405762586419726">"Hidupkan"</string>
@@ -1829,6 +1844,7 @@
       <item quantity="other">Selama %d jam</item>
       <item quantity="one">Selama 1 jam</item>
     </plurals>
+    <string name="zen_mode_until_next_day" msgid="1403042784161725038">"Hingga <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_until" msgid="2250286190237669079">"Sehingga <xliff:g id="FORMATTEDTIME">%1$s</xliff:g>"</string>
     <string name="zen_mode_alarm" msgid="7046911727540499275">"Sehingga <xliff:g id="FORMATTEDTIME">%1$s</xliff:g> (penggera akan datang)"</string>
     <string name="zen_mode_forever" msgid="740585666364912448">"Sehingga anda matikan"</string>
@@ -1997,6 +2013,11 @@
     <string name="notification_appops_camera_active" msgid="8177643089272352083">"Kamera"</string>
     <string name="notification_appops_microphone_active" msgid="581333393214739332">"Mikrofon"</string>
     <string name="notification_appops_overlay_active" msgid="5571732753262836481">"dipaparkan di atas apl lain pada skrin anda"</string>
+    <string name="notification_feedback_indicator" msgid="663476517711323016">"Berikan Maklum Balas"</string>
+    <string name="notification_feedback_indicator_alerted" msgid="6552871804121942099">"Pemberitahuan ini telah dinaik taraf menjadi Lalai. Ketik untuk memberikan maklum balas."</string>
+    <string name="notification_feedback_indicator_silenced" msgid="3799442124723177262">"Pemberitahuan ini telah diturun taraf kepada Senyap. Ketik untuk memberikan maklum balas."</string>
+    <string name="notification_feedback_indicator_promoted" msgid="9030204303764698640">"Pemberitahuan ini berada di kedudukan lebih tinggi. Ketik untuk memberikan maklum balas."</string>
+    <string name="notification_feedback_indicator_demoted" msgid="8880309924296450875">"Pemberitahuan ini berada di kedudukan lebih rendah. Ketik untuk memberikan maklum balas."</string>
     <string name="dynamic_mode_notification_channel_name" msgid="2986926422100223328">"Pemberitahuan maklumat Mod Rutin"</string>
     <string name="dynamic_mode_notification_title" msgid="9205715501274608016">"Bateri mungkin habis sebelum pengecasan biasa"</string>
     <string name="dynamic_mode_notification_summary" msgid="4141614604437372157">"Penjimat Bateri diaktifkan untuk memanjangkan hayat bateri"</string>
@@ -2180,4 +2201,16 @@
     <string name="config_pdp_reject_user_authentication_failed" msgid="4531693033885744689"></string>
     <string name="config_pdp_reject_service_not_subscribed" msgid="8190338397128671588"></string>
     <string name="config_pdp_reject_multi_conn_to_same_pdn_not_allowed" msgid="6024904218067254186"></string>
+    <string name="window_magnification_prompt_title" msgid="8197528399699536320">"Baharu: Pembesar Tetingkap"</string>
+    <string name="window_magnification_prompt_content" msgid="4166711383253283838">"Besarkan sebahagian atau keseluruhan skrin anda"</string>
+    <string name="turn_on_magnification_settings_action" msgid="8521433346684847700">"Hidupkan dalam Tetapan"</string>
+    <string name="dismiss_action" msgid="1728820550388704784">"Tolak"</string>
+    <!-- no translation found for sensor_privacy_start_use_mic_notification_content (8063355861118105607) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_camera_notification_content (4738005643315863736) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_start_use_dialog_turn_on_button (7921147002346108119) -->
+    <skip />
+    <!-- no translation found for sensor_privacy_notification_channel_label (936036783155261349) -->
+    <skip />
 </resources>
