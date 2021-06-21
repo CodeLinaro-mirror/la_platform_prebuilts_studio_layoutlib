@@ -276,6 +276,7 @@
   <java-symbol type="bool" name="config_avoidGfxAccel" />
   <java-symbol type="bool" name="config_bluetooth_address_validation" />
   <java-symbol type="bool" name="config_flipToScreenOffEnabled" />
+  <java-symbol type="integer" name="config_flipToScreenOffMaxLatencyMicros" />
   <java-symbol type="bool" name="config_bluetooth_sco_off_call" />
   <java-symbol type="bool" name="config_bluetooth_le_peripheral_mode_supported" />
   <java-symbol type="bool" name="config_bluetooth_hfp_inband_ringing_support" />
@@ -401,6 +402,7 @@
   <java-symbol type="bool" name="config_supportsSystemDecorsOnSecondaryDisplays" />
   <java-symbol type="bool" name="config_supportsInsecureLockScreen" />
   <java-symbol type="bool" name="config_guestUserEphemeral" />
+  <java-symbol type="bool" name="config_guestUserAutoCreated" />
   <java-symbol type="bool" name="config_localDisplaysMirrorContent" />
   <java-symbol type="array" name="config_localPrivateDisplayPorts" />
   <java-symbol type="integer" name="config_defaultDisplayDefaultColorMode" />
@@ -1898,6 +1900,7 @@
   <java-symbol type="array" name="radioAttributes" />
   <java-symbol type="array" name="config_oemUsbModeOverride" />
   <java-symbol type="array" name="config_locationProviderPackageNames" />
+  <java-symbol type="array" name="config_locationDriverAssistancePackageNames" />
   <java-symbol type="array" name="config_locationExtraPackageNames" />
   <java-symbol type="array" name="config_testLocationProviders" />
   <java-symbol type="array" name="config_defaultNotificationVibePattern" />
@@ -2010,6 +2013,8 @@
   <java-symbol type="integer" name="config_notificationServiceArchiveSize" />
   <java-symbol type="integer" name="config_previousVibrationsDumpLimit" />
   <java-symbol type="integer" name="config_defaultVibrationAmplitude" />
+  <java-symbol type="integer" name="config_vibrationWaveformRampStepDuration" />
+  <java-symbol type="integer" name="config_vibrationWaveformRampDownDuration" />
   <java-symbol type="integer" name="config_radioScanningTimeout" />
   <java-symbol type="integer" name="config_screenBrightnessSettingMinimum" />
   <java-symbol type="integer" name="config_screenBrightnessSettingMaximum" />
@@ -2586,6 +2591,7 @@
   <java-symbol type="array" name="config_biometric_sensors" />
   <java-symbol type="bool" name="allow_test_udfps" />
   <java-symbol type="array" name="config_udfps_sensor_props" />
+  <java-symbol type="integer" name="config_udfps_illumination_transition_ms" />
   <java-symbol type="bool" name="config_is_powerbutton_fps" />
 
   <java-symbol type="array" name="config_face_acquire_enroll_ignorelist" />
@@ -4388,4 +4394,12 @@
 
   <java-symbol type="bool" name="config_supportsMicToggle" />
   <java-symbol type="bool" name="config_supportsCamToggle" />
+
+  <java-symbol type="dimen" name="starting_surface_icon_size" />
+  <java-symbol type="dimen" name="starting_surface_default_icon_size" />
+
+  <java-symbol type="bool" name="config_assistLongPressHomeEnabledDefault" />
+  <java-symbol type="bool" name="config_assistTouchGestureEnabledDefault" />
+
+  <java-symbol type="dimen" name="config_wallpaperDimAmount" />
 </resources>
