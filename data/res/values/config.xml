@@ -1759,6 +1759,13 @@
         <item>com.android.location.fused</item>
     </string-array>
 
+    <!-- Package name(s) of Advanced Driver Assistance applications. These packages have additional
+    management of access to location, specific to driving assistance use-cases. They must be system
+    packages. This configuration is only applicable to devices that declare
+    PackageManager.FEATURE_AUTOMOTIVE. -->
+    <string-array name="config_locationDriverAssistancePackageNames" translatable="false">
+    </string-array>
+
     <!-- This string array can be overriden to enable test location providers initially. -->
     <!-- Array of "[locationProviderName],[requiresNetwork],
          [requiresSatellite],[requiresCell],[hasMonetaryCost],
@@ -1791,6 +1798,9 @@
 
     <!-- Boolean indicating if placing the phone face down will result in a screen off. -->
     <bool name="config_flipToScreenOffEnabled">true</bool>
+
+    <!-- Integer to set a max latency the accelerometer will batch sensor requests with. -->
+    <integer name="config_flipToScreenOffMaxLatencyMicros">2000000</integer>
 
     <!-- Boolean indicating if current platform supports bluetooth SCO for off call
     use cases -->
@@ -1968,6 +1978,9 @@
     <string name="config_systemActivityRecognizer" translatable="false"></string>
     <!-- The name of the package that will hold the system ui role -->
     <string name="config_systemUi" translatable="false">com.android.systemui</string>
+    <!-- The name of the package that will hold the television remote service role.
+        TODO(b/189347385) make this a @SystemAPI -->
+    <string name="config_systemTelevisionRemoteService" translatable="false">@string/config_tvRemoteServicePackage</string>
 
     <!-- The name of the package that will be allowed to change its components' label/icon. -->
     <string name="config_overrideComponentUiPackage" translatable="false">com.android.stk</string>
@@ -3341,6 +3354,15 @@
      (e.g. accessibility, alarms). This is mainly for Wear devices that don't have speakers. -->
     <bool name="config_allowPriorityVibrationsInLowPowerMode">false</bool>
 
+    <!-- The duration (in milliseconds) that should be used to convert vibration ramps to a sequence
+         of fixed amplitude steps on devices without PWLE support. -->
+    <integer name="config_vibrationWaveformRampStepDuration">5</integer>
+
+    <!-- The duration (in milliseconds) that should be applied to waveform vibrations that ends in
+         non-zero amplitudes, . The waveform will
+         be played as a PWLE instead of on/off calls if this value is set. -->
+    <integer name="config_vibrationWaveformRampDownDuration">0</integer>
+
     <!-- Number of retries Cell Data should attempt for a given error code before
          restarting the modem.
          Error codes not listed will not lead to modem restarts.
@@ -3506,6 +3528,12 @@
 
     <!-- If true, all guest users created on the device will be ephemeral. -->
     <bool name="config_guestUserEphemeral">false</bool>
+
+    <!-- Whether device should always have a guest user available. If true, guest user will be
+         created on boot, and a new guest user will be created in the background anytime the current
+         guest user is removed. Instead of showing "Add guest" and "Remove guest", the UI will show
+         "Guest" and "Reset guest". -->
+    <bool name="config_guestUserAutoCreated">false</bool>
 
     <!-- Enforce strong auth on boot. Setting this to false represents a security risk and should
          not be ordinarily done. The only case in which this might be permissible is in a car head
@@ -4499,6 +4527,9 @@
       -->
     </integer-array>
 
+    <!-- How long it takes for the HW to start illuminating after the illumination is requested. -->
+    <integer name="config_udfps_illumination_transition_ms">50</integer>
+
     <!-- Indicates whether device has a power button fingerprint sensor. -->
     <bool name="config_is_powerbutton_fps" translatable="false" >false</bool>
 
@@ -4966,4 +4997,13 @@
 
     <!-- List containing the allowed install sources for accessibility service. -->
     <string-array name="config_accessibility_allowed_install_source" translatable="false"/>
+
+    <!-- Default value for Settings.ASSIST_LONG_PRESS_HOME_ENABLED -->
+    <bool name="config_assistLongPressHomeEnabledDefault">true</bool>
+    <!-- Default value for Settings.ASSIST_TOUCH_GESTURE_ENABLED -->
+    <bool name="config_assistTouchGestureEnabledDefault">true</bool>
+
+    <!-- The amount of dimming to apply to wallpapers with mid range luminance. 0 displays
+         the wallpaper at full brightness. 1 displays the wallpaper as fully black. -->
+    <item name="config_wallpaperDimAmount" format="float" type="dimen">0.05</item>
 </resources>
