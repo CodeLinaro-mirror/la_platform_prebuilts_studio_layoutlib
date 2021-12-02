@@ -5,6 +5,6 @@ The script to update the prebuilts can be found in
 The object in this prebuilt directory can be rebuilt from
         platform/frameworks/base/tools/layoutlib
 
-From: sc-layoutlib-native@a2a4ceb72e96b64bdac88d4804c85405c5f0ccae
-      https://android.googlesource.com/platform/frameworks/layoutlib/+/a2a4ceb72e96b64bdac88d4804c85405c5f0ccae
+From: sc-layoutlib-native@d75bfd638cff2f3d6e2da5fe956e8a9d3eebc7e2
+      https://android.googlesource.com/platform/frameworks/layoutlib/+/d75bfd638cff2f3d6e2da5fe956e8a9d3eebc7e2
 
