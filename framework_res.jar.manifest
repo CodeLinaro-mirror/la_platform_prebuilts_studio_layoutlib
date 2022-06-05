@@ -80,6 +80,10 @@ res/anim-ldrtl/activity_open_exit.xml
 res/anim-ldrtl/cross_profile_apps_thumbnail_enter.xml
 res/anim-ldrtl/task_close_enter.xml
 res/anim-ldrtl/task_close_exit.xml
+res/anim-ldrtl/task_fragment_close_enter.xml
+res/anim-ldrtl/task_fragment_close_exit.xml
+res/anim-ldrtl/task_fragment_open_enter.xml
+res/anim-ldrtl/task_fragment_open_exit.xml
 res/anim-ldrtl/task_open_enter.xml
 res/anim-ldrtl/task_open_enter_cross_profile_apps.xml
 res/anim-ldrtl/task_open_exit.xml
@@ -309,6 +313,7 @@ res/color-car/car_button_text_color.xml
 res/color-car/car_switch.xml
 res/color-car/car_switch_track.xml
 res/color-night/resolver_accent_ripple.xml
+res/color-night/resolver_button_text.xml
 res/color-night/resolver_profile_tab_selected_bg.xml
 res/color-night/resolver_profile_tab_text.xml
 res/color-watch/btn_watch_default_dark.xml
@@ -362,6 +367,7 @@ res/color/primary_text_secondary_when_activated_material.xml
 res/color/primary_text_secondary_when_activated_material_inverse.xml
 res/color/ratingbar_background_material.xml
 res/color/resolver_accent_ripple.xml
+res/color/resolver_button_text.xml
 res/color/resolver_profile_tab_selected_bg.xml
 res/color/resolver_profile_tab_text.xml
 res/color/ripple_material_dark.xml
@@ -8685,6 +8691,7 @@ res/drawable/activated_background_holo_light.xml
 res/drawable/activated_background_light.xml
 res/drawable/activated_background_material.xml
 res/drawable/app_icon_background.xml
+res/drawable/autofill_bottomsheet_background.xml
 res/drawable/autofill_dataset_picker_background.xml
 res/drawable/autofilled_highlight.xml
 res/drawable/background_holo_dark.xml
@@ -8730,6 +8737,7 @@ res/drawable/btn_keyboard_key_trans.xml
 res/drawable/btn_leanback.xml
 res/drawable/btn_minus.xml
 res/drawable/btn_notification_emphasized.xml
+res/drawable/btn_outlined.xml
 res/drawable/btn_plus.xml
 res/drawable/btn_radio.xml
 res/drawable/btn_radio_holo_dark.xml
@@ -8751,6 +8759,7 @@ res/drawable/btn_toggle_bg.xml
 res/drawable/btn_toggle_holo_dark.xml
 res/drawable/btn_toggle_holo_light.xml
 res/drawable/btn_toggle_material.xml
+res/drawable/btn_tonal.xml
 res/drawable/btn_zoom_down.xml
 res/drawable/btn_zoom_page.xml
 res/drawable/btn_zoom_up.xml
@@ -9248,7 +9257,9 @@ res/drawable/ratingbar_small_holo_dark.xml
 res/drawable/ratingbar_small_holo_light.xml
 res/drawable/ratingbar_small_material.xml
 res/drawable/red_shield.xml
+res/drawable/resolver_button_bg.xml
 res/drawable/resolver_icon_placeholder.xml
+res/drawable/resolver_outlined_button_bg.xml
 res/drawable/resolver_profile_tab_bg.xml
 res/drawable/resolver_turn_on_work_button_ripple_background.xml
 res/drawable/screen_background_selector_dark.xml
@@ -10254,6 +10265,7 @@ res/values-te/strings.xml
 res/values-television/config.xml
 res/values-television/dimens.xml
 res/values-television/strings.xml
+res/values-television/styles.xml
 res/values-television/styles_device_defaults.xml
 res/values-television/themes.xml
 res/values-television/themes_device_defaults.xml
