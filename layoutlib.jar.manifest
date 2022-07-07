@@ -19731,6 +19731,7 @@ android/window/BackNavigationInfo$Builder.class
 android/window/BackNavigationInfo.class
 android/window/ClientWindowFrames$1.class
 android/window/ClientWindowFrames.class
+android/window/CompatOnBackInvokedCallback.class
 android/window/ConfigurationHelper.class
 android/window/DisplayAreaAppearedInfo$1.class
 android/window/DisplayAreaAppearedInfo.class
@@ -19878,6 +19879,7 @@ android/window/WindowContext.class
 android/window/WindowContextController$AttachStatus.class
 android/window/WindowContextController.class
 android/window/WindowMetricsHelper.class
+android/window/WindowOnBackInvokedDispatcher$Checker.class
 android/window/WindowOnBackInvokedDispatcher$OnBackInvokedCallbackWrapper.class
 android/window/WindowOnBackInvokedDispatcher.class
 android/window/WindowProvider.class
