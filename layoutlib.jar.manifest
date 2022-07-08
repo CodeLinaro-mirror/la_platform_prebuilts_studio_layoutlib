@@ -19885,6 +19885,7 @@ android/window/WindowOnBackInvokedDispatcher.class
 android/window/WindowProvider.class
 android/window/WindowProviderService.class
 android/window/WindowTokenClient.class
+androidx/annotation/ChecksSdkIntAtLeast.class
 androidx/annotation/NonNull.class
 androidx/annotation/RequiresApi.class
 bars/
