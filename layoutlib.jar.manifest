@@ -22605,6 +22605,7 @@ com/android/layoutlib/bridge/MockView.class
 com/android/layoutlib/bridge/SessionInteractiveData.class
 com/android/layoutlib/bridge/android/
 com/android/layoutlib/bridge/android/AndroidLocale.class
+com/android/layoutlib/bridge/android/ApplicationContext.class
 com/android/layoutlib/bridge/android/BridgeContentProvider.class
 com/android/layoutlib/bridge/android/BridgeContentResolver.class
 com/android/layoutlib/bridge/android/BridgeContext$1.class
