@@ -298,6 +298,8 @@ android/app/ActivityManagerInternal$ServiceNotificationPolicy.class
 android/app/ActivityManagerInternal$VoiceInteractionManagerProvider.class
 android/app/ActivityManagerInternal.class
 android/app/ActivityManager_Accessor.class
+android/app/ActivityManager_Delegate$1.class
+android/app/ActivityManager_Delegate.class
 android/app/ActivityOptions$1$1.class
 android/app/ActivityOptions$1.class
 android/app/ActivityOptions$2$1.class
@@ -421,9 +423,14 @@ android/app/AppOpsManager.class
 android/app/Application$ActivityLifecycleCallbacks.class
 android/app/Application$OnProvideAssistDataListener.class
 android/app/Application.class
+android/app/ApplicationErrorReport$1.class
+android/app/ApplicationErrorReport$AnrInfo.class
+android/app/ApplicationErrorReport$BatteryInfo.class
 android/app/ApplicationErrorReport$CrashInfo.class
 android/app/ApplicationErrorReport$ParcelableCrashInfo$1.class
 android/app/ApplicationErrorReport$ParcelableCrashInfo.class
+android/app/ApplicationErrorReport$RunningServiceInfo.class
+android/app/ApplicationErrorReport.class
 android/app/ApplicationExitInfo$1.class
 android/app/ApplicationExitInfo$Reason.class
 android/app/ApplicationExitInfo$SubReason.class
@@ -22598,6 +22605,7 @@ com/android/layoutlib/bridge/MockView.class
 com/android/layoutlib/bridge/SessionInteractiveData.class
 com/android/layoutlib/bridge/android/
 com/android/layoutlib/bridge/android/AndroidLocale.class
+com/android/layoutlib/bridge/android/ApplicationContext.class
 com/android/layoutlib/bridge/android/BridgeContentProvider.class
 com/android/layoutlib/bridge/android/BridgeContentResolver.class
 com/android/layoutlib/bridge/android/BridgeContext$1.class
