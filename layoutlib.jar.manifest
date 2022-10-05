@@ -19310,6 +19310,7 @@ android/widget/Magnifier$InternalPopupWindow.class
 android/widget/Magnifier$SourceBound.class
 android/widget/Magnifier$SurfaceInfo.class
 android/widget/Magnifier.class
+android/widget/Magnifier_Delegate.class
 android/widget/MediaController$1.class
 android/widget/MediaController$2.class
 android/widget/MediaController$3.class
