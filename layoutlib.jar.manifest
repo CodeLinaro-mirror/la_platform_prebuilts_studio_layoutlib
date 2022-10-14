@@ -18376,6 +18376,7 @@ android/view/accessibility/CaptioningManager$CaptioningChangeListener.class
 android/view/accessibility/CaptioningManager$MyContentObserver.class
 android/view/accessibility/CaptioningManager$SystemAudioCaptioningAccessing.class
 android/view/accessibility/CaptioningManager.class
+android/view/accessibility/DirectAccessibilityConnection.class
 android/view/accessibility/IAccessibilityEmbeddedConnection$Default.class
 android/view/accessibility/IAccessibilityEmbeddedConnection$Stub$Proxy.class
 android/view/accessibility/IAccessibilityEmbeddedConnection$Stub.class
