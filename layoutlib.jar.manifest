@@ -18376,6 +18376,7 @@ android/view/accessibility/CaptioningManager$CaptioningChangeListener.class
 android/view/accessibility/CaptioningManager$MyContentObserver.class
 android/view/accessibility/CaptioningManager$SystemAudioCaptioningAccessing.class
 android/view/accessibility/CaptioningManager.class
+android/view/accessibility/DirectAccessibilityConnection.class
 android/view/accessibility/IAccessibilityEmbeddedConnection$Default.class
 android/view/accessibility/IAccessibilityEmbeddedConnection$Stub$Proxy.class
 android/view/accessibility/IAccessibilityEmbeddedConnection$Stub.class
@@ -19310,6 +19311,7 @@ android/widget/Magnifier$InternalPopupWindow.class
 android/widget/Magnifier$SourceBound.class
 android/widget/Magnifier$SurfaceInfo.class
 android/widget/Magnifier.class
+android/widget/Magnifier_Delegate.class
 android/widget/MediaController$1.class
 android/widget/MediaController$2.class
 android/widget/MediaController$3.class
