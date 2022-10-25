@@ -17,6 +17,7 @@ studio_data(
         "//prebuilts/studio/layoutlib/data:layoutlib_extensions",
         "//prebuilts/studio/layoutlib/data/fonts",
         "//prebuilts/studio/layoutlib/data/icu",
+        "//prebuilts/studio/layoutlib/data/keyboards",
     ],
     files_linux = ["//prebuilts/studio/layoutlib/data/linux"],
     files_mac = ["//prebuilts/studio/layoutlib/data/mac"],
