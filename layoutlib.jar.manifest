@@ -22600,6 +22600,7 @@ com/android/layoutlib/bridge/Bridge$1.class
 com/android/layoutlib/bridge/Bridge$2.class
 com/android/layoutlib/bridge/Bridge$3.class
 com/android/layoutlib/bridge/Bridge$4.class
+com/android/layoutlib/bridge/Bridge$5.class
 com/android/layoutlib/bridge/Bridge$StaticMethodNotImplementedException.class
 com/android/layoutlib/bridge/Bridge.class
 com/android/layoutlib/bridge/BridgeConstants.class
@@ -22694,6 +22695,7 @@ com/android/layoutlib/bridge/util/Debug.class
 com/android/layoutlib/bridge/util/DynamicIdMap.class
 com/android/layoutlib/bridge/util/HandlerMessageQueue$HandlerWrapper.class
 com/android/layoutlib/bridge/util/HandlerMessageQueue.class
+com/android/layoutlib/bridge/util/KeyEventHandling.class
 com/android/layoutlib/bridge/util/NinePatchInputStream.class
 com/android/layoutlib/bridge/util/SparseWeakArray.class
 com/android/layoutlib/common/
