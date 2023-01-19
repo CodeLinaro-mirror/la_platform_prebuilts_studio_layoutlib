@@ -447,6 +447,7 @@ android/app/ApplicationPackageManager$HasSystemFeatureQuery.class
 android/app/ApplicationPackageManager$MoveCallbackDelegate.class
 android/app/ApplicationPackageManager$ResourceName.class
 android/app/ApplicationPackageManager.class
+android/app/Application_Delegate.class
 android/app/AsyncNotedAppOp$1.class
 android/app/AsyncNotedAppOp.class
 android/app/AutomaticZenRule$1.class
@@ -14740,6 +14741,9 @@ android/os/connectivity/WifiActivityEnergyInfo$StackState.class
 android/os/connectivity/WifiActivityEnergyInfo.class
 android/os/connectivity/WifiBatteryStats$1.class
 android/os/connectivity/WifiBatteryStats.class
+android/os/ext/SdkExtensions$Extension.class
+android/os/ext/SdkExtensions.class
+android/os/ext/util/SdkLevel.class
 android/os/health/HealthKeys$Constant.class
 android/os/health/HealthKeys$Constants.class
 android/os/health/HealthKeys$SortedIntArray.class
