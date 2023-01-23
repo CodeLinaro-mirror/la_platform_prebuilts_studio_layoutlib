@@ -14574,6 +14574,7 @@ android/os/SystemPropertiesProto$Ro.class
 android/os/SystemPropertiesProto$Sys$Usb.class
 android/os/SystemPropertiesProto$Sys.class
 android/os/SystemPropertiesProto.class
+android/os/SystemProperties_Delegate.class
 android/os/SystemProto$Battery.class
 android/os/SystemProto$BatteryDischarge.class
 android/os/SystemProto$BatteryLevelStep.class
