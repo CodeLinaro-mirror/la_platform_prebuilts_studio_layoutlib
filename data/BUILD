@@ -1,6 +1,26 @@
 exports_files(srcs = ["framework_res.jar"])
 
 load("//tools/adt/idea/studio:studio.bzl", "studio_data")
+load("//tools/base/bazel:maven.bzl", "maven_library")
+load("//tools/base/common:version.bzl", "BASE_VERSION")
+load("//tools/base/bazel:jvm_import.bzl", "jvm_import")
+
+jvm_import(
+    name = "layoutlib_import",
+    jars = ["layoutlib.jar"],
+)
+
+maven_library(
+    name = "layoutlib",
+    srcs = [],
+    bundled_deps = [
+        ":layoutlib_import",
+    ],
+    coordinates = "com.android.tools.layoutlib:layoutlib:" + BASE_VERSION,
+    description = "Layout library",
+    jar_name = "layoutlib-mvn.jar",
+    visibility = ["//visibility:public"],
+)
 
 filegroup(
     name = "layoutlib_extensions",
