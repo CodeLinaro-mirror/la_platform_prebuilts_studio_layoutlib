@@ -14343,6 +14343,7 @@ android/os/NewUserRequest$Builder.class
 android/os/NewUserRequest.class
 android/os/NewUserResponse.class
 android/os/NullVibrator.class
+android/os/NullVibratorManager.class
 android/os/OperationCanceledException.class
 android/os/OsProtoEnums.class
 android/os/OutcomeReceiver.class
