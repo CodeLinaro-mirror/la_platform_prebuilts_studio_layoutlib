@@ -3922,6 +3922,7 @@ android/hardware/CameraStatus$1.class
 android/hardware/CameraStatus.class
 android/hardware/ConsumerIrManager$CarrierFrequencyRange.class
 android/hardware/ConsumerIrManager.class
+android/hardware/EmptySensorManager.class
 android/hardware/HardwareBuffer$1.class
 android/hardware/HardwareBuffer$Format.class
 android/hardware/HardwareBuffer$Usage.class
