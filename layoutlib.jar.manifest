@@ -18332,6 +18332,7 @@ android/view/_Original_SurfaceView.class
 android/view/_Original_WindowManagerImpl$1.class
 android/view/_Original_WindowManagerImpl$OnFpsCallbackListenerProxy.class
 android/view/_Original_WindowManagerImpl.class
+android/view/accessibility/
 android/view/accessibility/AccessibilityCache$AccessibilityNodeRefresher.class
 android/view/accessibility/AccessibilityCache.class
 android/view/accessibility/AccessibilityEvent$1.class
@@ -18353,6 +18354,7 @@ android/view/accessibility/AccessibilityManager$MyCallback.class
 android/view/accessibility/AccessibilityManager$ShortcutType.class
 android/view/accessibility/AccessibilityManager$TouchExplorationStateChangeListener.class
 android/view/accessibility/AccessibilityManager.class
+android/view/accessibility/AccessibilityManager_Delegate.class
 android/view/accessibility/AccessibilityNodeIdManager.class
 android/view/accessibility/AccessibilityNodeInfo$1.class
 android/view/accessibility/AccessibilityNodeInfo$AccessibilityAction$1.class
