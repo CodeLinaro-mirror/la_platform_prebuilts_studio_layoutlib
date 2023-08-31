@@ -1,0 +1,41 @@
+{
+  "spdxVersion": "SPDX-2.3",
+  "documentNamespace": "https://www.google.com/sbom/spdx/AndroidStudio-1eee3577-bc29-4ac9-9eb2-ceb98327ad0f",
+  "creationInfo": {
+    "creators": [
+      "Organization: Google LLC",
+      "Person: alyukhan@google.com"
+    ],
+    "created": "2023-08-28T05:16:34Z",
+    "licenseListVersion": "3.20"
+  },
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "Layoutlib",
+  "documentDescribes": [
+    "SPDXRef-PREBUILT-layoutlib"
+  ],
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-PREBUILT-layoutlib",
+      "name": "Layoutlib",
+      "description": "Layoutlib is a custom version of the android View framework designed to run inside Android Studio.",
+      "downloadLocation": "NONE",
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "versionInfo": "studio-1.0",
+      "comment": "The library at the point has no official versioning, so Android Studio uses internal versioning. The prebuilt binaries can be built and update with platform/tools/vendor/google/layoutlib-prebuilt scripts.",
+      "supplier": "Organization: Google LLC",
+      "filesAnalyzed": false,
+      "sourceInfo": "https://googleplex-android.googlesource.com/platform/frameworks/layoutlib/+/b62ec6d366a60d162179b22cfadf008482a1514d"
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-PREBUILT-layoutlib",
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "NOASSERTION",
+      "comment": "Dependencies are not analyzed. The library will provide its own SBOM at some point in the future."
+    }
+  ]
+}
