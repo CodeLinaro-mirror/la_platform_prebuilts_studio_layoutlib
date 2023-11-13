@@ -1,9 +1,9 @@
-exports_files(srcs = ["framework_res.jar"])
-
 load("//tools/adt/idea/studio:studio.bzl", "studio_data")
+load("//tools/base/bazel:jvm_import.bzl", "jvm_import")
 load("//tools/base/bazel:maven.bzl", "maven_library")
 load("//tools/base/common:version.bzl", "BASE_VERSION")
-load("//tools/base/bazel:jvm_import.bzl", "jvm_import")
+
+exports_files(srcs = ["framework_res.jar"])
 
 jvm_import(
     name = "layoutlib_import",
