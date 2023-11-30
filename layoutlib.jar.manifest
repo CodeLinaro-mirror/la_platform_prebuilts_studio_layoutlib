@@ -20591,6 +20591,7 @@ android/view/accessibility/AccessibilityEvent$WindowsChangeTypes.class
 android/view/accessibility/AccessibilityEvent.class
 android/view/accessibility/AccessibilityEventSource.class
 android/view/accessibility/AccessibilityInteractionClient.class
+android/view/accessibility/AccessibilityInteractionClient_Accessor.class
 android/view/accessibility/AccessibilityManager$1.class
 android/view/accessibility/AccessibilityManager$AccessibilityPolicy.class
 android/view/accessibility/AccessibilityManager$AccessibilityServicesStateChangeListener.class
