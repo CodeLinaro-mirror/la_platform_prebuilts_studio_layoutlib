@@ -58,6 +58,9 @@ filegroup(
         "//tools/base/bazel:darwin": [
             "//prebuilts/studio/layoutlib/data/mac",
         ],
+        "//tools/base/bazel:darwin_arm64": [
+            "//prebuilts/studio/layoutlib/data/mac-arm",
+        ],
         "//conditions:default": [
             "//prebuilts/studio/layoutlib/data/linux",
         ],
