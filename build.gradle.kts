@@ -3,7 +3,7 @@ plugins {
   `maven-publish`
 }
 
-version = "14.0.2"
+version = "14.0.3"
 group = "com.android.tools.layoutlib"
 
 // Create task for a specific platform/architecture
@@ -12,10 +12,6 @@ fun registerNativeTask(nativeFolder: String) {
     archiveClassifier.set(nativeFolder)
     from(layout.projectDirectory) {
       include("data/$nativeFolder/**")
-      include("data/icu/**")
-      include("data/keyboards/**")
-      include("data/fonts/**")
-      include("licenses/icu/**")
       if (nativeFolder.startsWith("mac")) {
         include("licenses/mac/**")
       } else {
@@ -45,11 +41,9 @@ tasks.jar {
     include("data/mac/**")
     include("data/mac-arm/**")
     include("data/win/**")
-    include("data/icu/**")
-    include("data/keyboards/**")
-    include("data/fonts/**")
     include("licenses/**")
     exclude("licenses/layoutlib.jar.txt")
+    exclude("licenses/icu/**")
     exclude("**/BUILD")
   }
 }
@@ -75,6 +69,18 @@ javaComponent.addVariantsFromConfiguration(linux) {}
 javaComponent.addVariantsFromConfiguration(windows) {}
 javaComponent.addVariantsFromConfiguration(macX86) {}
 javaComponent.addVariantsFromConfiguration(macArm) {}
+
+tasks.register<Jar>("resources") {
+  from(layout.projectDirectory) {
+    include("data/res/**")
+    include("data/icu/**")
+    include("data/keyboards/**")
+    include("data/fonts/**")
+    include("licenses/icu/**")
+    exclude("**/BUILD")
+  }
+  archiveBaseName.set("layoutlib-resources")
+}
 
 publishing {
   publications {
@@ -124,6 +130,30 @@ publishing {
         scm {
           connection.set("scm:git:https://android.googlesource.com/platform/frameworks/layoutlib/")
           url.set("https://cs.android.com/android/platform/frameworks/layoutlib/")
+        }
+      }
+    }
+    create<MavenPublication>("layoutlib-resources") {
+      artifactId = "layoutlib-resources"
+      artifact(tasks["resources"])
+      pom {
+        name.set("Layoutlib resources")
+        description.set("Android resource files used by Layoutlib")
+        url.set("https://developer.android.com/studio")
+        licenses {
+          license {
+            name.set("The Apache License, Version 2.0")
+            url.set("http://www.apache.org/licenses/LICENSE-2.0.txt")
+          }
+        }
+        developers {
+          developer {
+            name.set("The Android Open Source Project")
+          }
+        }
+        scm {
+          connection.set("scm:git:https://android.googlesource.com/platform/frameworks/base/")
+          url.set("https://cs.android.com/android/platform/frameworks/base/")
         }
       }
     }
