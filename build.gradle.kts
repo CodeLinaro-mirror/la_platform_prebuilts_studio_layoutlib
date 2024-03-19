@@ -3,7 +3,7 @@ plugins {
   `maven-publish`
 }
 
-version = "14.0.3"
+version = "14.0.4"
 group = "com.android.tools.layoutlib"
 
 // Create task for a specific platform/architecture
@@ -12,6 +12,10 @@ fun registerNativeTask(nativeFolder: String) {
     archiveClassifier.set(nativeFolder)
     from(layout.projectDirectory) {
       include("data/$nativeFolder/**")
+      include("data/icu/**")
+      include("data/keyboards/**")
+      include("data/fonts/**")
+      include("licenses/icu/**")
       if (nativeFolder.startsWith("mac")) {
         include("licenses/mac/**")
       } else {
@@ -41,9 +45,11 @@ tasks.jar {
     include("data/mac/**")
     include("data/mac-arm/**")
     include("data/win/**")
+    include("data/icu/**")
+    include("data/keyboards/**")
+    include("data/fonts/**")
     include("licenses/**")
     exclude("licenses/layoutlib.jar.txt")
-    exclude("licenses/icu/**")
     exclude("**/BUILD")
   }
 }
@@ -69,18 +75,6 @@ javaComponent.addVariantsFromConfiguration(linux) {}
 javaComponent.addVariantsFromConfiguration(windows) {}
 javaComponent.addVariantsFromConfiguration(macX86) {}
 javaComponent.addVariantsFromConfiguration(macArm) {}
-
-tasks.register<Jar>("resources") {
-  from(layout.projectDirectory) {
-    include("data/res/**")
-    include("data/icu/**")
-    include("data/keyboards/**")
-    include("data/fonts/**")
-    include("licenses/icu/**")
-    exclude("**/BUILD")
-  }
-  archiveBaseName.set("layoutlib-resources")
-}
 
 publishing {
   publications {
@@ -135,7 +129,7 @@ publishing {
     }
     create<MavenPublication>("layoutlib-resources") {
       artifactId = "layoutlib-resources"
-      artifact(tasks["resources"])
+      artifact(file(layout.projectDirectory.file("data/framework_res.jar")))
       pom {
         name.set("Layoutlib resources")
         description.set("Android resource files used by Layoutlib")
