@@ -2433,7 +2433,6 @@ android/apphibernation/IAppHibernationService$Stub$Proxy.class
 android/apphibernation/IAppHibernationService$Stub.class
 android/apphibernation/IAppHibernationService.class
 android/appwidget/AppWidgetHost$AppWidgetHostListener.class
-android/appwidget/AppWidgetHostView$AdapterChildHostView.class
 android/appwidget/AppWidgetHostView$ViewApplyListener.class
 android/appwidget/AppWidgetHostView.class
 android/appwidget/AppWidgetManager.class
