@@ -11,6 +11,7 @@ fun registerNativeTask(nativeFolder: String) {
   tasks.register<Jar>(nativeFolder) {
     archiveClassifier.set(nativeFolder)
     from(layout.projectDirectory) {
+      include("build.prop")
       include("data/$nativeFolder/**")
       include("data/icu/**")
       include("data/keyboards/**")
@@ -41,6 +42,7 @@ fun createNativeConfig(architecture: String, os: String): NamedDomainObjectConta
 // Default task containing the native files for all platforms
 tasks.jar {
   from(layout.projectDirectory) {
+    include("build.prop")
     include("data/linux/**")
     include("data/mac/**")
     include("data/mac-arm/**")
