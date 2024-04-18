@@ -220,6 +220,7 @@ android/adservices/adselection/SetAppInstallAdvertisersCallback.class
 android/adservices/adselection/SetAppInstallAdvertisersInput$1.class
 android/adservices/adselection/SetAppInstallAdvertisersInput$Builder.class
 android/adservices/adselection/SetAppInstallAdvertisersInput.class
+android/adservices/adselection/SetAppInstallAdvertisersRequest$Builder.class
 android/adservices/adselection/SetAppInstallAdvertisersRequest.class
 android/adservices/adselection/TestAdSelectionManager$1.class
 android/adservices/adselection/TestAdSelectionManager$2.class
@@ -713,6 +714,7 @@ android/app/AppOpsManager$SamplingStrategy.class
 android/app/AppOpsManager$ShouldCollectNoteOp.class
 android/app/AppOpsManager$UidState.class
 android/app/AppOpsManager.class
+android/app/AppOpsManager_Accessor.class
 android/app/Application$ActivityLifecycleCallbacks.class
 android/app/Application$OnProvideAssistDataListener.class
 android/app/Application.class
