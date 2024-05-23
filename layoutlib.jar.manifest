@@ -25277,6 +25277,7 @@ com/android/layoutlib/bridge/bars/FrameworkActionBarWrapper$WindowActionBarWrapp
 com/android/layoutlib/bridge/bars/FrameworkActionBarWrapper$WindowActionBarWrapper.class
 com/android/layoutlib/bridge/bars/FrameworkActionBarWrapper.class
 com/android/layoutlib/bridge/bars/NavigationBar.class
+com/android/layoutlib/bridge/bars/NavigationHandle.class
 com/android/layoutlib/bridge/bars/OverflowMenuAdapter.class
 com/android/layoutlib/bridge/bars/StatusBar.class
 com/android/layoutlib/bridge/bars/TitleBar.class
