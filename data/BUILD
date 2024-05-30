@@ -52,13 +52,13 @@ studio_data(
 filegroup(
     name = "native_libs",
     srcs = select({
-        "//tools/base/bazel:windows": [
+        "@platforms//os:windows": [
             "//prebuilts/studio/layoutlib/data/win",
         ],
-        "//tools/base/bazel:darwin": [
+        "//tools/base/bazel/platforms:macos-x86_64": [
             "//prebuilts/studio/layoutlib/data/mac",
         ],
-        "//tools/base/bazel:darwin_arm64": [
+        "//tools/base/bazel/platforms:macos-arm64": [
             "//prebuilts/studio/layoutlib/data/mac-arm",
         ],
         "//conditions:default": [
