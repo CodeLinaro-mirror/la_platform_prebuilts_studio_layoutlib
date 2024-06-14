@@ -22363,6 +22363,8 @@ bars/v19/xxhdpi/ic_sysbar_home.png
 bars/v19/xxhdpi/ic_sysbar_recent.png
 bars/v19/xxhdpi/stat_sys_wifi_signal_4_fully.png
 bars/v21/
+bars/v21/anydpi/
+bars/v21/anydpi/stat_sys_wifi_signal_4_fully.xml
 bars/v21/hdpi/
 bars/v21/hdpi/ic_sysbar_back.png
 bars/v21/hdpi/ic_sysbar_home.png
@@ -22386,13 +22388,14 @@ bars/v21/xhdpi/ic_sysbar_back.png
 bars/v21/xhdpi/ic_sysbar_home.png
 bars/v21/xhdpi/ic_sysbar_recent.png
 bars/v21/xhdpi/stat_sys_battery_100.png
-bars/v21/xhdpi/stat_sys_wifi_signal_4_fully.xml
 bars/v21/xxhdpi/
 bars/v21/xxhdpi/ic_sysbar_back.png
 bars/v21/xxhdpi/ic_sysbar_home.png
 bars/v21/xxhdpi/ic_sysbar_recent.png
 bars/v21/xxhdpi/stat_sys_battery_100.png
 bars/v28/
+bars/v28/anydpi/
+bars/v28/anydpi/stat_sys_wifi_signal_4_fully.xml
 bars/v28/hdpi/
 bars/v28/hdpi/ic_sysbar_back.png
 bars/v28/hdpi/ic_sysbar_back_quick_step.png
@@ -22423,7 +22426,6 @@ bars/v28/xhdpi/ic_sysbar_home.png
 bars/v28/xhdpi/ic_sysbar_home_quick_step.png
 bars/v28/xhdpi/ic_sysbar_recent.png
 bars/v28/xhdpi/stat_sys_battery_100.png
-bars/v28/xhdpi/stat_sys_wifi_signal_4_fully.xml
 bars/v28/xxhdpi/
 bars/v28/xxhdpi/ic_sysbar_back.png
 bars/v28/xxhdpi/ic_sysbar_back_quick_step.png
@@ -22431,6 +22433,13 @@ bars/v28/xxhdpi/ic_sysbar_home.png
 bars/v28/xxhdpi/ic_sysbar_home_quick_step.png
 bars/v28/xxhdpi/ic_sysbar_recent.png
 bars/v28/xxhdpi/stat_sys_battery_100.png
+bars/v29/
+bars/v29/anydpi/
+bars/v29/anydpi/ic_sysbar_back.xml
+bars/v29/anydpi/ic_sysbar_back_quick_step.xml
+bars/v29/anydpi/ic_sysbar_home.xml
+bars/v29/anydpi/ic_sysbar_home_quick_step.xml
+bars/v29/anydpi/ic_sysbar_recent.xml
 bars/v9/
 bars/v9/hdpi/
 bars/v9/hdpi/stat_sys_battery_100.png
@@ -25322,6 +25331,7 @@ com/android/layoutlib/bridge/util/Debug.class
 com/android/layoutlib/bridge/util/DynamicIdMap.class
 com/android/layoutlib/bridge/util/HandlerMessageQueue$HandlerWrapper.class
 com/android/layoutlib/bridge/util/HandlerMessageQueue.class
+com/android/layoutlib/bridge/util/InsetUtil.class
 com/android/layoutlib/bridge/util/KeyEventHandling.class
 com/android/layoutlib/bridge/util/NinePatchInputStream.class
 com/android/layoutlib/bridge/util/SparseWeakArray.class
