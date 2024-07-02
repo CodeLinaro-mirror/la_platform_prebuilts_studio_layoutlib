@@ -25856,6 +25856,7 @@ com/android/org/kxml2/io/KXmlParser$ContentSource.class
 com/android/org/kxml2/io/KXmlParser$ValueContext.class
 com/android/org/kxml2/io/KXmlParser.class
 com/android/org/kxml2/io/KXmlSerializer.class
+com/android/server/
 com/android/server/LocalServices.class
 com/android/server/StatLoggerProto$Event.class
 com/android/server/StatLoggerProto.class
@@ -25874,6 +25875,8 @@ com/android/server/vcn/repackaged/util/PersistableBundleUtils$LockingReadWriteHe
 com/android/server/vcn/repackaged/util/PersistableBundleUtils$PersistableBundleWrapper.class
 com/android/server/vcn/repackaged/util/PersistableBundleUtils$Serializer.class
 com/android/server/vcn/repackaged/util/PersistableBundleUtils.class
+com/android/server/wm/
+com/android/server/wm/DisplayFrames.class
 com/android/system/virtualmachine/sysprop/HypervisorProperties.class
 com/android/systemui/monet/Chroma$Companion.class
 com/android/systemui/monet/Chroma.class
