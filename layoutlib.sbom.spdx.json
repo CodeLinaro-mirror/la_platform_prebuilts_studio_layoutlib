@@ -1,41 +1,70 @@
 {
-  "spdxVersion": "SPDX-2.3",
-  "documentNamespace": "https://www.google.com/sbom/spdx/AndroidStudio-1eee3577-bc29-4ac9-9eb2-ceb98327ad0f",
-  "creationInfo": {
-    "creators": [
-      "Organization: Google LLC",
-      "Person: alyukhan@google.com"
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "LayoutLib",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib-2024-09-11T11:34:28Z",
+    "creationInfo": {
+        "creators": [
+            "Organization: Google LLC",
+            "Person: jgaillard@google.com"
+        ],
+        "created": "2024-09-11T11:34:28Z"
+    },
+    "externalDocumentRefs": [
+        {
+            "externalDocumentId": "DocumentRef-layoutlib",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.016/12339849:userdebug/test-keys/layoutlib",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "6119fde6be15868fe0c5b779a4528e9f8f5eed1d"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-layoutlib-mac",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/mac-2024-09-11T11:34:28Z",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "d37e6694fb8886f0fea44d79e5fe352e3457e0e1"
+            }
+        },
+        {
+            "externalDocumentId": "DocumentRef-framework-res",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2024-09-11T11:34:28Z",
+            "checksum": {
+                "algorithm": "SHA1",
+                "checksumValue": "c9f51ce08667eba263c1698a62fcfa1fc2e74c3c"
+            }
+        }
     ],
-    "created": "2023-08-28T05:16:34Z",
-    "licenseListVersion": "3.20"
-  },
-  "dataLicense": "CC0-1.0",
-  "SPDXID": "SPDXRef-DOCUMENT",
-  "name": "Layoutlib",
-  "documentDescribes": [
-    "SPDXRef-PREBUILT-layoutlib"
-  ],
-  "packages": [
-    {
-      "SPDXID": "SPDXRef-PREBUILT-layoutlib",
-      "name": "Layoutlib",
-      "description": "Layoutlib is a custom version of the android View framework designed to run inside Android Studio.",
-      "downloadLocation": "NONE",
-      "licenseConcluded": "NOASSERTION",
-      "licenseDeclared": "NOASSERTION",
-      "versionInfo": "studio-1.0",
-      "comment": "The library at the point has no official versioning, so Android Studio uses internal versioning. The prebuilt binaries can be built and update with platform/tools/vendor/google/layoutlib-prebuilt scripts.",
-      "supplier": "Organization: Google LLC",
-      "filesAnalyzed": false,
-      "sourceInfo": "https://googleplex-android.googlesource.com/platform/frameworks/layoutlib/+/b62ec6d366a60d162179b22cfadf008482a1514d"
-    }
-  ],
-  "relationships": [
-    {
-      "spdxElementId": "SPDXRef-PREBUILT-layoutlib",
-      "relationshipType": "DEPENDS_ON",
-      "relatedSpdxElement": "NOASSERTION",
-      "comment": "Dependencies are not analyzed. The library will provide its own SBOM at some point in the future."
-    }
-  ]
+    "documentDescribes": [
+        "SPDXRef-PREBUILT-layoutlib"
+    ],
+    "packages": [
+        {
+            "name": "LayoutLib",
+            "SPDXID": "SPDXRef-PREBUILT-layoutlib",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "supplier": "Organization: Google LLC"
+        }
+    ],
+    "files": [],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-PREBUILT-layoutlib",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-layoutlib",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PREBUILT-layoutlib",
+            "relatedSpdxElement": "DocumentRef-layoutlib-mac:SPDXRef-PREBUILT-layoutlib-mac",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PREBUILT-layoutlib",
+            "relatedSpdxElement": "DocumentRef-framework-res:SPDXRef-PREBUILT-framework-res",
+            "relationshipType": "CONTAINS"
+        }
+    ]
 }
