@@ -1,0 +1,93 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "LayoutLib native libraries for Mac",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/mac-2024-09-11T11:34:28Z",
+    "creationInfo": {
+        "creators": [
+            "Organization: Google LLC",
+            "Person: jgaillard@google.com"
+        ],
+        "created": "2024-09-11T11:34:28Z"
+    },
+    "documentDescribes": [
+        "SPDXRef-layoutlib-mac"
+    ],
+    "packages": [
+        {
+            "name": "LayoutLib mac",
+            "SPDXID": "SPDXRef-PREBUILT-layoutlib-mac",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": true,
+            "supplier": "Organization: Google LLC",
+            "packageVerificationCode": {
+                "packageVerificationCodeValue": "4089fc2ea25bea5ea6518288a4a20759a1471d0f"
+            }
+        }
+    ],
+    "files": [
+        {
+            "fileName": "mac/lib64/layoutlib_jni.dylib",
+            "SPDXID": "SPDXRef-mac-lib64-layoutlib-jni.dylib",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a26257f80a388087b96e36b42149f798f73232f5"
+                }
+            ]
+        },
+        {
+            "fileName": "mac/lib64/libandroid_runtime.dylib",
+            "SPDXID": "SPDXRef-mac-lib64-libandroid-runtime.dylib",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b24f2eb6411861b3b09aa25ec5ede417a0acd785"
+                }
+            ]
+        },
+        {
+            "fileName": "mac-arm/lib64/layoutlib_jni.dylib",
+            "SPDXID": "SPDXRef-mac-arm-lib64-layoutlib-jni.dylib",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "235887acfc3e47382415d7ee8e0d0ecb2c2002f2"
+                }
+            ]
+        },
+        {
+            "fileName": "mac-arm/lib64/libandroid_runtime.dylib",
+            "SPDXID": "SPDXRef-mac-arm-lib64-libandroid-runtime.dylib",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9e93751aef73ae3a97f1e8f6a5f65d5ac05b0b6a"
+                }
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-PREBUILT-layoutlib-mac",
+            "relatedSpdxElement": "SPDXRef-mac-lib64-layoutlib-jni.dylib",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PREBUILT-layoutlib-mac",
+            "relatedSpdxElement": "SPDXRef-mac-lib64-libandroid-runtime.dylib",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PREBUILT-layoutlib-mac",
+            "relatedSpdxElement": "SPDXRef-mac-arm-lib64-layoutlib-jni.dylib",
+            "relationshipType": "CONTAINS"
+        },
+        {
+            "spdxElementId": "SPDXRef-PREBUILT-layoutlib-mac",
+            "relatedSpdxElement": "SPDXRef-mac-arm-lib64-libandroid-runtime.dylib",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}
