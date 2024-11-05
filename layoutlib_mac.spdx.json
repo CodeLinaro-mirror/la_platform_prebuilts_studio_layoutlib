@@ -3,13 +3,13 @@
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
     "name": "LayoutLib native libraries for Mac",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/mac-2024-11-01T12:09:42Z",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/mac-2024-11-05T18:33:56Z",
     "creationInfo": {
         "creators": [
             "Organization: Google LLC",
             "Person: jgaillard@google.com"
         ],
-        "created": "2024-11-01T12:09:42Z"
+        "created": "2024-11-05T18:33:56Z"
     },
     "documentDescribes": [
         "SPDXRef-layoutlib-mac"
@@ -22,7 +22,7 @@
             "filesAnalyzed": true,
             "supplier": "Organization: Google LLC",
             "packageVerificationCode": {
-                "packageVerificationCodeValue": "121db3937cf4b8bf9ec129e43aa18122b3e2d7d6"
+                "packageVerificationCodeValue": "92f6b0f219fc4067294b5b9897ada27bff60575f"
             }
         }
     ],
@@ -33,7 +33,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "83b37e199ff594e42e1f95790bb275eea68c5df8"
+                    "checksumValue": "ae385b1537bcbc26684573940876d268e50229b4"
                 }
             ]
         },
@@ -43,7 +43,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "77803aa344578016c27044e7e99f0451ed607669"
+                    "checksumValue": "6c887c7569cfadcd96c43a8219e7ac02efafb4fe"
                 }
             ]
         },
@@ -53,7 +53,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "5d2e52a443b3aded1a20a7e2af549290e8ee2295"
+                    "checksumValue": "dbdc808f9e71b0673e6da84560462fca1e741b7c"
                 }
             ]
         },
@@ -63,7 +63,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "efbc4b2c305099274fca215f42c8a97fe9c352e9"
+                    "checksumValue": "22f57339d94cc270f0eae63d85cf8a8c3a4e02ed"
                 }
             ]
         }
