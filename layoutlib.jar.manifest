@@ -13798,6 +13798,7 @@ android/media/MediaController2$ControllerCallback.class
 android/media/MediaController2$SessionServiceConnection.class
 android/media/MediaController2.class
 android/media/MediaCrypto.class
+android/media/MediaCryptoException.class
 android/media/MediaDataSource.class
 android/media/MediaDescrambler$AidlDescrambler.class
 android/media/MediaDescrambler$DescramblerWrapper.class
