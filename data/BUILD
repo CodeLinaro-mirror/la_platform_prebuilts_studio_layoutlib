@@ -36,6 +36,7 @@ studio_data(
         "framework_res.jar",
         "//prebuilts/studio/layoutlib/data:layoutlib_extensions",
         "//prebuilts/studio/layoutlib/data/fonts",
+        "//prebuilts/studio/layoutlib/data/hyphen-data",
         "//prebuilts/studio/layoutlib/data/icu",
         "//prebuilts/studio/layoutlib/data/keyboards",
     ],

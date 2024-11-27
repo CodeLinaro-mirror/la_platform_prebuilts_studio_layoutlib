@@ -2,13 +2,13 @@
     "spdxVersion": "SPDX-2.3",
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
-    "name": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys/layoutlib",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys/layoutlib",
+    "name": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys/layoutlib",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys/layoutlib",
     "creationInfo": {
         "creators": [
             "Organization: unknown"
         ],
-        "created": "2024-11-20T16:24:17Z"
+        "created": "2024-11-26T18:40:40Z"
     },
     "documentDescribes": [
         "SPDXRef-layoutlib"
@@ -19,10 +19,10 @@
             "SPDXID": "SPDXRef-layoutlib",
             "downloadLocation": "NONE",
             "filesAnalyzed": true,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "packageVerificationCode": {
-                "packageVerificationCodeValue": "bacd8192ad960452160162a94109adc7ec5ccf70"
+                "packageVerificationCodeValue": "da941d830b5019f3a8a3dbff00d48c0af4309371"
             },
             "hasFiles": [
                 "SPDXRef-build.prop",
@@ -242,6 +242,59 @@
                 "SPDXRef-data-keyboards-Vendor-18d1-Product-0200.kcm",
                 "SPDXRef-data-keyboards-Vendor-18d1-Product-5018.kcm",
                 "SPDXRef-data-keyboards-Virtual.kcm",
+                "SPDXRef-data-hyphen-data-hyph-af.hyb",
+                "SPDXRef-data-hyphen-data-hyph-as.hyb",
+                "SPDXRef-data-hyphen-data-hyph-be.hyb",
+                "SPDXRef-data-hyphen-data-hyph-bg.hyb",
+                "SPDXRef-data-hyphen-data-hyph-bn.hyb",
+                "SPDXRef-data-hyphen-data-hyph-cs.hyb",
+                "SPDXRef-data-hyphen-data-hyph-cu.hyb",
+                "SPDXRef-data-hyphen-data-hyph-cy.hyb",
+                "SPDXRef-data-hyphen-data-hyph-da.hyb",
+                "SPDXRef-data-hyphen-data-hyph-de-1901.hyb",
+                "SPDXRef-data-hyphen-data-hyph-de-1996.hyb",
+                "SPDXRef-data-hyphen-data-hyph-de-ch-1901.hyb",
+                "SPDXRef-data-hyphen-data-hyph-el.hyb",
+                "SPDXRef-data-hyphen-data-hyph-en-gb.hyb",
+                "SPDXRef-data-hyphen-data-hyph-en-us.hyb",
+                "SPDXRef-data-hyphen-data-hyph-es.hyb",
+                "SPDXRef-data-hyphen-data-hyph-et.hyb",
+                "SPDXRef-data-hyphen-data-hyph-eu.hyb",
+                "SPDXRef-data-hyphen-data-hyph-fr.hyb",
+                "SPDXRef-data-hyphen-data-hyph-ga.hyb",
+                "SPDXRef-data-hyphen-data-hyph-gl.hyb",
+                "SPDXRef-data-hyphen-data-hyph-gu.hyb",
+                "SPDXRef-data-hyphen-data-hyph-hi.hyb",
+                "SPDXRef-data-hyphen-data-hyph-hr.hyb",
+                "SPDXRef-data-hyphen-data-hyph-hu.hyb",
+                "SPDXRef-data-hyphen-data-hyph-hy.hyb",
+                "SPDXRef-data-hyphen-data-hyph-it.hyb",
+                "SPDXRef-data-hyphen-data-hyph-ka.hyb",
+                "SPDXRef-data-hyphen-data-hyph-kn.hyb",
+                "SPDXRef-data-hyphen-data-hyph-la.hyb",
+                "SPDXRef-data-hyphen-data-hyph-lt.hyb",
+                "SPDXRef-data-hyphen-data-hyph-lv.hyb",
+                "SPDXRef-data-hyphen-data-hyph-ml.hyb",
+                "SPDXRef-data-hyphen-data-hyph-mn-cyrl.hyb",
+                "SPDXRef-data-hyphen-data-hyph-mr.hyb",
+                "SPDXRef-data-hyphen-data-hyph-mul-ethi.hyb",
+                "SPDXRef-data-hyphen-data-hyph-nb.hyb",
+                "SPDXRef-data-hyphen-data-hyph-nl.hyb",
+                "SPDXRef-data-hyphen-data-hyph-nn.hyb",
+                "SPDXRef-data-hyphen-data-hyph-or.hyb",
+                "SPDXRef-data-hyphen-data-hyph-pa.hyb",
+                "SPDXRef-data-hyphen-data-hyph-pl.hyb",
+                "SPDXRef-data-hyphen-data-hyph-pt.hyb",
+                "SPDXRef-data-hyphen-data-hyph-ru.hyb",
+                "SPDXRef-data-hyphen-data-hyph-sk.hyb",
+                "SPDXRef-data-hyphen-data-hyph-sl.hyb",
+                "SPDXRef-data-hyphen-data-hyph-sq.hyb",
+                "SPDXRef-data-hyphen-data-hyph-sv.hyb",
+                "SPDXRef-data-hyphen-data-hyph-ta.hyb",
+                "SPDXRef-data-hyphen-data-hyph-te.hyb",
+                "SPDXRef-data-hyphen-data-hyph-tk.hyb",
+                "SPDXRef-data-hyphen-data-hyph-uk.hyb",
+                "SPDXRef-data-hyphen-data-hyph-und-ethi.hyb",
                 "SPDXRef-data-icu-icudt75l.dat",
                 "SPDXRef-data-res-anim-ldrtl-activity-close-enter.xml",
                 "SPDXRef-data-res-anim-ldrtl-activity-close-exit.xml",
@@ -9688,7 +9741,7 @@
             "SPDXID": "SPDXRef-PLATFORM",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9696,7 +9749,7 @@
             "SPDXID": "SPDXRef-SOURCE-carrois-gothic-sc",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9712,7 +9765,7 @@
             "SPDXID": "SPDXRef-SOURCE-comingsoon",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9728,7 +9781,7 @@
             "SPDXID": "SPDXRef-SOURCE-cutivemono",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9744,7 +9797,7 @@
             "SPDXID": "SPDXRef-SOURCE-dancingscript",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9760,7 +9813,7 @@
             "SPDXID": "SPDXRef-SOURCE-roboto-classic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9776,7 +9829,7 @@
             "SPDXID": "SPDXRef-SOURCE-noto-fonts",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9791,7 +9844,7 @@
             "SPDXID": "SPDXRef-SOURCE-notonaskharabic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9807,7 +9860,7 @@
             "SPDXID": "SPDXRef-SOURCE-notonaskharabicui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9823,7 +9876,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansadlam",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9839,7 +9892,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifahom",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9855,7 +9908,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansanatolianhieroglyphs",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9871,7 +9924,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansarmenian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9887,7 +9940,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansavestan",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9903,7 +9956,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbalinese",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9919,7 +9972,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbamum",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9935,7 +9988,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbassavah",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9951,7 +10004,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbatak",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9967,7 +10020,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbengali",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9983,7 +10036,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbengaliui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -9999,7 +10052,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbhaiksuki",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10015,7 +10068,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbrahmi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10031,7 +10084,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbuginese",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10047,7 +10100,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbuhid",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10063,7 +10116,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscjk",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10079,7 +10132,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscanadianaboriginal",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10095,7 +10148,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscarian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10111,7 +10164,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanschakma",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10127,7 +10180,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscham",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10143,7 +10196,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscherokee",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10159,7 +10212,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscoptic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10175,7 +10228,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscuneiform",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10191,7 +10244,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscypriot",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10207,7 +10260,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansdeseret",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10223,7 +10276,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansdevanagari",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10239,7 +10292,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansdevanagariui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10255,7 +10308,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansegyptianhieroglyphs",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10271,7 +10324,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanselbasan",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10287,7 +10340,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansethiopic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10303,7 +10356,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgeorgian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10319,7 +10372,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansglagolitic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10335,7 +10388,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgothic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10351,7 +10404,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgrantha",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10367,7 +10420,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgujarati",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10383,7 +10436,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgujaratiui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10399,7 +10452,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgunjalagondi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10415,7 +10468,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgurmukhi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10431,7 +10484,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgurmukhiui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10447,7 +10500,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanshanifirohingya",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10463,7 +10516,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanshanunoo",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10479,7 +10532,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanshatran",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10495,7 +10548,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanshebrew",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10511,7 +10564,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansimperialaramaic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10527,7 +10580,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansinscriptionalpahlavi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10543,7 +10596,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansinscriptionalparthian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10559,7 +10612,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansjavanese",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10575,7 +10628,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskaithi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10591,7 +10644,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskannada",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10607,7 +10660,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskannadaui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10623,7 +10676,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskayahli",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10639,7 +10692,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskharoshthi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10655,7 +10708,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskhmer",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10671,7 +10724,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskhmerui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10687,7 +10740,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskhojki",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10703,7 +10756,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslao",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10719,7 +10772,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslaoui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10735,7 +10788,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslepcha",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10751,7 +10804,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslimbu",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10767,7 +10820,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslineara",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10783,7 +10836,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslinearb",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10799,7 +10852,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslisu",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10815,7 +10868,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslycian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10831,7 +10884,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslydian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10847,7 +10900,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmalayalam",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10863,7 +10916,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmalayalamui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10879,7 +10932,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmandaic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10895,7 +10948,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmanichaean",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10911,7 +10964,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmarchen",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10927,7 +10980,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmasaramgondi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10943,7 +10996,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmedefaidrin",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10959,7 +11012,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmeeteimayek",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10975,7 +11028,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmeroitic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -10991,7 +11044,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmiao",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11007,7 +11060,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmodi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11023,7 +11076,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmongolian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11039,7 +11092,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmro",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11055,7 +11108,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmultani",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11071,7 +11124,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmyanmar",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11087,7 +11140,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmyanmarui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11103,7 +11156,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansnko-todelist",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11119,7 +11172,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansnabataean",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11135,7 +11188,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansnewtailue",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11151,7 +11204,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansnewa",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11167,7 +11220,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansogham",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11183,7 +11236,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansolchiki",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11199,7 +11252,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansolditalic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11215,7 +11268,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoldnortharabian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11231,7 +11284,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoldpermic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11247,7 +11300,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoldpersian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11263,7 +11316,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoldsoutharabian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11279,7 +11332,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoldturkic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11295,7 +11348,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoriya",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11311,7 +11364,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoriyaui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11327,7 +11380,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansosage",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11343,7 +11396,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansosmanya",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11359,7 +11412,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanspahawhhmong",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11375,7 +11428,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanspalmyrene",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11391,7 +11444,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanspaucinhau",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11407,7 +11460,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansphagspa",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11423,7 +11476,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansphoenician",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11439,7 +11492,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansrejang",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11455,7 +11508,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansrunic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11471,7 +11524,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssamaritan",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11487,7 +11540,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssaurashtra",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11503,7 +11556,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssharada",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11519,7 +11572,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansshavian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11535,7 +11588,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssinhala",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11551,7 +11604,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssinhalaui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11567,7 +11620,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssorasompeng",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11583,7 +11636,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssoyombo",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11599,7 +11652,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssundanese",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11615,7 +11668,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssylotinagri",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11631,7 +11684,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssymbols",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11647,7 +11700,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssyriac",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11663,7 +11716,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstagalog",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11679,7 +11732,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstagbanwa",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11695,7 +11748,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstaile",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11711,7 +11764,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstaitham",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11727,7 +11780,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstaiviet",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11743,7 +11796,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstakri",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11759,7 +11812,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstamil",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11775,7 +11828,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstamilui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11791,7 +11844,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstelugu",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11807,7 +11860,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansteluguui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11823,7 +11876,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansthaana",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11839,7 +11892,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansthai",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11855,7 +11908,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansthaiui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11871,7 +11924,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstifinagh",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11887,7 +11940,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansugaritic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11903,7 +11956,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansvai",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11919,7 +11972,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanswancho",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11935,7 +11988,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanswarangciti",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11951,7 +12004,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansyi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11967,7 +12020,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserif",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11983,7 +12036,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifarmenian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -11999,7 +12052,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifbengali",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12015,7 +12068,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifcjk",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12031,7 +12084,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifdevanagari",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12047,7 +12100,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifdogra",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12063,7 +12116,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifethiopic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12079,7 +12132,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifgeorgian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12095,7 +12148,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifgujarati",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12111,7 +12164,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifgurmukhi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12127,7 +12180,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifhebrew",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12143,7 +12196,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifhentaigana",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12159,7 +12212,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifkannada",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12175,7 +12228,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifkhmer",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12191,7 +12244,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoseriflao",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12207,7 +12260,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifmalayalam",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12223,7 +12276,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifmyanmar",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12239,7 +12292,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifnyiakengpuachuehmong",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12255,7 +12308,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifsinhala",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12271,7 +12324,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoseriftamil",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12287,7 +12340,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoseriftelugu",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12303,7 +12356,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifthai",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12319,7 +12372,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoseriftibetan",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12335,7 +12388,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifyezidi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12351,7 +12404,7 @@
             "SPDXID": "SPDXRef-SOURCE-roboto-flex",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12367,7 +12420,7 @@
             "SPDXID": "SPDXRef-SOURCE-source-sans-pro",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12379,11 +12432,107 @@
             "supplier": "Organization: https://github.com/google/fonts/tree/master/ofl/sourcesanspro"
         },
         {
+            "name": "rekenaar",
+            "SPDXID": "SPDXRef-SOURCE-rekenaar",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
+            "supplier": "Organization: unknown"
+        },
+        {
+            "name": "rekenaar",
+            "SPDXID": "SPDXRef-UPSTREAM-rekenaar",
+            "downloadLocation": "https://github.com/rekenaar/AfrHyphenation",
+            "filesAnalyzed": false,
+            "versionInfo": "8a5c654ae9ce5e20152b4a7f398d4ab3cc723ea9",
+            "supplier": "NOASSERTION"
+        },
+        {
+            "name": "Tex-hyphen",
+            "SPDXID": "SPDXRef-SOURCE-Tex-hyphen",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
+            "supplier": "Organization: unknown"
+        },
+        {
+            "name": "Tex-hyphen",
+            "SPDXID": "SPDXRef-UPSTREAM-Tex-hyphen",
+            "downloadLocation": "https://github.com/hyphenation/tex-hyphen",
+            "filesAnalyzed": false,
+            "versionInfo": "ecf976ab6995acb653d38ab1af0b9b9829ec0c77",
+            "supplier": "NOASSERTION"
+        },
+        {
+            "name": "tensojka",
+            "SPDXID": "SPDXRef-SOURCE-tensojka",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
+            "supplier": "Organization: unknown"
+        },
+        {
+            "name": "tensojka",
+            "SPDXID": "SPDXRef-UPSTREAM-tensojka",
+            "downloadLocation": "https://github.com/tensojka/cshyphen",
+            "filesAnalyzed": false,
+            "versionInfo": "0ec0bdb720747738139eb240963d0d6993759031",
+            "supplier": "NOASSERTION"
+        },
+        {
+            "name": "OpenTaal",
+            "SPDXID": "SPDXRef-SOURCE-OpenTaal",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
+            "supplier": "Organization: unknown"
+        },
+        {
+            "name": "OpenTaal",
+            "SPDXID": "SPDXRef-UPSTREAM-OpenTaal",
+            "downloadLocation": "https://github.com/OpenTaal/opentaal-hunspell",
+            "filesAnalyzed": false,
+            "versionInfo": "ad0351b7c1a862f05d88131046a054f1cc84944a",
+            "supplier": "NOASSERTION"
+        },
+        {
+            "name": "laboratory50",
+            "SPDXID": "SPDXRef-SOURCE-laboratory50",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
+            "supplier": "Organization: unknown"
+        },
+        {
+            "name": "laboratory50",
+            "SPDXID": "SPDXRef-UPSTREAM-laboratory50",
+            "downloadLocation": "https://github.com/laboratory50/russian-spellpack",
+            "filesAnalyzed": false,
+            "versionInfo": "7ff7934531a0711b5c86802ab635fdbdc974c1cc",
+            "supplier": "NOASSERTION"
+        },
+        {
+            "name": "LibreOffice Swedish Hyphenation Dictionary",
+            "SPDXID": "SPDXRef-SOURCE-LibreOffice0x20Swedish0x20Hyphenation0x20Dictionary",
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
+            "supplier": "Organization: unknown"
+        },
+        {
+            "name": "LibreOffice Swedish Hyphenation Dictionary",
+            "SPDXID": "SPDXRef-UPSTREAM-LibreOffice0x20Swedish0x20Hyphenation0x20Dictionary",
+            "downloadLocation": "https://cgit.freedesktop.org/libreoffice/dictionaries/tree/sv_SE",
+            "filesAnalyzed": false,
+            "versionInfo": "03a891f1b00d9b1a14c6a72fb33cb682b549053a",
+            "supplier": "NOASSERTION"
+        },
+        {
             "name": "ICU",
             "SPDXID": "SPDXRef-SOURCE-ICU",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.039/12714715:userdebug/test-keys",
             "supplier": "Organization: unknown"
         },
         {
@@ -12402,7 +12551,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "a1bdb82e5e02d0d3d3c2531422ec71cf70bafb3d"
+                    "checksumValue": "c3ef8416796dedc3ca97bbcd01727357eebc25c5"
                 }
             ]
         },
@@ -14563,6 +14712,536 @@
                 {
                     "algorithm": "SHA1",
                     "checksumValue": "fa86ad3072ec18d601a0a31ccdd0538ba44690b5"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-af.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-af.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "49217a9d5bb7a868464403b4e3c82e80df53456c"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-as.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-as.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7b2fa321d50d5417e6c8d48145e86d15b7ff8321"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-be.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-be.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1b67d0a65ef91295207d66e62b682803aa74ef00"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-bg.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-bg.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "abf002ff28b3aa2a59948225e5e600096348caa7"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-bn.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-bn.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7b2fa321d50d5417e6c8d48145e86d15b7ff8321"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-cs.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-cs.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b2334509e9d1589ad2e8b80c187018eadb15872b"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-cu.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-cu.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b5f2e813667aae32e65cab9c9a0dd291421ada0b"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-cy.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-cy.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "76734e58bd33c4d1450228bf05e53cfe169a02e6"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-da.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-da.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7bfa1ed4b09fd76eb220244f1d4341d7cf8789ce"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-de-1901.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-de-1901.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "520bf6111f902196591ea358fa8ab4ae89ee0acc"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-de-1996.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-de-1996.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "5688453de9afb7405960980dc93adf9296aa2f4a"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-de-ch-1901.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-de-ch-1901.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1d4c2e5f3ddf5627164edb471e8a8177993449f4"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-el.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-el.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "eb7f671af76eac40787d9227d41453b5117889bf"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-en-gb.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-en-gb.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3335315b13cd82075da2adbebe32759c01833e8d"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-en-us.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-en-us.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "7ea8e42e319305010d3e6568fb4983171583dd06"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-es.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-es.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b8df975889cfb06fc97db3d63a7820b7cf621f40"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-et.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-et.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "cf3bbe7348eaf2cb3d93c5cc10964bb8d1ba07c1"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-eu.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-eu.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "8c83b4cd54d394aeff31b14a219f2a3562132908"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-fr.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-fr.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "40bd8296e5e852fe725c7119083a8d5614037cf9"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-ga.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-ga.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "58fd709a1dc40176fb72189c20567ac1950b9db7"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-gl.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-gl.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "df6e03da66a7a5ae4927334808c8c20752733667"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-gu.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-gu.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e6708afa342639eb96cb97d1f541a421b2626d00"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-hi.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-hi.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d0914fb069469d47a36d339ca70164253fccf022"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-hr.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-hr.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9749136107913d6570c0c46ae2b52e66d8284c38"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-hu.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-hu.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e672c6870417c71acdcda6c16a7185d7a868eb68"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-hy.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-hy.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e0c1390d94876bf2a3cbdecaabb0e335bd86355d"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-it.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-it.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "15dcd0305508afe357eee16a543f4ce547ed500c"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-ka.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-ka.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1b41cd8e7585dcde57fc0b40502328845e524457"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-kn.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-kn.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "de8bf2ee2b8a77102337c45e5fec924c6c02355b"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-la.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-la.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "20b5bf65fa2023e67ea0687f643b52eab3fc68e9"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-lt.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-lt.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d849f8b0950dea8c45e60296f6c8a7ae2e0f3f95"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-lv.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-lv.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "754991bdb092e363b8d884246f4ca780cc9ab2f3"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-ml.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-ml.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a98436b640a8cfb9cffa26e89fee768dce6f0747"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-mn-cyrl.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-mn-cyrl.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2e3e1a7e4484225d8e25a59695e86eea9f516ec6"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-mr.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-mr.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d0914fb069469d47a36d339ca70164253fccf022"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-mul-ethi.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-mul-ethi.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "5bc583fe2bcf8d9ef971c66a5f57821aad1458cc"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-nb.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-nb.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "98fedc5862c78f3b03daed1ff9efbe5e31c205ee"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-nl.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-nl.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1b1ea734d900f8d766e7226fee09ee14fe606a7b"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-nn.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-nn.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6c8744fa70651f629ed887cb76b6bc1bed304af9"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-or.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-or.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4d382ab4bed3dbe481710f0c651ca87b2394661d"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-pa.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-pa.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "bd3c83300aad3e79287c1e806e864f7644240911"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-pl.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-pl.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "24036c5fdd473151bf44116d5ac193f3d354b1a1"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-pt.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-pt.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3965f963d36bee1598683e72c857a3bff196b295"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-ru.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-ru.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "f3ce82f2dbdead517d5faa4490e1975ef8fafa6e"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-sk.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-sk.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "31db6c826fd7830bc76f0ac1b9d21c2ef67f8b1f"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-sl.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-sl.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "fb7ee02adc970f4d71c84d18777a59508fa1a46c"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-sq.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-sq.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "24915151b31525a0a9ea0ef7faf8ddb8b3faf11e"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-sv.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-sv.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c89af0d28b8b769150981539ec2318e34df29cce"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-ta.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-ta.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2026841da77dd77715b521ec73bf819d1d098b60"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-te.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-te.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "774659cf1d58bcfc69900315281e99e038cd2a97"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-tk.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-tk.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "11e53bda5e2a0acd000692ad8af45611b57277ad"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-uk.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-uk.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "a8a784454269a2769710fb3725730f06cdd7b242"
+                }
+            ]
+        },
+        {
+            "fileName": "data/hyphen-data/hyph-und-ethi.hyb",
+            "SPDXID": "SPDXRef-data-hyphen-data-hyph-und-ethi.hyb",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "d1759e8a62a42a72529adf9bc73820bf32f2a37b"
                 }
             ]
         },
@@ -156209,6 +156888,256 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-sv.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-LibreOffice0x20Swedish0x20Hyphenation0x20Dictionary",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-nl.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-OpenTaal",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-as.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-be.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-bg.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-bn.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-cu.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-cy.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-da.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-de-1901.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-de-1996.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-de-ch-1901.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-el.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-en-gb.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-en-us.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-es.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-et.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-eu.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-fr.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-ga.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-gl.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-gu.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-hi.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-hr.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-hu.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-hy.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-it.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-ka.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-kn.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-la.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-lt.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-lv.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-ml.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-mn-cyrl.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-mr.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-mul-ethi.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-nb.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-nn.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-or.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-pa.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-pl.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-pt.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-sk.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-sl.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-sq.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-ta.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-te.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-tk.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-uk.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-und-ethi.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-Tex-hyphen",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
             "spdxElementId": "SPDXRef-data-fonts-CarroisGothicSC-Regular.ttf",
             "relatedSpdxElement": "SPDXRef-SOURCE-carrois-gothic-sc",
             "relationshipType": "GENERATED_FROM"
@@ -156226,6 +157155,11 @@
         {
             "spdxElementId": "SPDXRef-data-fonts-DancingScript-Regular.ttf",
             "relatedSpdxElement": "SPDXRef-SOURCE-dancingscript",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-ru.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-laboratory50",
             "relationshipType": "GENERATED_FROM"
         },
         {
@@ -157184,6 +158118,11 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-af.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-rekenaar",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
             "spdxElementId": "SPDXRef-data-fonts-DroidSans-Bold.ttf",
             "relatedSpdxElement": "SPDXRef-SOURCE-roboto-classic",
             "relationshipType": "GENERATED_FROM"
@@ -157239,8 +158178,28 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
+            "spdxElementId": "SPDXRef-data-hyphen-data-hyph-cs.hyb",
+            "relatedSpdxElement": "SPDXRef-SOURCE-tensojka",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
             "spdxElementId": "SPDXRef-SOURCE-ICU",
             "relatedSpdxElement": "SPDXRef-UPSTREAM-ICU",
+            "relationshipType": "VARIANT_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-SOURCE-LibreOffice0x20Swedish0x20Hyphenation0x20Dictionary",
+            "relatedSpdxElement": "SPDXRef-UPSTREAM-LibreOffice0x20Swedish0x20Hyphenation0x20Dictionary",
+            "relationshipType": "VARIANT_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-SOURCE-OpenTaal",
+            "relatedSpdxElement": "SPDXRef-UPSTREAM-OpenTaal",
+            "relationshipType": "VARIANT_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-SOURCE-Tex-hyphen",
+            "relatedSpdxElement": "SPDXRef-UPSTREAM-Tex-hyphen",
             "relationshipType": "VARIANT_OF"
         },
         {
@@ -157261,6 +158220,11 @@
         {
             "spdxElementId": "SPDXRef-SOURCE-dancingscript",
             "relatedSpdxElement": "SPDXRef-UPSTREAM-dancingscript",
+            "relationshipType": "VARIANT_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-SOURCE-laboratory50",
+            "relatedSpdxElement": "SPDXRef-UPSTREAM-laboratory50",
             "relationshipType": "VARIANT_OF"
         },
         {
@@ -158069,6 +159033,11 @@
             "relationshipType": "VARIANT_OF"
         },
         {
+            "spdxElementId": "SPDXRef-SOURCE-rekenaar",
+            "relatedSpdxElement": "SPDXRef-UPSTREAM-rekenaar",
+            "relationshipType": "VARIANT_OF"
+        },
+        {
             "spdxElementId": "SPDXRef-SOURCE-roboto-classic",
             "relatedSpdxElement": "SPDXRef-UPSTREAM-roboto-classic",
             "relationshipType": "VARIANT_OF"
@@ -158081,6 +159050,11 @@
         {
             "spdxElementId": "SPDXRef-SOURCE-source-sans-pro",
             "relatedSpdxElement": "SPDXRef-UPSTREAM-source-sans-pro",
+            "relationshipType": "VARIANT_OF"
+        },
+        {
+            "spdxElementId": "SPDXRef-SOURCE-tensojka",
+            "relatedSpdxElement": "SPDXRef-UPSTREAM-tensojka",
             "relationshipType": "VARIANT_OF"
         }
     ]
