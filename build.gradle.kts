@@ -16,6 +16,7 @@ fun registerNativeTask(nativeFolder: String) {
       include("data/icu/**")
       include("data/keyboards/**")
       include("data/fonts/**")
+      include("data/hyphen-data/**")
       include("licenses/icu/**")
       if (nativeFolder.startsWith("mac")) {
         include("licenses/mac/**")
@@ -50,6 +51,7 @@ tasks.jar {
     include("data/icu/**")
     include("data/keyboards/**")
     include("data/fonts/**")
+    include("data/hyphen-data/**")
     include("licenses/**")
     exclude("licenses/layoutlib.jar.txt")
     exclude("**/BUILD")
