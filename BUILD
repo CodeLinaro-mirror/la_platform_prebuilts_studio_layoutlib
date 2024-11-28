@@ -21,3 +21,16 @@ studio_data(
     },
     visibility = ["//visibility:public"],
 )
+
+filegroup(
+    name = "runtime",
+    srcs = [
+        "build.prop",
+        "//prebuilts/studio/layoutlib/data:native_libs",
+        "//prebuilts/studio/layoutlib/data/fonts",
+        "//prebuilts/studio/layoutlib/data/hyphen-data",
+        "//prebuilts/studio/layoutlib/data/icu",
+        "//prebuilts/studio/layoutlib/data/keyboards",
+    ],
+    visibility = ["//visibility:public"],
+)

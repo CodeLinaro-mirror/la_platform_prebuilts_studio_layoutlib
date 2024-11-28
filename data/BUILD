@@ -66,18 +66,7 @@ filegroup(
             "//prebuilts/studio/layoutlib/data/linux",
         ],
     }),
-    visibility = ["//visibility:public"],
-)
-
-filegroup(
-    name = "native_libs_all_platforms",
-    srcs = [
-        "//prebuilts/studio/layoutlib/data/linux",
-        "//prebuilts/studio/layoutlib/data/mac",
-        "//prebuilts/studio/layoutlib/data/mac-arm",
-        "//prebuilts/studio/layoutlib/data/win",
-    ],
-    visibility = ["//visibility:public"],
+    visibility = ["//prebuilts/studio/layoutlib:__subpackages__"],
 )
 
 # managed by go/iml_to_build
