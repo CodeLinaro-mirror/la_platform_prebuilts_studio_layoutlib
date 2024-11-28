@@ -3,20 +3,20 @@
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
     "name": "LayoutLib-framework_res",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2024-11-05T18:33:56Z",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2024-11-21T12:28:49Z",
     "creationInfo": {
         "creators": [
             "Organization: Google LLC"
         ],
-        "created": "2024-11-05T18:33:56Z"
+        "created": "2024-11-21T12:28:49Z"
     },
     "externalDocumentRefs": [
         {
             "externalDocumentId": "DocumentRef-layoutlib",
-            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.033/12607337:userdebug/test-keys/layoutlib",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/ALR1.240830.035.A2/12685942:userdebug/test-keys/layoutlib",
             "checksum": {
                 "algorithm": "SHA1",
-                "checksumValue": "96867b666560cfda3ab676b094448428d7629e1c"
+                "checksumValue": "a45b1ffe52df12b5572fefaa43eb671a827af524"
             }
         }
     ],
@@ -29,10 +29,10 @@
             "SPDXID": "SPDXRef-PREBUILT-framework-res",
             "downloadLocation": "NONE",
             "filesAnalyzed": true,
-            "versionInfo": "2024-11-05T18:33:56Z",
+            "versionInfo": "2024-11-21T12:28:49Z",
             "supplier": "Organization: Google LLC",
             "packageVerificationCode": {
-                "packageVerificationCodeValue": "81620457def89aab36c08a1558f4c46667f2bd55"
+                "packageVerificationCodeValue": "0c6dabe83e78a438645f1479b53bbd574b4cd99f"
             },
             "hasFiles": [
                 "SPDXRef-data-framework-res.jar"
@@ -46,7 +46,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "18e14e36450d95c3be9953eb6db2313af2ce5d1e"
+                    "checksumValue": "35f7068760bfb3ce4fee47a1d05f1b9e50bcede7"
                 }
             ]
         }
