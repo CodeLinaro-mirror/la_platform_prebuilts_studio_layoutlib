@@ -3,7 +3,7 @@ plugins {
   `maven-publish`
 }
 
-version = "15.0.6"
+version = "15.0.7"
 group = "com.android.tools.layoutlib"
 
 // Create task for a specific platform/architecture
@@ -16,6 +16,7 @@ fun registerNativeTask(nativeFolder: String) {
       include("data/icu/**")
       include("data/keyboards/**")
       include("data/fonts/**")
+      include("data/hyphen-data/**")
       include("licenses/icu/**")
       if (nativeFolder.startsWith("mac")) {
         include("licenses/mac/**")
@@ -50,6 +51,7 @@ tasks.jar {
     include("data/icu/**")
     include("data/keyboards/**")
     include("data/fonts/**")
+    include("data/hyphen-data/**")
     include("licenses/**")
     exclude("licenses/layoutlib.jar.txt")
     exclude("**/BUILD")

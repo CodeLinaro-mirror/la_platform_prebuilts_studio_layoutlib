@@ -6,4 +6,5 @@ filegroup(
         include = ["**"],
         exclude = ["BUILD"],
     ),
+    visibility = ["//prebuilts/studio/layoutlib:__subpackages__"],
 )
