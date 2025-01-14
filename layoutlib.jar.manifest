@@ -28772,7 +28772,6 @@ libcore/util/NativeAllocationRegistry_Delegate.class
 libcore/util/Objects.class
 libcore/util/SneakyThrow.class
 libcore/util/XmlObjectFactory.class
-org/
 org/apache/harmony/dalvik/ddmc/Chunk.class
 org/apache/harmony/dalvik/ddmc/ChunkHandler.class
 org/apache/harmony/dalvik/ddmc/DdmServer.class

@@ -3,37 +3,37 @@
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
     "name": "LayoutLib",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib-2025-01-08T17:50:55Z",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib-2025-01-14T20:00:13Z",
     "creationInfo": {
         "creators": [
             "Organization: Google LLC",
             "Person: jgaillard@google.com"
         ],
-        "created": "2025-01-08T17:50:55Z"
+        "created": "2025-01-14T20:00:13Z"
     },
     "externalDocumentRefs": [
         {
             "externalDocumentId": "DocumentRef-layoutlib",
-            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/ALR2.241014.020/12886187:userdebug/test-keys/layoutlib",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/ALR2.241014.021/12915248:userdebug/test-keys/layoutlib",
             "checksum": {
                 "algorithm": "SHA1",
-                "checksumValue": "5bc39fba4699aba884816a71f9ab987fa1301434"
+                "checksumValue": "d0d36bf99c65a2ae6183bd6330f21c6b6afbf547"
             }
         },
         {
             "externalDocumentId": "DocumentRef-layoutlib-mac",
-            "spdxDocument": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/mac-2025-01-08T17:50:55Z",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/mac-2025-01-14T20:00:13Z",
             "checksum": {
                 "algorithm": "SHA1",
-                "checksumValue": "fb2b2a295b0b867ceef284095776fc56eabfd2f3"
+                "checksumValue": "705275e30c6bf951ebbd6d2bbc697c638482726f"
             }
         },
         {
             "externalDocumentId": "DocumentRef-framework-res",
-            "spdxDocument": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2025-01-08T17:50:55Z",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2025-01-14T20:00:13Z",
             "checksum": {
                 "algorithm": "SHA1",
-                "checksumValue": "ff416abbde2fd58badd219245e30ec5c361c4ed9"
+                "checksumValue": "376e9aaefcdfca84ab148d8a0b1a958902176d44"
             }
         }
     ],
