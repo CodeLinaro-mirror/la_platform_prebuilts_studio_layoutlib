@@ -162,3 +162,13 @@ publishing {
     }
   }
 }
+
+val androidHostOut = file(System.getenv("BUILD_DIR") ?: "$rootDir/build")
+
+// Task that creates a ZIP file the repository to publish on GMaven
+tasks.register<Zip>("zipRepo") {
+  from("${layout.buildDirectory.asFile.get()}/publishing-repository")
+  destinationDirectory = androidHostOut
+  archiveFileName = "repository.zip"
+  dependsOn("publish")
+}
