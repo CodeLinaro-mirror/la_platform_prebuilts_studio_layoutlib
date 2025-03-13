@@ -3,7 +3,7 @@ plugins {
   `maven-publish`
 }
 
-version = "15.1.3"
+version = "15.1.4"
 group = "com.android.tools.layoutlib"
 
 // Create task for a specific platform/architecture
@@ -161,4 +161,14 @@ publishing {
       url = uri("${layout.buildDirectory.asFile.get()}/publishing-repository")
     }
   }
+}
+
+val androidHostOut = file(System.getenv("BUILD_DIR") ?: "$rootDir/build")
+
+// Task that creates a ZIP file the repository to publish on GMaven
+tasks.register<Zip>("zipRepo") {
+  from("${layout.buildDirectory.asFile.get()}/publishing-repository")
+  destinationDirectory = androidHostOut
+  archiveFileName = "repository.zip"
+  dependsOn("publish")
 }
