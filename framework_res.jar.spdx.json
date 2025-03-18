@@ -3,20 +3,20 @@
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
     "name": "LayoutLib-framework_res",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2025-03-12T12:10:47Z",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2025-03-18T12:55:21Z",
     "creationInfo": {
         "creators": [
             "Organization: Google LLC"
         ],
-        "created": "2025-03-12T12:10:47Z"
+        "created": "2025-03-18T12:55:21Z"
     },
     "externalDocumentRefs": [
         {
             "externalDocumentId": "DocumentRef-layoutlib",
-            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/ALR2.241014.024/13187543:userdebug/test-keys/layoutlib",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/BLR1.250305.022/13227340:userdebug/test-keys/layoutlib",
             "checksum": {
                 "algorithm": "SHA1",
-                "checksumValue": "e84af1f0429f29f5122fcbb062f0c4ecb8a71afe"
+                "checksumValue": "1438a15a8eee2ce0343086712912288f78144159"
             }
         }
     ],
@@ -29,11 +29,11 @@
             "SPDXID": "SPDXRef-PREBUILT-framework-res",
             "downloadLocation": "NONE",
             "filesAnalyzed": true,
-            "versionInfo": "2025-03-12T12:10:47Z",
+            "versionInfo": "2025-03-18T12:55:21Z",
             "supplier": "Organization: Google LLC",
             "licenseDeclared": "NOASSERTION",
             "packageVerificationCode": {
-                "packageVerificationCodeValue": "2de46958495d70bb497b498cea9b877e3a8511be"
+                "packageVerificationCodeValue": "e0a78d87cb740f733ac2e52c6b45992dc2951e7d"
             },
             "hasFiles": [
                 "SPDXRef-data-framework-res.jar"
@@ -47,7 +47,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "7b4b7434c55f1e1e1e48951fc8f4bcaf0620b77f"
+                    "checksumValue": "002e3d430241cf3724f8b1b173a1a8f058bd8ecb"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -6027,6 +6027,31 @@
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-color-watch-switch-track-watch-default-dark.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-color-watch-v36-btn-material-filled-background-color.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-color-watch-v36-btn-material-filled-content-color.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-color-watch-v36-btn-material-filled-tonal-background-color.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-color-watch-v36-btn-material-filled-tonal-content-color.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-color-watch-v36-btn-material-outlined-background-color.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
@@ -15336,6 +15361,11 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-ic-zen-mode-icon-piano.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-ic-zen-mode-icon-running.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -15352,6 +15382,11 @@
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-ic-zen-mode-icon-speech-bubble.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-ic-zen-mode-icon-star-badge.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
@@ -15422,11 +15457,6 @@
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-ic-zen-mode-type-theater.xml",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-ic-zen-mode-type-unknown.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
@@ -27071,6 +27101,16 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-notification-progress-icon-background.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-notification-progress.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-number-picker-divider-material.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -29091,6 +29131,11 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-ic-settings.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-input-method-item-background-selected.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -29137,6 +29182,61 @@
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-toast-frame.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-btn-background-material-filled-tonal.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-btn-background-material-filled.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-btn-background-material-outlined.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-btn-background-material-text.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-dialog-alert-button-background-negative.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-dialog-alert-button-background-positive.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-dialog-alert-button-negative.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-dialog-alert-button-positive.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-ic-check.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-ic-close.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-drawable-watch-v36-progress-ring-wear-material3.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
@@ -42346,7 +42446,7 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-app-language-picker-current-locale-item.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-app-language-picker-locale-item.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
@@ -42791,6 +42891,16 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-input-method-switch-item-divider.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-input-method-switch-item-header.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-input-method-switch-item-new.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -42951,6 +43061,111 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-conversation-face-pile-layout.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-conversation-header.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-conversation-icon-container.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-messaging-group.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-reply-container.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-collapsed-base.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-collapsed-call.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-collapsed-media.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-collapsed-messaging.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-conversation.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-expanded-base.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-expanded-big-picture.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-expanded-big-text.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-expanded-call.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-expanded-inbox.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-expanded-media.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-expanded-messaging.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-expanded-progress.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-header.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-template-heads-up-base.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-2025-text.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-close-button.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -43091,6 +43306,11 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-template-material-progress.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-template-messaging-group.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -43102,6 +43322,11 @@
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-template-messaging-text-message.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-notification-template-notification-progress-bar.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
@@ -44021,6 +44246,16 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-watch-v36-alert-dialog-icon-button-wear-material3.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-watch-v36-alert-dialog-wear-material3.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-layout-watch-watch-base-error-dialog-title.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -44761,6 +44996,11 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-colors-dynamic.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-colors-holo.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -45366,6 +45606,21 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-fr-feminine-strings.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-fr-masculine-strings.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-fr-neuter-strings.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-fr-rBE-donottranslate-maps.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -45622,6 +45877,21 @@
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-it-donottranslate-cldr.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-it-feminine-strings.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-it-masculine-strings.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-it-neuter-strings.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
@@ -46086,6 +46356,11 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-night-colors-dynamic.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-night-colors.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -46502,6 +46777,11 @@
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-sr-watch-strings.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-stoppable-fgs-system-apps.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
@@ -47217,6 +47497,26 @@
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-watch-themes-material.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-watch-v36-colors.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-watch-v36-config.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-watch-v36-dimens-material.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-res-values-watch-v36-styles-material.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
