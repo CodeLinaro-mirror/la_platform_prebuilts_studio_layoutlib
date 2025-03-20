@@ -3,20 +3,20 @@
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
     "name": "LayoutLib-framework_res",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2025-03-18T12:55:21Z",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2025-03-20T17:18:28Z",
     "creationInfo": {
         "creators": [
             "Organization: Google LLC"
         ],
-        "created": "2025-03-18T12:55:21Z"
+        "created": "2025-03-20T17:18:28Z"
     },
     "externalDocumentRefs": [
         {
             "externalDocumentId": "DocumentRef-layoutlib",
-            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/BLR1.250305.022/13227340:userdebug/test-keys/layoutlib",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:15/BLR1.250305.023/13245494:userdebug/test-keys/layoutlib",
             "checksum": {
                 "algorithm": "SHA1",
-                "checksumValue": "1438a15a8eee2ce0343086712912288f78144159"
+                "checksumValue": "a1248d635789bc9936dc96bb71594ff4ffc36afd"
             }
         }
     ],
@@ -29,11 +29,11 @@
             "SPDXID": "SPDXRef-PREBUILT-framework-res",
             "downloadLocation": "NONE",
             "filesAnalyzed": true,
-            "versionInfo": "2025-03-18T12:55:21Z",
+            "versionInfo": "2025-03-20T17:18:28Z",
             "supplier": "Organization: Google LLC",
             "licenseDeclared": "NOASSERTION",
             "packageVerificationCode": {
-                "packageVerificationCodeValue": "e0a78d87cb740f733ac2e52c6b45992dc2951e7d"
+                "packageVerificationCodeValue": "13c7817ef3ddabd9c09e2fac491010ffbe340c14"
             },
             "hasFiles": [
                 "SPDXRef-data-framework-res.jar"
@@ -47,7 +47,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "002e3d430241cf3724f8b1b173a1a8f058bd8ecb"
+                    "checksumValue": "8b8cfb7d92d144528469ecfe48e1493a29d0d581"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -4071,177 +4071,167 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-2-xl-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6-pro-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-2-xl-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6-pro-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-3-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-3-xl-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-3-xl-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6a-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-3a-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6a-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-3a-xl-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7-pro-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-4-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7-pro-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-4-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-4-xl-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-4-xl-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7a-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-4a-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7a-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-4a-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8-pro-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-5-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8-pro-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-5-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8a-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6-pro-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8a-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6-pro-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-pro-fold-res-values-config-telephony.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6a-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-pro-fold-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6a-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-pro-res-values-config-telephony.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-pro-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-pro-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7-pro-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-pro-xl-res-values-config-telephony.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7-pro-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-pro-xl-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7a-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-pro-xl-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-7a-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-res-values-config-telephony.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8-pro-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-fold-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8-pro-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-fold-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8a-AndroidOverlay-res-values-config.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-tablet-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-8a-AndroidOverlay-res-values-dimens.xml",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-fold-AndroidOverlay-res-values-config.xml",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-framework-res.jar",
-            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-fold-AndroidOverlay-res-values-dimens.xml",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-tablet-res-values-dimens.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {
