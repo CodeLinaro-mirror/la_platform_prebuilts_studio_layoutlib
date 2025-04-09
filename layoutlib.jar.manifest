@@ -18706,6 +18706,7 @@ android/os/TokenWatcher.class
 android/os/TombstoneWithHeadersProto.class
 android/os/Trace.class
 android/os/TraceNameSupplier.class
+android/os/Trace_Delegate.class
 android/os/TransactionTooLargeException.class
 android/os/TransactionTracker.class
 android/os/UEventObserver$UEvent.class
@@ -19527,6 +19528,9 @@ android/provider/Settings$System.class
 android/provider/Settings.class
 android/provider/SettingsConfigDataStore.class
 android/provider/Settings_Config_Delegate.class
+android/provider/Settings_Global_Delegate.class
+android/provider/Settings_Secure_Delegate.class
+android/provider/Settings_System_Delegate.class
 android/provider/SyncStateContract$Columns.class
 android/provider/SyncStateContract$Constants.class
 android/provider/SyncStateContract$Helpers.class
@@ -30020,6 +30024,7 @@ libcore/internal/StringPool.class
 libcore/io/
 libcore/io/AsynchronousCloseMonitor.class
 libcore/io/BlockGuardOs.class
+libcore/io/BlockGuardOs_Delegate.class
 libcore/io/BufferIterator.class
 libcore/io/ClassPathURLStreamHandler$ClassPathURLConnection$1.class
 libcore/io/ClassPathURLStreamHandler$ClassPathURLConnection.class
