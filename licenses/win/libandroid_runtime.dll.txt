@@ -1,16 +1,16 @@
-layoutlib
+layoutlib_jni
 
 ==============================================================================
 Android used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
-Wuffs Mirror Release C_v_a0e2454f0c21369f9775cad3bcaf1e3bb1db70b6 used by:
+Wuffs Mirror Release C used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 freetype_v_2.13.2 used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
-harfbuzz_ng_v_10.1.0 used by:
+harfbuzz_ng_v_10.2.0 used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 image_io_v_222429857 used by:
@@ -223,7 +223,7 @@ libultrahdr used by:
    limitations under the License.
 
 ==============================================================================
-ICU_v_72 used by:
+ICU_v_76 used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
@@ -246,7 +246,7 @@ Update links and software appropriately.
 </html>
 
 ==============================================================================
-ICU_v_72 used by:
+ICU_v_76 used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 UNICODE LICENSE V3
@@ -5457,7 +5457,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ==============================================================================
-harfbuzz_ng_v_10.1.0 used by:
+harfbuzz_ng_v_10.2.0 used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 Permission to use, copy, modify, and/or distribute this software for any
@@ -5473,7 +5473,7 @@ TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE
 OF THIS SOFTWARE.
 
 ==============================================================================
-harfbuzz_ng_v_10.1.0 used by:
+harfbuzz_ng_v_10.2.0 used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 Permission is hereby granted, without written agreement and without
@@ -5493,7 +5493,7 @@ ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
 PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
 ==============================================================================
-harfbuzz_ng_v_10.1.0 used by:
+harfbuzz_ng_v_10.2.0 used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
     MIT License
@@ -5519,7 +5519,7 @@ harfbuzz_ng_v_10.1.0 used by:
     SOFTWARE
 
 ==============================================================================
-harfbuzz_ng_v_10.1.0 used by:
+harfbuzz_ng_v_10.2.0 used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 HarfBuzz is licensed under the so-called "Old MIT" license.  Details follow.
@@ -5560,7 +5560,7 @@ ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
 PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
 ==============================================================================
-harfbuzz_ng_v_10.1.0 used by:
+harfbuzz_ng_v_10.2.0 used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 HarfBuzz is licensed under the so-called "Old MIT" license.  Details follow.
@@ -5607,7 +5607,7 @@ ON AN "AS IS" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO
 PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
 ==============================================================================
-harfbuzz_ng_v_10.1.0 used by:
+harfbuzz_ng_v_10.2.0 used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -6589,6 +6589,22 @@ AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
 OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
+
+-------------------------------------------------------------------
+
+Copyright (C) 2024 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
 -------------------------------------------------------------------
 
@@ -9808,35 +9824,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 -------------------------------------------------------------------
 
-Copyright (c) 2015 Joerg Sonnenberger <joerg@NetBSD.org>.
-All rights reserved.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-
-1. Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimer in
-   the documentation and/or other materials provided with the
-   distribution.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
-``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
-FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE
-COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES (INCLUDING,
-BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED
-AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
-OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE.
-
--------------------------------------------------------------------
-
 Copyright (c) 2015 Nuxi, https://nuxi.nl/
 
 Redistribution and use in source and binary forms, with or without
@@ -10387,40 +10374,6 @@ Copyright (c) 1990, 1993
 
 This code is derived from software contributed to Berkeley by
 Chris Torek.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-1. Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimer in the
-   documentation and/or other materials provided with the distribution.
-3. Neither the name of the University nor the names of its contributors
-   may be used to endorse or promote products derived from this software
-   without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
-ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
-ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
-OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
-OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE.
-
--------------------------------------------------------------------
-
-SPDX-License-Identifier: BSD-3-Clause
-
-Copyright (c) 1990, 1993
-   The Regents of the University of California.  All rights reserved.
-
-This code is derived from software contributed to Berkeley by
-Mike Hibler and Chris Torek.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions
@@ -11406,7 +11359,7 @@ DEALINGS IN THE SOFTWARE.
  */
 
 ==============================================================================
-skia_v_afa77852dcdeeb1e8c3c2d999eec398be4b4e6d0 used by:
+skia_v_9ba7bf8be99db16e927775c617f301006f7f8ddd used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 Copyright (c) 2011 Google Inc. All rights reserved.
@@ -11440,7 +11393,7 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ==============================================================================
-skia_v_afa77852dcdeeb1e8c3c2d999eec398be4b4e6d0 used by:
+skia_v_9ba7bf8be99db16e927775c617f301006f7f8ddd used by:
   layoutlib_native/windows/libandroid_runtime.dll
 
 // Copyright (c) 2011 Google Inc. All rights reserved.

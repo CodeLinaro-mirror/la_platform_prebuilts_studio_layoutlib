@@ -17,7 +17,8 @@
 */
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+           xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- Indicate whether to allow the device to suspend when the screen is off
          due to the proximity sensor.  This resource should only be set to true
          if the sensor HAL correctly handles the proximity sensor as a wake-up source.
@@ -224,7 +225,13 @@
 
     <!-- Allow the GPS_PROVIDER to be replaced by the location provider app at run-time. -->
     <bool name="config_useGnssHardwareProvider" translatable="false">false</bool>
-    <!-- Package name providing GNSS location support. Used only when
-         config_useGnssHardwareProvider is false. -->
-    <string name="config_gnssLocationProviderPackageName" translatable="false">com.google.android.gms</string>
+    <!-- If true, will fallback to use a different app if the chosen overlay app is determined to
+         be unstable. Used only when config_useGnssHardwareProvider is false and
+         config_enableGnssLocationOverlay is true. -->
+    <bool android:featureFlag="android.location.flags.service_watcher_unstable_fallback"
+        name="config_gnssLocationOverlayUnstableFallback" translatable="false">true</bool>
+    <!-- If true, will fallback to use a different app if the chosen overlay app is determined to
+         be unstable. Used only when config_enableFusedLocationOverlay is true. -->
+    <bool android:featureFlag="android.location.flags.service_watcher_unstable_fallback"
+        name="config_fusedLocationOverlayUnstableFallback" translatable="false">true</bool>
 </resources>
