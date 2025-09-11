@@ -3,13 +3,13 @@
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
     "name": "LayoutLib native libraries for Mac",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/mac-2025-07-16T08:53:28Z",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/mac-2025-09-10T16:13:59Z",
     "creationInfo": {
         "creators": [
             "Organization: Google LLC",
             "Person: jgaillard@google.com"
         ],
-        "created": "2025-07-16T08:53:28Z"
+        "created": "2025-09-10T16:13:59Z"
     },
     "documentDescribes": [
         "SPDXRef-layoutlib-mac"
@@ -22,7 +22,7 @@
             "filesAnalyzed": true,
             "supplier": "Organization: Google LLC",
             "packageVerificationCode": {
-                "packageVerificationCodeValue": "7eba62b502470eb172ceb3fe97c1e223073c3851"
+                "packageVerificationCodeValue": "93c89fd4368b76353e1a61009713718ef515833f"
             }
         }
     ],
@@ -43,7 +43,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "def5d260fd49880538ace2fd123f90b847f1965b"
+                    "checksumValue": "c325bcd8fe04f5dda7c4546a3a59156f1ba30902"
                 }
             ]
         },
@@ -63,7 +63,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "6bbf765d4fc184213e2bead671b0cafd6bd5cea7"
+                    "checksumValue": "e0185b208fb2ac6bb67ac0e8d413f34116962dfa"
                 }
             ]
         }
