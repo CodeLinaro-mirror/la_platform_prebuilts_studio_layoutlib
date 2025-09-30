@@ -314,4 +314,7 @@
          be unstable. Used only when config_enableFusedLocationOverlay is true. -->
     <bool android:featureFlag="android.location.flags.service_watcher_unstable_fallback"
         name="config_fusedLocationOverlayUnstableFallback" translatable="false">true</bool>
+
+    <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
+    <bool name="config_screen_off_udfps_enabled">true</bool>
 </resources>
