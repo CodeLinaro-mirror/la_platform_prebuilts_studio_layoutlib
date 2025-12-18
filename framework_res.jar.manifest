@@ -336,6 +336,8 @@ res/color-watch/global_actions_container_background.xml
 res/color-watch/overview_background.xml
 res/color-watch/switch_thumb_watch_default_dark.xml
 res/color-watch/switch_track_watch_default_dark.xml
+res/color/accessibility_autoclick_type_button_color.xml
+res/color/accessibility_autoclick_type_button_container_background.xml
 res/color/background_cache_hint_selector_device_default.xml
 res/color/background_cache_hint_selector_holo_dark.xml
 res/color/background_cache_hint_selector_holo_light.xml
@@ -5512,9 +5514,6 @@ res/drawable-watch/ic_lock_bugreport.xml
 res/drawable-watch/ic_lock_power_off.xml
 res/drawable-watch/ic_restart.xml
 res/drawable-watch/ic_settings.xml
-res/drawable-watch/input_method_item_background.xml
-res/drawable-watch/input_method_item_background_selected.xml
-res/drawable-watch/input_method_item_background_selector.xml
 res/drawable-watch/progress_horizontal_material.xml
 res/drawable-watch/scrollbar_vertical_thumb.xml
 res/drawable-watch/scrollbar_vertical_track.xml
@@ -9070,6 +9069,7 @@ res/drawable/ic_action_open.xml
 res/drawable/ic_add_supervised_user.xml
 res/drawable/ic_alert_window_layer.xml
 res/drawable/ic_android_satellite_24px.xml
+res/drawable/ic_android_security_privacy_alert_fill_material.xml
 res/drawable/ic_arrow_drop_right_black_24dp.xml
 res/drawable/ic_arrow_forward.xml
 res/drawable/ic_audio_alarm.xml
@@ -9179,7 +9179,6 @@ res/drawable/ic_hotspot_transient_animation.xml
 res/drawable/ic_hotspot_transient_animation_drawable.xml
 res/drawable/ic_ime_nav_back.xml
 res/drawable/ic_ime_switcher.xml
-res/drawable/ic_ime_switcher_new.xml
 res/drawable/ic_info.xml
 res/drawable/ic_info_outline.xml
 res/drawable/ic_info_outline_24.xml
@@ -9195,14 +9194,17 @@ res/drawable/ic_lock.xml
 res/drawable/ic_lock_airplane_mode.xml
 res/drawable/ic_lock_airplane_mode_off.xml
 res/drawable/ic_lock_bugreport.xml
+res/drawable/ic_lock_bugreport_round.xml
 res/drawable/ic_lock_idle_alarm.xml
 res/drawable/ic_lock_lock.xml
-res/drawable/ic_lock_lockdown.xml
+res/drawable/ic_lock_lockdown_round.xml
 res/drawable/ic_lock_open.xml
 res/drawable/ic_lock_power_off.xml
+res/drawable/ic_lock_power_off_round.xml
 res/drawable/ic_lockscreen_ime.xml
 res/drawable/ic_lockscreen_outerring.xml
 res/drawable/ic_logout.xml
+res/drawable/ic_logout_round.xml
 res/drawable/ic_maps_indicator_current_position_anim.xml
 res/drawable/ic_media_route_connected_dark_material.xml
 res/drawable/ic_media_route_connected_light_material.xml
@@ -9267,10 +9269,12 @@ res/drawable/ic_qs_one_handed_mode.xml
 res/drawable/ic_qs_ui_mode_night.xml
 res/drawable/ic_refresh.xml
 res/drawable/ic_restart.xml
+res/drawable/ic_restart_round.xml
 res/drawable/ic_satellite_alt_24px.xml
 res/drawable/ic_schedule.xml
 res/drawable/ic_screenshot.xml
 res/drawable/ic_screenshot_edit.xml
+res/drawable/ic_screenshot_round.xml
 res/drawable/ic_sd_card_48dp.xml
 res/drawable/ic_search_api_material.xml
 res/drawable/ic_security_privacy_notification_badge.xml
@@ -9419,6 +9423,8 @@ res/drawable/loader_horizontal_watch.xml
 res/drawable/loading_spinner.xml
 res/drawable/lockscreen_notselected.xml
 res/drawable/lockscreen_selected.xml
+res/drawable/material_ic_account_circle.xml
+res/drawable/material_ic_account_circle_user.xml
 res/drawable/media_button_background.xml
 res/drawable/media_seamless_background.xml
 res/drawable/menu_panel_holo_dark.xml
@@ -9461,6 +9467,9 @@ res/drawable/perm_group_sensors.xml
 res/drawable/perm_group_sms.xml
 res/drawable/perm_group_storage.xml
 res/drawable/perm_group_visual.xml
+res/drawable/perm_group_xr_eye_sensitive.xml
+res/drawable/perm_group_xr_tracking.xml
+res/drawable/perm_group_xr_tracking_sensitive.xml
 res/drawable/pointer_alias_icon.xml
 res/drawable/pointer_alias_large_icon.xml
 res/drawable/pointer_alias_vector.xml
@@ -9902,9 +9911,6 @@ res/layout-watch/global_actions.xml
 res/layout-watch/global_actions_item.xml
 res/layout-watch/grant_credentials_permission.xml
 res/layout-watch/input_method_extract_view.xml
-res/layout-watch/input_method_switch_dialog_title.xml
-res/layout-watch/input_method_switch_item.xml
-res/layout-watch/input_method_switcher_list_layout.xml
 res/layout-watch/permissions_package_list_item.xml
 res/layout-watch/preference_list_fragment_material.xml
 res/layout-watch/preference_material.xml
@@ -10043,12 +10049,10 @@ res/layout/input_method_nav_home_handle.xml
 res/layout/input_method_nav_ime_switcher.xml
 res/layout/input_method_navigation_bar.xml
 res/layout/input_method_navigation_layout.xml
-res/layout/input_method_switch_dialog_new.xml
-res/layout/input_method_switch_dialog_title.xml
+res/layout/input_method_switch_dialog.xml
 res/layout/input_method_switch_item.xml
 res/layout/input_method_switch_item_divider.xml
 res/layout/input_method_switch_item_header.xml
-res/layout/input_method_switch_item_new.xml
 res/layout/js_prompt.xml
 res/layout/keyboard_key_preview.xml
 res/layout/keyboard_popup_keyboard.xml
@@ -10074,10 +10078,12 @@ res/layout/media_route_list_item.xml
 res/layout/menu_item.xml
 res/layout/miniresolver.xml
 res/layout/notification_2025_action_list.xml
+res/layout/notification_2025_collapsed_metric.xml
 res/layout/notification_2025_conversation_face_pile_layout.xml
 res/layout/notification_2025_conversation_header.xml
 res/layout/notification_2025_conversation_icon_container.xml
 res/layout/notification_2025_expand_button.xml
+res/layout/notification_2025_expanded_metric.xml
 res/layout/notification_2025_messaging_group.xml
 res/layout/notification_2025_reply_history_container.xml
 res/layout/notification_2025_right_icon.xml
@@ -10086,6 +10092,7 @@ res/layout/notification_2025_template_collapsed_call.xml
 res/layout/notification_2025_template_collapsed_conversation.xml
 res/layout/notification_2025_template_collapsed_media.xml
 res/layout/notification_2025_template_collapsed_messaging.xml
+res/layout/notification_2025_template_collapsed_metric.xml
 res/layout/notification_2025_template_compact_heads_up_base.xml
 res/layout/notification_2025_template_compact_heads_up_messaging.xml
 res/layout/notification_2025_template_expanded_base.xml
@@ -10096,6 +10103,7 @@ res/layout/notification_2025_template_expanded_conversation.xml
 res/layout/notification_2025_template_expanded_inbox.xml
 res/layout/notification_2025_template_expanded_media.xml
 res/layout/notification_2025_template_expanded_messaging.xml
+res/layout/notification_2025_template_expanded_metric.xml
 res/layout/notification_2025_template_expanded_progress.xml
 res/layout/notification_2025_template_header.xml
 res/layout/notification_2025_template_heads_up_base.xml
@@ -10755,6 +10763,8 @@ res/values-sw-television/strings.xml
 res/values-sw-watch/strings.xml
 res/values-sw/donottranslate-cldr.xml
 res/values-sw/strings.xml
+res/values-sw1500dp-110dpi/status-bar-dimens.xml
+res/values-sw1900dp-90dpi/status-bar-dimens.xml
 res/values-sw360dp/dimens.xml
 res/values-sw372dp/dimens.xml
 res/values-sw600dp-land/arrays.xml
@@ -10838,7 +10848,6 @@ res/values-w204dp/dimens_watch.xml
 res/values-w205dp/dimens_material.xml
 res/values-w208dp/dimens_material.xml
 res/values-w210dp-round-watch/dimens_material.xml
-res/values-w210dp-round-watch/styles.xml
 res/values-w211dp/dimens_material.xml
 res/values-w213dp-round-watch/dimens.xml
 res/values-w213dp/dimens_material.xml
