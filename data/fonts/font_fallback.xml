@@ -18,9 +18,6 @@
   <family name="cursive">
     <font supportedAxes="wght">DancingScript-Regular.ttf</font>
   </family>
-  <family name="monospace">
-    <font weight="400" style="normal">DroidSansMono.ttf</font>
-  </family>
   <family name="sans-serif-condensed">
     <font supportedAxes="wght,ital">
       Roboto-Regular.ttf
@@ -53,6 +50,9 @@
     <font weight="400" style="italic">NotoSerif-Italic.ttf</font>
     <font weight="700" style="italic">NotoSerif-BoldItalic.ttf</font>
   </family>
+  <family name="monospace">
+    <font weight="400" style="normal">DroidSansMono.ttf</font>
+  </family>
   <family lang="und-Arab" variant="elegant">
     <font weight="400" style="normal" postScriptName="NotoNaskhArabic">NotoNaskhArabic-Regular.ttf</font>
     <font weight="700" style="normal">NotoNaskhArabic-Bold.ttf</font>
@@ -68,14 +68,12 @@
   <family lang="und-Hebr">
     <font weight="400" style="normal" postScriptName="NotoSansHebrew">NotoSansHebrew-Regular.ttf</font>
     <font weight="700" style="normal">NotoSansHebrew-Bold.ttf</font>
-    <font weight="400" style="normal" fallbackFor="serif">NotoSerifHebrew-Regular.ttf</font>
-    <font weight="700" style="normal" fallbackFor="serif">NotoSerifHebrew-Bold.ttf</font>
+    <font style="normal" supportedAxes="wght" fallbackFor="serif">NotoSerifHebrew-Regular.ttf</font>
   </family>
   <family lang="und-Thai" variant="elegant">
     <font weight="400" style="normal" postScriptName="NotoSansThai">NotoSansThai-Regular.ttf</font>
     <font weight="700" style="normal">NotoSansThai-Bold.ttf</font>
-    <font weight="400" style="normal" fallbackFor="serif">NotoSerifThai-Regular.ttf</font>
-    <font weight="700" style="normal" fallbackFor="serif">NotoSerifThai-Bold.ttf</font>
+    <font style="normal" supportedAxes="wght" fallbackFor="serif">NotoSerifThai-Regular.ttf</font>
   </family>
   <family lang="und-Thai" variant="compact">
     <font weight="400" style="normal" postScriptName="NotoSansThaiUI">NotoSansThaiUI-Regular.ttf</font>
@@ -97,8 +95,7 @@
     <font supportedAxes="wght" postScriptName="NotoSansDevanagariUI-Regular">NotoSansDevanagariUI-VF.ttf</font>
   </family>
   <family lang="und-Gujr" variant="elegant">
-    <font weight="400" style="normal" postScriptName="NotoSansGujarati">NotoSansGujarati-Regular.ttf</font>
-    <font weight="700" style="normal">NotoSansGujarati-Bold.ttf</font>
+    <font style="normal" supportedAxes="wght">NotoSansGujarati-Regular.ttf</font>
     <font style="normal" supportedAxes="wght" fallbackFor="serif" postScriptName="NotoSerifGujarati-Regular">NotoSerifGujarati-VF.ttf</font>
   </family>
   <family lang="und-Gujr" variant="compact">
@@ -148,8 +145,7 @@
     <font supportedAxes="wght" postScriptName="NotoSansKannadaUI-Regular">NotoSansKannadaUI-VF.ttf</font>
   </family>
   <family lang="und-Orya" variant="elegant">
-    <font weight="400" style="normal" postScriptName="NotoSansOriya">NotoSansOriya-Regular.ttf</font>
-    <font weight="700" style="normal">NotoSansOriya-Bold.ttf</font>
+    <font style="normal" supportedAxes="wght">NotoSansOriya-Regular.ttf</font>
   </family>
   <family lang="und-Orya" variant="compact">
     <font weight="400" style="normal" postScriptName="NotoSansOriyaUI">NotoSansOriyaUI-Regular.ttf</font>
@@ -167,18 +163,15 @@
       NotoSansKhmer-VF.ttf
       <axis tag="wdth" stylevalue="100.0"/>
     </font>
-    <font weight="400" style="normal" fallbackFor="serif">NotoSerifKhmer-Regular.otf</font>
-    <font weight="700" style="normal" fallbackFor="serif">NotoSerifKhmer-Bold.otf</font>
+    <font style="normal" supportedAxes="wght" fallbackFor="serif">NotoSerifKhmer-Regular.ttf</font>
   </family>
   <family lang="und-Khmr" variant="compact">
     <font weight="400" style="normal" postScriptName="NotoSansKhmerUI">NotoSansKhmerUI-Regular.ttf</font>
     <font weight="700" style="normal">NotoSansKhmerUI-Bold.ttf</font>
   </family>
   <family lang="und-Laoo" variant="elegant">
-    <font weight="400" style="normal">NotoSansLao-Regular.ttf</font>
-    <font weight="700" style="normal">NotoSansLao-Bold.ttf</font>
-    <font weight="400" style="normal" fallbackFor="serif">NotoSerifLao-Regular.ttf</font>
-    <font weight="700" style="normal" fallbackFor="serif">NotoSerifLao-Bold.ttf</font>
+    <font style="normal" supportedAxes="wght">NotoSansLao-Regular.ttf</font>
+    <font style="normal" supportedAxes="wght" fallbackFor="serif">NotoSerifLao-Regular.ttf</font>
   </family>
   <family lang="und-Laoo" variant="compact">
     <font weight="400" style="normal" postScriptName="NotoSansLaoUI">NotoSansLaoUI-Regular.ttf</font>
