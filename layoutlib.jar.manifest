@@ -1270,6 +1270,7 @@ android/app/INotificationManager$Default.class
 android/app/INotificationManager$Stub$Proxy.class
 android/app/INotificationManager$Stub.class
 android/app/INotificationManager.class
+android/app/INotificationManager_Stub_Delegate.class
 android/app/IOnProjectionStateChangedListener$Default.class
 android/app/IOnProjectionStateChangedListener$Stub$Proxy.class
 android/app/IOnProjectionStateChangedListener$Stub.class
