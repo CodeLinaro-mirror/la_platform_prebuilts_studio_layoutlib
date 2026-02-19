@@ -2,13 +2,13 @@
     "spdxVersion": "SPDX-2.3",
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
-    "name": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys/layoutlib",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys/layoutlib",
+    "name": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys/layoutlib",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys/layoutlib",
     "creationInfo": {
         "creators": [
             "Organization: unknown"
         ],
-        "created": "2025-10-07T18:05:15Z"
+        "created": "2026-02-11T13:00:28Z"
     },
     "documentDescribes": [
         "SPDXRef-layoutlib"
@@ -19,11 +19,11 @@
             "SPDXID": "SPDXRef-layoutlib",
             "downloadLocation": "NONE",
             "filesAnalyzed": true,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION",
             "packageVerificationCode": {
-                "packageVerificationCodeValue": "bc9c211f9fa575d95200073b4759163b56a62f13"
+                "packageVerificationCodeValue": "99e4de1ec368228407711a50d4424b8a8c393512"
             },
             "hasFiles": [
                 "SPDXRef-build.prop",
@@ -213,7 +213,7 @@
                 "SPDXRef-data-fonts-NotoSerifHentaigana.ttf",
                 "SPDXRef-data-fonts-NotoSerifKannada-VF.ttf",
                 "SPDXRef-data-fonts-NotoSerifKhmer-Bold.otf",
-                "SPDXRef-data-fonts-NotoSerifKhmer-Regular.otf",
+                "SPDXRef-data-fonts-NotoSerifKhmer-Regular.ttf",
                 "SPDXRef-data-fonts-NotoSerifLao-Bold.ttf",
                 "SPDXRef-data-fonts-NotoSerifLao-Regular.ttf",
                 "SPDXRef-data-fonts-NotoSerifMalayalam-VF.ttf",
@@ -557,6 +557,8 @@
                 "SPDXRef-data-res-color-watch-overview-background.xml",
                 "SPDXRef-data-res-color-watch-switch-thumb-watch-default-dark.xml",
                 "SPDXRef-data-res-color-watch-switch-track-watch-default-dark.xml",
+                "SPDXRef-data-res-color-accessibility-autoclick-type-button-color.xml",
+                "SPDXRef-data-res-color-accessibility-autoclick-type-button-container-background.xml",
                 "SPDXRef-data-res-color-background-cache-hint-selector-device-default.xml",
                 "SPDXRef-data-res-color-background-cache-hint-selector-holo-dark.xml",
                 "SPDXRef-data-res-color-background-cache-hint-selector-holo-light.xml",
@@ -4394,9 +4396,6 @@
                 "SPDXRef-data-res-drawable-watch-ic-lock-power-off.xml",
                 "SPDXRef-data-res-drawable-watch-ic-restart.xml",
                 "SPDXRef-data-res-drawable-watch-ic-settings.xml",
-                "SPDXRef-data-res-drawable-watch-input-method-item-background.xml",
-                "SPDXRef-data-res-drawable-watch-input-method-item-background-selected.xml",
-                "SPDXRef-data-res-drawable-watch-input-method-item-background-selector.xml",
                 "SPDXRef-data-res-drawable-watch-progress-horizontal-material.xml",
                 "SPDXRef-data-res-drawable-watch-scrollbar-vertical-thumb.xml",
                 "SPDXRef-data-res-drawable-watch-scrollbar-vertical-track.xml",
@@ -7158,6 +7157,7 @@
                 "SPDXRef-data-res-drawable-ic-add-supervised-user.xml",
                 "SPDXRef-data-res-drawable-ic-alert-window-layer.xml",
                 "SPDXRef-data-res-drawable-ic-android-satellite-24px.xml",
+                "SPDXRef-data-res-drawable-ic-android-security-privacy-alert-fill-material.xml",
                 "SPDXRef-data-res-drawable-ic-arrow-drop-right-black-24dp.xml",
                 "SPDXRef-data-res-drawable-ic-arrow-forward.xml",
                 "SPDXRef-data-res-drawable-ic-audio-alarm.xml",
@@ -7267,7 +7267,6 @@
                 "SPDXRef-data-res-drawable-ic-hotspot-transient-animation-drawable.xml",
                 "SPDXRef-data-res-drawable-ic-ime-nav-back.xml",
                 "SPDXRef-data-res-drawable-ic-ime-switcher.xml",
-                "SPDXRef-data-res-drawable-ic-ime-switcher-new.xml",
                 "SPDXRef-data-res-drawable-ic-info.xml",
                 "SPDXRef-data-res-drawable-ic-info-outline.xml",
                 "SPDXRef-data-res-drawable-ic-info-outline-24.xml",
@@ -7283,14 +7282,17 @@
                 "SPDXRef-data-res-drawable-ic-lock-airplane-mode.xml",
                 "SPDXRef-data-res-drawable-ic-lock-airplane-mode-off.xml",
                 "SPDXRef-data-res-drawable-ic-lock-bugreport.xml",
+                "SPDXRef-data-res-drawable-ic-lock-bugreport-round.xml",
                 "SPDXRef-data-res-drawable-ic-lock-idle-alarm.xml",
                 "SPDXRef-data-res-drawable-ic-lock-lock.xml",
-                "SPDXRef-data-res-drawable-ic-lock-lockdown.xml",
+                "SPDXRef-data-res-drawable-ic-lock-lockdown-round.xml",
                 "SPDXRef-data-res-drawable-ic-lock-open.xml",
                 "SPDXRef-data-res-drawable-ic-lock-power-off.xml",
+                "SPDXRef-data-res-drawable-ic-lock-power-off-round.xml",
                 "SPDXRef-data-res-drawable-ic-lockscreen-ime.xml",
                 "SPDXRef-data-res-drawable-ic-lockscreen-outerring.xml",
                 "SPDXRef-data-res-drawable-ic-logout.xml",
+                "SPDXRef-data-res-drawable-ic-logout-round.xml",
                 "SPDXRef-data-res-drawable-ic-maps-indicator-current-position-anim.xml",
                 "SPDXRef-data-res-drawable-ic-media-route-connected-dark-material.xml",
                 "SPDXRef-data-res-drawable-ic-media-route-connected-light-material.xml",
@@ -7355,10 +7357,12 @@
                 "SPDXRef-data-res-drawable-ic-qs-ui-mode-night.xml",
                 "SPDXRef-data-res-drawable-ic-refresh.xml",
                 "SPDXRef-data-res-drawable-ic-restart.xml",
+                "SPDXRef-data-res-drawable-ic-restart-round.xml",
                 "SPDXRef-data-res-drawable-ic-satellite-alt-24px.xml",
                 "SPDXRef-data-res-drawable-ic-schedule.xml",
                 "SPDXRef-data-res-drawable-ic-screenshot.xml",
                 "SPDXRef-data-res-drawable-ic-screenshot-edit.xml",
+                "SPDXRef-data-res-drawable-ic-screenshot-round.xml",
                 "SPDXRef-data-res-drawable-ic-sd-card-48dp.xml",
                 "SPDXRef-data-res-drawable-ic-search-api-material.xml",
                 "SPDXRef-data-res-drawable-ic-security-privacy-notification-badge.xml",
@@ -7507,6 +7511,8 @@
                 "SPDXRef-data-res-drawable-loading-spinner.xml",
                 "SPDXRef-data-res-drawable-lockscreen-notselected.xml",
                 "SPDXRef-data-res-drawable-lockscreen-selected.xml",
+                "SPDXRef-data-res-drawable-material-ic-account-circle.xml",
+                "SPDXRef-data-res-drawable-material-ic-account-circle-user.xml",
                 "SPDXRef-data-res-drawable-media-button-background.xml",
                 "SPDXRef-data-res-drawable-media-seamless-background.xml",
                 "SPDXRef-data-res-drawable-menu-panel-holo-dark.xml",
@@ -7549,6 +7555,9 @@
                 "SPDXRef-data-res-drawable-perm-group-sms.xml",
                 "SPDXRef-data-res-drawable-perm-group-storage.xml",
                 "SPDXRef-data-res-drawable-perm-group-visual.xml",
+                "SPDXRef-data-res-drawable-perm-group-xr-eye-sensitive.xml",
+                "SPDXRef-data-res-drawable-perm-group-xr-tracking.xml",
+                "SPDXRef-data-res-drawable-perm-group-xr-tracking-sensitive.xml",
                 "SPDXRef-data-res-drawable-pointer-alias-icon.xml",
                 "SPDXRef-data-res-drawable-pointer-alias-large-icon.xml",
                 "SPDXRef-data-res-drawable-pointer-alias-vector.xml",
@@ -7990,9 +7999,6 @@
                 "SPDXRef-data-res-layout-watch-global-actions-item.xml",
                 "SPDXRef-data-res-layout-watch-grant-credentials-permission.xml",
                 "SPDXRef-data-res-layout-watch-input-method-extract-view.xml",
-                "SPDXRef-data-res-layout-watch-input-method-switch-dialog-title.xml",
-                "SPDXRef-data-res-layout-watch-input-method-switch-item.xml",
-                "SPDXRef-data-res-layout-watch-input-method-switcher-list-layout.xml",
                 "SPDXRef-data-res-layout-watch-permissions-package-list-item.xml",
                 "SPDXRef-data-res-layout-watch-preference-list-fragment-material.xml",
                 "SPDXRef-data-res-layout-watch-preference-material.xml",
@@ -8131,12 +8137,10 @@
                 "SPDXRef-data-res-layout-input-method-nav-ime-switcher.xml",
                 "SPDXRef-data-res-layout-input-method-navigation-bar.xml",
                 "SPDXRef-data-res-layout-input-method-navigation-layout.xml",
-                "SPDXRef-data-res-layout-input-method-switch-dialog-new.xml",
-                "SPDXRef-data-res-layout-input-method-switch-dialog-title.xml",
+                "SPDXRef-data-res-layout-input-method-switch-dialog.xml",
                 "SPDXRef-data-res-layout-input-method-switch-item.xml",
                 "SPDXRef-data-res-layout-input-method-switch-item-divider.xml",
                 "SPDXRef-data-res-layout-input-method-switch-item-header.xml",
-                "SPDXRef-data-res-layout-input-method-switch-item-new.xml",
                 "SPDXRef-data-res-layout-js-prompt.xml",
                 "SPDXRef-data-res-layout-keyboard-key-preview.xml",
                 "SPDXRef-data-res-layout-keyboard-popup-keyboard.xml",
@@ -8162,10 +8166,12 @@
                 "SPDXRef-data-res-layout-menu-item.xml",
                 "SPDXRef-data-res-layout-miniresolver.xml",
                 "SPDXRef-data-res-layout-notification-2025-action-list.xml",
+                "SPDXRef-data-res-layout-notification-2025-collapsed-metric.xml",
                 "SPDXRef-data-res-layout-notification-2025-conversation-face-pile-layout.xml",
                 "SPDXRef-data-res-layout-notification-2025-conversation-header.xml",
                 "SPDXRef-data-res-layout-notification-2025-conversation-icon-container.xml",
                 "SPDXRef-data-res-layout-notification-2025-expand-button.xml",
+                "SPDXRef-data-res-layout-notification-2025-expanded-metric.xml",
                 "SPDXRef-data-res-layout-notification-2025-messaging-group.xml",
                 "SPDXRef-data-res-layout-notification-2025-reply-history-container.xml",
                 "SPDXRef-data-res-layout-notification-2025-right-icon.xml",
@@ -8174,6 +8180,7 @@
                 "SPDXRef-data-res-layout-notification-2025-template-collapsed-conversation.xml",
                 "SPDXRef-data-res-layout-notification-2025-template-collapsed-media.xml",
                 "SPDXRef-data-res-layout-notification-2025-template-collapsed-messaging.xml",
+                "SPDXRef-data-res-layout-notification-2025-template-collapsed-metric.xml",
                 "SPDXRef-data-res-layout-notification-2025-template-compact-heads-up-base.xml",
                 "SPDXRef-data-res-layout-notification-2025-template-compact-heads-up-messaging.xml",
                 "SPDXRef-data-res-layout-notification-2025-template-expanded-base.xml",
@@ -8184,6 +8191,7 @@
                 "SPDXRef-data-res-layout-notification-2025-template-expanded-inbox.xml",
                 "SPDXRef-data-res-layout-notification-2025-template-expanded-media.xml",
                 "SPDXRef-data-res-layout-notification-2025-template-expanded-messaging.xml",
+                "SPDXRef-data-res-layout-notification-2025-template-expanded-metric.xml",
                 "SPDXRef-data-res-layout-notification-2025-template-expanded-progress.xml",
                 "SPDXRef-data-res-layout-notification-2025-template-header.xml",
                 "SPDXRef-data-res-layout-notification-2025-template-heads-up-base.xml",
@@ -8843,6 +8851,8 @@
                 "SPDXRef-data-res-values-sw-watch-strings.xml",
                 "SPDXRef-data-res-values-sw-donottranslate-cldr.xml",
                 "SPDXRef-data-res-values-sw-strings.xml",
+                "SPDXRef-data-res-values-sw1500dp-110dpi-status-bar-dimens.xml",
+                "SPDXRef-data-res-values-sw1900dp-90dpi-status-bar-dimens.xml",
                 "SPDXRef-data-res-values-sw360dp-dimens.xml",
                 "SPDXRef-data-res-values-sw372dp-dimens.xml",
                 "SPDXRef-data-res-values-sw600dp-land-arrays.xml",
@@ -8926,7 +8936,6 @@
                 "SPDXRef-data-res-values-w205dp-dimens-material.xml",
                 "SPDXRef-data-res-values-w208dp-dimens-material.xml",
                 "SPDXRef-data-res-values-w210dp-round-watch-dimens-material.xml",
-                "SPDXRef-data-res-values-w210dp-round-watch-styles.xml",
                 "SPDXRef-data-res-values-w211dp-dimens-material.xml",
                 "SPDXRef-data-res-values-w213dp-round-watch-dimens.xml",
                 "SPDXRef-data-res-values-w213dp-dimens-material.xml",
@@ -9931,7 +9940,7 @@
             "SPDXID": "SPDXRef-PLATFORM",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -9940,7 +9949,7 @@
             "SPDXID": "SPDXRef-SOURCE-carrois-gothic-sc",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -9958,7 +9967,7 @@
             "SPDXID": "SPDXRef-SOURCE-comingsoon",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -9976,7 +9985,7 @@
             "SPDXID": "SPDXRef-SOURCE-cutivemono",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -9994,7 +10003,7 @@
             "SPDXID": "SPDXRef-SOURCE-dancingscript",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10012,7 +10021,7 @@
             "SPDXID": "SPDXRef-SOURCE-roboto-classic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10030,7 +10039,7 @@
             "SPDXID": "SPDXRef-SOURCE-noto-fonts",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10047,7 +10056,7 @@
             "SPDXID": "SPDXRef-SOURCE-notonaskharabic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10065,7 +10074,7 @@
             "SPDXID": "SPDXRef-SOURCE-notonaskharabicui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10083,7 +10092,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansadlam",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10101,7 +10110,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifahom",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10119,7 +10128,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansanatolianhieroglyphs",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10137,7 +10146,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansarmenian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10155,7 +10164,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansavestan",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10173,7 +10182,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbalinese",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10191,7 +10200,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbamum",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10209,7 +10218,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbassavah",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10227,7 +10236,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbatak",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10245,7 +10254,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbengali",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10263,7 +10272,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbengaliui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10281,7 +10290,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbhaiksuki",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10299,7 +10308,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbrahmi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10317,7 +10326,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbuginese",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10335,7 +10344,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansbuhid",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10353,7 +10362,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscjk",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10371,7 +10380,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscanadianaboriginal",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10389,7 +10398,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscarian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10407,7 +10416,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanschakma",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10425,7 +10434,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscham",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10443,7 +10452,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscherokee",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10461,7 +10470,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscoptic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10479,7 +10488,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscuneiform",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10497,7 +10506,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanscypriot",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10515,7 +10524,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansdeseret",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10533,7 +10542,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansdevanagari",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10551,7 +10560,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansdevanagariui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10569,7 +10578,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansegyptianhieroglyphs",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10587,7 +10596,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanselbasan",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10605,7 +10614,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansethiopic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10623,7 +10632,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgeorgian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10641,7 +10650,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansglagolitic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10659,7 +10668,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgothic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10677,7 +10686,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgrantha",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10695,7 +10704,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgujarati",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10713,7 +10722,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgujaratiui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10731,7 +10740,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgunjalagondi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10749,7 +10758,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgurmukhi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10767,7 +10776,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansgurmukhiui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10785,7 +10794,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanshanifirohingya",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10803,7 +10812,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanshanunoo",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10821,7 +10830,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanshatran",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10839,7 +10848,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanshebrew",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10857,7 +10866,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansimperialaramaic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10875,7 +10884,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansinscriptionalpahlavi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10893,7 +10902,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansinscriptionalparthian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10911,7 +10920,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansjavanese",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10929,7 +10938,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskaithi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10947,7 +10956,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskannada",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10965,7 +10974,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskannadaui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10983,7 +10992,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskayahli",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11001,7 +11010,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskharoshthi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11019,7 +11028,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskhmer",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11037,7 +11046,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskhmerui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11055,7 +11064,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanskhojki",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11073,7 +11082,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslao",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11091,7 +11100,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslaoui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11109,7 +11118,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslepcha",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11127,7 +11136,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslimbu",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11145,7 +11154,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslineara",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11163,7 +11172,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslinearb",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11181,7 +11190,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslisu",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11199,7 +11208,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslycian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11217,7 +11226,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanslydian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11235,7 +11244,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmalayalam",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11253,7 +11262,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmalayalamui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11271,7 +11280,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmandaic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11289,7 +11298,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmanichaean",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11307,7 +11316,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmarchen",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11325,7 +11334,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmasaramgondi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11343,7 +11352,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmedefaidrin",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11361,7 +11370,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmeeteimayek",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11379,7 +11388,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmeroitic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11397,7 +11406,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmiao",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11415,7 +11424,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmodi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11433,7 +11442,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmongolian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11451,7 +11460,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmro",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11469,7 +11478,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmultani",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11487,7 +11496,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmyanmar",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11505,7 +11514,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansmyanmarui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11523,7 +11532,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansnko-todelist",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11541,7 +11550,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansnabataean",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11559,7 +11568,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansnewtailue",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11577,7 +11586,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansnewa",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11595,7 +11604,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansogham",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11613,7 +11622,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansolchiki",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11631,7 +11640,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansolditalic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11649,7 +11658,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoldnortharabian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11667,7 +11676,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoldpermic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11685,7 +11694,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoldpersian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11703,7 +11712,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoldsoutharabian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11721,7 +11730,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoldturkic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11739,7 +11748,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoriya",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11757,7 +11766,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansoriyaui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11775,7 +11784,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansosage",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11793,7 +11802,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansosmanya",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11811,7 +11820,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanspahawhhmong",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11829,7 +11838,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanspalmyrene",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11847,7 +11856,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanspaucinhau",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11865,7 +11874,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansphagspa",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11883,7 +11892,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansphoenician",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11901,7 +11910,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansrejang",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11919,7 +11928,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansrunic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11937,7 +11946,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssamaritan",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11955,7 +11964,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssaurashtra",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11973,7 +11982,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssharada",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -11991,7 +12000,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansshavian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12009,7 +12018,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssinhala",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12027,7 +12036,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssinhalaui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12045,7 +12054,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssorasompeng",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12063,7 +12072,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssoyombo",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12081,7 +12090,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssundanese",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12099,7 +12108,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssylotinagri",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12117,7 +12126,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssymbols",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12135,7 +12144,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanssyriac",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12153,7 +12162,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstagalog",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12171,7 +12180,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstagbanwa",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12189,7 +12198,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstaile",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12207,7 +12216,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstaitham",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12225,7 +12234,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstaiviet",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12243,7 +12252,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstakri",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12261,7 +12270,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstamil",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12279,7 +12288,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstamilui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12297,7 +12306,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstelugu",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12315,7 +12324,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansteluguui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12333,7 +12342,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansthaana",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12351,7 +12360,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansthai",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12369,7 +12378,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansthaiui",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12387,7 +12396,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanstifinagh",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12405,7 +12414,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansugaritic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12423,7 +12432,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansvai",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12441,7 +12450,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanswancho",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12459,7 +12468,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosanswarangciti",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12477,7 +12486,7 @@
             "SPDXID": "SPDXRef-SOURCE-notosansyi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12495,7 +12504,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserif",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12513,7 +12522,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifarmenian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12531,7 +12540,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifbengali",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12549,7 +12558,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifcjk",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12567,7 +12576,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifdevanagari",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12585,7 +12594,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifdogra",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12603,7 +12612,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifethiopic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12621,7 +12630,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifgeorgian",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12639,7 +12648,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifgujarati",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12657,7 +12666,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifgurmukhi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12675,7 +12684,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifhebrew",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12693,7 +12702,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifhentaigana",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12711,7 +12720,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifkannada",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12729,7 +12738,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifkhmer",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12747,7 +12756,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoseriflao",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12765,7 +12774,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifmalayalam",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12783,7 +12792,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifmyanmar",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12801,7 +12810,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifnyiakengpuachuehmong",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12819,7 +12828,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifsinhala",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12837,7 +12846,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoseriftamil",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12855,7 +12864,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoseriftelugu",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12873,7 +12882,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifthai",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12891,7 +12900,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoseriftibetan",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12909,7 +12918,7 @@
             "SPDXID": "SPDXRef-SOURCE-notoserifyezidi",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12927,7 +12936,7 @@
             "SPDXID": "SPDXRef-SOURCE-roboto-flex",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12945,7 +12954,7 @@
             "SPDXID": "SPDXRef-SOURCE-source-sans-pro",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12963,7 +12972,7 @@
             "SPDXID": "SPDXRef-SOURCE-rekenaar",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12981,7 +12990,7 @@
             "SPDXID": "SPDXRef-SOURCE-Tex-hyphen",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -12999,7 +13008,7 @@
             "SPDXID": "SPDXRef-SOURCE-tensojka",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -13017,7 +13026,7 @@
             "SPDXID": "SPDXRef-SOURCE-OpenTaal",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -13035,7 +13044,7 @@
             "SPDXID": "SPDXRef-SOURCE-laboratory50",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -13053,7 +13062,7 @@
             "SPDXID": "SPDXRef-SOURCE-LibreOffice0x20Swedish0x20Hyphenation0x20Dictionary",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -13071,9 +13080,16 @@
             "SPDXID": "SPDXRef-SOURCE-ICU",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR3.250612.039/14227113:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys",
             "supplier": "Organization: unknown",
-            "licenseDeclared": "NOASSERTION"
+            "licenseDeclared": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe22Type",
+                    "referenceLocator": "cpe:/a:unicode:international_components_for_unicode:76"
+                }
+            ]
         },
         {
             "name": "ICU",
@@ -13092,7 +13108,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "5c4fdfe4e010cc9a81283d7ad88baf9475a7d5ca"
+                    "checksumValue": "212b80ba2446f59cb2c3c653fa2a3a6772ec2b29"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -13213,7 +13229,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "60320ff89d57bb569e3073bc429a89f75f3876fb"
+                    "checksumValue": "a28a5068a281693cea59da419a65e2cd2b3f7033"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -13301,7 +13317,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "a5b680c490c388ad20e514c0ee0e0e0012218421"
+                    "checksumValue": "60def0f5ca55a9d67858e4ed898b484e363b1a31"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -13554,7 +13570,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "8ecd9f03a7d8a0de594397781366e1279a57310f"
+                    "checksumValue": "fc8c7f1268470a05ada9cb8d6098f8e557842c8e"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -13598,7 +13614,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "3bf849a9cc8cd82b2ee8f7ea0f1bf558d8f00545"
+                    "checksumValue": "df01533bfbcb519ed3818c36d6b235961d860fe7"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -13664,7 +13680,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "6285ffd88f7f302516d60ed5faa079263d55f1ec"
+                    "checksumValue": "9e8df10302d3e311bcc6682ba1c28dd304c8ab4f"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -13708,7 +13724,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "9a58b93fa8bb86dd8b41586a96a78f13b7306329"
+                    "checksumValue": "3ea27d13e72afe128a0d155a83afe20dbd39782c"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -13840,7 +13856,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "37a013595bab3cc1783f3eba5093c843250e115e"
+                    "checksumValue": "5a310be8bec3c44d471d2e1ff3004e6b015f9ff9"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -13939,7 +13955,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "c8822cfad07f28eaf2e4143319c58542f9f5e7d2"
+                    "checksumValue": "6d0ca5c860c06b5a2f112bd524164eab0ae4b9d1"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -14049,7 +14065,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "c45806a975b22f2e6824533dd50c3ed99118211a"
+                    "checksumValue": "513765ce7c6b3ba7ecc24834c98a08572d5710ca"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -14060,7 +14076,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "305b14bd74276ce4bed1dd32d1fa9f1ebdaea694"
+                    "checksumValue": "1dbb402dd85d97d7247a9eb2e7e12c65f2d0b737"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -14412,7 +14428,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "94e816276f9bd56a5f024e10ab67ff13ec36c690"
+                    "checksumValue": "90f38eaf006566f6bbd417045c688c420103295d"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -14588,7 +14604,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "c801b7c9241d0551bfe2f22cfdd6d25ec58f5010"
+                    "checksumValue": "031088a739047273b5f1f3c766fe507180c782ad"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -14775,7 +14791,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "ba1929e5fa53b5322ecccdd8ca3cf865320ba12e"
+                    "checksumValue": "f7a5ec177579984e2316c09c930721b2daec013e"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -14797,7 +14813,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "96726b3e0bfe905e99b41f88a7f392215fbde735"
+                    "checksumValue": "feeb415486b3e5aafb359b1d04645f9ae027190e"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -14995,7 +15011,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "c0471df3eee06284843b742e587bf95e946875d4"
+                    "checksumValue": "e96593a3066601b7b3f07d9e637039d2d4577126"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15028,7 +15044,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "9df8a9040e0f941dce864ce896515578d7311bf0"
+                    "checksumValue": "a2c1eb2ffa95c2d63af120310c0a5d708c4cc977"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15050,7 +15066,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "75d2891fb3db40a60f1e5176cc5f713f0a7df7a2"
+                    "checksumValue": "5a2829e7d742bf43c206022ad57bc17cb17a9219"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15072,7 +15088,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "3fe25deb21324fa44eff6d97e3d5f2d0f1752fd2"
+                    "checksumValue": "5ce447396c06445f404e6cf2130d33e99391f42d"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15083,7 +15099,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "09a51326a57fb68f236ec16c4f5dda5d911ba1ef"
+                    "checksumValue": "fac34ab35eca93f68928f57430662fcdb21db4d1"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15105,7 +15121,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "211481d5cf224147f54f23d709adf8e539ea4c1e"
+                    "checksumValue": "96649c63d753a1ba6dbabc58b491ee1e738ea85b"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15127,7 +15143,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "b509c13341b830e453e6ab60a8351bfa87924604"
+                    "checksumValue": "293ba339293ac31f9908204e49c83ce04f77d122"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15144,12 +15160,12 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
-            "fileName": "data/fonts/NotoSerifKhmer-Regular.otf",
-            "SPDXID": "SPDXRef-data-fonts-NotoSerifKhmer-Regular.otf",
+            "fileName": "data/fonts/NotoSerifKhmer-Regular.ttf",
+            "SPDXID": "SPDXRef-data-fonts-NotoSerifKhmer-Regular.ttf",
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "bbc539cdeb376b37beb88af5b38a1881000d2922"
+                    "checksumValue": "3bfb86a2cb492c20227fcf9f51ebbe840e134742"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15171,7 +15187,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "544a2277fc3748dc4c89cf59b99a74d95861ad55"
+                    "checksumValue": "6148c68bddcb648b63093048de97bc3a3187ddbd"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15182,7 +15198,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "8eaa878d6ec6cd2f81d1a448cb4e9e09aef04b17"
+                    "checksumValue": "a4af7d8929f719b7819624365304bc79210e2e29"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15226,7 +15242,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "d711d3c567d37899f48d7b07917356dae8cad1d4"
+                    "checksumValue": "5ab721737590965d667cdb77faa86c826ea777ba"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15237,7 +15253,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "66c080a6799dabf83b908f21b1cd1325b4238172"
+                    "checksumValue": "f177baf3ad44f307a9b2238390556158468cfb48"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15248,7 +15264,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "7ffba7127d069de6b94e87c33760055a53845448"
+                    "checksumValue": "2724554065b84f9ee496eb99423a3d4d0d80eacf"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15270,7 +15286,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "49c79bc568c5a06669bd3127b428265623de1231"
+                    "checksumValue": "cd241667d360212efe3c78d4eba58bc314b4f06b"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -15303,7 +15319,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "4b6924f9219a8f071394922efaa28d9635f769b0"
+                    "checksumValue": "3c2cb64c89adbaaf82956dd4d69d7785fa712323"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -18923,6 +18939,28 @@
                 {
                     "algorithm": "SHA1",
                     "checksumValue": "6c0d7bdda31a4d33bd306b224abfc01ab5355d11"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/color/accessibility_autoclick_type_button_color.xml",
+            "SPDXID": "SPDXRef-data-res-color-accessibility-autoclick-type-button-color.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "91e3dc3189a1ab0d80555b9f194485bcb8dd2d18"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/color/accessibility_autoclick_type_button_container_background.xml",
+            "SPDXID": "SPDXRef-data-res-color-accessibility-autoclick-type-button-container-background.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "095cf7bcf75e31fa1252f42844531c3ea9352fa8"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -61135,39 +61173,6 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
-            "fileName": "data/res/drawable-watch/input_method_item_background.xml",
-            "SPDXID": "SPDXRef-data-res-drawable-watch-input-method-item-background.xml",
-            "checksums": [
-                {
-                    "algorithm": "SHA1",
-                    "checksumValue": "3b6a3a49cd4f93ed8a711af0b3158cdb5c487307"
-                }
-            ],
-            "licenseConcluded": "NOASSERTION"
-        },
-        {
-            "fileName": "data/res/drawable-watch/input_method_item_background_selected.xml",
-            "SPDXID": "SPDXRef-data-res-drawable-watch-input-method-item-background-selected.xml",
-            "checksums": [
-                {
-                    "algorithm": "SHA1",
-                    "checksumValue": "c39906af1eb809a73f2bc3fd2a5a8abb831b74c3"
-                }
-            ],
-            "licenseConcluded": "NOASSERTION"
-        },
-        {
-            "fileName": "data/res/drawable-watch/input_method_item_background_selector.xml",
-            "SPDXID": "SPDXRef-data-res-drawable-watch-input-method-item-background-selector.xml",
-            "checksums": [
-                {
-                    "algorithm": "SHA1",
-                    "checksumValue": "6bcea5708ef1ced58f4bee47b69f3f2a7925d855"
-                }
-            ],
-            "licenseConcluded": "NOASSERTION"
-        },
-        {
             "fileName": "data/res/drawable-watch/progress_horizontal_material.xml",
             "SPDXID": "SPDXRef-data-res-drawable-watch-progress-horizontal-material.xml",
             "checksums": [
@@ -89267,7 +89272,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "d46949a7b099a16a1e431c58d238f1f8256aa4a2"
+                    "checksumValue": "aab0685d2391bc859a690313ccd1d5039d2d5a8b"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89278,7 +89283,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "1a076929d913c9fb90c8a119f8d7293917ca1824"
+                    "checksumValue": "4f8d2407f90a09f2e478f2e4108ddedb4fa1fb5b"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89289,7 +89294,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "e6bf810b39bb60815f8b8ad416952f9519d04e60"
+                    "checksumValue": "aaa456ddfbae0dcb0678ee8b52fa171e37ac2116"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89300,7 +89305,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "a812f61981464ab77d59aa88e8553e301675febd"
+                    "checksumValue": "498c10d4cde408fe010ea7a9a60f4d59bea8fc54"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89311,7 +89316,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "b7137de63bc23a1648eefe930ca2346439a4d4d8"
+                    "checksumValue": "0f9474785900e55da9cfce0dd7bb4ec049c74b5f"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89322,7 +89327,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "3ddac34dbc8ce4528c15dcd1bbb285ef85009d63"
+                    "checksumValue": "6d610eed77be449fd0a04f59cbbabf079b87eb57"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89333,7 +89338,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "d0e399b2ca739654ac33bd659b0c540b5aa5a6ad"
+                    "checksumValue": "d7ddcf365938c9a38fc6ed58400be71f1c59eef7"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89344,7 +89349,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "4f78dd8f6d878b6f33a58e05ce1a1e91eef49842"
+                    "checksumValue": "c252510904be45f6342e595b7abc90238869a025"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89355,7 +89360,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "dfc66022fbdd905a14831d98d1c048d5cdbd8a0f"
+                    "checksumValue": "d85908f3f053782dda39f3745089b8287655d78d"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89366,7 +89371,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "67ef13ebde428e63cfc8ff1011cfbe3c23d83d0c"
+                    "checksumValue": "8eed68d0d7a7137c1e40ec05f6e85458b8880905"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89377,7 +89382,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "08922fe46185629f4239672cd33565bec93d597e"
+                    "checksumValue": "9108f60bab0497f1d255fa83825c5c21a47b45d8"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89388,7 +89393,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "5df2b0f232564fcd0bab1831dfb3f67ed097db14"
+                    "checksumValue": "dbc59953882fdc6d1b2d6b0034bc7033a77668a6"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89399,7 +89404,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "b0326b3e978d61c3fc88067311da5c33ee1ae008"
+                    "checksumValue": "3cfe4df5cdbceb80dd1e17e73278b2d5bddda0c2"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89410,7 +89415,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "26092ed2eeea429bdcf00a989581fcfb16bd3dbc"
+                    "checksumValue": "b5350d178534042fb42e4ad91a3296095231436f"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89421,7 +89426,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "72a46c0ac38e25b0fd2e71db4179b6b9972c87aa"
+                    "checksumValue": "11d64d7a29536cc130ea114f4b199e42c4574391"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89432,7 +89437,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "f2f1cc8f3a8f9dc6d003cd1ea4c5b28f2e3efd6d"
+                    "checksumValue": "bb1db730b9a9a171b1005e38c8af413238ed4f0e"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89443,7 +89448,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "f8a568830b8f8b5acf93472c18622a034723d7b8"
+                    "checksumValue": "71fe41318267aec969fd4e0cfbbfaea66ca34302"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89454,7 +89459,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "52abb24b6bc63bf0f0eea48a720d42668615cacf"
+                    "checksumValue": "aef756442f0e22509bfbc60fe44ed86abf8c94ae"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89465,7 +89470,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "65d43436324e8e52ceedbf507bc60a676a269278"
+                    "checksumValue": "bb9f1fe45b4400c28d7a3ae7df66711a34f14a86"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89476,7 +89481,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "67fb52ddabf75d3cb608787cf5071ca64160bdab"
+                    "checksumValue": "5d2d79e53123d228031065e06da3b277e17e0654"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89487,7 +89492,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "d3824b169cb7664545f72308f0bafe6b31a0a1b4"
+                    "checksumValue": "5e75498f38dea309a861cf54ec57a0b530812e11"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89498,7 +89503,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "f07b879ff0b3f7a73cd5c3ddf38f8ff9017bda56"
+                    "checksumValue": "70bbb7087a00ab3c89bcd7992449c400a5b15a71"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89509,7 +89514,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "5eb3b19cc8db4eb1f34e7fbaf983fe92d020d2f9"
+                    "checksumValue": "f3a05813581aa6cb659e2bae497bd7104c0e98bf"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89520,7 +89525,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "1b6b51aa7720330a7cd397f74cf0b9f554963771"
+                    "checksumValue": "7fee707c752a84f0f8f7807fb8703a6a3088c0ff"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89531,7 +89536,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "6fe69c609db955f3fb17e8dc15fe23ccb507495e"
+                    "checksumValue": "c0803a80b09dfff7b9fe09824a5771aff8bce31a"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -89542,7 +89547,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "1a24b1f854d924f04da6a9d43c328db70d3276ef"
+                    "checksumValue": "62257c0eb88059f9c1c26ac0af52d47bf9a36eb5"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -91539,6 +91544,17 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
+            "fileName": "data/res/drawable/ic_android_security_privacy_alert_fill_material.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-ic-android-security-privacy-alert-fill-material.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "32be5d8955b223c02ae347a859fdb1b4054d8fde"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
             "fileName": "data/res/drawable/ic_arrow_drop_right_black_24dp.xml",
             "SPDXID": "SPDXRef-data-res-drawable-ic-arrow-drop-right-black-24dp.xml",
             "checksums": [
@@ -92732,17 +92748,6 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "f8fe09221b216889390e4d1ffecfa2cbc66ebc34"
-                }
-            ],
-            "licenseConcluded": "NOASSERTION"
-        },
-        {
-            "fileName": "data/res/drawable/ic_ime_switcher_new.xml",
-            "SPDXID": "SPDXRef-data-res-drawable-ic-ime-switcher-new.xml",
-            "checksums": [
-                {
-                    "algorithm": "SHA1",
                     "checksumValue": "ef290e9a0394628156edcfdcf27289e51b398127"
                 }
             ],
@@ -92914,6 +92919,17 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
+            "fileName": "data/res/drawable/ic_lock_bugreport_round.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-ic-lock-bugreport-round.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b8a5eb1dcf868499d221610591cb181eff2fffa4"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
             "fileName": "data/res/drawable/ic_lock_idle_alarm.xml",
             "SPDXID": "SPDXRef-data-res-drawable-ic-lock-idle-alarm.xml",
             "checksums": [
@@ -92936,12 +92952,12 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
-            "fileName": "data/res/drawable/ic_lock_lockdown.xml",
-            "SPDXID": "SPDXRef-data-res-drawable-ic-lock-lockdown.xml",
+            "fileName": "data/res/drawable/ic_lock_lockdown_round.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-ic-lock-lockdown-round.xml",
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "4f7f8f8faed9728e28c86a73fa3afb10f5b7ce64"
+                    "checksumValue": "e6b482c2377b27f3e129b73f02a9c0ab4906bc08"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -92964,6 +92980,17 @@
                 {
                     "algorithm": "SHA1",
                     "checksumValue": "41fe9f9c89a6879d2bc2a3ba7a215448e8322f2d"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/drawable/ic_lock_power_off_round.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-ic-lock-power-off-round.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "1c7bfdbecfa3a836fc4a1fe5c7fbe03f0d107976"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -92997,6 +93024,17 @@
                 {
                     "algorithm": "SHA1",
                     "checksumValue": "896117851f452c5384fc6893806c84d80508fce0"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/drawable/ic_logout_round.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-ic-logout-round.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "ef4a67f7ef1a3a4728e3e15c787b3964482dce01"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -93706,6 +93744,17 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
+            "fileName": "data/res/drawable/ic_restart_round.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-ic-restart-round.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "61a8cc933d57b77342b4533f11c93f79841b1af2"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
             "fileName": "data/res/drawable/ic_satellite_alt_24px.xml",
             "SPDXID": "SPDXRef-data-res-drawable-ic-satellite-alt-24px.xml",
             "checksums": [
@@ -93745,6 +93794,17 @@
                 {
                     "algorithm": "SHA1",
                     "checksumValue": "60b86571d6569e6a1bb62f39262b0da679c1cb34"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/drawable/ic_screenshot_round.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-ic-screenshot-round.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "83b3eab9fcbc5809154db4917daee870b6f28be0"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -94668,7 +94728,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "41bc1c6142264b6203b25b56bd1372efe9b3f572"
+                    "checksumValue": "0b5417e4feadcb43242c2f7a597aff8f056685d8"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -95378,6 +95438,28 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
+            "fileName": "data/res/drawable/material_ic_account_circle.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-material-ic-account-circle.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6b3996c7b77adf861557f546f8d95be0929a957b"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/drawable/material_ic_account_circle_user.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-material-ic-account-circle-user.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b480e56995ad17038427ea7f4ad4ccb5bd8d68b1"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
             "fileName": "data/res/drawable/media_button_background.xml",
             "SPDXID": "SPDXRef-data-res-drawable-media-button-background.xml",
             "checksums": [
@@ -95835,6 +95917,39 @@
                 {
                     "algorithm": "SHA1",
                     "checksumValue": "0d4b39639246be1bf1e70df8d1fea14f8b93d1e5"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/drawable/perm_group_xr_eye_sensitive.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-perm-group-xr-eye-sensitive.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "0f1e93c05ac2fe855983b15274daa10bf44a3198"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/drawable/perm_group_xr_tracking.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-perm-group-xr-tracking.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "cdcdc3f28a9883c9eef49add7db9f87d28af2287"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/drawable/perm_group_xr_tracking_sensitive.xml",
+            "SPDXID": "SPDXRef-data-res-drawable-perm-group-xr-tracking-sensitive.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "aea0fc6403a4eebb3a65b159f8d03e94f4e32f7f"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -100691,39 +100806,6 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
-            "fileName": "data/res/layout-watch/input_method_switch_dialog_title.xml",
-            "SPDXID": "SPDXRef-data-res-layout-watch-input-method-switch-dialog-title.xml",
-            "checksums": [
-                {
-                    "algorithm": "SHA1",
-                    "checksumValue": "e28752d4ae00e89a670b1c594167650448720c14"
-                }
-            ],
-            "licenseConcluded": "NOASSERTION"
-        },
-        {
-            "fileName": "data/res/layout-watch/input_method_switch_item.xml",
-            "SPDXID": "SPDXRef-data-res-layout-watch-input-method-switch-item.xml",
-            "checksums": [
-                {
-                    "algorithm": "SHA1",
-                    "checksumValue": "c14d70db01f8b315932f5550bb6ed48ff21e6965"
-                }
-            ],
-            "licenseConcluded": "NOASSERTION"
-        },
-        {
-            "fileName": "data/res/layout-watch/input_method_switcher_list_layout.xml",
-            "SPDXID": "SPDXRef-data-res-layout-watch-input-method-switcher-list-layout.xml",
-            "checksums": [
-                {
-                    "algorithm": "SHA1",
-                    "checksumValue": "3beeecc4d622c949d32dc0d53ab208b7da824fd6"
-                }
-            ],
-            "licenseConcluded": "NOASSERTION"
-        },
-        {
             "fileName": "data/res/layout-watch/permissions_package_list_item.xml",
             "SPDXID": "SPDXRef-data-res-layout-watch-permissions-package-list-item.xml",
             "checksums": [
@@ -100905,7 +100987,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "e3d74421f1dfa6612a39a25e69368bafbc5bc41b"
+                    "checksumValue": "e79b0beb462a76d01e4c9095bcfa8b3b19ee4b27"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102242,23 +102324,12 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
-            "fileName": "data/res/layout/input_method_switch_dialog_new.xml",
-            "SPDXID": "SPDXRef-data-res-layout-input-method-switch-dialog-new.xml",
+            "fileName": "data/res/layout/input_method_switch_dialog.xml",
+            "SPDXID": "SPDXRef-data-res-layout-input-method-switch-dialog.xml",
             "checksums": [
                 {
                     "algorithm": "SHA1",
                     "checksumValue": "c4335afc71fd3652ab7753784631643ae974a15e"
-                }
-            ],
-            "licenseConcluded": "NOASSERTION"
-        },
-        {
-            "fileName": "data/res/layout/input_method_switch_dialog_title.xml",
-            "SPDXID": "SPDXRef-data-res-layout-input-method-switch-dialog-title.xml",
-            "checksums": [
-                {
-                    "algorithm": "SHA1",
-                    "checksumValue": "90e036341464ea390b05e38f8afcb95a78f4e067"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102269,7 +102340,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "f3e8e88a168108626b6db6ab973c7655e10131db"
+                    "checksumValue": "bb76028aaa927d345610a55a7a2a1f759ae7798f"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102292,17 +102363,6 @@
                 {
                     "algorithm": "SHA1",
                     "checksumValue": "96be2382d8bd8c2f670cd7d9137dc6cf859aa712"
-                }
-            ],
-            "licenseConcluded": "NOASSERTION"
-        },
-        {
-            "fileName": "data/res/layout/input_method_switch_item_new.xml",
-            "SPDXID": "SPDXRef-data-res-layout-input-method-switch-item-new.xml",
-            "checksums": [
-                {
-                    "algorithm": "SHA1",
-                    "checksumValue": "bb76028aaa927d345610a55a7a2a1f759ae7798f"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102583,6 +102643,17 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
+            "fileName": "data/res/layout/notification_2025_collapsed_metric.xml",
+            "SPDXID": "SPDXRef-data-res-layout-notification-2025-collapsed-metric.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "23cb3e1a8a63c995275063dbecaff2796ace8dcf"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
             "fileName": "data/res/layout/notification_2025_conversation_face_pile_layout.xml",
             "SPDXID": "SPDXRef-data-res-layout-notification-2025-conversation-face-pile-layout.xml",
             "checksums": [
@@ -102621,7 +102692,18 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "9aeffb132c1c927940222678571d5df89cadf4ca"
+                    "checksumValue": "3e4aac6885018c9f29ee816d92653acb4ba59a3a"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/layout/notification_2025_expanded_metric.xml",
+            "SPDXID": "SPDXRef-data-res-layout-notification-2025-expanded-metric.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "74503ad3c5351daa872a7778b3345b4b7f2bea7a"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102632,7 +102714,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "13b386a4dff68df9b8a21b5412317a8a85787e03"
+                    "checksumValue": "28fecb5e6a5d80b874118a4bee4d473101b45d40"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102654,7 +102736,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "3eaddb249db143a57daa1ee9beac7e4088568274"
+                    "checksumValue": "f7e292ba6c2a0959f92d2d4bb174e8ecfc562189"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102665,7 +102747,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "96608aab25ddd26e32ec4550137adf9a94bcd328"
+                    "checksumValue": "f2741a03819f9887cfff2a0c382262f88d8d6051"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102676,7 +102758,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "e8e94c6bb2556b3f503ce8692e034cdc0a0d0e2b"
+                    "checksumValue": "10dafc0a6b43fdebc4a73029579df48ac3c4afe3"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102687,7 +102769,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "6c1672687e429be071a95364fd7b449e3ad1f279"
+                    "checksumValue": "e37183b81dff912f2bda0be7c78f9e1a2560450d"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102709,7 +102791,18 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "61a5edd486ad729904c406bd75e385403fd0859b"
+                    "checksumValue": "de4762b62b3e06b2852fafc81a9bb5425c9c2b05"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/layout/notification_2025_template_collapsed_metric.xml",
+            "SPDXID": "SPDXRef-data-res-layout-notification-2025-template-collapsed-metric.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "e07714cf71037ce5c3c034eacbfcb2ce5df1d99d"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -102825,6 +102918,17 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
+            "fileName": "data/res/layout/notification_2025_template_expanded_metric.xml",
+            "SPDXID": "SPDXRef-data-res-layout-notification-2025-template-expanded-metric.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "3e0fc79cb0e544ea5f0d44a02dd62d00b96b3bd4"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
             "fileName": "data/res/layout/notification_2025_template_expanded_progress.xml",
             "SPDXID": "SPDXRef-data-res-layout-notification-2025-template-expanded-progress.xml",
             "checksums": [
@@ -102885,7 +102989,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "475cf96ff9b3fcaf488db49d8ea023f915901567"
+                    "checksumValue": "476cd2d3515c10266d7f258fde123148a846d65a"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -103006,7 +103110,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "05a0807a43299a0f5f24d0f2985e2e1c05d25148"
+                    "checksumValue": "8e1cf3e6b7afba9c14b3b8a7d6b0c0272af991f3"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -103237,7 +103341,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "e8cbd86fc250465d68bcc98f2c8403ea141061e6"
+                    "checksumValue": "7039fae970865edc4eacc071d8251d0bed49b253"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -103347,7 +103451,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "ffe206a2a952e084c911a3da91d63a0c6760a113"
+                    "checksumValue": "04e06bdbf9b783363fc0b75ffe4def4f8975d706"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -109111,7 +109215,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "5ae397f47dff97d0cfb511bf25a342505233e05e"
+                    "checksumValue": "5cc99615e3e19db5c0a224008b5f31b2efeb2a4c"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -110074,6 +110178,28 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
+            "fileName": "data/res/values-sw1500dp-110dpi/status-bar-dimens.xml",
+            "SPDXID": "SPDXRef-data-res-values-sw1500dp-110dpi-status-bar-dimens.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "4ee09b25c1cd84a4b3fe5d1f243684b45d003c0b"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
+            "fileName": "data/res/values-sw1900dp-90dpi/status-bar-dimens.xml",
+            "SPDXID": "SPDXRef-data-res-values-sw1900dp-90dpi-status-bar-dimens.xml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "833804c7907228e18f8ad3c5ee87c1e083ba6434"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION"
+        },
+        {
             "fileName": "data/res/values-sw360dp/dimens.xml",
             "SPDXID": "SPDXRef-data-res-values-sw360dp-dimens.xml",
             "checksums": [
@@ -110189,7 +110315,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "c13972924905d9ed302bf9fe6187290a61433412"
+                    "checksumValue": "59a36ea82e3c286444a6b071b73c657fefbbab23"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -110987,17 +111113,6 @@
             "licenseConcluded": "NOASSERTION"
         },
         {
-            "fileName": "data/res/values-w210dp-round-watch/styles.xml",
-            "SPDXID": "SPDXRef-data-res-values-w210dp-round-watch-styles.xml",
-            "checksums": [
-                {
-                    "algorithm": "SHA1",
-                    "checksumValue": "8224b711d407158242d7e3b977a456355e207557"
-                }
-            ],
-            "licenseConcluded": "NOASSERTION"
-        },
-        {
             "fileName": "data/res/values-w211dp/dimens_material.xml",
             "SPDXID": "SPDXRef-data-res-values-w211dp-dimens-material.xml",
             "checksums": [
@@ -111223,7 +111338,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "d00d9bd6e985609fee642bc83d2b2464b73d48a4"
+                    "checksumValue": "198a189322e7915af99453d6bcc27a9a717aa596"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111245,7 +111360,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "2b152b55f17881e864f7560780c073e03380f78b"
+                    "checksumValue": "2e2f974166c79d125f847f885ca597bda4acdaec"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111311,7 +111426,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "82aee86d6e203a323ae74154de59ed07b54783fb"
+                    "checksumValue": "951040149f8f4641e116ef04aff29fa90a721282"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111322,7 +111437,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "a67129154c90ad3906d18dce1b908e2b524bae7b"
+                    "checksumValue": "b60f7479814c62f67dc9a4162fbeb13d7e0928a8"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111608,7 +111723,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "330a8af1e0f564072c0f74d49551f72fd9bb44dc"
+                    "checksumValue": "4faaa86db2fbd94d5fda5a71a856f3408de25729"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111619,7 +111734,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "60b17305967900fb87c5ab808177fd7d71370355"
+                    "checksumValue": "ff1da37573af2815c79a3ccdc43e563d6ab31b4a"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111641,7 +111756,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "b26276b1f4d90349b6cb9083d30e7e1288396136"
+                    "checksumValue": "abdc11d2a3ba943678b0a8faecc7bd8417715e86"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111674,7 +111789,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "cc450c38595fb8114c7177325fecd4944f1ad36f"
+                    "checksumValue": "df051f97b3c7b00564f80a7e6d42f96a52fa18c2"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111707,7 +111822,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "2f28ada8c10dd79c6508cebb70969571e880b5cb"
+                    "checksumValue": "b4a7e71eefec59d44acb4edb273347c0ed3f81b8"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111762,7 +111877,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "cfb2ed40e0a7d6798eb86e61b333da92dffe903c"
+                    "checksumValue": "526cd9983e5ba7040fde13abcf8c86bc28926749"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111784,7 +111899,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "5ec49f50d0af5c62605aee8b91506423dda2a1bb"
+                    "checksumValue": "1a454fc7c7ef3f435ce481909d6943a6e6581ddb"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111828,7 +111943,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "310544f2ed206039735de2e4113675cf95be81e2"
+                    "checksumValue": "e74f63a493c3371264652d99a10009cf46199d1f"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -111872,7 +111987,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "25c7caaf0b36e96f8b462f953d4e6812db8626cb"
+                    "checksumValue": "84bc68838c94ead90b83bcb4dda2a1a1d3ab00bd"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -112059,7 +112174,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "5d1ecd5ed3e517f072a36ad6184c4b32f8c46e4c"
+                    "checksumValue": "d21f24bbe978c297dcc6bb10c2b3056aeffc4776"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -112070,7 +112185,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "118c8152944d16df6dacd3d165112411ad3e19ed"
+                    "checksumValue": "0e9188400b7f098b162f30d2be4dfd351ee96cba"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -112125,7 +112240,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "b7c30380d932aaf2368ac08cbd2df2c152b604ef"
+                    "checksumValue": "9cf7a6a4b333ed71601288af8e6f5f2081d81c25"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -112136,7 +112251,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "77fa4df6ee3fa52efdc9c4e4f41b6553b1a725c6"
+                    "checksumValue": "ea2ceec841e5243b567e1ffc10ec08c0ff28fe77"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -112158,7 +112273,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "757a211cd898c965e421f970755ca9ac93bbace1"
+                    "checksumValue": "1ea4a1a3fd6f92ec36c398bbfa853a146b99fec4"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -112213,7 +112328,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "aff60ef6692da8d964d9e39c0c46271fbd88623e"
+                    "checksumValue": "12e0d1798aa040697e76b4611d39ac91a65b579c"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -112532,7 +112647,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "fc789afd579632e7f36ffe818f3ace3554c5ff86"
+                    "checksumValue": "27ad918ad491be368250d3149f9105d918419b76"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -112554,7 +112669,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "b9e00fb918f07b85a735dba70d996b5046c1121f"
+                    "checksumValue": "6d37dcdf341664cdc2c2b785b2c6a582d846d162"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -112763,7 +112878,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "9675877d52cff31887eb281e8216c7882ca61822"
+                    "checksumValue": "56745bbd988b6f047568843fe6b4b2002dfbb094"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -121607,7 +121722,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "1bf65eeedb0f88351bd3bb72b5e08150a757c7e7"
+                    "checksumValue": "e36505e25407a74727206721538610f6b2450751"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -121629,7 +121744,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "b0d6bc74377b9e57a90414fa0eaa32e4acedad3c"
+                    "checksumValue": "49fc003bf61b5e11cf5628e8bee57870cafb9b3f"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -121651,7 +121766,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "908077948068ee905578642f086aeff7cfc8f453"
+                    "checksumValue": "c60a0cd97f065090c5f91d0e38a44ae8b47cca31"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -121673,7 +121788,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "7fb25c183958f53413d4d707e0b6874ca9288770"
+                    "checksumValue": "53cb7e2fc37a2568b1157e9aef4fa0536411f8fc"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -121695,7 +121810,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "50b4ed19f1c153f15e96d79b797e68305590e7a8"
+                    "checksumValue": "c50ce89a097c0c9db3f8e20d6cf2dac139fa82bb"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -121717,7 +121832,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "3d333322de1db4db429616ba024033d163bd5308"
+                    "checksumValue": "127b8c26de55d53fa398dcd1e3655c89c8b22e20"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -121761,7 +121876,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "3678536fa19355b06174b05dfb4620d23b07883c"
+                    "checksumValue": "9a9a4c991032f11aec46ec35a3be337c7b6fb25c"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -121783,7 +121898,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "6d9cd6a2dab99ce4264cef36f86709b5f254f194"
+                    "checksumValue": "af7613ab1586d57f40325c31752da73c05e2c010"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -121805,7 +121920,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "807e9dd4f10e5fabf86b31b8bf514e27d0bff6a7"
+                    "checksumValue": "1f705c0fc7100a90b3f051bd9834cdd14179ad2f"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -127403,6 +127518,16 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-animator-leanback-setup-fragment-open-exit.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-color-accessibility-autoclick-type-button-color.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-color-accessibility-autoclick-type-button-container-background.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -136282,6 +136407,11 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
+            "spdxElementId": "SPDXRef-data-res-drawable-ic-android-security-privacy-alert-fill-material.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
             "spdxElementId": "SPDXRef-data-res-drawable-ic-arrow-drop-right-black-24dp.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
@@ -136822,11 +136952,6 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
-            "spdxElementId": "SPDXRef-data-res-drawable-ic-ime-switcher-new.xml",
-            "relatedSpdxElement": "SPDXRef-PLATFORM",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
             "spdxElementId": "SPDXRef-data-res-drawable-ic-ime-switcher.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
@@ -136897,6 +137022,11 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
+            "spdxElementId": "SPDXRef-data-res-drawable-ic-lock-bugreport-round.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
             "spdxElementId": "SPDXRef-data-res-drawable-ic-lock-bugreport.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
@@ -136912,12 +137042,17 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
-            "spdxElementId": "SPDXRef-data-res-drawable-ic-lock-lockdown.xml",
+            "spdxElementId": "SPDXRef-data-res-drawable-ic-lock-lockdown-round.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
         {
             "spdxElementId": "SPDXRef-data-res-drawable-ic-lock-open.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-drawable-ic-lock-power-off-round.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -136938,6 +137073,11 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-drawable-ic-lockscreen-outerring.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-drawable-ic-logout-round.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -137262,6 +137402,11 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
+            "spdxElementId": "SPDXRef-data-res-drawable-ic-restart-round.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
             "spdxElementId": "SPDXRef-data-res-drawable-ic-restart.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
@@ -137278,6 +137423,11 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-drawable-ic-screenshot-edit.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-drawable-ic-screenshot-round.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -141653,6 +141803,16 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-drawable-lockscreen-selected.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-drawable-material-ic-account-circle-user.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-drawable-material-ic-account-circle.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -149497,6 +149657,21 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
+            "spdxElementId": "SPDXRef-data-res-drawable-perm-group-xr-eye-sensitive.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-drawable-perm-group-xr-tracking-sensitive.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-drawable-perm-group-xr-tracking.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
             "spdxElementId": "SPDXRef-data-res-drawable-pointer-alias-icon.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
@@ -151448,21 +151623,6 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-drawable-watch-ic-settings.xml",
-            "relatedSpdxElement": "SPDXRef-PLATFORM",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-res-drawable-watch-input-method-item-background-selected.xml",
-            "relatedSpdxElement": "SPDXRef-PLATFORM",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-res-drawable-watch-input-method-item-background-selector.xml",
-            "relatedSpdxElement": "SPDXRef-PLATFORM",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-res-drawable-watch-input-method-item-background.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -165167,12 +165327,7 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
-            "spdxElementId": "SPDXRef-data-res-layout-input-method-switch-dialog-new.xml",
-            "relatedSpdxElement": "SPDXRef-PLATFORM",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-res-layout-input-method-switch-dialog-title.xml",
+            "spdxElementId": "SPDXRef-data-res-layout-input-method-switch-dialog.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -165183,11 +165338,6 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-layout-input-method-switch-item-header.xml",
-            "relatedSpdxElement": "SPDXRef-PLATFORM",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-res-layout-input-method-switch-item-new.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -165352,6 +165502,11 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
+            "spdxElementId": "SPDXRef-data-res-layout-notification-2025-collapsed-metric.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
             "spdxElementId": "SPDXRef-data-res-layout-notification-2025-conversation-face-pile-layout.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
@@ -165368,6 +165523,11 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-layout-notification-2025-expand-button.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-layout-notification-2025-expanded-metric.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -165408,6 +165568,11 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-layout-notification-2025-template-collapsed-messaging.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-layout-notification-2025-template-collapsed-metric.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -165458,6 +165623,11 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-layout-notification-2025-template-expanded-messaging.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-layout-notification-2025-template-expanded-metric.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -166518,21 +166688,6 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-layout-watch-input-method-extract-view.xml",
-            "relatedSpdxElement": "SPDXRef-PLATFORM",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-res-layout-watch-input-method-switch-dialog-title.xml",
-            "relatedSpdxElement": "SPDXRef-PLATFORM",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-res-layout-watch-input-method-switch-item.xml",
-            "relatedSpdxElement": "SPDXRef-PLATFORM",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-res-layout-watch-input-method-switcher-list-layout.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -169202,6 +169357,16 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
+            "spdxElementId": "SPDXRef-data-res-values-sw1500dp-110dpi-status-bar-dimens.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-res-values-sw1900dp-90dpi-status-bar-dimens.xml",
+            "relatedSpdxElement": "SPDXRef-PLATFORM",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
             "spdxElementId": "SPDXRef-data-res-values-sw360dp-dimens.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
@@ -169688,11 +169853,6 @@
         },
         {
             "spdxElementId": "SPDXRef-data-res-values-w210dp-round-watch-dimens-material.xml",
-            "relatedSpdxElement": "SPDXRef-PLATFORM",
-            "relationshipType": "GENERATED_FROM"
-        },
-        {
-            "spdxElementId": "SPDXRef-data-res-values-w210dp-round-watch-styles.xml",
             "relatedSpdxElement": "SPDXRef-PLATFORM",
             "relationshipType": "GENERATED_FROM"
         },
@@ -171322,7 +171482,7 @@
             "relationshipType": "GENERATED_FROM"
         },
         {
-            "spdxElementId": "SPDXRef-data-fonts-NotoSerifKhmer-Regular.otf",
+            "spdxElementId": "SPDXRef-data-fonts-NotoSerifKhmer-Regular.ttf",
             "relatedSpdxElement": "SPDXRef-SOURCE-notoserifkhmer",
             "relationshipType": "GENERATED_FROM"
         },
