@@ -12494,6 +12494,17 @@ overlays/NotesRoleEnabledOverlay/res/values/strings.xml
 overlays/TransparentNavigationBarOverlay/resources.bin
 overlays/TransparentNavigationBarOverlay/res/values/config.xml
 overlays/TransparentNavigationBarOverlay/res/values/strings.xml
+overlays/pixel_10/resources.bin
+overlays/pixel_10/res/values/config.xml
+overlays/pixel_10/res/values/dimens.xml
+overlays/pixel_10_pro/resources.bin
+overlays/pixel_10_pro/res/values/config.xml
+overlays/pixel_10_pro/res/values/dimens.xml
+overlays/pixel_10_pro_fold/resources.bin
+overlays/pixel_10_pro_fold/res/values/config.xml
+overlays/pixel_10_pro_xl/resources.bin
+overlays/pixel_10_pro_xl/res/values/config.xml
+overlays/pixel_10_pro_xl/res/values/dimens.xml
 overlays/pixel_6/resources.bin
 overlays/pixel_6/res/values/config.xml
 overlays/pixel_6/res/values/dimens.xml
@@ -12536,6 +12547,8 @@ overlays/pixel_9_pro_xl/resources.bin
 overlays/pixel_9_pro_xl/res/values/config.xml
 overlays/pixel_9_pro_xl/res/values/config_telephony.xml
 overlays/pixel_9_pro_xl/res/values/dimens.xml
+overlays/pixel_9a/resources.bin
+overlays/pixel_9a/res/values/config.xml
 overlays/pixel_fold/resources.bin
 overlays/pixel_fold/res/values/config.xml
 overlays/pixel_fold/res/values/dimens.xml
