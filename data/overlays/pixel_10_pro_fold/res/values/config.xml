@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2021, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"
+           xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Indicate whether to allow the device to suspend when the screen is off
+         due to the proximity sensor.  This resource should only be set to true
+         if the sensor HAL correctly handles the proximity sensor as a wake-up source.
+         Otherwise, the device may fail to wake out of suspend reliably.
+         The default is false. -->
+    <bool name="config_suspendWhenScreenOffDueToProximity">true</bool>
+
+    <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
+         Software implementation will be used if config_hardware_auto_brightness_available is not set -->
+    <bool name="config_automatic_brightness_available">true</bool>
+
+    <!-- Minimum screen brightness allowed by the power manager. -->
+    <integer name="config_screenBrightnessDim">6</integer>
+
+    <!-- Minimum screen brightness setting allowed by power manager.
+         The user is forbidden from setting the brightness below this level.  -->
+    <item name="config_screenBrightnessSettingMinimumFloat" format="float" type="dimen">0.0</item>
+
+    <!-- Maximum screen brightness allowed by the power manager.
+         The user is forbidden from setting the brightness above this level. -->
+    <item name="config_screenBrightnessSettingMaximumFloat" format="float" type="dimen">1.0</item>
+
+    <!-- Default screen brightness setting
+         Must be in the range specified by minimum and maximum.
+         (140-1.0)/(1450.0-1.0)*(0.71-0.0)+0.0 = 0.068109041 -->
+    <item name="config_screenBrightnessSettingDefaultFloat" format="float" type="dimen">0.068109041</item>
+
+    <!-- The maximum range of gamma adjustment possible using the screen
+         auto-brightness adjustment setting. -->
+    <fraction name="config_autoBrightnessAdjustmentMaxGamma">105%</fraction>
+
+    <!-- The default refresh rate. Pixel 6 manages this using the peak refresh rate setting, so set
+         this value to 0 so it has no effect. -->
+    <integer name="config_defaultRefreshRate">0</integer>
+
+    <integer name="config_deviceStateConcurrentRearDisplay">4</integer>
+
+    <string name="config_rearDisplayPhysicalAddress">4619827677550801153</string>
+
+    <!-- The default peak refresh rate. -->
+    <integer name="config_defaultPeakRefreshRate">120</integer>
+
+    <!-- Boolean indicating whether display white balance is supported. -->
+    <bool name="config_displayWhiteBalanceAvailable">true</bool>
+
+    <!-- Boolean indicating whether display white balance should be enabled by default. -->
+    <bool name="config_displayWhiteBalanceEnabledDefault">true</bool>
+
+    <!-- Minimum color temperature, in Kelvin, supported by display white balance. -->
+    <integer name="config_displayWhiteBalanceColorTemperatureMin">2500</integer>
+
+    <!-- Maximum color temperature, in Kelvin, supported by display white balance. -->
+    <integer name="config_displayWhiteBalanceColorTemperatureMax">8000</integer>
+
+    <!-- Default color temperature, in Kelvin, used by display white balance. -->
+    <integer name="config_displayWhiteBalanceColorTemperatureDefault">6400</integer>
+
+    <!-- See DisplayWhiteBalanceController.
+         A float array containing a list of ambient color temperatures, in Kelvin. This array,
+         together with config_displayWhiteBalanceDisplayColorTemperatures, is used to generate a
+         lookup table used in DisplayWhiteBalanceController. This lookup table is used to map
+         ambient color temperature readings to a target color temperature for the display.
+         This table is optional. If used, this array must,
+         1) Contain at least two entries
+         2) Be the same length as config_displayWhiteBalanceDisplayColorTemperatures. -->
+    <array name="config_displayWhiteBalanceAmbientColorTemperatures">
+        <item>2500</item>
+        <item>3100</item>
+        <item>3700</item>
+        <item>4200</item>
+        <item>4800</item>
+        <item>5300</item>
+        <item>6000</item>
+        <item>6500</item>
+        <item>7000</item>
+        <item>7500</item>
+        <item>8000</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         An array containing a list of display color temperatures, in Kelvin. See
+         config_displayWhiteBalanceAmbientColorTemperatures for additional details.
+         The same restrictions apply to this array. -->
+    <array name="config_displayWhiteBalanceDisplayColorTemperatures">
+        <item>5250</item>
+        <item>5550</item>
+        <item>6000</item>
+        <item>6250</item>
+        <item>6450</item>
+        <item>6550</item>
+        <item>6750</item>
+        <item>6850</item>
+        <item>6950</item>
+        <item>7050</item>
+        <item>7200</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         The same as config_displayWhiteBalanceAmbientColorTemperatures, but with a stronger
+         visual adjustment. -->
+    <array name="config_displayWhiteBalanceStrongAmbientColorTemperatures">
+        <item>3000</item>
+        <item>3500</item>
+        <item>4000</item>
+        <item>4500</item>
+        <item>5000</item>
+        <item>5500</item>
+        <item>6000</item>
+        <item>6500</item>
+        <item>7000</item>
+        <item>7500</item>
+        <item>8000</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         The same as config_displayWhiteBalanceDisplayColorTemperatures, but with a stronger
+         visual adjustment. -->
+    <array name="config_displayWhiteBalanceStrongDisplayColorTemperatures">
+        <item>4000</item>
+        <item>4600</item>
+        <item>5400</item>
+        <item>6300</item>
+        <item>7200</item>
+        <item>7200</item>
+        <item>7200</item>
+        <item>7200</item>
+        <item>7200</item>
+        <item>7200</item>
+        <item>7200</item>
+    </array>
+
+    <!-- The display primaries, in CIE1931 XYZ color space, for display
+         white balance to use in its calculations. The array must include a total of 12 float
+         values: 3 values per color (X, Y, Z) and 4 colors (R, G, B, W) -->
+    <string-array name="config_displayWhiteBalanceDisplayPrimaries">
+        <!-- Red X -->   <item>0.5128</item>
+        <!-- Red Y -->   <item>0.2413</item>
+        <!-- Red Z -->   <item>0.0000</item>
+        <!-- Green X --> <item>0.2598</item>
+        <!-- Green Y --> <item>0.6764</item>
+        <!-- Green Z --> <item>0.0441</item>
+        <!-- Blue X -->  <item>0.2057</item>
+        <!-- Blue Y -->  <item>0.0823</item>
+        <!-- Blue Z -->  <item>1.0832</item>
+        <!-- White X --> <item>0.9783</item>
+        <!-- White Y --> <item>1.0000</item>
+        <!-- White Z --> <item>1.1273</item>
+    </string-array>
+
+    <!-- The nominal white coordinates, in CIE1931 XYZ color space, for Display White Balance to
+         use in its calculations. AWB will adapt this white point to the target ambient white
+         point. The array must include a total of 3 float values (X, Y, Z) -->
+    <string-array name="config_displayWhiteBalanceDisplayNominalWhite">
+        <!-- Nominal White X --> <item>0.9783</item>
+        <!-- Nominal White Y --> <item>1.0000</item>
+        <!-- Nominal White Z --> <item>1.1273</item>
+    </string-array>
+
+    <!-- The CCT closest to the white coordinates (primary) above and in SurfaceControl, as
+         calculated by ColorSpace#cctToXyz, such that the transition from DWB being "on" with
+         a computed matrix to the disabled identity matrix is as small as possible. -->
+    <integer name="config_displayWhiteBalanceDisplayNominalWhiteCct">6543</integer>
+
+    <!-- Range minimums corresponding to config_displayWhiteBalanceDisplaySteps. For example, if the
+         range minimums are [0, 3000] and the steps are [10, 20] then between 0 and 3000, exclusive,
+         the step between them will be 10 (i.e. 0, 10, 20, etc.) and the step between 3000 and the
+         maximum value is 20 (i.e. 3000, 3020, 3040, etc.). -->
+    <integer-array name="config_displayWhiteBalanceDisplayRangeMinimums">
+        <item>0</item>
+    </integer-array>
+
+    <!-- Steps corresponding to config_displayWhiteBalanceDisplayRangeMinimums. For example, if the
+         range minimums are [0, 3000] and the steps are [10, 20] then between 0 and 3000, exclusive,
+         the step between them will be 10 (i.e. 0, 10, 20, etc.) and the step between 3000 and the
+         maximum value is 20 (i.e. 3000, 3020, 3040, etc.). -->
+    <integer-array name="config_displayWhiteBalanceDisplaySteps">
+        <item>40</item>
+    </integer-array>
+
+    <!-- See DisplayWhiteBalanceThrottler.
+         The debounce time (in milliseconds) for increasing the screen color temperature, throttled
+         if time > lastTime + debounce. Must be non-negative. -->
+    <integer name="config_displayWhiteBalanceIncreaseDebounce">1000</integer>
+
+    <!-- See DisplayWhiteBalanceThrottler.
+         The debounce time (in milliseconds) for decreasing the screen color tempearture, throttled
+         if time < lastTime - debounce. Must be non-negative. -->
+    <integer name="config_displayWhiteBalanceDecreaseDebounce">1000</integer>
+
+    <!-- See AmbientSensor.AmbientColorTemperatureSensor.
+         The ambient color temperature sensor rate (in milliseconds). Must be positive. -->
+    <integer name="config_displayWhiteBalanceColorTemperatureSensorRate">100</integer>
+
+    <!-- See AmbientFilter.
+         How long ambient color temperature changes are kept and taken into consideration
+         (in milliseconds). Must be positive. -->
+    <integer name="config_displayWhiteBalanceColorTemperatureFilterHorizon">1000</integer>
+
+    <!-- See DisplayWhiteBalanceThrottler.
+         The ambient color temperature values used to determine the threshold as the corresponding
+         value in config_displayWhiteBalance{Increase,Decrease}Threholds. Must be non-empty, the
+         same length as config_displayWhiteBalance{Increase,Decrease}Thresholds, and contain
+         non-negative, strictly increasing numbers.
+
+         For example, if:
+
+         - baseThresholds = [0, 100, 1000];
+         - increaseThresholds = [0.1, 0.15, 0.2];
+         - decreaseThresholds = [0.1, 0.05, 0.0];
+
+         Then, given the ambient color temperature INCREASED from X to Y (so X < Y):
+         - If 0 <= Y < 100, we require Y > (1 + 0.1) * X = 1.1X;
+         - If 100 <= Y < 1000, we require Y > (1 + 0.15) * X = 1.15X;
+         - If 1000 <= Y, we require Y > (1 + 0.2) * X = 1.2X.
+
+         Or, if the ambient color temperature DECREASED from X to Y (so X > Y):
+         - If 0 <= Y < 100, we require Y < (1 - 0.1) * X = 0.9X;
+         - If 100 <= Y < 1000, we require Y < (1 - 0.05) * X = 0.95X;
+         - If 1000 <= Y, we require Y < (1 - 0) * X = X. -->
+    <array name="config_displayWhiteBalanceBaseThresholds">
+        <item>6300</item>
+        <item>6400</item>
+        <item>6850</item>
+        <item>7450</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceThrottler.
+         The increase threshold values, throttled if value < value * (1 + threshold). Must be
+         non-empty, the same length as config_displayWhiteBalanceBaseThresholds, and contain
+         non-negative numbers. -->
+    <array name="config_displayWhiteBalanceIncreaseThresholds">
+        <item>0.0078740</item>
+        <item>0.0075472</item>
+        <item>0.0069930</item>
+        <item>0.0067114</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceThrottler.
+         The decrease threshold values, throttled if value > value * (1 - threshold). Must be
+         non-empty, the same length as config_displayWhiteBalanceBaseThresholds, and contain
+         non-negative numbers. -->
+    <array name="config_displayWhiteBalanceDecreaseThresholds">
+        <item>0.0078740</item>
+        <item>0.0075472</item>
+        <item>0.0069930</item>
+        <item>0.0067114</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         A float array containing a list of ambient brightnesses, in Lux. This array,
+         together with config_displayWhiteBalanceLowLightAmbientBiases, is used to generate a
+         lookup table used in DisplayWhiteBalanceController. This lookup table is used to map
+         ambient brightness readings to a bias, where the bias is used to linearly interpolate
+         between ambient color temperature and
+         config_displayWhiteBalanceLowLightAmbientColorTemperature.
+         This table is optional. If used, this array must,
+         1) Contain at least two entries
+         2) Be the same length as config_displayWhiteBalanceLowLightAmbientBiases. -->
+    <array name ="config_displayWhiteBalanceLowLightAmbientBrightnesses">
+        <item>3.0</item>
+        <item>10.0</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         A float array containing a list of ambient brightnesses, in Lux. This array,
+         together with config_displayWhiteBalanceLowLightAmbientBiasesStrong, is used to generate a
+         lookup table used in DisplayWhiteBalanceController. This lookup table is used to map
+         ambient brightness readings to a bias, where the bias is used to linearly interpolate
+         between ambient color temperature and
+         config_displayWhiteBalanceLowLightAmbientColorTemperatureStrong.
+         This table is optional. If used, this array must,
+         1) Contain at least two entries
+         2) Be the same length as config_displayWhiteBalanceLowLightAmbientBiasesStrong. -->
+    <array name ="config_displayWhiteBalanceLowLightAmbientBrightnessesStrong">
+        <item>3.0</item>
+        <item>10.0</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         An array containing a list of biases. See
+         config_displayWhiteBalanceLowLightAmbientBrightnesses for additional details.
+         This array must be in the range of [0.0, 1.0]. -->
+    <array name ="config_displayWhiteBalanceLowLightAmbientBiases">
+        <item>0.0</item>
+        <item>1.0</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         An array containing a list of biases. See
+         config_displayWhiteBalanceLowLightAmbientBrightnessesStrong for additional details.
+         This array must be in the range of [0.0, 1.0]. -->
+    <array name ="config_displayWhiteBalanceLowLightAmbientBiasesStrong">
+        <item>0.0</item>
+        <item>1.0</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         The ambient color temperature (in cct) to which we interpolates towards to when the
+         ambient brightness is within the low light range, see
+         config_displayWhiteBalanceLowLightAmbientBrightnesses. -->
+    <item name="config_displayWhiteBalanceLowLightAmbientColorTemperature" format="float" type="dimen">5250.0</item>
+
+    <!-- See DisplayWhiteBalanceController.
+         The ambient color temperature (in cct) to which we interpolate towards using the
+         the look up table generated by config_displayWhiteBalanceLowLightAmbientBrightnessesStrong
+         and config_displayWhiteBalanceLowLightAmbientBiasesStrong. Used when device is in Idle Screen
+         Brightness mode. -->
+    <item name="config_displayWhiteBalanceLowLightAmbientColorTemperatureStrong" format="float" type="dimen">4000.0</item>
+
+    <!-- See DisplayWhiteBalanceController.
+         A float array containing a list of ambient brightnesses, in Lux. This array,
+         together with config_displayWhiteBalanceHighLightAmbientBiases, is used to generate a
+         lookup table used in DisplayWhiteBalanceController. This lookup table is used to map
+         ambient brightness readings to a bias, where the bias is used to linearly interpolate
+         between ambient color temperature and
+         config_displayWhiteBalanceHighLightAmbientColorTemperature.
+         This table is optional. If used, this array must,
+         1) Contain at least two entries
+         2) Be the same length as config_displayWhiteBalanceHighLightAmbientBiases. -->
+    <array name ="config_displayWhiteBalanceHighLightAmbientBrightnesses">
+        <item>130000.0</item>
+        <item>150000.0</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         A float array containing a list of ambient brightnesses, in Lux. This array,
+         together with config_displayWhiteBalanceHighLightAmbientBiasesStrong, is used to generate a
+         lookup table used in DisplayWhiteBalanceController. This lookup table is used to map
+         ambient brightness readings to a bias, where the bias is used to linearly interpolate
+         between ambient color temperature and
+         config_displayWhiteBalanceHighLightAmbientColorTemperatureStrong.
+         This table is optional. If used, this array must,
+         1) Contain at least two entries
+         2) Be the same length as config_displayWhiteBalanceHighLightAmbientBiasesStrong. -->
+    <array name ="config_displayWhiteBalanceHighLightAmbientBrightnessesStrong">
+        <item>130000.0</item>
+        <item>150000.0</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         An array containing a list of biases. See
+         config_displayWhiteBalanceHighLightAmbientBrightnesses for additional details.
+         This array must be in the range of [0.0, 1.0]. -->
+    <array name ="config_displayWhiteBalanceHighLightAmbientBiases">
+        <item>0.0</item>
+        <item>1.0</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         An array containing a list of biases. See
+         config_displayWhiteBalanceHighLightAmbientBrightnessesStrong for additional details.
+         This array must be in the range of [0.0, 1.0]. -->
+    <array name ="config_displayWhiteBalanceHighLightAmbientBiasesStrong">
+        <item>0.0</item>
+        <item>1.0</item>
+    </array>
+
+    <!-- See DisplayWhiteBalanceController.
+         The ambient color temperature (in cct) to which we interpolates towards to when the
+         ambient brightness is within the high light range, see
+         config_displayWhiteBalanceHighLightAmbientBrightnesses. -->
+    <item name="config_displayWhiteBalanceHighLightAmbientColorTemperature" format="float" type="dimen">6700.0</item>
+
+    <!-- Duration, in milliseconds, of the display white balance animated transitions when increasing cct. -->
+    <integer name="config_displayWhiteBalanceTransitionTimeIncrease">3000</integer>
+
+    <!-- Duration, in milliseconds, of the display white balance animated transitions when decreasing cct. -->
+    <integer name="config_displayWhiteBalanceTransitionTimeDecrease">8000</integer>
+
+    <!-- Duration, in milliseconds, of the display white balance animated transitions. -->
+    <integer name="config_displayWhiteBalanceTransitionTime">8000</integer>
+
+    <!-- The device states (supplied by DeviceStateManager) that should be treated as folded by the
+         display fold controller. -->
+    <integer-array name="config_foldedDeviceStates" translatable="false">
+      <item>0</item> <!-- CLOSED -->
+    </integer-array>
+
+    <!-- Indicates whether to enable an animation when unfolding a device or not -->
+    <bool name="config_unfoldTransitionEnabled">true</bool>
+
+    <!-- Indicates whether to enable hinge angle sensor when using unfold animation -->
+    <bool name="config_unfoldTransitionHingeAngle">true</bool>
+
+    <bool name="config_supportsConcurrentInternalDisplays">false</bool>
+
+    <string-array name="config_displayUniqueIdArray" translatable="false">
+        <item>"local:4619827677550801152"</item>
+        <item>"local:4619827677550801153"</item>
+    </string-array>
+
+    <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
+         for debouncing the light sensor.  Different constants are used to debounce the light sensor
+         when adapting to brighter or darker environments.  This parameter controls how quickly
+         brightness changes occur in response to an observed change in light level that exceeds the
+         hysteresis threshold. -->
+    <integer name="config_autoBrightnessBrighteningLightDebounce">1000</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">4000</integer>
+
+    <integer-array name="config_ambientThresholdLevels">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>13</item>
+        <item>15</item>
+        <item>17</item>
+        <item>19</item>
+        <item>20</item>
+        <item>22</item>
+        <item>25</item>
+        <item>27</item>
+        <item>30</item>
+        <item>32</item>
+        <item>35</item>
+        <item>37</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+    </integer-array>
+
+
+    <integer-array name="config_ambientBrighteningThresholds">
+        <item>4999</item>
+        <item>4999</item>
+        <item>2499</item>
+        <item>1999</item>
+        <item>1749</item>
+        <item>1599</item>
+        <item>1926</item>
+        <item>1805</item>
+        <item>1654</item>
+        <item>1484</item>
+        <item>1299</item>
+        <item>1181</item>
+        <item>923</item>
+        <item>799</item>
+        <item>705</item>
+        <item>578</item>
+        <item>549</item>
+        <item>520</item>
+        <item>476</item>
+        <item>494</item>
+        <item>460</item>
+        <item>531</item>
+        <item>457</item>
+        <item>486</item>
+        <item>499</item>
+        <item>517</item>
+        <item>565</item>
+        <item>612</item>
+        <item>660</item>
+        <item>708</item>
+        <item>742</item>
+        <item>636</item>
+        <item>582</item>
+        <item>549</item>
+        <item>513</item>
+        <item>477</item>
+        <item>441</item>
+        <item>405</item>
+        <item>369</item>
+        <item>294</item>
+        <item>269</item>
+        <item>220</item>
+        <item>219</item>
+    </integer-array>
+
+    <integer-array name="config_ambientDarkeningThresholds">
+        <item>500</item>
+        <item>500</item>
+        <item>750</item>
+        <item>833</item>
+        <item>875</item>
+        <item>900</item>
+        <item>916</item>
+        <item>857</item>
+        <item>750</item>
+        <item>666</item>
+        <item>600</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>525</item>
+        <item>283</item>
+    </integer-array>
+
+    <!-- The max vibration strength allowed in audio haptic channels. -->
+    <item name="config_hapticChannelMaxVibrationAmplitude" format="float" type="dimen">0.335</item>
+    <!-- Boolean indicating whether allow sending null to modem to clear the previous initial attach
+         data profile -->
+    <bool name="allow_clear_initial_attach_data_profile">true</bool>
+
+    <!-- Type of the ambient tap sensor per device posture (defined by WM Jetpack posture).
+         Unspecified values use config_dozeTapSensor -->
+    <string-array name="config_dozeTapSensorPostureMapping" translatable="false">
+        <item></item> <!-- UNKNOWN, don't register for touch if we don't know -->
+        <item>com.google.sensor.single_touch</item> <!-- CLOSED -->
+        <item>com.google.sensor.touch_gesture</item> <!-- HALF_OPENED -->
+        <item>com.google.sensor.touch_gesture</item> <!-- OPENED -->
+      </string-array>
+
+    <!-- Align to both camera at inner/outer cutout's height -->
+    <dimen name="status_bar_height_portrait">66dp</dimen>
+    <!-- Since @dimen/status_bar_height_portrait is modified in overlay, need to restore its value
+         from original folder. This should be done even looks no effect on some apps because
+         some other apps may reference to it. -->
+    <dimen name="status_bar_height_landscape">24dp</dimen>
+
+    <!-- Whether the display cutout region of the main built-in display should be forced to
+        black in software (to avoid aliasing or emulate a cutout that is not physically existent).
+    -->
+    <bool name="config_fillMainBuiltInDisplayCutout">true</bool>
+    <!-- Whether the display cutout region of the secondary built-in display should be forced to
+        black in software (to avoid aliasing or emulate a cutout that is not physically existent).
+    -->
+    <bool name="config_fillSecondaryBuiltInDisplayCutout">true</bool>
+    <!-- Display cutout configuration -->
+    <string translatable="false" name="config_mainBuiltInDisplayCutout">
+	m 2027,80 a 39.5,39.5 0 0 0 -79,0 39.5,39.5 0 0 0 79,0 z
+        @left
+    </string>
+    <!-- This configuartion effects status bar's height actually. Set its height as double
+        y position of @string/config_mainBuiltInDisplayCutout to make cutout center vertically -->
+    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">
+        m 0,0
+        V 160
+        h -136
+        V 0
+        z
+        @right
+    </string>
+
+    <integer-array name="config_mainBuiltInDisplayCutoutSideOverride" translatable="false">
+        <item>1</item> <!-- Top -->
+        <item>1</item> <!-- Top -->
+        <item>3</item> <!-- Bottom -->
+        <item>3</item> <!-- Bottom -->
+    </integer-array>
+
+    <string translatable="false" name="config_secondaryBuiltInDisplayCutout">
+      m 577,79.5 a 37.5,37.5 0 0 0 -75,0 37.5,37.5 0 0 0 75,0 z
+      @left
+    </string>
+    <!-- This configuartion effects status bar's height actually. Set its height as double
+        y position of @string/config_secondaryBuiltInDisplayCutoutRectApproximation to make cutout
+        center vertically -->
+    <string translatable="false" name="config_secondaryBuiltInDisplayCutoutRectApproximation">
+        m 484,0 h 112 v 159 h -112 z
+        @left
+    </string>
+
+    <!-- Decouple status bar and cutout from configuration to avoid letterbox. -->
+    <bool name="config_decoupleStatusBarAndDisplayCutoutFromScreenSize">true</bool>
+
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">25px</dimen>
+
+    <!-- Adjustment for software rounded corners since corners aren't perfectly round. -->
+    <dimen name="rounded_corner_radius_adjustment">5px</dimen>
+
+    <!-- Radius of the software rounded corners at the top of primary display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_top">85px</dimen>
+    <!-- For secondary display -->
+    <dimen name="secondary_rounded_corner_radius_top">115px</dimen>
+
+    <!-- Radius of the software rounded corners at the bottom of primary display in its natural
+        orientation. If zero, the value of rounded_corner_radius is used. -->
+    <dimen name="rounded_corner_radius_bottom">85px</dimen>
+    <!-- For secondary display -->
+    <dimen name="secondary_rounded_corner_radius_bottom">115px</dimen>
+
+    <!-- A string config in svg path format for the main display shape.
+         (@see https://www.w3.org/TR/SVG/paths.html#PathData).
+
+         This config must be set unless:
+         1. {@link Configuration#isScreenRound} is true which means the display shape is circular
+            and the system will auto-generate a circular shape.
+         2. The display has no rounded corner and the system will auto-generate a rectangular shape.
+         (@see DisplayShape#createDefaultDisplayShape)
+
+         Note: If the display supports multiple resolutions, please define the path config based on
+         the highest resolution so that it can be scaled correctly in each resolution. -->
+    <string name="config_secondaryDisplayShape">m 1079.946,2228.66 c 0,0 0.18,21.63 -0.12,32.44 -0.27,9.87 -0.39,19.77 -1.53,29.57 -1.13,9.74 -2.58,19.5 -5.23,28.95 -2.71,9.67 -6.21,19.2 -10.829,28.12 -4.72,9.13 -10.449,17.83 -17.099,25.68 -6.69,7.9 -14.379,15.04 -22.689,21.24 -7.73,5.77 -16.209,10.61 -24.989,14.62 -8.57,3.91 -17.619,6.81 -26.769,9.05 -8.96,2.2 -18.159,3.37 -27.339,4.29 -9.29,0.93 -18.649,1.01 -27.979,1.23 -10.229,0.24 -30.698,0.1 -30.698,0.1 H 195.323 c 0,0 -21.629,0.17 -32.438,-0.12 -9.869,-0.27 -19.769,-0.39 -29.568,-1.53 -9.739,-1.13 -19.499,-2.59 -28.938,-5.23 -9.669,-2.71 -19.199,-6.21 -28.119,-10.83 -9.14,-4.73 -17.829,-10.46 -25.669,-17.1 -7.91,-6.7 -15.039,-14.39 -21.229,-22.69 -5.77,-7.74 -10.619,-16.21 -14.619,-24.99 -3.91,-8.57 -6.81,-17.62 -9.05,-26.77 -2.2,-8.96 -3.37,-18.16 -4.29,-27.34 -0.93,-9.29 -1.01,-18.65 -1.24,-27.98 -0.24,-10.23 -0.1,-30.7 -0.1,-30.7 L 0.054,195.334 c 0,0 -0.18,-21.63 0.12,-32.44 C 0.444,153.024 0.564,143.124 1.703,133.324 2.833,123.584 4.283,113.824 6.933,104.374 9.643,94.704 13.143,85.174 17.763,76.254 22.482,67.124 28.212,58.424 34.862,50.584 41.551,42.684 49.241,35.544 57.551,29.344 65.28,23.574 73.76,18.734 82.539,14.724 91.109,10.824 100.158,7.924 109.308,5.674 c 8.96,-2.2 18.159,-3.37 27.339,-4.29 9.29,-0.93 18.649,-1.01 27.979,-1.23 10.229,-0.24 30.698,-0.1 30.698,-0.1 h 689.314 c 0,0 21.629,-0.18 32.438,0.12 9.869,0.27 19.769,0.39 29.568,1.53 9.739,1.13 19.499,2.59 28.938,5.23 9.669,2.71 19.199,6.21 28.119,10.83 9.14,4.73 17.829,10.46 25.669,17.1 7.91,6.7 15.039,14.39 21.229,22.69 5.77,7.74 10.619,16.21 14.619,24.99 3.91,8.57 6.81,17.62 9.05,26.77 2.2,8.96 3.37,18.16 4.29,27.34 0.93,9.29 1.01,18.65 1.24,27.98 0.24,10.23 0.1,30.7 0.1,30.7 z</string>
+
+    <!-- A string config in svg path format for the secondary display shape.
+         (@see https://www.w3.org/TR/SVG/paths.html#PathData).
+
+         This config must be set unless:
+         1. {@link Configuration#isScreenRound} is true which means the display shape is circular
+            and the system will auto-generate a circular shape.
+         2. The display has no rounded corner and the system will auto-generate a rectangular shape.
+         (@see DisplayShape#createDefaultDisplayShape)
+
+         Note: If the display supports multiple resolutions, please define the path config based on
+         the highest resolution so that it can be scaled correctly in each resolution. -->
+    <string name="config_mainDisplayShape">M 0.041,2004.805 V 146.519 c 0,0 -0.176,-14.867 0.198,-22.287 C 0.663,115.839 1.046,107.394 2.553,99.126 4.225,89.962 6.479,80.819 9.977,72.185 13.68,63.046 18.377,54.207 24.187,46.24 30.028,38.231 36.947,30.898 44.657,24.668 51.905,18.813 60.025,13.937 68.523,10.118 76.345,6.602 84.716,4.282 93.122,2.583 100.634,1.064 108.342,0.675 115.994,0.248 122.769,-0.13 136.349,0.049 136.349,0.049 H 1939.018 c 0,0 14.16,-0.202 21.223,0.211 7.749,0.454 15.557,0.888 23.152,2.487 8.585,1.807 17.13,4.272 25.081,7.979 8.624,4.02 16.811,9.173 24.117,15.269 7.652,6.384 14.512,13.844 20.258,21.986 5.571,7.893 10.035,16.628 13.505,25.645 3.267,8.49 5.266,17.468 6.753,26.443 1.343,8.107 1.427,16.375 1.929,24.577 0.446,7.284 0.965,21.872 0.965,21.872 V 2004.805 c 0,0 -0.51,15.21 -0.965,22.805 -0.497,8.303 -0.455,16.692 -1.929,24.878 -1.656,9.197 -4.254,18.272 -7.717,26.951 -3.61,9.047 -7.794,18.024 -13.505,25.915 -5.942,8.209 -13.336,15.404 -21.223,21.768 -7.088,5.72 -14.838,10.792 -23.152,14.512 -7.944,3.555 -16.527,5.651 -25.081,7.256 -7.615,1.429 -15.423,1.53 -23.152,2.073 -6.745,0.474 -20.258,1.037 -20.258,1.037 H 136.349 c 0,0 -13.835,-0.558 -20.74,-1.037 -7.797,-0.541 -15.701,-0.49 -23.355,-2.073 -8.623,-1.783 -17.078,-4.62 -25.081,-8.293 -8.535,-3.917 -16.934,-8.498 -24.146,-14.512 -7.778,-6.486 -14.272,-14.505 -20.075,-22.805 -5.41,-7.738 -10.07,-16.098 -13.541,-24.878 -3.413,-8.633 -5.434,-17.803 -7.012,-26.951 -1.415,-8.203 -1.775,-16.563 -2.173,-24.878 -0.347,-7.248 -0.185,-21.768 -0.185,-21.768 z</string>
+
+    <!-- MMS user agent string -->
+    <string name="config_mms_user_agent" translatable="false">gu0np</string>
+    <!-- MMS user agent profile url -->
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://www.gstatic.com/android/sms/GU0NP.xml</string>
+
+     <!-- The default list of possible CMF Names|Style|SeedColor. This array overrides
+     `frameworks/base/core/res/res/values/config.xml`. For styles please see
+     `frameworks/libs/systemui/monet/src/com/android/systemui/monet/Style.java` -->
+    <string-array name="theming_defaults">
+        <item>WHT|SPRITZ|#CFC6B4</item>
+        <item>BLK|SPRITZ|#404945</item>
+        <item>GRY|SPRITZ|#9A9EAD</item>
+        <item>GRN|TONAL_SPOT|#B6CF90</item>
+        <item>PPL|EXPRESSIVE|#BAC3FF</item>
+        <item>YEL|EXPRESSIVE|#DDEB78</item>
+        <item>BUE|VIBRANT|#6F9BFF</item>
+        <item>RED|VIBRANT|#FF6F7F</item>
+        <item>*|TONAL_SPOT|home_wallpaper</item>
+    </string-array>
+
+    <!-- Allow the GPS_PROVIDER to be replaced by the location provider app at run-time. -->
+    <bool android:featureFlag="android.location.flags.gnss_location_provider_overlay_2025_devices"
+        name="config_useGnssHardwareProvider" translatable="false">false</bool>
+    <!-- If true, will fallback to use a different app if the chosen overlay app is determined to
+         be unstable. Used only when config_useGnssHardwareProvider is false and
+         config_enableGnssLocationOverlay is true. -->
+    <bool android:featureFlag="android.location.flags.service_watcher_unstable_fallback"
+        name="config_gnssLocationOverlayUnstableFallback" translatable="false">true</bool>
+    <!-- If true, will fallback to use a different app if the chosen overlay app is determined to
+         be unstable. Used only when config_enableFusedLocationOverlay is true. -->
+    <bool android:featureFlag="android.location.flags.service_watcher_unstable_fallback"
+        name="config_fusedLocationOverlayUnstableFallback" translatable="false">true</bool>
+</resources>
