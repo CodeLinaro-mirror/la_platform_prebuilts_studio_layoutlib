@@ -3,7 +3,7 @@ plugins {
   `maven-publish`
 }
 
-version = "16.2.3"
+version = "16.2.4"
 group = "com.android.tools.layoutlib"
 
 // Create task for a specific platform/architecture
