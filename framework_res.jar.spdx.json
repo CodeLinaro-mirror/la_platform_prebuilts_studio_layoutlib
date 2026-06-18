@@ -3,20 +3,20 @@
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
     "name": "LayoutLib-framework_res",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2026-02-11T17:40:52Z",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2026-05-01T13:49:24Z",
     "creationInfo": {
         "creators": [
             "Organization: Google LLC"
         ],
-        "created": "2026-02-11T17:40:52Z"
+        "created": "2026-05-01T13:49:24Z"
     },
     "externalDocumentRefs": [
         {
             "externalDocumentId": "DocumentRef-layoutlib",
-            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.030/14870198:userdebug/test-keys/layoutlib",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:16/BLR4.251003.040/15328114:userdebug/test-keys/layoutlib",
             "checksum": {
                 "algorithm": "SHA1",
-                "checksumValue": "a24f33416907e70533538f9ad382e79175717552"
+                "checksumValue": "0a1cb8bcce3a617043c0296685663437fad653f6"
             }
         }
     ],
@@ -29,11 +29,11 @@
             "SPDXID": "SPDXRef-PREBUILT-framework-res",
             "downloadLocation": "NONE",
             "filesAnalyzed": true,
-            "versionInfo": "2026-02-11T17:40:52Z",
+            "versionInfo": "2026-05-01T13:49:24Z",
             "supplier": "Organization: Google LLC",
             "licenseDeclared": "NOASSERTION",
             "packageVerificationCode": {
-                "packageVerificationCodeValue": "789f60d3c58e7c286fc1b7dfa8c5a41871b55baa"
+                "packageVerificationCodeValue": "cd3b2573452bc0e012032038ed8e98196d541eba"
             },
             "hasFiles": [
                 "SPDXRef-data-framework-res.jar"
@@ -47,7 +47,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "798e1de412eb863bc7506bc7babfcba59d2d5a51"
+                    "checksumValue": "e1104ed884da8369136b0cf1e9ee0497ba3a17d1"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
@@ -4071,6 +4071,41 @@
         },
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-10-pro-fold-res-values-config.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-10-pro-res-values-config.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-10-pro-res-values-dimens.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-10-pro-xl-res-values-config.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-10-pro-xl-res-values-dimens.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-10-res-values-config.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-10-res-values-dimens.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-6-pro-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
@@ -4212,6 +4247,11 @@
         {
             "spdxElementId": "SPDXRef-data-framework-res.jar",
             "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9-res-values-dimens.xml",
+            "relationshipType": "GENERATED_FROM"
+        },
+        {
+            "spdxElementId": "SPDXRef-data-framework-res.jar",
+            "relatedSpdxElement": "DocumentRef-layoutlib:SPDXRef-data-overlays-pixel-9a-res-values-config.xml",
             "relationshipType": "GENERATED_FROM"
         },
         {

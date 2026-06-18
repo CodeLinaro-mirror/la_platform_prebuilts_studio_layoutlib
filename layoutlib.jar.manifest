@@ -5134,6 +5134,7 @@ android/graphics/HardwareRenderer$SyncAndDrawResult.class
 android/graphics/HardwareRenderer.class
 android/graphics/HardwareRendererObserver$OnFrameMetricsAvailableListener.class
 android/graphics/HardwareRendererObserver.class
+android/graphics/HardwareRenderer_Delegate.class
 android/graphics/ImageDecoder$1.class
 android/graphics/ImageDecoder$Allocator.class
 android/graphics/ImageDecoder$AssetInputStreamSource.class
@@ -24910,6 +24911,8 @@ android/view/WindowManagerGlobal$TrustedPresentationListener.class
 android/view/WindowManagerGlobal.class
 android/view/WindowManagerGlobal_Delegate.class
 android/view/WindowManagerImpl$1.class
+android/view/WindowManagerImpl$2.class
+android/view/WindowManagerImpl$OnFpsCallbackListenerProxy.class
 android/view/WindowManagerImpl.class
 android/view/WindowManagerPolicyConstants$OffReason.class
 android/view/WindowManagerPolicyConstants$OnReason.class
@@ -24930,10 +24933,6 @@ android/view/_Original_SurfaceView$SurfaceLifecycleStrategy.class
 android/view/_Original_SurfaceView$SurfaceViewPositionUpdateListener.class
 android/view/_Original_SurfaceView$SyncBufferTransactionCallback.class
 android/view/_Original_SurfaceView.class
-android/view/_Original_WindowManagerImpl$1.class
-android/view/_Original_WindowManagerImpl$2.class
-android/view/_Original_WindowManagerImpl$OnFpsCallbackListenerProxy.class
-android/view/_Original_WindowManagerImpl.class
 android/view/accessibility/
 android/view/accessibility/AccessibilityCache$AccessibilityNodeRefresher.class
 android/view/accessibility/AccessibilityCache$OnNodeAddedListener.class
@@ -29339,6 +29338,7 @@ com/android/internal/pm/pkg/parsing/ParsingUtils.class
 com/android/internal/pm/split/DefaultSplitAssetLoader.class
 com/android/internal/pm/split/SplitAssetDependencyLoader.class
 com/android/internal/pm/split/SplitAssetLoader.class
+com/android/internal/policy/
 com/android/internal/policy/AttributeCache$Entry.class
 com/android/internal/policy/AttributeCache$Package.class
 com/android/internal/policy/AttributeCache$PackageMonitor.class
@@ -29390,6 +29390,7 @@ com/android/internal/policy/PhoneWindow$RotationWatcher$1.class
 com/android/internal/policy/PhoneWindow$RotationWatcher.class
 com/android/internal/policy/PhoneWindow$WindowManagerHolder.class
 com/android/internal/policy/PhoneWindow.class
+com/android/internal/policy/PhoneWindow_Delegate.class
 com/android/internal/policy/TransitionAnimation.class
 com/android/internal/policy/WearGestureInterceptionDetector.class
 com/android/internal/power/ModemPowerProfile$ModemDrainType.class
@@ -30895,6 +30896,7 @@ com/android/layoutlib/bridge/bars/OverflowMenuAdapter.class
 com/android/layoutlib/bridge/bars/StatusBar.class
 com/android/layoutlib/bridge/bars/TitleBar.class
 com/android/layoutlib/bridge/impl/
+com/android/layoutlib/bridge/impl/BridgeWindowSession.class
 com/android/layoutlib/bridge/impl/DelegateManager.class
 com/android/layoutlib/bridge/impl/DisplayCutoutView.class
 com/android/layoutlib/bridge/impl/Layout$Builder.class
