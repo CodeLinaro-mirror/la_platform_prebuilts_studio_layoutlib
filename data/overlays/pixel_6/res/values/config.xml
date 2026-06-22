@@ -349,4 +349,10 @@
         tap power gesture from triggering the selected target action.
     -->
     <integer name="config_doubleTapPowerGestureMode">1</integer>
+
+    <!-- Whether to enable the app launch blur. -->
+    <bool name="config_enableAppLaunchBlur">false</bool>
+
+    <!-- Whether to enable blur expansion (surface blurs) -->
+    <bool name="config_enableBlurExpansion">false</bool>
 </resources>
