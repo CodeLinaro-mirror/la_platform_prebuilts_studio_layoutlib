@@ -254,5 +254,14 @@
     <bool name="allow_clear_initial_attach_data_profile">true</bool>
 
     <!-- Whether to enable fp unlock when screen turns off on udfps devices -->
-    <bool name="config_screen_off_udfps_enabled">false</bool>
+    <bool name="config_screen_off_udfps_enabled">true</bool>
+
+    <!-- Telephony satellite service package name as empty so it will not bind to any satellite service -->
+    <string name="config_satellite_service_package"></string>
+
+    <!-- Whether to update the operator name after carrier config is loaded. -->
+    <bool name="config_update_operator_name_after_carrier_config_loaded">true</bool>
+
+    <!-- Limit Tegu (Pixel 9a) to Restricted mode (Messaging only) -->
+    <integer name="max_allowed_data_mode">0</integer>
 </resources>

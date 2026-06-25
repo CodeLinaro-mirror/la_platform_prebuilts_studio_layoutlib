@@ -26,7 +26,7 @@
     <!-- Display cutout configuration -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
         M 677,72
-        a 42,42 0 1 0 84,0 
+        a 42,42 0 1 0 84,0
         a 42,42 0 1 0 -84,0
         Z
         @left
@@ -328,4 +328,10 @@
             tap power gesture from triggering the selected target action.
     -->
     <integer name="config_doubleTapPowerGestureMode">1</integer>
+
+     <!-- Whether to enable app launch blur -->
+    <bool name="config_enableAppLaunchBlur">false</bool>
+
+     <!-- Whether to enable blur expansion (surface blurs) -->
+    <bool name="config_enableBlurExpansion">false</bool>
 </resources>
