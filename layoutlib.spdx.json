@@ -2,13 +2,13 @@
     "spdxVersion": "SPDX-2.3",
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
-    "name": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys/layoutlib",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys/layoutlib",
+    "name": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys/layoutlib",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys/layoutlib",
     "creationInfo": {
         "creators": [
             "Organization: unknown"
         ],
-        "created": "2026-06-22T15:10:14Z"
+        "created": "2026-06-26T12:34:09Z"
     },
     "documentDescribes": [
         "SPDXRef-layoutlib"
@@ -19,11 +19,11 @@
             "SPDXID": "SPDXRef-layoutlib",
             "downloadLocation": "NONE",
             "filesAnalyzed": true,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION",
             "packageVerificationCode": {
-                "packageVerificationCodeValue": "621e966e8bb9ff87e521ed19e4691189c9db0ddc"
+                "packageVerificationCodeValue": "dce2a8a12d65fc88eac0070e296c2205c1318c38"
             },
             "hasFiles": [
                 "SPDXRef-build.prop",
@@ -9947,7 +9947,7 @@
             "SPDXID": "SPDXRef-PLATFORM",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -9956,7 +9956,7 @@
             "SPDXID": "SPDXRef-SOURCE-carrois-gothic-sc",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -9974,7 +9974,7 @@
             "SPDXID": "SPDXRef-SOURCE-comingsoon",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -9992,7 +9992,7 @@
             "SPDXID": "SPDXRef-SOURCE-cutivemono",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10010,7 +10010,7 @@
             "SPDXID": "SPDXRef-SOURCE-dancingscript",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10028,7 +10028,7 @@
             "SPDXID": "SPDXRef-SOURCE-roboto-classic",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10046,7 +10046,7 @@
             "SPDXID": "SPDXRef-SOURCE-noto-fonts",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10063,7 +10063,7 @@
             "SPDXID": "SPDXRef-SOURCE-roboto-flex",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10081,7 +10081,7 @@
             "SPDXID": "SPDXRef-SOURCE-source-sans-pro",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10099,7 +10099,7 @@
             "SPDXID": "SPDXRef-SOURCE-rekenaar",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10117,7 +10117,7 @@
             "SPDXID": "SPDXRef-SOURCE-Tex-hyphen",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10135,7 +10135,7 @@
             "SPDXID": "SPDXRef-SOURCE-tensojka",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10153,7 +10153,7 @@
             "SPDXID": "SPDXRef-SOURCE-OpenTaal",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10171,7 +10171,7 @@
             "SPDXID": "SPDXRef-SOURCE-laboratory50",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10189,7 +10189,7 @@
             "SPDXID": "SPDXRef-SOURCE-LibreOffice0x20Swedish0x20Hyphenation0x20Dictionary",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION"
         },
@@ -10207,7 +10207,7 @@
             "SPDXID": "SPDXRef-SOURCE-ICU",
             "downloadLocation": "NONE",
             "filesAnalyzed": false,
-            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.035/15695066:userdebug/test-keys",
+            "versionInfo": "Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.039/15733970:userdebug/test-keys",
             "supplier": "Organization: unknown",
             "licenseDeclared": "NOASSERTION",
             "externalRefs": [
@@ -10235,7 +10235,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "f0b8f6d073ff6214486d247a1c39067eb160893d"
+                    "checksumValue": "de0655840c9fb54a09ee22cf98d95435df1ade83"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
