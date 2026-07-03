@@ -32459,8 +32459,6 @@ com/android/layoutlib/bridge/impl/Layout$Builder.class
 com/android/layoutlib/bridge/impl/Layout.class
 com/android/layoutlib/bridge/impl/LayoutParserWrapper$Attribute.class
 com/android/layoutlib/bridge/impl/LayoutParserWrapper.class
-com/android/layoutlib/bridge/impl/LayoutlibRecyclableImage$CleanUpTask.class
-com/android/layoutlib/bridge/impl/LayoutlibRecyclableImage.class
 com/android/layoutlib/bridge/impl/ParserFactory.class
 com/android/layoutlib/bridge/impl/RenderAction$1.class
 com/android/layoutlib/bridge/impl/RenderAction.class
@@ -32471,7 +32469,6 @@ com/android/layoutlib/bridge/impl/ResourceHelper$1.class
 com/android/layoutlib/bridge/impl/ResourceHelper$Tag.class
 com/android/layoutlib/bridge/impl/ResourceHelper$UnitEntry.class
 com/android/layoutlib/bridge/impl/ResourceHelper.class
-com/android/layoutlib/bridge/impl/SessionBufferPool.class
 com/android/layoutlib/bridge/impl/Stack.class
 com/android/layoutlib/bridge/impl/SysUiOverlay.class
 com/android/layoutlib/bridge/impl/SystemViewInfo.class
