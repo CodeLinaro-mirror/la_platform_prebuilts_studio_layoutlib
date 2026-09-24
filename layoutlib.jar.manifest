@@ -32466,6 +32466,7 @@ com/android/layoutlib/bridge/impl/RenderAction$1.class
 com/android/layoutlib/bridge/impl/RenderAction.class
 com/android/layoutlib/bridge/impl/RenderDrawable.class
 com/android/layoutlib/bridge/impl/RenderSessionImpl$PostInflateException.class
+com/android/layoutlib/bridge/impl/RenderSessionImpl$WindowChangeListener.class
 com/android/layoutlib/bridge/impl/RenderSessionImpl.class
 com/android/layoutlib/bridge/impl/ResourceHelper$1.class
 com/android/layoutlib/bridge/impl/ResourceHelper$Tag.class
