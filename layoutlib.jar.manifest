@@ -32396,7 +32396,6 @@ com/android/layoutlib/bridge/Bridge$1.class
 com/android/layoutlib/bridge/Bridge$2.class
 com/android/layoutlib/bridge/Bridge$3.class
 com/android/layoutlib/bridge/Bridge$4.class
-com/android/layoutlib/bridge/Bridge$5.class
 com/android/layoutlib/bridge/Bridge$StaticMethodNotImplementedException.class
 com/android/layoutlib/bridge/Bridge.class
 com/android/layoutlib/bridge/BridgeConstants.class
