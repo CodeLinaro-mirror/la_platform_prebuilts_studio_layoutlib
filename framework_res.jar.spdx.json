@@ -3,20 +3,20 @@
     "dataLicense": "CC0-1.0",
     "SPDXID": "SPDXRef-DOCUMENT",
     "name": "LayoutLib-framework_res",
-    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2026-09-21T16:48:23Z",
+    "documentNamespace": "https://www.google.com/sbom/spdx/android/AndroidStudio/LayoutLib/framework_res-2026-10-01T15:54:36Z",
     "creationInfo": {
         "creators": [
             "Organization: Google LLC"
         ],
-        "created": "2026-09-21T16:48:23Z"
+        "created": "2026-10-01T15:54:36Z"
     },
     "externalDocumentRefs": [
         {
             "externalDocumentId": "DocumentRef-layoutlib",
-            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.042/16399824:userdebug/test-keys/layoutlib",
+            "spdxDocument": "https://www.google.com/sbom/spdx/android/Android/sdk_phone64_arm64/emu64a:17/CLR2.260407.043/16489335:userdebug/test-keys/layoutlib",
             "checksum": {
                 "algorithm": "SHA1",
-                "checksumValue": "85bf530f48456e3843739d41259bbf47de14eff0"
+                "checksumValue": "c4992c68ba784e38c814ed3123e0937e85172373"
             }
         }
     ],
@@ -29,11 +29,11 @@
             "SPDXID": "SPDXRef-PREBUILT-framework-res",
             "downloadLocation": "NONE",
             "filesAnalyzed": true,
-            "versionInfo": "2026-09-21T16:48:23Z",
+            "versionInfo": "2026-10-01T15:54:36Z",
             "supplier": "Organization: Google LLC",
             "licenseDeclared": "NOASSERTION",
             "packageVerificationCode": {
-                "packageVerificationCodeValue": "66c9299bb22c49a7770290982ea63e4980560bb7"
+                "packageVerificationCodeValue": "baaad30050cf91eef385b16929cd3fef3c928188"
             },
             "hasFiles": [
                 "SPDXRef-data-framework-res.jar"
@@ -47,7 +47,7 @@
             "checksums": [
                 {
                     "algorithm": "SHA1",
-                    "checksumValue": "58bf4ecdd812119b985f8297995120e54df36cbc"
+                    "checksumValue": "089280b5e4b9e0cd2cf738f6eb8bda5857b321a4"
                 }
             ],
             "licenseConcluded": "NOASSERTION"
