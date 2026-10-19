@@ -32396,7 +32396,6 @@ com/android/layoutlib/bridge/Bridge$1.class
 com/android/layoutlib/bridge/Bridge$2.class
 com/android/layoutlib/bridge/Bridge$3.class
 com/android/layoutlib/bridge/Bridge$4.class
-com/android/layoutlib/bridge/Bridge$5.class
 com/android/layoutlib/bridge/Bridge$StaticMethodNotImplementedException.class
 com/android/layoutlib/bridge/Bridge.class
 com/android/layoutlib/bridge/BridgeConstants.class
@@ -32466,6 +32465,7 @@ com/android/layoutlib/bridge/impl/RenderAction$1.class
 com/android/layoutlib/bridge/impl/RenderAction.class
 com/android/layoutlib/bridge/impl/RenderDrawable.class
 com/android/layoutlib/bridge/impl/RenderSessionImpl$PostInflateException.class
+com/android/layoutlib/bridge/impl/RenderSessionImpl$WindowChangeListener.class
 com/android/layoutlib/bridge/impl/RenderSessionImpl.class
 com/android/layoutlib/bridge/impl/ResourceHelper$1.class
 com/android/layoutlib/bridge/impl/ResourceHelper$Tag.class
