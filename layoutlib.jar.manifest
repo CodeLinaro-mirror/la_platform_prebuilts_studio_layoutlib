@@ -5519,6 +5519,7 @@ android/graphics/BlendModeColorFilter.class
 android/graphics/BlurMaskFilter$Blur.class
 android/graphics/BlurMaskFilter.class
 android/graphics/Camera.class
+android/graphics/Camera_Delegate.class
 android/graphics/Canvas$EdgeType.class
 android/graphics/Canvas$NoImagePreloadHolder.class
 android/graphics/Canvas$Saveflags.class
@@ -5649,6 +5650,7 @@ android/graphics/MeshSpecification$Type.class
 android/graphics/MeshSpecification$Varying.class
 android/graphics/MeshSpecification.class
 android/graphics/Movie.class
+android/graphics/Movie_Delegate.class
 android/graphics/NinePatch$InsetStruct.class
 android/graphics/NinePatch.class
 android/graphics/Outline$Mode.class
@@ -5685,6 +5687,7 @@ android/graphics/PathMeasure.class
 android/graphics/Path_Delegate.class
 android/graphics/Picture$PictureCanvas.class
 android/graphics/Picture.class
+android/graphics/Picture_Delegate.class
 android/graphics/PixelFormat$Format.class
 android/graphics/PixelFormat$Opacity.class
 android/graphics/PixelFormat.class
@@ -5767,6 +5770,7 @@ android/graphics/drawable/Animatable2$AnimationCallback.class
 android/graphics/drawable/Animatable2.class
 android/graphics/drawable/AnimatedImageDrawable$State.class
 android/graphics/drawable/AnimatedImageDrawable.class
+android/graphics/drawable/AnimatedImageDrawable_Delegate.class
 android/graphics/drawable/AnimatedRotateDrawable$1.class
 android/graphics/drawable/AnimatedRotateDrawable$AnimatedRotateState.class
 android/graphics/drawable/AnimatedRotateDrawable.class
@@ -5888,6 +5892,7 @@ android/graphics/drawable/VectorDrawable$VPath.class
 android/graphics/drawable/VectorDrawable$VectorDrawableState$1.class
 android/graphics/drawable/VectorDrawable$VectorDrawableState.class
 android/graphics/drawable/VectorDrawable.class
+android/graphics/drawable/VectorDrawable_Delegate.class
 android/graphics/drawable/shapes/ArcShape.class
 android/graphics/drawable/shapes/OvalShape.class
 android/graphics/drawable/shapes/PathShape.class
@@ -20314,7 +20319,6 @@ android/os/Handler.class
 android/os/HandlerExecutor.class
 android/os/HandlerThread.class
 android/os/HandlerThread_Delegate.class
-android/os/Handler_Delegate$IHandlerCallback.class
 android/os/Handler_Delegate.class
 android/os/HardwarePropertiesManager$DeviceTemperatureType.class
 android/os/HardwarePropertiesManager$TemperatureSource.class
@@ -25084,7 +25088,6 @@ android/util/Base64InputStream.class
 android/util/Base64OutputStream.class
 android/util/BinaryLogEntry$Elem.class
 android/util/BinaryLogEntry.class
-android/util/BridgeXmlPullAttributes$EnumValueSupplier.class
 android/util/BridgeXmlPullAttributes.class
 android/util/BucketPriorityQueue.class
 android/util/CharsetUtils.class
@@ -25492,6 +25495,7 @@ android/view/Choreographer$FrameHandler.class
 android/view/Choreographer$FrameTimeline.class
 android/view/Choreographer$VsyncCallback.class
 android/view/Choreographer.class
+android/view/Choreographer_Accessor.class
 android/view/Choreographer_Delegate.class
 android/view/CollapsibleActionView.class
 android/view/CompositionSamplingListener.class
@@ -26501,6 +26505,7 @@ android/view/accessibility/IWindowSurfaceInfoCallback$Stub.class
 android/view/accessibility/IWindowSurfaceInfoCallback.class
 android/view/accessibility/WeakSparseArray$WeakReferenceWithId.class
 android/view/accessibility/WeakSparseArray.class
+android/view/animation/
 android/view/animation/AccelerateDecelerateInterpolator.class
 android/view/animation/AccelerateInterpolator.class
 android/view/animation/AlphaAnimation.class
@@ -26515,6 +26520,7 @@ android/view/animation/AnimationSet.class
 android/view/animation/AnimationUtils$1.class
 android/view/animation/AnimationUtils$AnimationState.class
 android/view/animation/AnimationUtils.class
+android/view/animation/AnimationUtils_Accessor.class
 android/view/animation/AnticipateInterpolator.class
 android/view/animation/AnticipateOvershootInterpolator.class
 android/view/animation/BackGestureInterpolator.class
@@ -32402,6 +32408,7 @@ com/android/layoutlib/bridge/BridgeConstants.class
 com/android/layoutlib/bridge/BridgeRenderSession$1.class
 com/android/layoutlib/bridge/BridgeRenderSession.class
 com/android/layoutlib/bridge/MockView.class
+com/android/layoutlib/bridge/NativeFrameworkException.class
 com/android/layoutlib/bridge/SessionInteractiveData.class
 com/android/layoutlib/bridge/android/
 com/android/layoutlib/bridge/android/AndroidLocale.class
@@ -32448,6 +32455,8 @@ com/android/layoutlib/bridge/bars/FrameworkActionBarWrapper.class
 com/android/layoutlib/bridge/bars/NavigationBar.class
 com/android/layoutlib/bridge/bars/NavigationHandle.class
 com/android/layoutlib/bridge/bars/OverflowMenuAdapter.class
+com/android/layoutlib/bridge/bars/SoftKeyboardBar$KeyBounds.class
+com/android/layoutlib/bridge/bars/SoftKeyboardBar.class
 com/android/layoutlib/bridge/bars/StatusBar.class
 com/android/layoutlib/bridge/bars/TitleBar.class
 com/android/layoutlib/bridge/impl/
